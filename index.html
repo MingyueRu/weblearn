@@ -1,0 +1,435 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>FGZ - 道阻且长，行则将至</title><meta name="author" content="fgz"><meta name="copyright" content="fgz"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="FGZ">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="FGZ">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:author" content="fgz">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'FGZ',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-03-01 19:12:49'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><hr/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="FGZ"><span class="site-name">FGZ</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">FGZ</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/05/11/%E7%AC%AC11%E7%AB%A0%EF%BC%9A%E5%B8%82%E5%9C%BA%E5%A4%B1%E7%81%B5%E5%92%8C%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E6%94%BF%E7%AD%96/" title="第11章：市场失灵和微观经济政策">第11章：市场失灵和微观经济政策</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-05-11T15:31:57.000Z" title="Created 2022-05-11 23:31:57">2022-05-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/">微观经济学</a></span></div><div class="content">一、市场失灵
+　　市场失灵是指市场机制不能实现资源的有效配置，即市场机制造成资源的配置失当。
+　　市场失灵的原因：
+
+不完全竞争
+外部影响
+公共物品
+不完全信息
+
+　　经济学家认为，在现实社会中，种种原因将导致市场失灵，即市场机制的运转无法使社会资源达到最优配置，无法实现社会经济福利的最大化等社会目标。因此，市场机制的作用并不是万能的，必须通过政府对经济的干预来加以克服。
+二、不完全竞争
+（一）垄断与低效率
+　　如图所示，垄断厂商利润最大化状况没有达到帕累托最优状态，存在低效率。
+　　
+　　帕累托最优状态是在 \(q^*\)
+的产量水平上达到。在 \(q^*\)
+的产出水平上，需求曲线与边际成本曲线相交，即消费者为额外一单位产量的愿意支付等于生产该额外产量的成本。此时，不再存在任何帕累托改进的余地。
+　　\(q^*\)
+产量水平是垄断厂商与消费者协商的结果。事实上，垄断厂商与消费者之间以及消费者本身之间难以达成相互满意的一致意见，因而均衡产量不是帕累托最优状态
+\(q^*\)。
+　　实际上，只要市场不是完全竞争的，只要厂商面临的需求曲线不是一条水平线，而是向右下方倾斜，则厂商的利润最大 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/04/27/%E7%AC%AC10%E7%AB%A0%EF%BC%9A%E5%8D%9A%E5%BC%88%E8%AE%BA/" title="第10章：博弈论">第10章：博弈论</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-04-27T15:55:55.000Z" title="Created 2022-04-27 23:55:55">2022-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/">微观经济学</a></span></div><div class="content">一、博弈论和策略行为
+　　博弈论（game
+theory）是研究在策略性环境中如何进行策略性决策和采取策略性行动的科学。
+　　博弈的三个基本要素：
+
+参与人
+参与人的策略
+参与人的支付
+
+　　博弈的分类：
+
+根据参与人的数量：二人博弈、多人博弈；
+根据参与人拥有的策略的数量：有限博弈、无限博弈；
+根据参与人的支付情况：零和博弈、非零和博弈；
+根据参与人是否能够达成有效的协议：合作博弈、非合作博弈；
+根据参与人是否了解有关博弈的所有信息：完全信息博弈、不完全信息博弈；
+根据参与人在策略的实施上是否具有“同时性”：静态博弈（或同时博弈）、动态博弈（或序贯博弈）。
+
+二、完全信息静态博弈：纯策略均衡
+（一）支付矩阵
+　　二人同时博弈可以用支付矩阵来描述和分析，如下表所示。
+　　
+（二）条件策略和条件策略组合
+　　把甲厂商在乙厂商选择策略条件下的最优策略称为甲厂商的条件策略；把与甲厂商的条件策略相联系的策略组合称为甲厂商的条件策略组合。
+（三）纳什均衡
+1. 概念
+　　纳什均衡，指的是参与人的这样一种策略组合。在该策略组合上，任何参与人单独改变策略都不会得到好处。如果在一个策略组合中，当所有其 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/04/27/%E7%AC%AC9%E7%AB%A0%EF%BC%9A%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1%E8%AE%BA%E4%B8%8E%E7%A6%8F%E5%88%A9%E7%BB%8F%E6%B5%8E%E5%AD%A6/" title="第9章：一般均衡论与福利经济学">第9章：一般均衡论与福利经济学</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-04-27T15:55:40.000Z" title="Created 2022-04-27 23:55:40">2022-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/">微观经济学</a></span></div><div class="content">一、一般均衡论
+（一）局部均衡和一般均衡
+1. 局部均衡
+　　局部均衡是指在假设其他市场不变的情况下，某一特定产品或要素的市场均衡。局部均衡分析研究的是单个（产品或要素）市场，其研究方法是把所考虑的某个市场从相互联系的整个经济体系的市场全体中“取出”来单独加以研究。
+2. 一般均衡
+　　一般均衡是指在一个经济体系中，所有市场的供给和需求同时达到均衡的状态。一般均衡论所考察的问题是：在社会上各种产品的交易市场是相互联系、相互影响的背景下，最后各种自发的经济活动是否趋于供求均衡？
+（二）一般均衡的存在性
+　　研究证明，在一定的假设条件全部得到满足时，一般均衡体系就有均衡解存在。
+（三）一般均衡的实现“试探过程”
+　　关于论证一般均衡的实现，瓦尔拉斯假设采用的是“试错法”，即在市场中存在一个自由拍卖人，其任务就是寻找并确定能与市场供求一致的均衡价格。
+二、经济效率
+（一）实证经济学和规范经济学
+　　实证经济学（Positive
+Economics）回答“是什么”、“为什么”和“会如何”的问题，研究实际经济体系是怎样运行的。它对经济行为作出有关的假设，根据假设分析和陈述经济行为及其后果，并试图 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/04/27/%E7%AC%AC8%E7%AB%A0%EF%BC%9A%E8%A6%81%E7%B4%A0%E5%B8%82%E5%9C%BA%E7%90%86%E8%AE%BA%E2%80%94%E7%94%9F%E4%BA%A7%E8%A6%81%E7%B4%A0%E7%9A%84%E4%BB%B7%E6%A0%BC%E5%86%B3%E5%AE%9A/" title="第8章：要素市场理论—生产要素的价格决定">第8章：要素市场理论—生产要素的价格决定</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-04-27T15:53:58.000Z" title="Created 2022-04-27 23:53:58">2022-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/">微观经济学</a></span></div><div class="content">一、产品市场与要素市场
+　　
+
+补充：
+
+消费者：产品市场-商品需求主体，要素市场-要素供给主体
+厂商：产品市场-商品供给主体，要素市场-要素需求主体
+
+
+二、生产要素的需求
+（一）引致需求与联合需求
+1. 引致需求
+　　对生产要素的需求产生于对利润最大化的需求；
+　　对生产要素的需求受到消费者对产品需求的影响。
+　　具体来看：
+
+第一，在生产要素市场上，需求不是来自消费者，而是来自厂商。从这个意义上来说，对生产要素的需求不是直接需求，而是“间接”需求。
+第二，厂商通过购买生产要素进行生产并从中获得收益，部分地要取决于消费者对其所生产的产品的需求。从这个意义上说，生产要素的需求又是所谓“派生”需求或“引致”需求。
+第三，对生产要素的需求还有个特点，就是所谓“共同性”，即对生产要素的需求是共同的、相互依赖的需求。
+
+2. 联合需求
+　　对生产要素的需求是共同的、相互依赖的；
+　　对生产要素的需求往往取决于多种生产要素的价格。
+（二）生产要素价格决定的需求方面
+1. 厂商要素需求一般原则
+1.1 主要假定
+　　假定：每个厂商使用一种生产要素，生产单一产品，追求最大限度的利润。
+1.2 边际 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/04/27/%E7%AC%AC7%E7%AB%A0%EF%BC%9A%E4%BA%A7%E5%93%81%E5%B8%82%E5%9C%BA%E7%90%86%E8%AE%BA%E2%80%94%E4%B8%8D%E5%AE%8C%E5%85%A8%E7%AB%9E%E4%BA%89%E5%B8%82%E5%9C%BA/" title="第7章：产品市场理论—不完全竞争市场">第7章：产品市场理论—不完全竞争市场</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-04-27T15:53:35.000Z" title="Created 2022-04-27 23:53:35">2022-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/">微观经济学</a></span></div><div class="content">一、垄断市场
+（一）定义与形成的原因
+1. 定义
+　　垄断市场是指整个行业中只有唯一的一个厂商的市场组织。垄断厂商可以控制和操纵市场价格。
+2. 结构特征：
+
+单个生产者：市场上只有唯一的一个厂商生产和销售商品；
+无替代品：该厂商生产和销售的商品没有任何相近的替代品；
+不存在潜在竞争者：其他任何厂商进入该行业都极为困难或不可能；
+可以决定价格：垄断地位的经济主体是市场价格的制定者，它能够自行决定价格，以实现自己的利润最大化；
+可以差别定价：垄断企业为实现利润最大化，可以在不同的销售条件下对产品制定不同的价格。
+
+3. 垄断形成的原因
+
+独家厂商控制了生产某种商品的全部资源或基本资源供给；
+独家厂商拥有生产某种商品的专利权；
+政府的特许；
+自然垄断：某些产品或服务由单个企业大规模生产经营，比多个企业同时生产经营更有效率。
+
+（二）均衡条件
+1. 需求曲线与收益曲线
+　　（比较完全竞争厂商的"需求曲线"与"收益曲线"）
+　　厂商的平均收益曲线与需求曲线重叠，它们是同一条向右下方倾斜的曲线。这表明垄断厂商的销售量与市场价格呈反方向变动关系，垄断厂商可以通过改变销售量来控制市场价格。
+　　厂商 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/04/27/%E7%AC%AC6%E7%AB%A0%EF%BC%9A%E4%BA%A7%E5%93%81%E5%B8%82%E5%9C%BA%E7%90%86%E8%AE%BA%E2%80%94%E5%AE%8C%E5%85%A8%E7%AB%9E%E4%BA%89%E5%B8%82%E5%9C%BA/" title="第6章：产品市场理论—完全竞争市场">第6章：产品市场理论—完全竞争市场</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-04-27T15:53:34.000Z" title="Created 2022-04-27 23:53:34">2022-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/">微观经济学</a></span></div><div class="content">一、市场类型的划分
+　　在经济分析中，根据不同的市场结构的特征，市场可分为"完全竞争市场"、"垄断竞争市场"、"寡头垄断市场"和"垄断市场"四种类型。
+　　市场划分依据：
+
+市场上厂商数量；
+商场生产产品的差别程度；
+单个厂商对价格的控制程度；
+厂商进入或退出行业的难易程度。
+
+　　四种市场的特征比较（传送门："不同市场的比较"）：
+
+
+
+
+
+
+
+
+
+
+
+市场类型
+厂商数量
+产品差别
+价格控制程度
+进出行业难易度
+举例
+
+
+
+
+完全竞争
+很多
+完全无差别
+没有
+很容易
+农产品（生活必须品）
+
+
+垄断竞争
+很多
+有差别
+有一些
+比较容易
+轻工业品（生活日用品）
+
+
+寡头垄断
+几个
+有差别或无差别
+较高
+比较困难
+重工业品（如钢铁、汽车、石油）
+
+
+完全垄断
+唯一
+唯一的产品，无替代品
+很高，但常受管制
+非常困难
+公共事业（如水、电）
+
+
+
+二、厂商的收益与利润
+（一）厂商的收益
+　　厂商的收益是厂商的销售收入：
+　　总收益（\(TR\)）：厂商按一定价格出售一定数量产品时获得的全部收入。\(TR(Q)=P \cdot Q\)
+　　平均收益（\(AR\)）：厂商在平均每一单位产品销售上所获 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/04/27/%E7%AC%AC5%E7%AB%A0%EF%BC%9A%E5%8E%82%E5%95%86%E7%90%86%E8%AE%BA%E2%80%94%E6%88%90%E6%9C%AC%E7%90%86%E8%AE%BA/" title="第5章：厂商理论—成本理论">第5章：厂商理论—成本理论</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-04-27T15:53:33.000Z" title="Created 2022-04-27 23:53:33">2022-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/">微观经济学</a></span></div><div class="content">一、成本与利润
+　　在经济分析中，成本（cost）被看成是企业对所购买的生产要素的货币支出。
+（一）成本
+1. 机会成本
+　　机会成本：生产一单位的某种商品的机会成本是指生产者所放弃的使用相同的生产要素在其他生产用途中所能获得的最高收入。
+　　使用资源的机会成本：资源在其他用途中可能得到的最大收益。
+　　理解机会成本：
+
+机会成本不等于实际成本，是一种观念上的成本或损失；
+机会成本是作出一种选择时所放弃的其他若干种可能的选择中最好的一种，是用于其他选择所能得到的最高收入；
+机会成本并不全是由个人选择所引起的。
+
+　　机会成本的存在需要三个前提条件：
+
+资源是稀缺的；
+资源具有多种生产用途；
+资源的投向不受限制。
+
+2. 显成本与隐成本
+　　显成本是指厂商在生产要素市场上购买或租用他人所拥有的生产要素的实际支出（有支付行为），通常包括：雇佣工人、贷款、租用土地的费用等。
+　　隐成本是指厂商本身自己所拥有的且被用于该企业生产过程的那些生产要素的总价格（无支付行为），通常包括：亲自管理企业、使用自己的资金、使用自己的土地等的成本。
+　　在经济学中考察生产成本时，应将隐成本包括在内。企业的所有 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/04/27/%E7%AC%AC4%E7%AB%A0%EF%BC%9A%E5%8E%82%E5%95%86%E7%90%86%E8%AE%BA%E2%80%94%E7%94%9F%E4%BA%A7%E5%87%BD%E6%95%B0/" title="第4章：厂商理论—生产函数">第4章：厂商理论—生产函数</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-04-27T15:53:32.000Z" title="Created 2022-04-27 23:53:32">2022-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/">微观经济学</a></span></div><div class="content">一、厂商
+（一）企业的性质
+　　科斯在论文《企业的性质》中提出了“交易成本”概念。在科斯看来，企业和市场是两种不同的资源配置方式。在企业内，“权威”指导资源的配置；在市场上，价格配置资源。市场的运行是有成本的，通过形成一个组织，并允许某个权威（一个“企业家”）来支配资源，就能节约某些市场运行成本，即企业的性质是价格机制的替代物。
+　　企业存在的理由：
+
+交易活动内部化，降低交易成本；
+带来规模经济；
+促进劳动分工。
+
+（二）厂商的目标：
+　　在微观经济学中，一般总是假定厂商的目标是利润最大化。这一基本假定是“经济人”假设在生产理论中的具体化。
+　　在现代公司制度中，企业所有者与经营者相分离，这可能导致企业所有者与经营者目标分歧。在信息不对称和信息不完全的情况下，厂商可能追求个人目标最大化、销售收入最大化或市场销售份额最大化来替代利润最大化，这就偏离了利润最大化的目标。
+
+补充：（网页链接）
+信息不完全：市场主体不拥有某种经济环境状态的全部知识，其获取的或掌握的信息不足以使市场主体作出理性判断或决策。
+信息不对称：一些人比另外一些人具有更多的有关经济信息，可看作是信息不完全中的特殊情况。 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/04/27/%E7%AC%AC3%E7%AB%A0%EF%BC%9A%E6%B6%88%E8%B4%B9%E8%80%85%E7%90%86%E8%AE%BA/" title="第3章：消费者理论">第3章：消费者理论</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-04-27T15:53:31.000Z" title="Created 2022-04-27 23:53:31">2022-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/">微观经济学</a></span></div><div class="content">一、效用与效用论
+（一）效用的概念
+　　效用是指商品满足人的欲望的能力评价，即消费者在消费商品时所感受到的满足程度。
+（二）基数效用论与序数效用论
+　　效用可分为基数效用和序数效用：
+
+基数效用论：
+
+假设效用可以用基数数字来测量人们消费商品所获取的主观上的满足程度；
+使用"边际效用法分析"；
+均衡条件下满足：\(MU_i / P_i
+=\lambda\)
+
+序数效用论：
+
+认为效用是无法以数字来测量的，只能根据满足程度的大小按顺序排列；
+使用"无差异曲线"作为分析工具；
+均衡条件下满足：\(MRS_{XY}= MU_X / MU_Y =
+P_X /P_Y\)（\(MRS_{XY}\) 是"边际替代率"，两种商品消费数量的替代关系）
+
+
+二、基数效用论（边际效用分析）
+（一）边际效用
+1. 定义
+　　边际效用：消费者在一定时间内增加一单位商品的消费所得到的效用量的增量。
+　　定义总效用为：\(TU=f(Q)\)，那么边际效用为：\(MU=\frac {dTU(Q)} {dQ}\)
+2. 边际效用递减规律
+　　在一定时间内，在其他商品的消费数量保持不变的条件下，随着消费者对某种商品消费量 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/04/27/%E7%AC%AC2%E7%AB%A0%EF%BC%9A%E5%9D%87%E8%A1%A1%E4%BB%B7%E6%A0%BC%E7%90%86%E8%AE%BA%EF%BC%88%E5%B1%80%E9%83%A8%E5%9D%87%E8%A1%A1%EF%BC%89/" title="第2章：均衡价格理论（局部均衡）">第2章：均衡价格理论（局部均衡）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-04-27T15:53:30.000Z" title="Created 2022-04-27 23:53:30">2022-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/">微观经济学</a></span></div><div class="content">一、需求理论与供给理论
+（一）需求理论
+1. 需求量与需求定理
+　　需求量：在给定价格水平下，愿意并能够购买的该商品数量。
+　　需求定理：其他因素不变时，需求量随价格反方向变动。
+2. 需求与影响因素
+　　需求：消费者在一定时期内在各种可能的价格水平愿意而且能够购买的该商品数量。==&gt;
+有效需求：有购买意愿且有支付能力
+　　需求的影响因素：
+
+该商品的价格
+消费者收入
+其他相关商品价格
+消费者偏好
+预期的未来价格
+
+3. 需求函数与需求曲线
+　　需求函数：\(Q_d=f(p_d,p_o,I,p_e,p_r)\)
+　　\(p_d\)：该商品的价格
+　　\(p_o\)：其他相关商品价格
+　　\(I\)：消费者收入
+　　\(p_e\)：消费者预期未来价格
+　　\(p_r\)：消费者偏好
+　　
+4. 需求/需求量的变动
+　　需求的变动：非价格因素（\(p_0,I,p_e,p_r\)）导致的变动，体现为需求曲线的水平移动，如
+\(D_1\) 曲线移动至 \(D_2\) 或者 \(D_3\)。
+　　
+　　需求量的变动：该商品价格变化导致的变化，体现为点在需求曲线上的移动，即
+\(Q_d=f( ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">fgz</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/05/11/%E7%AC%AC11%E7%AB%A0%EF%BC%9A%E5%B8%82%E5%9C%BA%E5%A4%B1%E7%81%B5%E5%92%8C%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E6%94%BF%E7%AD%96/" title="第11章：市场失灵和微观经济政策">第11章：市场失灵和微观经济政策</a><time datetime="2022-05-11T15:31:57.000Z" title="Created 2022-05-11 23:31:57">2022-05-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/04/27/%E7%AC%AC10%E7%AB%A0%EF%BC%9A%E5%8D%9A%E5%BC%88%E8%AE%BA/" title="第10章：博弈论">第10章：博弈论</a><time datetime="2022-04-27T15:55:55.000Z" title="Created 2022-04-27 23:55:55">2022-04-27</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/04/27/%E7%AC%AC9%E7%AB%A0%EF%BC%9A%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1%E8%AE%BA%E4%B8%8E%E7%A6%8F%E5%88%A9%E7%BB%8F%E6%B5%8E%E5%AD%A6/" title="第9章：一般均衡论与福利经济学">第9章：一般均衡论与福利经济学</a><time datetime="2022-04-27T15:55:40.000Z" title="Created 2022-04-27 23:55:40">2022-04-27</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/04/27/%E7%AC%AC8%E7%AB%A0%EF%BC%9A%E8%A6%81%E7%B4%A0%E5%B8%82%E5%9C%BA%E7%90%86%E8%AE%BA%E2%80%94%E7%94%9F%E4%BA%A7%E8%A6%81%E7%B4%A0%E7%9A%84%E4%BB%B7%E6%A0%BC%E5%86%B3%E5%AE%9A/" title="第8章：要素市场理论—生产要素的价格决定">第8章：要素市场理论—生产要素的价格决定</a><time datetime="2022-04-27T15:53:58.000Z" title="Created 2022-04-27 23:53:58">2022-04-27</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/04/27/%E7%AC%AC7%E7%AB%A0%EF%BC%9A%E4%BA%A7%E5%93%81%E5%B8%82%E5%9C%BA%E7%90%86%E8%AE%BA%E2%80%94%E4%B8%8D%E5%AE%8C%E5%85%A8%E7%AB%9E%E4%BA%89%E5%B8%82%E5%9C%BA/" title="第7章：产品市场理论—不完全竞争市场">第7章：产品市场理论—不完全竞争市场</a><time datetime="2022-04-27T15:53:35.000Z" title="Created 2022-04-27 23:53:35">2022-04-27</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>Categories</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/"><span class="card-category-list-name">微观经济学</span><span class="card-category-list-count">11</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%AC%94%E8%AE%B0/" style="font-size: 1.1em; color: #999">经济学笔记</a> <a href="/tags/%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/" style="font-size: 1.1em; color: #999">微观经济学</a> <a href="/tags/%E5%BE%AE%E7%BB%8F/" style="font-size: 1.1em; color: #999">微经</a> <a href="/tags/%E9%AB%98%E9%B8%BF%E4%B8%9A/" style="font-size: 1.1em; color: #999">高鸿业</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/05/"><span class="card-archive-list-date">May 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/04/"><span class="card-archive-list-date">April 2022</span><span class="card-archive-list-count">10</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">11</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-03-01T11:12:48.965Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By fgz</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
