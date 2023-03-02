@@ -86,11 +86,9 @@
       
         <tags>
             
-            <tag> Stata数据清洗专题 </tag>
+            <tag> 数据清洗 </tag>
             
             <tag> 公开数据库 </tag>
-            
-            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -220,11 +218,9 @@
       
         <tags>
             
-            <tag> Stata数据清洗专题 </tag>
+            <tag> 数据清洗 </tag>
             
             <tag> 公开数据库 </tag>
-            
-            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -255,11 +251,9 @@
       
         <tags>
             
-            <tag> Stata数据清洗专题 </tag>
+            <tag> 数据清洗 </tag>
             
             <tag> 公开数据库 </tag>
-            
-            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -290,11 +284,9 @@
       
         <tags>
             
-            <tag> Stata数据清洗专题 </tag>
+            <tag> 数据清洗 </tag>
             
             <tag> 公开数据库 </tag>
-            
-            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -324,8 +316,6 @@
       
       
         <tags>
-            
-            <tag> Stata数据清洗专题 </tag>
             
             <tag> 数据清洗 </tag>
             
@@ -435,11 +425,9 @@
       
         <tags>
             
-            <tag> Stata数据清洗专题 </tag>
+            <tag> 数据清洗 </tag>
             
             <tag> 公开数据库 </tag>
-            
-            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -1267,6 +1255,93 @@
             <tag> 微观经济学 </tag>
             
             <tag> 微经 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【数据清洗】样本计数</title>
+      <link href="/2022/03/24/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%A0%B7%E6%9C%AC%E8%AE%A1%E6%95%B0/"/>
+      <url>/2022/03/24/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%A0%B7%E6%9C%AC%E8%AE%A1%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">** 根据X1分类，生成每组样本数</span><br><span class="line">by X1: gen X2=_N           //包含缺失值</span><br><span class="line">by X1: gen X2=_N if X1!=.  //排除缺失值</span><br><span class="line"></span><br><span class="line">** count函数: 表达式exp计算结果不是缺失值的样本数</span><br><span class="line">egen newvar = count(exp), by(varlist)</span><br><span class="line"></span><br><span class="line">** total 函数: 表达式exp计算结果的样本数</span><br><span class="line">gen count=1</span><br><span class="line">egen count_num = total(exp), by(varlist)</span><br><span class="line"></span><br><span class="line">** seq 函数: 循环计数，生成数列 (每个数字计数两次，范围3～4，重复计数: 3,3,4,4, | 3,3,4,4, | 3,……)</span><br><span class="line">egen list=seq(), from(3) to(4) block(2) by(varlist)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据清洗 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据清洗 </tag>
+            
+            <tag> Stata </tag>
+            
+            <tag> 命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【数据清洗】计算同侪效应</title>
+      <link href="/2022/03/23/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E8%AE%A1%E7%AE%97%E5%90%8C%E4%BE%AA%E6%95%88%E5%BA%94/"/>
+      <url>/2022/03/23/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E8%AE%A1%E7%AE%97%E5%90%8C%E4%BE%AA%E6%95%88%E5%BA%94/</url>
+      
+        <content type="html"><![CDATA[<p>　　在实证研究中，我们常会遇到一些关于同侪效应的研究，即同一组内其他样本的行为或状态可能会影响受访者的行为与状态。一些研究也将其称为同伴效应或伙伴效应。</p><p>　　衡量同侪效应的常见方式是组内其他样本的均值。其基本计算原理如下：</p><p>　　假设某一组内共有 <span class="math inline">\(m\)</span>个样本，对于受访者 <span class="math inline">\(i\)</span> ，其同侪效应<span class="math inline">\(X_p\)</span> (组内其他样本均值)可以表示为：</p><p><span class="math display">\[\begin {align}X_p= \frac {\sum _{j \ne i} X_j} {m-1}= \frac {\sum _{j =1}^n X_j \ - \ X_i} {m-1}\end{align}\]</span></p><p>　　因此，对于全体样本分出的每一组样本，我们可以分为三个步骤计算：</p><ul><li>计算组内样本数量 <span class="math inline">\(m\)</span></li><li>计算组内所有样本变量 <span class="math inline">\(X\)</span>的取值之和</li><li>代入上式计算同侪效应 <span class="math inline">\(X_p\)</span></li></ul><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 使用 count 和 total 函数:</span></span><br><span class="line"><span class="keyword">egen</span> count_num=<span class="keyword">count</span>(X), <span class="keyword">by</span>(CID)  <span class="comment">// 分组计算变量 X 的非缺失值样本数量</span></span><br><span class="line"><span class="keyword">egen</span> X_total=<span class="keyword">total</span>(X), <span class="keyword">by</span>(CID)      <span class="comment">// 对 X 的分组求和</span></span><br><span class="line"><span class="keyword">gen</span> X_p=(X_total-X)/(count_num-1)</span><br></pre></td></tr></table></figure><p>　　当然，上述计算过程比较麻烦，也有学者开发了 <code>peers</code>函数，可以等效替代上面的命令：</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 使用 peers 函数: 以 CID 分组, 组内其他受访者的 X 均值</span></span><br><span class="line"><span class="keyword">ssc</span> install _peers, repalce       <span class="comment">//安装 peers 函数，仅首次使用需要安装</span></span><br><span class="line"><span class="keyword">egen</span> X_peers=peers(X),<span class="keyword">by</span>(CID)             <span class="comment">//CID 为分组变量, 包含 X 为缺失值的样本</span></span><br></pre></td></tr></table></figure><p>　　上面一行命令, 与使用 <code>count</code> 和 <code>total</code>函数计算的结果往往不同，原因是缺失值样本往往也会被计算在内。解决这一问题的办法是添加一个<code>if</code> 条件，即可与使用 <code>count</code> 和<code>total</code> 函数计算的结果相同。</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">egen</span> X_peers=peers(X) <span class="keyword">if</span> X!=. &amp; CID!=.,<span class="keyword">by</span>(CID)</span><br></pre></td></tr></table></figure><p>　　相关用法：<ahref="siyuan://blocks/20211020114552-ukzg52g">"egen"</a></p><p>　　一些研究中也将“同侪效用”用作工具变量。</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 除受访样本外其他样本的均值</span></span><br><span class="line"><span class="keyword">gen</span> <span class="keyword">count</span>=1</span><br><span class="line"><span class="keyword">egen</span> count_num=<span class="keyword">total</span>(<span class="keyword">count</span>), <span class="keyword">by</span>(county)</span><br><span class="line"><span class="keyword">egen</span> treat_total=<span class="keyword">total</span>(treat), <span class="keyword">by</span>(county)</span><br><span class="line"><span class="keyword">gen</span> IV=(IV_total-treat)/(count_num-<span class="keyword">count</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">** 使用 peers 函数也可以达到上述效果</span></span><br><span class="line"><span class="keyword">egen</span> IV=peers(treat),<span class="keyword">by</span>(county)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据清洗 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据清洗 </tag>
+            
+            <tag> Stata </tag>
+            
+            <tag> 命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【数据清洗】数据乱码问题</title>
+      <link href="/2022/03/22/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%95%B0%E6%8D%AE%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/"/>
+      <url>/2022/03/22/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%95%B0%E6%8D%AE%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 解决旧版stata数据中文乱码问题</span></span><br><span class="line"><span class="keyword">clear</span></span><br><span class="line"><span class="keyword">cd</span> <span class="string">&quot;C:\Users\Desktop\转码&quot;</span></span><br><span class="line">unicode encoding <span class="keyword">set</span> gb18030</span><br><span class="line">unicode analyze *</span><br><span class="line">unicode <span class="keyword">translate</span> *, invalid</span><br><span class="line"></span><br><span class="line"><span class="comment">** 如果上述命令无法解决乱码问题,可以将命令中的通配符修改为具体的文件名和文件格式</span></span><br><span class="line"><span class="keyword">clear</span></span><br><span class="line"><span class="keyword">cd</span> <span class="string">&quot;C:\Users\Desktop\转码&quot;</span></span><br><span class="line">unicode encoding <span class="keyword">set</span> gb18030</span><br><span class="line">unicode analyze 流动人口数据个人问卷2018.dta</span><br><span class="line">unicode <span class="keyword">translate</span> 流动人口数据个人问卷2018.dta, invalid</span><br></pre></td></tr></table></figure><h3 id="相关链接">相关链接：</h3><p>　　<a href="https://www.jianshu.com/p/77e9f2f24497">stata乱码解决方案说明 - 简书 (jianshu.com)</a>；<ahref="https://zhuanlan.zhihu.com/p/32174014">Stata15：一次性转码，解决中文乱码问题- 知乎 (zhihu.com)</a>；<ahref="http://www.360doc.com/content/20/0305/22/39103730_897100231.shtml">Stata中文乱码顽疾解决方法 (360doc.com)</a></p><hr /><p>　　以下数据转码命令来自计量经济圈的分享，不能保证可以解决问题。</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">*******以下是 do 文档的方式***** </span></span><br><span class="line">unicode analyze *.<span class="keyword">do</span> </span><br><span class="line">unicode encoding <span class="keyword">set</span> gbk </span><br><span class="line">unicode <span class="keyword">translate</span> *.<span class="keyword">do</span></span><br><span class="line"><span class="comment">*******以下是 dta 文档的方式***** </span></span><br><span class="line"><span class="keyword">clear</span> </span><br><span class="line">unicode encoding <span class="keyword">set</span> GB2312 </span><br><span class="line">unicode analyze *.dta </span><br><span class="line">unicode encoding <span class="keyword">set</span> gbk </span><br><span class="line">unicode <span class="keyword">translate</span> *.dta</span><br><span class="line"></span><br><span class="line"><span class="comment">****** CFPS数据库乱码解决 ********</span></span><br><span class="line"><span class="keyword">cd</span> <span class="string">&quot;C:\Users\hp\Desktop\CFPS_2016_child_dta&quot;</span></span><br><span class="line">unicode analyze cfps2016child_201709.dta </span><br><span class="line">unicode encoding <span class="keyword">set</span> gb18030 </span><br><span class="line">unicode <span class="keyword">translate</span> cfps2016child_201709.dta</span><br><span class="line"><span class="keyword">use</span> <span class="string">&quot;cfps2016child_201709.dta&quot;</span>,<span class="keyword">clear</span></span><br><span class="line"></span><br><span class="line"><span class="comment">*对变量名、变量标签、字符型变量取值转码</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">varlist</span> _all &#123;</span><br><span class="line"><span class="comment">    * 对字符型变量取值进行转码</span></span><br><span class="line">    <span class="keyword">local</span> <span class="keyword">type</span>: <span class="keyword">type</span> <span class="symbol">`v&#x27;</span> <span class="comment">//将变量的类型放入宏 type 中</span></span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">index</span>(<span class="string">&quot;`type&#x27;&quot;</span>, <span class="string">&quot;str&quot;</span>) &#123; <span class="comment">//如果变量是字符型变量，使用 ustrfrom() 函数进行转码</span></span><br><span class="line">    <span class="keyword">replace</span> <span class="symbol">`v&#x27;</span> = ustrfrom(<span class="symbol">`v&#x27;</span>, <span class="string">&quot;gb18030&quot;</span>, 1)</span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">    * 对变量标签进行转码</span></span><br><span class="line">    <span class="keyword">local</span> lbl: <span class="keyword">var</span> <span class="keyword">label</span> <span class="symbol">`v&#x27;</span>   <span class="comment">//将变量的标签放入宏 lbl 中 </span></span><br><span class="line">    <span class="keyword">local</span> lbl = ustrfrom(<span class="string">&quot;`lbl&#x27;&quot;</span>, <span class="string">&quot;gb18030&quot;</span>, 1) <span class="comment">//使用 ustrfrom()函数对`lbl&#x27;转码 </span></span><br><span class="line">    <span class="keyword">label</span> <span class="keyword">var</span> <span class="symbol">`v&#x27;</span> <span class="string">`&quot;`lbl&#x27;&quot;&#x27;</span> <span class="comment">//将转码后的字符串作为变量的标签</span></span><br><span class="line"><span class="comment">    * 对变量名进行转码 </span></span><br><span class="line">    <span class="keyword">local</span> newname = ustrfrom(<span class="string">`&quot;`v&#x27;&quot;&#x27;</span>, <span class="string">&quot;gb18030&quot;</span>, 1) <span class="comment">//使用 ustrfrom()函数将变量名字符串进 行转码 </span></span><br><span class="line">    <span class="keyword">rename</span> <span class="symbol">`v&#x27;</span> <span class="symbol">`newname&#x27;</span> <span class="comment">//将转码后的字符串重命名为变量名 </span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">*引用源自：以上(循环）命令截取自爬虫俱乐部腾讯课堂</span></span><br><span class="line"></span><br><span class="line"><span class="comment">****** CLDS数据库乱码解决 ********</span></span><br><span class="line"><span class="keyword">cd</span> <span class="string">&quot;C:\Users\hp\Desktop\CLDS\CLDS2012&quot;</span></span><br><span class="line">unicode analyze CLDS2012househould.dta   <span class="comment">/*替换 CLDS2012househould.dta 即可*/</span></span><br><span class="line">unicode encoding <span class="keyword">set</span> gb18030</span><br><span class="line">unicode <span class="keyword">translate</span> CLDS2012househould.dta</span><br><span class="line"><span class="keyword">use</span> <span class="string">&quot;CLDS2012househould.dta&quot;</span>,<span class="keyword">clear</span>   <span class="comment">/*检查是否完成*/</span></span><br><span class="line"></span><br><span class="line"><span class="comment">**********标签解决****************</span></span><br><span class="line"><span class="keyword">label</span> <span class="keyword">save</span> using cldslabel.<span class="keyword">do</span>, <span class="keyword">replace</span> </span><br><span class="line"><span class="comment">*引用其中的 cldslabel.do 即可</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据清洗 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据清洗 </tag>
+            
+            <tag> Stata </tag>
+            
+            <tag> 命令 </tag>
             
         </tags>
       
