@@ -86,9 +86,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -218,9 +218,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -251,9 +251,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -284,9 +284,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -425,9 +425,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -492,6 +492,37 @@
             <tag> zotero </tag>
             
             <tag> macOS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【实证分析】非线性模型的调节效应与中介效应</title>
+      <link href="/2022/10/08/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%B0%83%E8%8A%82%E6%95%88%E5%BA%94%E4%B8%8E%E4%B8%AD%E4%BB%8B%E6%95%88%E5%BA%94/"/>
+      <url>/2022/10/08/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%B0%83%E8%8A%82%E6%95%88%E5%BA%94%E4%B8%8E%E4%B8%AD%E4%BB%8B%E6%95%88%E5%BA%94/</url>
+      
+        <content type="html"><![CDATA[<p>　　<strong>在实证分析中，多数是使用线性模型进行估计，然而线性模型无法解释“过犹不及”、“居中不良”等非线性的关系。</strong></p><p>　　<strong>因此，许多学者会考虑同时加入核心解释变量的一次项与平方项，用以估计非线性模型。</strong></p><p>　　<strong>在此类非线性模型中，应当进一步探讨中介效应与调节效应。</strong></p><p>　　以下内容来自林伟鹏、冯保艺（2022）发表在《南开管理评论》上的文章，引用信息如下：</p><blockquote><p>[1]林伟鹏,冯保艺.管理学领域的曲线效应及统计检验方法[J].南开管理评论,2022,25(01):155-166.</p></blockquote><h4 id="摘要"><strong>摘要：</strong></h4><p>　　一般管理学研究在探讨变量间的关系时，通常假定该关系为线性的，即正相关或负相关的关系。然而越来越多实证研究及对客观世界的观察结果表明，变量之间的关系很可能不是简单线性的，而是曲线的。当一个积极的因素投入过度将不能带来额外的收益，甚至可能会带来负面的影响，这种现象称为“过犹不及”效应。相反，如果出现某种因素投入在高水平或低水平时，收益都要比将该因素投入在中等水平时要好，这种现象则称为“居中不良”效应。“过犹不及”和“居中不良”都是典型的曲线效应，这些曲线效应广泛存在于管理学领域及其他社会科学领域，如心理学、社会学、经济学等。本文探究了国内外对于曲线效应现象的论述，并以二次函数曲线关系为例，介绍非线性关系的几种模型（简单非线性关系、非线性调节效应、非线性中介效应）及其统计检验方法，以期为研究者对非线性关系的研究提供参考。</p><hr /><h4id="非线性关系的调节作用"><strong>非线性关系的调节作用：</strong></h4><p>　　<imgsrc="https://pic1.zhimg.com/80/v2-75292c7c25d7567592713659ef443d15_720w.png?source=d16d100b" /></p><p>　　<imgsrc="https://picx.zhimg.com/80/v2-a16e7b51fc8fec30178b0ed48017f65c_720w.png?source=d16d100b" /></p><p>　　<imgsrc="https://picx.zhimg.com/80/v2-adf6db415d2af3011a97fef192711a94_720w.png?source=d16d100b" /></p><p>　　<imgsrc="https://picx.zhimg.com/80/v2-0bbc5a165a06d199da9180a9b9c4a8e2_720w.png?source=d16d100b" /></p><p>　　<imgsrc="https://picx.zhimg.com/80/v2-d2cde279b5c90201bc4655583e9d7ce5_720w.png?source=d16d100b" /></p><p>　　<imgsrc="https://pica.zhimg.com/80/v2-36571b078d2807bace1bc4be673313f9_720w.png?source=d16d100b" /></p><h4id="非线性关系的中介效应"><strong>非线性关系的中介效应：</strong></h4><p>　　<imgsrc="https://pic1.zhimg.com/80/v2-e91f4e6c8a96f1b59da04a9d32015eb7_720w.png?source=d16d100b" /></p><p>　　<imgsrc="https://picx.zhimg.com/80/v2-c38f27b4e9e9d302ed457a52074f797d_720w.png?source=d16d100b" /></p><p>　　<imgsrc="https://picx.zhimg.com/80/v2-b7c9ef4ad7da6f7ed982fd68ea12baf1_720w.png?source=d16d100b" /></p><p>　　<imgsrc="https://pica.zhimg.com/80/v2-422989ada00a0e60d2616cb793b2d6ad_720w.png?source=d16d100b" /></p><p>　　<imgsrc="https://pic1.zhimg.com/80/v2-6d538a2f00a3adf70d39621f7a89812f_720w.png?source=d16d100b" /></p><p>　　‍</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 模型 </tag>
+            
+            <tag> 中介效应 </tag>
+            
+            <tag> 调节效应 </tag>
             
         </tags>
       
@@ -1263,6 +1294,60 @@
     
     
     <entry>
+      <title>【实证分析】工具变量</title>
+      <link href="/2022/04/25/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F/"/>
+      <url>/2022/04/25/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F/</url>
+      
+        <content type="html"><![CDATA[<p>　　<strong>工具变量需要满足两个条件：</strong></p><ul><li>相关性：<span class="math inline">\(Cov(D_i, Z_i) \ne0\)</span>，即工具变量 <span class="math inline">\(Z\)</span>与核心解释变量 <span class="math inline">\(D\)</span> 相关</li><li>外生性：<span class="math inline">\(Cov(\eta_i, Z_i) =0\)</span>，即工具变量与 <span class="math inline">\(Z\)</span>与包含混杂因素 <span class="math inline">\(A\)</span> 的残差项 <spanclass="math inline">\(\eta\)</span> 不相关，其中 <spanclass="math inline">\(\eta_i = A^{&#39;}_i \gamma +v_i\)</span>。( <ahref="https://www.lianxh.cn/news/541a6992f92b0.html"title="工具变量的外部有效性">工具变量的外部有效性</a> )</li></ul><p>　　可以参考赵西亮老师的《基本有用的计量经济学》，里面的有相无环图很好的解释了工具变量的原理。</p><p>　　<imgsrc="https://pic1.zhimg.com/80/v2-421dcf5a985f1c47d967446eb3c7a5d7_1440w.jpg?source=d16d100b" /></p><p>　　<imgsrc="https://pic2.zhimg.com/80/v2-f2418c880db6531014a22980e0d7466b_1440w.jpg?source=d16d100b" /></p><p>　　<imgsrc="https://pic1.zhimg.com/80/v2-16c9e1223de08b90a49e0b38afb3af7b_1440w.jpg?source=d16d100b" /></p><p>　　<imgsrc="https://pic3.zhimg.com/80/v2-e23cdc61f799e0c8d960460e249212e4_1440w.jpg?source=d16d100b" /></p><p>　　<imgsrc="https://pic3.zhimg.com/80/v2-1636755b2544b056ff7499fcd6087ac5_1440w.jpg?source=d16d100b" /></p><p>　　<strong>相关性一般比较好证明，实证检验工具变量Z与核心解释变量D的关系即可。</strong></p><p>　　<strong>那么，如何检验外生性？</strong></p><p>　　<strong>回答：工具变量Z只通过核心解释变量D影响Y，而不能直接影响Y</strong></p><p>　　<imgsrc="https://pic1.zhimg.com/80/v2-bc9153259ffcb6570f3bdba2c8f72a41_1440w.jpg?source=d16d100b" /></p><p>　　<imgsrc="https://pic1.zhimg.com/80/v2-b9f1a155fa84ad14fad5281b84b89f5d_1440w.jpg?source=d16d100b" /></p><p>　　<imgsrc="https://pic1.zhimg.com/80/v2-dec2100294f8fb15e80b8adec042ad1e_1440w.jpg?source=d16d100b" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 模型 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【实证分析】双重差分 (DID) 的四个假设</title>
+      <link href="/2022/04/25/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86%EF%BC%88DID%EF%BC%89%E7%9A%84%E5%9B%9B%E4%B8%AA%E5%81%87%E8%AE%BE/"/>
+      <url>/2022/04/25/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86%EF%BC%88DID%EF%BC%89%E7%9A%84%E5%9B%9B%E4%B8%AA%E5%81%87%E8%AE%BE/</url>
+      
+        <content type="html"><![CDATA[<p>　　从理论上来说，满足严格的DID的各种假设后，使用DID是可以消除内生性的。遗漏变量对政策前后的影响通过“共同趋势检验”来完成。</p><p>　　要保证 DID 的估计结果是真是的因果关系，需要了解在政策研究中，满足DID 的四个假设（以下内容来自赵西亮老师的《基本有用的计量经济学》）</p><h3 id="共同趋势假设">1. 共同趋势假设</h3><p>　　<imgsrc="https://pic1.zhimg.com/80/v2-60a61a1e1e6dace9a463e522e7d54bdc_1440w.jpg?source=d16d100b" /></p><p>　　<imgsrc="https://pica.zhimg.com/80/v2-e3bbed641ddb68bf21138b18cc3bafcd_1440w.jpg?source=d16d100b" /></p><p>　　也就是说，未控制的变量不会对政策实施结果产生影响</p><h3 id="共同区间假设">2. 共同区间假设</h3><p>　　<imgsrc="https://pic1.zhimg.com/80/v2-72fbfc5e3da7cc1f0c22880bbddc66c3_1440w.jpg?source=d16d100b" /></p><p>　　<imgsrc="https://pic1.zhimg.com/80/v2-e8d6f0633debb94530077c8cf2e4b2e1_1440w.jpg?source=d16d100b" /></p><h3 id="外生性假设">3. 外生性假设</h3><p>　　<imgsrc="https://pic3.zhimg.com/80/v2-207e42d302145656e827a6a50a8e08fc_1440w.jpg?source=d16d100b" /></p><p>　　也就是说，控制的协变量不会影响政策的实施（相关质疑：中国的政策试点，跟经济发展水平、其他政策有巨大的关系，很多政策并不是随机的）</p><h3 id="政策影响无溢出效应与交互影响suvta">4.政策影响无溢出效应与交互影响（SUVTA）</h3><p>　　<imgsrc="https://pic1.zhimg.com/80/v2-dcfca9292627cc053dd59a66e6751103_1440w.jpg?source=d16d100b" /></p><p>　　也就是说，试点政策仅能影响试点城市，对没有试点的地方没有影响</p><p>​<strong>在上面四条假设的前提下，DID做出来的结果才是真实的政策影响结果。</strong></p><p>　　‍</p><p>　　‍</p><p>　　遗漏变量对政策影响前后是否有不同影响，就是第一个假设“共同趋势假设”的问题。</p><p>　　为解决遗漏变量的问题，可以通过以下两个方法解决：</p><ol type="1"><li>进行共同趋势检验，排除共同趋势的影响</li><li>尽可能多的加入变量，以控制遗漏变量。</li></ol><p>　　赵西亮老师在《基本有用的计量经济学》一书中也指出，尽可能多的加入变量，对估计结果是有好处的，具体体现在：</p><ol type="1"><li>可以避免因遗漏变量导致的估计偏误；</li><li>即便加入的是无关的变量，对回归结果与回归系数不会有较大的影响。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 模型 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【数据清洗】样本计数</title>
       <link href="/2022/03/24/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%A0%B7%E6%9C%AC%E8%AE%A1%E6%95%B0/"/>
       <url>/2022/03/24/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%A0%B7%E6%9C%AC%E8%AE%A1%E6%95%B0/</url>
@@ -1495,6 +1580,60 @@
     
     
     <entry>
+      <title>【实证分析】取对数问题</title>
+      <link href="/2022/03/16/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E5%8F%96%E5%AF%B9%E6%95%B0%E9%97%AE%E9%A2%98/"/>
+      <url>/2022/03/16/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E5%8F%96%E5%AF%B9%E6%95%B0%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一什么时候应该取对数">一、什么时候应该取对数？</h2><p>　　满足以下两个条件之一，可以考虑取对数：</p><ol type="1"><li>被解释变量 Y 与核心解释变量 X 数据的数量级差距很大，例如 Y取值普遍小于 10，X 的取值一般在 100～1000 之间分布，就可以考虑对 X取对数，也可以更改 X 的单位；</li><li>某个变量取值差异极大，例如家庭的工资收入，最低的为 0，普遍为 2～4万，最高有上百万，这种情况下为避免极端值的影响，可以考虑取对数，同时为了避免工资收入为0 的家庭取对数后为缺失值（因为对 0 去对数没有意义），可以 +1元后再取对对数，可以在避免对收入数据造成较大影响的情况下，保留工资收入为0 的样本。</li></ol><p>　　<strong>但是，取对数的变量不应该有负数。</strong>如果一个变量取负数是合理的，取对数会造成样本的选择性偏差。例如可能由于经营企业等亏损，家庭总收入可能小于0，这是合理的，如果取对数，会造成使用家庭总收入的对数值进行计量时，家庭总收入小于0 的样本被忽略。</p><p>　　‍</p><h2id="二如何解释取对数后的偏回归系数">二、如何解释取对数后的偏回归系数？</h2><p>　　伍德里奇的《计量经济学导论》第二章，“对于线性模型中取对数后，如何解释片回归系数”这一问题做了很详细的说明。</p><p>　　在线性回归中，对数常应用于“常弹性模型”，因此被解释变量 Y取对数可以被解释为弹性（Y、X 都取对数）或半弹性（仅 Y 取对数）。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-2ab8117dc07abb105f5b109d5cdf5e1c_1440w-20221217234402-guxz284.jpg" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-56f40dcefae5411fbc126e6b905e8cdc_1440w-20221217234402-boyyb92.jpg" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-9d912f2e02acdea412c354f01662eb60_1440w-20221217234402-yj1m8dn.jpg" /></p><p>　　【水平值-水平值】如果 X、Y 都是水平值，此时 <strong>Y 随 X发生数值变化</strong>，系数可以解释为 X 的数值变化 1 个单位，Y 平均变化<span class="math inline">\(\beta_1\)</span>。</p><p>　　【水平值-对数】如果只有 X 取对数，Y 是水平值，此时 <strong>Y 随 X发生数值变化</strong>，系数可以解释为 X 每变化 1%，Y 平均变化 <spanclass="math inline">\(\frac {\beta_1} {100}\)</span>。</p><p>　　【对数-水平值】如果只有 Y 取对数，X 是水平值，那就是半弹性，此时<strong>Y 随 X 发生比例变化</strong>，也就是说 X 地取值每变化 1个单位，Y 的取值平均变化 <spanclass="math inline">\(100\beta_1\)</span>%；</p><p>　　【对数-对数】如果 X 和 Y 都取对数，就可以解释为弹性，此时<strong>Y 随 X 发生比例变化</strong>，也就是 X 每变化 1%，Y 平均变化<span class="math inline">\(\beta_1\)</span>%；</p><p>　　<strong>注意：上述所有结论是对【线性回归】结果的解释。</strong></p><p>　　‍</p><hr /><p>　　‍</p><p>　　上面的分析里，伍德里奇的表述比较难理解。可以从以下逻辑理解该问题：</p><ul><li>在 X 与 Y 都不取对数时，X 与 Y 的关系是数值的变化关系，即 X的取值变化 1 单位（如取值增大 1），Y 的取值变化 <spanclass="math inline">\(β_1\)</span> 个单位（如均值增大 <spanclass="math inline">\(β_1\)</span> ）。</li><li><strong>当取对数时，这种数值变化会转变为比例变化。</strong><ul><li><strong>如果 X 取对数，那么就是 X 发生比例变化；</strong></li><li><strong>如果 Y 取对数，那么就是 Y 发生比例变化。</strong></li></ul></li><li>例如：表 2.3 中的情况 2，X 取对数，Y 不取对数，因此解释该系数是，X发生比例变化（变化 1%），Y 发生数值变化（变化 <spanclass="math inline">\(\frac {\beta_1} {100}\)</span>）。</li></ul><p>　　‍</p><p>　　<strong>相关链接：</strong></p><p>　　<ahref="https://www.zhihu.com/question/330264127/answer/2118259043">线性回归模型，哪些变量取对数形式？-知乎</a></p><p>　　<ahref="https://www.zhihu.com/question/580307807/answer/2881510215">如何解读stata 对于取对数的数据处理？- 知乎</a></p><p>　　‍</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Stata </tag>
+            
+            <tag> 实证分析 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【实证分析】为什么使用PSM消除样本选择偏差</title>
+      <link href="/2022/03/16/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8PSM%E6%B6%88%E9%99%A4%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9%E5%81%8F%E5%B7%AE/"/>
+      <url>/2022/03/16/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8PSM%E6%B6%88%E9%99%A4%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9%E5%81%8F%E5%B7%AE/</url>
+      
+        <content type="html"><![CDATA[<p>　　<strong>要理解为什么用 psm 消除样本的选择偏误，先要理解 psm的原理。</strong></p><p>　　在研究一种干预措施的效果时，理想状态是进行随机化实验，也就是控制其他所有条件都相同，仅有是否采取干预措施这一点不同，这样就可以通过比较随机化实验中干预组与对照组的差异，了解干预措施的效果，为排除个体差异，通常使用干预组与对照组的效果的平均值差异来衡量，也就是许多实证研究中许多研究计算的平均处理效应。</p><p>　　然而，随机化实验往往在医学、生物学等领域更为常见，在经济学相关研究中，经济发展情况、社会制度、文化差异等各方面的不同之处决定了不能随意指定两类样本进行比较，以衡量干预措施的效果。更多的情况是干预措施的效果会受到两组样本之间其他差异的影响，这种情况下，无法准确判断两组之间的差异是不是由这一干预措施带来的，也就是无法准确判断干预措施与结果差异之间的“因果关系”。</p><p>　　因此，为了可以更准确估计来自干预措施的影响，更准确地识别这种“因果关系”，回归的方式最早被应用，常见的是线性回归。然而，使用回归方法判断的是两个变量之间的统计关系，在需要满足CIA（条件独立性假设）或CMI（条件均值独立性假设）的条件下，该统计关系才可以解释为干预措施的因果关系。</p><h2 id="什么是-cia-假设">什么是 CIA 假设？</h2><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426014748-fjbac81.png"alt="image.png" /></p><p>　　（CIA 假设比 CMI假设更强，具体可以参见赵西亮老师的《基本有用的计量经济学》第 5 章第 2节）</p><p>　　然而，这种回归的方式也有缺陷。一是回归方式不能解决在样本抽样阶段造成的选择性偏误；二是由于数据的可得性，往往实证研究中并不能做到饱和回归，许多变量对结果的影响无法被观测到。因此，在实际上，回归的方式也难以满足CIA条件，难以得到准确的“因果效应”。</p><h2 id="什么是psm为什么psm">什么是PSM？为什么PSM？</h2><p>　　PSM是倾向得分匹配，其本质是构造一个倾向得分，通过比较倾向得分，匹配干预组与对照组，构造出一个“准自然实验”，因此，PSM在理论上比回归的方法更有可能满足CIA条件。</p><p>　　PSM的估计过程大体可以分为以下4个步骤（参考赵西亮老师的《基本有用的计量经济学》）：</p><h4 id="定义相似性">1. 定义相似性</h4><p>　　为了准确估计因果效应，需要找到其他条件都相似的干预组与对照组，因此需要定义相似性。相似性的定义，需要关注哪些变量应当作为定义相似性的依据，以及如何测度相似性。</p><p>　　<strong>对于变量的选择上</strong>，定义相似性的变量应当满足CIA条件，也就是控制了这些变量后，干预组与控制组不能有其他未观测到的差异。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426020940-ao1iy17.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426020956-2vma08o.png"alt="image.png" /></p><p>　　<strong>对于如何测度相似性</strong>：一般采用马氏距离或欧氏距离</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021120-xyruew0.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021143-cjxmi6m.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021220-5jqs4lw.png"alt="image.png" /></p><p>　　那么，就可以通过logit回归等方式估计需要的倾向得分：</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021404-cyfpjtp.png"alt="image.png" /></p><h4 id="实施匹配">2. 实施匹配</h4><p>　　在实施匹配的方法上，主要有<strong>近邻匹配</strong>和<strong>分层匹配</strong>两种形式。</p><p>　　<strong>近邻匹配包括一对一匹配与一对多匹配。</strong></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021551-mjz9fdx.png"alt="image.png" /></p><p>　　<strong>而分层匹配则是根据倾向得分的取值，对样本进行分层，以减小每一层内的倾向得分的差距，获得更好的匹配效果。</strong></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021648-q3f91lq.png"alt="image.png" /></p><h4 id="匹配效果诊断">3. 匹配效果诊断</h4><p>　　匹配效果好不好，主要取决于干预组与对照组的控制变量差异是否得到了有效控制。在实证中，具体体现为控制变量的平衡性检验。</p><p>　　<strong>CIA假设是因果关系识别的关键。虽然CIA假设难以被验证成立，但证明CIA不成立却相对简单。</strong>如果实施匹配后控制变量的平衡性检验无法通过，则说明CIA不成立，使用当前匹配方法估计出的因果效应不是真实的干预措施因果效应的可能性较大。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021916-4uvzl0d.png"alt="image.png" /></p><h4 id="因果效应估计">4. 因果效应估计</h4><p>　　在通过了匹配效果的检验后，因果效应的估计才是可靠的。在最后一步，再估计干预措施的因果效应。</p><h2 id="当然psm也有问题">当然，PSM也有问题：</h2><p>　　基于几个控制变量测度出的倾向得分，难以包含不可测因素的影响，PSM难以避免不可测因素对结果的影响。在经济学相关的研究中，最常见的是讨论某个经济干预行为对另一个经济因素的影响，但由于制度因素相对更难度量，制度因素的缺失可能导致估计出的经济干预行为的效果有偏差。</p><p>　　为解决这一问题，也有使用工具变量法、使用面板数据等方式，更进一步进行估计。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 模型 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【数据清洗】变量生成与替换</title>
       <link href="/2022/03/16/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E5%8F%98%E9%87%8F%E7%94%9F%E6%88%90%E4%B8%8E%E6%9B%BF%E6%8D%A2/"/>
       <url>/2022/03/16/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E5%8F%98%E9%87%8F%E7%94%9F%E6%88%90%E4%B8%8E%E6%9B%BF%E6%8D%A2/</url>
@@ -1516,6 +1655,37 @@
             <tag> Stata </tag>
             
             <tag> 命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【实证分析】相关性、共线性检验</title>
+      <link href="/2022/03/16/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E7%9B%B8%E5%85%B3%E6%80%A7%E3%80%81%E5%85%B1%E7%BA%BF%E6%80%A7%E6%A3%80%E9%AA%8C/"/>
+      <url>/2022/03/16/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E7%9B%B8%E5%85%B3%E6%80%A7%E3%80%81%E5%85%B1%E7%BA%BF%E6%80%A7%E6%A3%80%E9%AA%8C/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一命令">一、命令</h2><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 变量相关性，相关性小于 0.6</span></span><br><span class="line"><span class="keyword">corr</span>   x1 x2 x3 x4 x5 x6</span><br><span class="line"><span class="keyword">pwcorr</span> x1 x2 x3 x4 x5 x6</span><br><span class="line"></span><br><span class="line"><span class="comment">** 多重共线性</span></span><br><span class="line">coldiag2 x1 x2 x3 x4 x5 x6   <span class="comment">//条件数30</span></span><br><span class="line">collin   x1 x2 x3 x4 x5 x6   <span class="comment">//VIF值10，条件数30</span></span><br></pre></td></tr></table></figure><p>　　‍</p><p>　　在实证分析中，需要检验相关性和共线性的变量有核心解释变量、其他解释变量(控制变量)。</p><p>　　<code>corr</code> 或 <code>pwcorr</code>计算出来变量间的相关系数，如果其绝对值都小于0.3，则一般认为不存在相关性，或认为相关性很低。</p><p>　　也可以使用回归的的方法计算出 VIF值（出自陈强老师的《高级计量经济学(第二版)》第九章）：</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220316140958-6dsln76.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220316141035-6h6slfd.png"alt="image.png" /></p><p>　　‍</p><h2 id="二示例">二、示例</h2><p>　　以下使用美国女性工资的数据，使用 <code>webuse</code>命令调用即可。</p><p>　　‍</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 调用女性工资数据</span></span><br><span class="line"><span class="keyword">webuse</span> womenwk, <span class="keyword">clear</span></span><br><span class="line"></span><br><span class="line"><span class="comment">** 考察年龄、教育程度、婚姻和12岁以下孩子数量之间的相关性</span></span><br><span class="line"><span class="keyword">corr</span> age education married children</span><br><span class="line"></span><br><span class="line"><span class="comment">** 考察年龄、教育程度、婚姻和12岁以下孩子数量之间的多重共线性</span></span><br><span class="line">collin age education married children</span><br><span class="line"></span><br><span class="line"><span class="comment">********************* 结果展示 *********************</span></span><br><span class="line"><span class="comment">// 相关性</span></span><br><span class="line">· <span class="keyword">corr</span> age education married children</span><br><span class="line">             |      age educat~<span class="keyword">n</span>  married children</span><br><span class="line">-------------+------------------------------------</span><br><span class="line">         age |   1.0000</span><br><span class="line">   education |   0.2377   1.0000</span><br><span class="line">     married |   0.3459   0.2768   1.0000</span><br><span class="line">    children |   0.0343  -0.0344  -0.1052   1.0000</span><br><span class="line"></span><br><span class="line"><span class="comment">// 多重共线性</span></span><br><span class="line">· collin age education married children</span><br><span class="line">  Collinearity Diagnostics</span><br><span class="line"></span><br><span class="line">                        SQRT                   R-</span><br><span class="line">  Variable      <span class="keyword">VIF</span>     <span class="keyword">VIF</span>    Tolerance    Squared</span><br><span class="line">----------------------------------------------------</span><br><span class="line">       age      1.17    1.08    0.8533      0.1467</span><br><span class="line"> education      1.11    1.05    0.9002      0.0998</span><br><span class="line">   married      1.21    1.10    0.8285      0.1715</span><br><span class="line">  children      1.02    1.01    0.9830      0.0170</span><br><span class="line">----------------------------------------------------</span><br><span class="line">  <span class="keyword">Mean</span> <span class="keyword">VIF</span>      1.13</span><br><span class="line"></span><br><span class="line">                           Cond</span><br><span class="line">        Eigenval          Index</span><br><span class="line">---------------------------------</span><br><span class="line">    1     4.3149          1.0000</span><br><span class="line">    2     0.4305          3.1659</span><br><span class="line">    3     0.1966          4.6848</span><br><span class="line">    4     0.0382         10.6266</span><br><span class="line">    5     0.0197         14.7850</span><br><span class="line">---------------------------------</span><br><span class="line"> Condition Number        14.7850 </span><br><span class="line"> Eigenvalues &amp; Cond Index computed from scaled raw sscp (w/ intercept)</span><br><span class="line"> <span class="built_in">Det</span>(correlation <span class="keyword">matrix</span>)    0.7792</span><br></pre></td></tr></table></figure><p>　　‍</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Stata </tag>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 相关性 </tag>
+            
+            <tag> 多重共线性 </tag>
             
         </tags>
       
@@ -1690,6 +1860,64 @@
             <tag> Stata </tag>
             
             <tag> 命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【实证分析】主成分分析与熵权法</title>
+      <link href="/2021/10/19/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90%E4%B8%8E%E7%86%B5%E6%9D%83%E6%B3%95/"/>
+      <url>/2021/10/19/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90%E4%B8%8E%E7%86%B5%E6%9D%83%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一主成分分析">一、主成分分析</h2><p>　　主成分分析的要点：</p><ul><li>区分正向指标与负向指标</li><li>累计贡献率最好大于 80%</li><li>特征根要大于 1</li></ul><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 已将负向指标正向化</span></span><br><span class="line"><span class="keyword">global</span> xlist <span class="string">&quot;X1 X2 X3 X4 X5 X6 X7 X8&quot;</span></span><br><span class="line"><span class="comment">** 权重确定与载核计算</span></span><br><span class="line"><span class="keyword">pca</span> <span class="variable">$xlist</span></span><br><span class="line"><span class="keyword">factor</span> <span class="variable">$xlist</span> , pcf</span><br><span class="line"><span class="comment">** 绘制随碎石图</span></span><br><span class="line"><span class="keyword">screeplot</span>, yline(1)   <span class="comment">//yline(1)表示绘制特征根为1的临界线</span></span><br><span class="line"><span class="comment">** 根据碎石图或载核表, 选取特征根大于1的主成分</span></span><br><span class="line"><span class="keyword">predict</span> f1 f2 f3   <span class="comment">// 假如有三个主成分的特征根大于1</span></span><br><span class="line"><span class="comment">** 生成综合指标: 前面的系数为「pca $xlist」命令运行后的「Proportion」列, 为各主成分的贡献率</span></span><br><span class="line"><span class="keyword">gen</span> X = a1*f1 + a2*f2 + a3*f3</span><br><span class="line"><span class="keyword">drop</span> f1-f3</span><br></pre></td></tr></table></figure><p>　　相关链接：<ahref="https://zhuanlan.zhihu.com/p/281278580">【Stata 写论文】PCA主成分分析和因子分析命令演示（附代码） - 知乎 (zhihu.com)</a></p><h2 id="二熵权法">二、熵权法</h2><p>　　熵权法的计算要点：</p><ul><li>区分正向指标与负向指标</li><li>权重的计算方法</li></ul><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 熵权法</span></span><br><span class="line"><span class="keyword">global</span> xlist1 <span class="string">&quot;X1 X2 X3 X4 X5 X6&quot;</span>   <span class="comment">// 正向指标</span></span><br><span class="line"><span class="keyword">global</span> xlist2 <span class="string">&quot;X7 X8&quot;</span>   <span class="comment">// 负向指标</span></span><br><span class="line"><span class="keyword">global</span> xlist <span class="string">&quot;$xlist1 $xlist2&quot;</span></span><br><span class="line"><span class="comment">*** 正向指标</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist1 &#123;</span><br><span class="line"><span class="keyword">egen</span> min_<span class="symbol">`v&#x27;</span>= <span class="built_in">min</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> max_<span class="symbol">`v&#x27;</span>= <span class="built_in">max</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="comment">//正向变量标准化</span></span><br><span class="line"><span class="keyword">gen</span> <span class="symbol">`v&#x27;</span>_n = (<span class="symbol">`v&#x27;</span>-min_<span class="symbol">`v&#x27;</span>)/(max_<span class="symbol">`v&#x27;</span>-min_<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> <span class="symbol">`v&#x27;</span>_sum = <span class="built_in">sum</span>(<span class="symbol">`v&#x27;</span>_n)</span><br><span class="line"><span class="comment">// 第j个指标中第i个样本所占的比重</span></span><br><span class="line"><span class="keyword">gen</span> p_<span class="symbol">`v&#x27;</span>= <span class="symbol">`v&#x27;</span>_n/<span class="symbol">`v&#x27;</span>_sum</span><br><span class="line"><span class="keyword">gen</span> k_<span class="symbol">`v&#x27;</span> = -(1/<span class="built_in">ln</span>(_N))</span><br><span class="line"><span class="keyword">egen</span> x_<span class="symbol">`v&#x27;</span> = <span class="built_in">sum</span>(p_<span class="symbol">`v&#x27;</span>*<span class="built_in">ln</span>(p_<span class="symbol">`v&#x27;</span>))  </span><br><span class="line"><span class="comment">//计算第j个指标的熵值</span></span><br><span class="line"><span class="keyword">gen</span> e_<span class="symbol">`v&#x27;</span>=k_<span class="symbol">`v&#x27;</span>*x_<span class="symbol">`v&#x27;</span></span><br><span class="line"><span class="comment">//计算差异系数，该系数越大指标越重要</span></span><br><span class="line"><span class="keyword">gen</span> g_<span class="symbol">`v&#x27;</span>=1-e_<span class="symbol">`v&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">*** 负向指标</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist2 &#123;</span><br><span class="line"><span class="keyword">egen</span> min_<span class="symbol">`v&#x27;</span>= <span class="built_in">min</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> max_<span class="symbol">`v&#x27;</span>= <span class="built_in">max</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="comment">//负向变量标准化</span></span><br><span class="line"><span class="keyword">gen</span> <span class="symbol">`v&#x27;</span>_n = (max_<span class="symbol">`v&#x27;</span>-<span class="symbol">`v&#x27;</span>)/(max_<span class="symbol">`v&#x27;</span>-min_<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> <span class="symbol">`v&#x27;</span>_sum = <span class="built_in">sum</span>(<span class="symbol">`v&#x27;</span>_n)</span><br><span class="line"><span class="comment">// 第j个指标中第i个样本所占的比重</span></span><br><span class="line"><span class="keyword">gen</span> p_<span class="symbol">`v&#x27;</span>= <span class="symbol">`v&#x27;</span>_n/<span class="symbol">`v&#x27;</span>_sum</span><br><span class="line"><span class="keyword">gen</span> k_<span class="symbol">`v&#x27;</span> = -(1/<span class="built_in">ln</span>(_N))</span><br><span class="line"><span class="keyword">egen</span> x_<span class="symbol">`v&#x27;</span> = <span class="built_in">sum</span>(p_<span class="symbol">`v&#x27;</span>*<span class="built_in">ln</span>(p_<span class="symbol">`v&#x27;</span>))  </span><br><span class="line"><span class="comment">//计算第j个指标的熵值</span></span><br><span class="line"><span class="keyword">gen</span> e_<span class="symbol">`v&#x27;</span>=k_<span class="symbol">`v&#x27;</span>*x_<span class="symbol">`v&#x27;</span></span><br><span class="line"><span class="comment">//计算差异系数，该系数越大指标越重要</span></span><br><span class="line"><span class="keyword">gen</span> g_<span class="symbol">`v&#x27;</span>=1-e_<span class="symbol">`v&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">egen</span> y=rowtotal(g_*),missing</span><br><span class="line"><span class="comment">*** 计算第j个指标的权重</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist &#123;</span><br><span class="line"><span class="keyword">gen</span> w_<span class="symbol">`v&#x27;</span>= g_<span class="symbol">`v&#x27;</span>/y</span><br><span class="line">    <span class="keyword">gen</span> wn_<span class="symbol">`v&#x27;</span>=w_<span class="symbol">`v&#x27;</span>*<span class="symbol">`v&#x27;</span>_n</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">*** 使用熵权法计算综合指标</span></span><br><span class="line"><span class="keyword">egen</span> X=rowtotal(wn_*),missing</span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist &#123;</span><br><span class="line"><span class="keyword">replace</span> X=. <span class="keyword">if</span> wn_<span class="symbol">`v&#x27;</span>==.</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 删除临时变量</span></span><br><span class="line"><span class="keyword">drop</span> min_* max_* *_n *_sum p_* k_* x_* e_* g_* w_* wn_* y</span><br></pre></td></tr></table></figure><p>　　相关链接：</p><p>　　<ahref="https://zhuanlan.zhihu.com/p/409618462">【知乎】面板数据熵权法的Stata程序</a></p><p>　　<ahref="https://bbs.pinggu.org/thread-10976172-1-1.html">【经管之家】stata熵权法命令分享</a></p><p>　　‍</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Stata </tag>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 主成分分析 </tag>
+            
+            <tag> 熵权法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【实证分析】统计分析</title>
+      <link href="/2021/10/18/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90/"/>
+      <url>/2021/10/18/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一tab-和-tabstat-用法">一、<code>tab</code> 和<code>tabstat</code> 用法</h2><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 【tab】查看【某一个】变量的数据分布和累积百分比</span></span><br><span class="line"><span class="keyword">tab</span> e11                 <span class="comment">//不带条件</span></span><br><span class="line"><span class="keyword">tab</span> e11 <span class="keyword">if</span> jianyan==1   <span class="comment">//带条件</span></span><br><span class="line"></span><br><span class="line"><span class="comment">**【tabstat】</span></span><br><span class="line"><span class="comment">// 查看样本数、均值、最大值、最小值、标准差：根据 z13 变量进行分组，保留两位小数（2f）</span></span><br><span class="line"><span class="keyword">tabstat</span> b1a b1b, statistics(<span class="keyword">count</span> <span class="keyword">mean</span> min max sd) <span class="built_in">f</span>(%9.2f) <span class="keyword">by</span>(z13)</span><br><span class="line"><span class="keyword">tabstat</span> b1a b1b, statistics(<span class="keyword">n</span> <span class="keyword">mean</span> min max sd) <span class="built_in">f</span>(%9.2f) <span class="keyword">by</span>(z13)</span><br><span class="line"><span class="keyword">tabstat</span> b1a b1b, stat(<span class="keyword">n</span> <span class="keyword">mean</span> min max sd) <span class="built_in">f</span>(%9.2f) <span class="keyword">by</span>(z13)   <span class="comment">//同上一条命令(简写)</span></span><br><span class="line"><span class="comment">// 查看分位数：p表示百分位数，q表示四分位数(p25、p50、p75)</span></span><br><span class="line"><span class="keyword">tabstat</span> b1a b1b，stat(p5 p10 q p90 p95) </span><br></pre></td></tr></table></figure><h2 id="二summ-命令">二、<code>summ</code> 命令</h2><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//查看变量的均值、最大值、最小值、样本数、标准差</span></span><br><span class="line"><span class="keyword">summ</span> e11 e12 e13                  <span class="comment">//查看所有样本</span></span><br><span class="line"><span class="keyword">summ</span> e11 e12 e13 <span class="keyword">if</span> jianyan==1    <span class="comment">//查看 jianyan 变量取值为 1 的样本的 e11,e12,e13 的均值、最大值、最小值、样本数、标准差</span></span><br></pre></td></tr></table></figure><p>　　‍</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Stata </tag>
+            
+            <tag> 实证分析 </tag>
             
         </tags>
       
