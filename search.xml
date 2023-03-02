@@ -4,7 +4,20 @@
   
     
     <entry>
-      <title>【教对象stata系列】第5课：循环语句的使用</title>
+      <title></title>
+      <link href="/2023/03/01/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC10%E7%AB%A0%EF%BC%9A%E5%8D%9A%E5%BC%88%E8%AE%BA/"/>
+      <url>/2023/03/01/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC10%E7%AB%A0%EF%BC%9A%E5%8D%9A%E5%BC%88%E8%AE%BA/</url>
+      
+        <content type="html"><![CDATA[<p>title: 第10章：博弈论 date: 2022-05-10 12:00:00 categories:微观经济学 tags:</p><ul><li>微观经济学</li><li>微经</li><li>高鸿业</li><li>经济学笔记</li></ul><h1 id="一博弈论和策略行为">一、博弈论和策略行为</h1><p>　　博弈论（gametheory）是研究在策略性环境中如何进行策略性决策和采取策略性行动的科学。</p><p>　　博弈的三个基本要素：</p><ul><li>参与人</li><li>参与人的策略</li><li>参与人的支付</li></ul><p>　　博弈的分类：</p><ul><li>根据参与人的数量：二人博弈、多人博弈；</li><li>根据参与人拥有的策略的数量：有限博弈、无限博弈；</li><li>根据参与人的支付情况：零和博弈、非零和博弈；</li><li>根据参与人是否能够达成有效的协议：合作博弈、非合作博弈；</li><li>根据参与人是否了解有关博弈的所有信息：完全信息博弈、不完全信息博弈；</li><li>根据参与人在策略的实施上是否具有“同时性”：静态博弈（或同时博弈）、动态博弈（或序贯博弈）。</li></ul><h1id="二完全信息静态博弈纯策略均衡">二、完全信息静态博弈：纯策略均衡</h1><h2 id="一支付矩阵">（一）支付矩阵</h2><p>　　二人同时博弈可以用支付矩阵来描述和分析，如下表所示。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220011-5hcn8t6.png"title="支付矩阵" alt="image.png" /></p><h2 id="二条件策略和条件策略组合">（二）条件策略和条件策略组合</h2><p>　　把甲厂商在乙厂商选择策略条件下的最优策略称为甲厂商的条件策略；把与甲厂商的条件策略相联系的策略组合称为甲厂商的条件策略组合。</p><h2 id="三纳什均衡">（三）纳什均衡</h2><h3 id="概念">1. 概念</h3><p>　　纳什均衡，指的是参与人的这样一种策略组合。在该策略组合上，任何参与人单独改变策略都不会得到好处。如果在一个策略组合中，当所有其他人都不改变策略时，没有人会改变自己的策略，则该策略组合就是一个纳什均衡。</p><p>　　在纳什均衡的定义中，有两个问题需要注意：</p><ul><li>“单独改变策略”是指任何一个参与人在所有其他人都不改变策略的情况下改变自己的策略。</li><li>“不会得到好处”是指任何一个参与人在单独改变策略之后自己的支付不会增加。</li></ul><h3 id="纳什均衡的确定条件策略下划线法">2.纳什均衡的确定（条件策略下划线法）</h3><ul><li>把整个博弈的支付矩阵分解为两个参与人的支付矩阵。</li><li>在第一个（即位于整个博弈矩阵左方的）参与人的支付矩阵中，找出每一列的最大者，并在其下划线。</li><li>在第二个（即位于整个博弈矩阵上方的）参与人的支付矩阵中，找出每一行的最大者，并在其下划线。</li><li>将已经划好线的两个参与人的支付矩阵再合并起来，得到带有下划线的整个博弈的支付矩阵。</li><li>在带有下划线的整个的支付矩阵中，找到两个数字之下均划有线的支付组合。由该支付组合代表的策略组合就是博弈的纳什均衡。</li></ul><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220301-c784t4t.png"title="寡头博弈：合作与不合作" alt="image.png" /></p><p>　　利用下划线法得出，纳什均衡是（不合作，不合作）。</p><h3 id="纳什均衡的存在性唯一性稳定性和最优性">3.纳什均衡的存在性、唯一性、稳定性和最优性</h3><h4 id="存在性">3.1 存在性</h4><p>　　在完全信息的静态博弈中，（纯策略的）纳什均衡既可能存在，也可能不存在。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220406-dhtb77d.png"title="没有纳什均衡的完全信息静态博弈" alt="image.png" /></p><h4 id="唯一性">3.2 唯一性</h4><p>　　在完全信息的静态博弈中，如果纳什均衡存在，既可能是唯一的，也可能是不唯一的。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220437-t5ta0ga.png"title="存在多重纳什均衡的完全信息静态博弈" alt="image.png" /></p><h4 id="稳定性">3.3 稳定性</h4><p>　　在完全信息的静态博弈中，如果纳什均衡存在，既可能是稳定的，也可能是不稳定的。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220511-h92uhi2.png"title="稳定和不稳定的纳什均衡" alt="image.png" /></p><h4 id="最优性">3.4 最优性</h4><p>　　在完全信息的静态博弈中，如果纳什均衡存在，既可能是最优的，也可能不是最优的。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220437-t5ta0ga.png"title="纳什均衡是否最优性" alt="image.png" /></p><h3 id="纳什均衡和社会福利">4. 纳什均衡和社会福利</h3><h4 id="囚徒困境模型">4.1 囚徒困境模型</h4><p>　　通过分析可以看出，张三和李四的决策都是坦白。但是，如果两人都选择不坦白，则都可以获得最好的结局。很清楚，囚徒困境反映了一个矛盾：即个人理性和团体理性的冲突。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220632-p6jzz5o.png"title="囚徒困境" alt="image.png" /></p><h4 id="广告大战">4.2 广告大战</h4><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220719-i713swa.png"title="广告博弈" alt="image.png" /></p><p>　　纳什均衡（做广告，做广告）不仅对参与人不是最优的，且对整个社会也不是最优的。</p><h1id="三完全信息静态博弈混合策略均衡">三、完全信息静态博弈：混合策略均衡</h1><p>　　即使纯策略的纳什均衡不存在，相应的混合策略纳什均衡却总会存在。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220818-kfifw1a.png"title="不存在纯策略纳什均衡的混合策略模型" alt="image.png" /></p><p>　　和纯策略组合不同，混合策略组合是一个概率向量组合，每一个概率向量是相应参与人的一个混合策略。</p><p>　　甲厂商的期望支付为：<spanclass="math inline">\(E_甲=p_1(7-10q_1)+5q_1+2\)</span>，那么甲厂商条件混合策略为：</p><p><span class="math display">\[x =   \left \{\begin {align}&amp; 1  &amp; if \ \ q_1  \lt 0.7    \notag \\&amp; [0,1] &amp; if \ \  q_1=0.7     \notag \\&amp; 0  &amp;if \ \  q_1\gt 0.7      \notag \\\end {align}\right.\]</span></p><p>　　乙厂商的期望支付为：<spanclass="math inline">\(E_乙=5p_1(2q_1-1)-7q_1+8\)</span>，那么乙厂商条件混合策略为：</p><p><span class="math display">\[x =   \left \{\begin {align}&amp; 1  &amp; if \ \ q_1  \lt 0.5    \notag \\&amp; [0,1] &amp; if \ \  q_1=0.5   \notag \\&amp; 0  &amp;if \ \  q_1\gt 0.5     \notag \\\end {align}\right.\]</span></p><p>　　借用条件混合策略可确定混合策略的纳什均衡。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511222425-vth28lz.png"title="不存在纯策略均衡时的混合策略均衡" alt="image.png" /></p><h1 id="四完全信息动态博弈">四、完全信息动态博弈</h1><p>　　在完全信息动态博弈中，参与人的决策有先有后，特别是，后行动的参与人可以观察到先行动的参与人已经采取了的策略。</p><h2 id="一博弈树">（一）博弈树</h2><p>　　例子：竞争者—垄断者博弈</p><p>　　描述序贯博弈的工具是“博弈树”，由“点”（包括“起点”“中间点”“终点”）、连接点的“线段”以及标在这些点和线段旁边的文字和数字组成。</p><p>　　以博弈树来描述的完全信息的动态博弈称为扩展型博弈。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511222551-egdruno.png"title="竞争者—垄断者博弈" alt="image.png" /></p><h2 id="二纳什均衡的求解">（二）纳什均衡的求解</h2><p>　　竞争者—垄断者博弈中，纳什均衡为（进入，容忍）。如下图博弈中，两个纳什均衡：（足球，足球）、（芭蕾、芭蕾）。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511222704-opf2y8r.png"title="情侣博弈" alt="image.png" /></p><h2id="三纳什均衡的精炼逆向归纳法">（三）纳什均衡的精炼：逆向归纳法</h2><h3 id="逆向归纳法">1. 逆向归纳法</h3><p>　　对纳什均衡的“精炼”，即从众多的纳什均衡中进一步确定“更好”的纳什均衡。纳什均衡的精炼方法通常是使用“逆向归纳法”。</p><p>　　（1）先从博弈的最后阶段的每一个决策点开始，确定相应参与人此时所选择的策略，并把参与人所放弃的其他策略删除，从而得到原博弈的一个简化博弈。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511222747-prl4umh.png"title="简化的情侣博弈 (1)" alt="image.png" /></p><p>　　（2）再对简化博弈重复步骤一的程序，直到最后，得到原博弈的一个最简博弈。这个最简博弈就是原博弈的解；而在存在多重纳什均衡时，它就是对纳什均衡的精炼。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511222829-qywyiqr.png"title="简化的情侣博弈 (2)" alt="image.png" /></p><h3 id="精炼的纳什均衡与效率">2. 精炼的纳什均衡与效率</h3><p>　　对参与人来说，由逆向归纳法“精炼”出来的完全信息动态博弈的纳什均衡也不一定是有效率的。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511223010-63gbcjk.png"title="蜈蚣博弈" alt="image.png" /></p><p>　　该博弈在一开始时就会以 A决定卖而结束，相应的支付组合为（1,0），即 A 得到净收益 1，B 得到净收益0。</p><p>　　‍</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第5课：循环语句的使用</title>
       <link href="/2023/02/02/%E3%80%90%E6%95%99%E5%AF%B9%E8%B1%A1stata%E7%B3%BB%E5%88%97%E3%80%91%E7%AC%AC5%E8%AF%BE%EF%BC%9A%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
       <url>/2023/02/02/%E3%80%90%E6%95%99%E5%AF%B9%E8%B1%A1stata%E7%B3%BB%E5%88%97%E3%80%91%E7%AC%AC5%E8%AF%BE%EF%BC%9A%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
       
@@ -37,7 +50,7 @@
     
     
     <entry>
-      <title>【教对象stata系列】第4课：数据管理 - 长宽数据转换</title>
+      <title>第4课：数据管理 - 长宽数据转换</title>
       <link href="/2023/01/29/%E3%80%90%E6%95%99%E5%AF%B9%E8%B1%A1stata%E7%B3%BB%E5%88%97%E3%80%91%E7%AC%AC4%E8%AF%BE%EF%BC%9A%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86-%E9%95%BF%E5%AE%BD%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2/"/>
       <url>/2023/01/29/%E3%80%90%E6%95%99%E5%AF%B9%E8%B1%A1stata%E7%B3%BB%E5%88%97%E3%80%91%E7%AC%AC4%E8%AF%BE%EF%BC%9A%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86-%E9%95%BF%E5%AE%BD%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2/</url>
       
@@ -70,7 +83,7 @@
     
     
     <entry>
-      <title>【Stata】使用CMDS计算地级市宏观指标</title>
+      <title>使用CMDS计算地级市宏观指标</title>
       <link href="/2023/01/27/%E3%80%90Stata%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E4%B8%93%E9%A2%98%E3%80%91%E4%BD%BF%E7%94%A8CMDS%E8%AE%A1%E7%AE%97%E5%9C%B0%E7%BA%A7%E5%B8%82%E5%AE%8F%E8%A7%82%E6%8C%87%E6%A0%87/"/>
       <url>/2023/01/27/%E3%80%90Stata%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E4%B8%93%E9%A2%98%E3%80%91%E4%BD%BF%E7%94%A8CMDS%E8%AE%A1%E7%AE%97%E5%9C%B0%E7%BA%A7%E5%B8%82%E5%AE%8F%E8%A7%82%E6%8C%87%E6%A0%87/</url>
       
@@ -103,7 +116,7 @@
     
     
     <entry>
-      <title>【教对象stata系列】第3课：变量管理、统计分析与数据管理</title>
+      <title>第3课：变量管理、统计分析与数据管理</title>
       <link href="/2023/01/26/%E3%80%90%E6%95%99%E5%AF%B9%E8%B1%A1stata%E7%B3%BB%E5%88%97%E3%80%91%E7%AC%AC3%E8%AF%BE%EF%BC%9A%E5%8F%98%E9%87%8F%E7%AE%A1%E7%90%86%E3%80%81%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86/"/>
       <url>/2023/01/26/%E3%80%90%E6%95%99%E5%AF%B9%E8%B1%A1stata%E7%B3%BB%E5%88%97%E3%80%91%E7%AC%AC3%E8%AF%BE%EF%BC%9A%E5%8F%98%E9%87%8F%E7%AE%A1%E7%90%86%E3%80%81%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86/</url>
       
@@ -136,7 +149,7 @@
     
     
     <entry>
-      <title>【教对象stata系列】第2课：变量管理与IF条件使用</title>
+      <title>第2课：变量管理与IF条件使用</title>
       <link href="/2023/01/19/%E3%80%90%E6%95%99%E5%AF%B9%E8%B1%A1stata%E7%B3%BB%E5%88%97%E3%80%91%E7%AC%AC2%E8%AF%BE%EF%BC%9A%E5%8F%98%E9%87%8F%E7%AE%A1%E7%90%86%E4%B8%8EIF%E6%9D%A1%E4%BB%B6%E4%BD%BF%E7%94%A8/"/>
       <url>/2023/01/19/%E3%80%90%E6%95%99%E5%AF%B9%E8%B1%A1stata%E7%B3%BB%E5%88%97%E3%80%91%E7%AC%AC2%E8%AF%BE%EF%BC%9A%E5%8F%98%E9%87%8F%E7%AE%A1%E7%90%86%E4%B8%8EIF%E6%9D%A1%E4%BB%B6%E4%BD%BF%E7%94%A8/</url>
       
@@ -169,7 +182,7 @@
     
     
     <entry>
-      <title>【教对象stata系列】第1期：软件介绍与数据管理</title>
+      <title>第1期：软件介绍与数据管理</title>
       <link href="/2023/01/14/%E3%80%90%E6%95%99%E5%AF%B9%E8%B1%A1stata%E7%B3%BB%E5%88%97%E3%80%91%E7%AC%AC1%E6%9C%9F%EF%BC%9A%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86/"/>
       <url>/2023/01/14/%E3%80%90%E6%95%99%E5%AF%B9%E8%B1%A1stata%E7%B3%BB%E5%88%97%E3%80%91%E7%AC%AC1%E6%9C%9F%EF%BC%9A%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86/</url>
       
@@ -202,7 +215,7 @@
     
     
     <entry>
-      <title>【Stata】使用 CFPS 计算分性别家庭子女数</title>
+      <title>使用 CFPS 计算分性别家庭子女数</title>
       <link href="/2023/01/14/%E3%80%90Stata%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E4%B8%93%E9%A2%98%E3%80%91%E4%BD%BF%E7%94%A8CFPS%E8%AE%A1%E7%AE%97%E5%88%86%E6%80%A7%E5%88%AB%E5%AE%B6%E5%BA%AD%E5%AD%90%E5%A5%B3%E6%95%B0/"/>
       <url>/2023/01/14/%E3%80%90Stata%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E4%B8%93%E9%A2%98%E3%80%91%E4%BD%BF%E7%94%A8CFPS%E8%AE%A1%E7%AE%97%E5%88%86%E6%80%A7%E5%88%AB%E5%AE%B6%E5%BA%AD%E5%AD%90%E5%A5%B3%E6%95%B0/</url>
       
@@ -235,7 +248,7 @@
     
     
     <entry>
-      <title>【Stata】CFPS隔代照料问题的讨论</title>
+      <title>CFPS隔代照料问题的讨论</title>
       <link href="/2023/01/05/%E3%80%90Stata%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E4%B8%93%E9%A2%98%E3%80%91CFPS%E9%9A%94%E4%BB%A3%E7%85%A7%E6%96%99%E9%97%AE%E9%A2%98%E7%9A%84%E8%AE%A8%E8%AE%BA/"/>
       <url>/2023/01/05/%E3%80%90Stata%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E4%B8%93%E9%A2%98%E3%80%91CFPS%E9%9A%94%E4%BB%A3%E7%85%A7%E6%96%99%E9%97%AE%E9%A2%98%E7%9A%84%E8%AE%A8%E8%AE%BA/</url>
       
@@ -268,7 +281,7 @@
     
     
     <entry>
-      <title>【Stata】使用公开数据库测算家庭规模</title>
+      <title>使用公开数据库测算家庭规模</title>
       <link href="/2023/01/03/%E3%80%90Stata%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E4%B8%93%E9%A2%98%E3%80%91%E4%BD%BF%E7%94%A8%E5%85%AC%E5%BC%80%E6%95%B0%E6%8D%AE%E5%BA%93%E6%B5%8B%E7%AE%97%E5%AE%B6%E5%BA%AD%E8%A7%84%E6%A8%A1/"/>
       <url>/2023/01/03/%E3%80%90Stata%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E4%B8%93%E9%A2%98%E3%80%91%E4%BD%BF%E7%94%A8%E5%85%AC%E5%BC%80%E6%95%B0%E6%8D%AE%E5%BA%93%E6%B5%8B%E7%AE%97%E5%AE%B6%E5%BA%AD%E8%A7%84%E6%A8%A1/</url>
       
@@ -301,7 +314,7 @@
     
     
     <entry>
-      <title>【Stata】使用逐年气象数据生成面板数据</title>
+      <title>使用逐年气象数据生成面板数据</title>
       <link href="/2023/01/02/%E3%80%90Stata%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E4%B8%93%E9%A2%98%E3%80%91%E4%BD%BF%E7%94%A8%E9%80%90%E5%B9%B4%E6%B0%94%E8%B1%A1%E6%95%B0%E6%8D%AE%E7%94%9F%E6%88%90%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE/"/>
       <url>/2023/01/02/%E3%80%90Stata%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E4%B8%93%E9%A2%98%E3%80%91%E4%BD%BF%E7%94%A8%E9%80%90%E5%B9%B4%E6%B0%94%E8%B1%A1%E6%95%B0%E6%8D%AE%E7%94%9F%E6%88%90%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE/</url>
       
@@ -409,7 +422,7 @@
     
     
     <entry>
-      <title>【Stata】CFPS/CLDS/CMDS等公开数据库的数据清洗</title>
+      <title>CFPS/CLDS/CMDS等公开数据库的数据清洗</title>
       <link href="/2022/11/13/%E3%80%90Stata%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E4%B8%93%E9%A2%98%E3%80%91CFPS-CLDS-CMDS%E7%AD%89%E5%85%AC%E5%BC%80%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/"/>
       <url>/2022/11/13/%E3%80%90Stata%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E4%B8%93%E9%A2%98%E3%80%91CFPS-CLDS-CMDS%E7%AD%89%E5%85%AC%E5%BC%80%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/</url>
       
@@ -442,7 +455,7 @@
     
     
     <entry>
-      <title>【资源下载】农业经济类书籍</title>
+      <title>农业经济类书籍</title>
       <link href="/2022/11/10/%E3%80%90%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E3%80%91%E5%86%9C%E4%B8%9A%E7%BB%8F%E6%B5%8E%E7%B1%BB%E4%B9%A6%E7%B1%8D/"/>
       <url>/2022/11/10/%E3%80%90%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E3%80%91%E5%86%9C%E4%B8%9A%E7%BB%8F%E6%B5%8E%E7%B1%BB%E4%B9%A6%E7%B1%8D/</url>
       
@@ -469,7 +482,7 @@
     
     
     <entry>
-      <title>【资源下载】计量经济学类书籍</title>
+      <title>计量经济学类书籍</title>
       <link href="/2022/11/05/%E3%80%90%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E3%80%91%E8%AE%A1%E9%87%8F%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%B1%BB%E4%B9%A6%E7%B1%8D/"/>
       <url>/2022/11/05/%E3%80%90%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E3%80%91%E8%AE%A1%E9%87%8F%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%B1%BB%E4%B9%A6%E7%B1%8D/</url>
       
@@ -496,7 +509,7 @@
     
     
     <entry>
-      <title>【资源下载】发展经济学类书籍</title>
+      <title>发展经济学类书籍</title>
       <link href="/2022/11/03/%E3%80%90%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E3%80%91%E5%8F%91%E5%B1%95%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%B1%BB%E4%B9%A6%E7%B1%8D/"/>
       <url>/2022/11/03/%E3%80%90%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E3%80%91%E5%8F%91%E5%B1%95%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%B1%BB%E4%B9%A6%E7%B1%8D/</url>
       
@@ -523,7 +536,7 @@
     
     
     <entry>
-      <title>【资源下载】经济学类书籍</title>
+      <title>经济学类书籍</title>
       <link href="/2022/11/02/%E3%80%90%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E3%80%91%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%B1%BB%E4%B9%A6%E7%B1%8D/"/>
       <url>/2022/11/02/%E3%80%90%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E3%80%91%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%B1%BB%E4%B9%A6%E7%B1%8D/</url>
       
@@ -612,7 +625,7 @@
     
     
     <entry>
-      <title>【实证分析】非线性模型的调节效应与中介效应</title>
+      <title>非线性模型的调节效应与中介效应</title>
       <link href="/2022/10/08/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%B0%83%E8%8A%82%E6%95%88%E5%BA%94%E4%B8%8E%E4%B8%AD%E4%BB%8B%E6%95%88%E5%BA%94/"/>
       <url>/2022/10/08/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%B0%83%E8%8A%82%E6%95%88%E5%BA%94%E4%B8%8E%E4%B8%AD%E4%BB%8B%E6%95%88%E5%BA%94/</url>
       
@@ -755,7 +768,7 @@
     
     
     <entry>
-      <title>【宏观】第10章：新古典宏观经济学与新凯恩斯主义经济学</title>
+      <title>第10章：新古典宏观经济学与新凯恩斯主义经济学</title>
       <link href="/2022/05/30/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC10%E7%AB%A0%EF%BC%9A%E6%96%B0%E5%8F%A4%E5%85%B8%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%B8%8E%E6%96%B0%E5%87%AF%E6%81%A9%E6%96%AF%E4%B8%BB%E4%B9%89%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
       <url>/2022/05/30/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC10%E7%AB%A0%EF%BC%9A%E6%96%B0%E5%8F%A4%E5%85%B8%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%B8%8E%E6%96%B0%E5%87%AF%E6%81%A9%E6%96%AF%E4%B8%BB%E4%B9%89%E7%BB%8F%E6%B5%8E%E5%AD%A6/</url>
       
@@ -786,7 +799,7 @@
     
     
     <entry>
-      <title>【宏观】第9章：宏观经济学的微观基础</title>
+      <title>第9章：宏观经济学的微观基础</title>
       <link href="/2022/05/28/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC9%E7%AB%A0%EF%BC%9A%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%9A%84%E5%BE%AE%E8%A7%82%E5%9F%BA%E7%A1%80/"/>
       <url>/2022/05/28/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC9%E7%AB%A0%EF%BC%9A%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%9A%84%E5%BE%AE%E8%A7%82%E5%9F%BA%E7%A1%80/</url>
       
@@ -817,7 +830,7 @@
     
     
     <entry>
-      <title>【宏观】第8章：经济增长</title>
+      <title>第8章：经济增长</title>
       <link href="/2022/05/25/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC8%E7%AB%A0%EF%BC%9A%E7%BB%8F%E6%B5%8E%E5%A2%9E%E9%95%BF/"/>
       <url>/2022/05/25/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC8%E7%AB%A0%EF%BC%9A%E7%BB%8F%E6%B5%8E%E5%A2%9E%E9%95%BF/</url>
       
@@ -848,7 +861,7 @@
     
     
     <entry>
-      <title>【宏观】第7章：开放经济下的短期经济模型</title>
+      <title>第7章：开放经济下的短期经济模型</title>
       <link href="/2022/05/23/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC7%E7%AB%A0%EF%BC%9A%E5%BC%80%E6%94%BE%E7%BB%8F%E6%B5%8E%E4%B8%8B%E7%9A%84%E7%9F%AD%E6%9C%9F%E7%BB%8F%E6%B5%8E%E6%A8%A1%E5%9E%8B/"/>
       <url>/2022/05/23/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC7%E7%AB%A0%EF%BC%9A%E5%BC%80%E6%94%BE%E7%BB%8F%E6%B5%8E%E4%B8%8B%E7%9A%84%E7%9F%AD%E6%9C%9F%E7%BB%8F%E6%B5%8E%E6%A8%A1%E5%9E%8B/</url>
       
@@ -879,7 +892,7 @@
     
     
     <entry>
-      <title>【宏观】第6章：宏观经济政策</title>
+      <title>第6章：宏观经济政策</title>
       <link href="/2022/05/22/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC6%E7%AB%A0%EF%BC%9A%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E6%94%BF%E7%AD%96/"/>
       <url>/2022/05/22/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC6%E7%AB%A0%EF%BC%9A%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E6%94%BF%E7%AD%96/</url>
       
@@ -910,7 +923,7 @@
     
     
     <entry>
-      <title>【宏观】第5章：失业与通货膨胀</title>
+      <title>第5章：失业与通货膨胀</title>
       <link href="/2022/05/20/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC5%E7%AB%A0%EF%BC%9A%E5%A4%B1%E4%B8%9A%E4%B8%8E%E9%80%9A%E8%B4%A7%E8%86%A8%E8%83%80/"/>
       <url>/2022/05/20/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC5%E7%AB%A0%EF%BC%9A%E5%A4%B1%E4%B8%9A%E4%B8%8E%E9%80%9A%E8%B4%A7%E8%86%A8%E8%83%80/</url>
       
@@ -941,7 +954,7 @@
     
     
     <entry>
-      <title>【宏观】第4章：国民收入的决定：AD-AS 模型</title>
+      <title>第4章：国民收入的决定：AD-AS 模型</title>
       <link href="/2022/05/19/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC4%E7%AB%A0%EF%BC%9A%E5%9B%BD%E6%B0%91%E6%94%B6%E5%85%A5%E7%9A%84%E5%86%B3%E5%AE%9A%EF%BC%9AAD-AS-%E6%A8%A1%E5%9E%8B/"/>
       <url>/2022/05/19/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC4%E7%AB%A0%EF%BC%9A%E5%9B%BD%E6%B0%91%E6%94%B6%E5%85%A5%E7%9A%84%E5%86%B3%E5%AE%9A%EF%BC%9AAD-AS-%E6%A8%A1%E5%9E%8B/</url>
       
@@ -972,7 +985,7 @@
     
     
     <entry>
-      <title>【宏观】第3章：国民收入的决定：IS-LM 模型</title>
+      <title>第3章：国民收入的决定：IS-LM 模型</title>
       <link href="/2022/05/17/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC3%E7%AB%A0%EF%BC%9A%E5%9B%BD%E6%B0%91%E6%94%B6%E5%85%A5%E7%9A%84%E5%86%B3%E5%AE%9A%EF%BC%9AIS-LM-%E6%A8%A1%E5%9E%8B/"/>
       <url>/2022/05/17/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC3%E7%AB%A0%EF%BC%9A%E5%9B%BD%E6%B0%91%E6%94%B6%E5%85%A5%E7%9A%84%E5%86%B3%E5%AE%9A%EF%BC%9AIS-LM-%E6%A8%A1%E5%9E%8B/</url>
       
@@ -1003,7 +1016,7 @@
     
     
     <entry>
-      <title>【宏观】第2章：国民收入的决定：收入—支出模型</title>
+      <title>第2章：国民收入的决定：收入—支出模型</title>
       <link href="/2022/05/15/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC2%E7%AB%A0%EF%BC%9A%E5%9B%BD%E6%B0%91%E6%94%B6%E5%85%A5%E7%9A%84%E5%86%B3%E5%AE%9A%EF%BC%9A%E6%94%B6%E5%85%A5%E2%80%94%E6%94%AF%E5%87%BA%E6%A8%A1%E5%9E%8B/"/>
       <url>/2022/05/15/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC2%E7%AB%A0%EF%BC%9A%E5%9B%BD%E6%B0%91%E6%94%B6%E5%85%A5%E7%9A%84%E5%86%B3%E5%AE%9A%EF%BC%9A%E6%94%B6%E5%85%A5%E2%80%94%E6%94%AF%E5%87%BA%E6%A8%A1%E5%9E%8B/</url>
       
@@ -1034,7 +1047,7 @@
     
     
     <entry>
-      <title>【宏观】第1章：宏观经济的基本指标及其衡量</title>
+      <title>第1章：宏观经济的基本指标及其衡量</title>
       <link href="/2022/05/14/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%8C%87%E6%A0%87%E5%8F%8A%E5%85%B6%E8%A1%A1%E9%87%8F/"/>
       <url>/2022/05/14/%E3%80%90%E5%AE%8F%E8%A7%82%E3%80%91%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%8C%87%E6%A0%87%E5%8F%8A%E5%85%B6%E8%A1%A1%E9%87%8F/</url>
       
@@ -1065,7 +1078,7 @@
     
     
     <entry>
-      <title>【微观】第11章：市场失灵和微观经济政策</title>
+      <title>第11章：市场失灵和微观经济政策</title>
       <link href="/2022/05/11/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC11%E7%AB%A0%EF%BC%9A%E5%B8%82%E5%9C%BA%E5%A4%B1%E7%81%B5%E5%92%8C%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E6%94%BF%E7%AD%96/"/>
       <url>/2022/05/11/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC11%E7%AB%A0%EF%BC%9A%E5%B8%82%E5%9C%BA%E5%A4%B1%E7%81%B5%E5%92%8C%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E6%94%BF%E7%AD%96/</url>
       
@@ -1096,38 +1109,7 @@
     
     
     <entry>
-      <title>【微观】第10章：博弈论</title>
-      <link href="/2022/05/10/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC10%E7%AB%A0%EF%BC%9A%E5%8D%9A%E5%BC%88%E8%AE%BA/"/>
-      <url>/2022/05/10/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC10%E7%AB%A0%EF%BC%9A%E5%8D%9A%E5%BC%88%E8%AE%BA/</url>
-      
-        <content type="html"><![CDATA[<h1 id="一博弈论和策略行为">一、博弈论和策略行为</h1><p>　　博弈论（gametheory）是研究在策略性环境中如何进行策略性决策和采取策略性行动的科学。</p><p>　　博弈的三个基本要素：</p><ul><li>参与人</li><li>参与人的策略</li><li>参与人的支付</li></ul><p>　　博弈的分类：</p><ul><li>根据参与人的数量：二人博弈、多人博弈；</li><li>根据参与人拥有的策略的数量：有限博弈、无限博弈；</li><li>根据参与人的支付情况：零和博弈、非零和博弈；</li><li>根据参与人是否能够达成有效的协议：合作博弈、非合作博弈；</li><li>根据参与人是否了解有关博弈的所有信息：完全信息博弈、不完全信息博弈；</li><li>根据参与人在策略的实施上是否具有“同时性”：静态博弈（或同时博弈）、动态博弈（或序贯博弈）。</li></ul><h1id="二完全信息静态博弈纯策略均衡">二、完全信息静态博弈：纯策略均衡</h1><h2 id="一支付矩阵">（一）支付矩阵</h2><p>　　二人同时博弈可以用支付矩阵来描述和分析，如下表所示。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220011-5hcn8t6.png"title="支付矩阵" alt="image.png" /></p><h2 id="二条件策略和条件策略组合">（二）条件策略和条件策略组合</h2><p>　　把甲厂商在乙厂商选择策略条件下的最优策略称为甲厂商的条件策略；把与甲厂商的条件策略相联系的策略组合称为甲厂商的条件策略组合。</p><h2 id="三纳什均衡">（三）纳什均衡</h2><h3 id="概念">1. 概念</h3><p>　　纳什均衡，指的是参与人的这样一种策略组合。在该策略组合上，任何参与人单独改变策略都不会得到好处。如果在一个策略组合中，当所有其他人都不改变策略时，没有人会改变自己的策略，则该策略组合就是一个纳什均衡。</p><p>　　在纳什均衡的定义中，有两个问题需要注意：</p><ul><li>“单独改变策略”是指任何一个参与人在所有其他人都不改变策略的情况下改变自己的策略。</li><li>“不会得到好处”是指任何一个参与人在单独改变策略之后自己的支付不会增加。</li></ul><h3 id="纳什均衡的确定条件策略下划线法">2.纳什均衡的确定（条件策略下划线法）</h3><ul><li>把整个博弈的支付矩阵分解为两个参与人的支付矩阵。</li><li>在第一个（即位于整个博弈矩阵左方的）参与人的支付矩阵中，找出每一列的最大者，并在其下划线。</li><li>在第二个（即位于整个博弈矩阵上方的）参与人的支付矩阵中，找出每一行的最大者，并在其下划线。</li><li>将已经划好线的两个参与人的支付矩阵再合并起来，得到带有下划线的整个博弈的支付矩阵。</li><li>在带有下划线的整个的支付矩阵中，找到两个数字之下均划有线的支付组合。由该支付组合代表的策略组合就是博弈的纳什均衡。</li></ul><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220301-c784t4t.png"title="寡头博弈：合作与不合作" alt="image.png" /></p><p>　　利用下划线法得出，纳什均衡是（不合作，不合作）。</p><h3 id="纳什均衡的存在性唯一性稳定性和最优性">3.纳什均衡的存在性、唯一性、稳定性和最优性</h3><h4 id="存在性">3.1 存在性</h4><p>　　在完全信息的静态博弈中，（纯策略的）纳什均衡既可能存在，也可能不存在。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220406-dhtb77d.png"title="没有纳什均衡的完全信息静态博弈" alt="image.png" /></p><h4 id="唯一性">3.2 唯一性</h4><p>　　在完全信息的静态博弈中，如果纳什均衡存在，既可能是唯一的，也可能是不唯一的。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220437-t5ta0ga.png"title="存在多重纳什均衡的完全信息静态博弈" alt="image.png" /></p><h4 id="稳定性">3.3 稳定性</h4><p>　　在完全信息的静态博弈中，如果纳什均衡存在，既可能是稳定的，也可能是不稳定的。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220511-h92uhi2.png"title="稳定和不稳定的纳什均衡" alt="image.png" /></p><h4 id="最优性">3.4 最优性</h4><p>　　在完全信息的静态博弈中，如果纳什均衡存在，既可能是最优的，也可能不是最优的。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220437-t5ta0ga.png"title="纳什均衡是否最优性" alt="image.png" /></p><h3 id="纳什均衡和社会福利">4. 纳什均衡和社会福利</h3><h4 id="囚徒困境模型">4.1 囚徒困境模型</h4><p>　　通过分析可以看出，张三和李四的决策都是坦白。但是，如果两人都选择不坦白，则都可以获得最好的结局。很清楚，囚徒困境反映了一个矛盾：即个人理性和团体理性的冲突。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220632-p6jzz5o.png"title="囚徒困境" alt="image.png" /></p><h4 id="广告大战">4.2 广告大战</h4><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220719-i713swa.png"title="广告博弈" alt="image.png" /></p><p>　　纳什均衡（做广告，做广告）不仅对参与人不是最优的，且对整个社会也不是最优的。</p><h1id="三完全信息静态博弈混合策略均衡">三、完全信息静态博弈：混合策略均衡</h1><p>　　即使纯策略的纳什均衡不存在，相应的混合策略纳什均衡却总会存在。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511220818-kfifw1a.png"title="不存在纯策略纳什均衡的混合策略模型" alt="image.png" /></p><p>　　和纯策略组合不同，混合策略组合是一个概率向量组合，每一个概率向量是相应参与人的一个混合策略。</p><p>　　甲厂商的期望支付为：<spanclass="math inline">\(E_甲=p_1(7-10q_1)+5q_1+2\)</span>，那么甲厂商条件混合策略为：</p><p><span class="math display">\[x =   \left \{\begin {align}&amp; 1  &amp; if \ \ q_1  \lt 0.7    \notag \\&amp; [0,1] &amp; if \ \  q_1=0.7     \notag \\&amp; 0  &amp;if \ \  q_1\gt 0.7      \notag \\\end {align}\right.\]</span></p><p>　　乙厂商的期望支付为：<spanclass="math inline">\(E_乙=5p_1(2q_1-1)-7q_1+8\)</span>，那么乙厂商条件混合策略为：</p><p><span class="math display">\[x =   \left \{\begin {align}&amp; 1  &amp; if \ \ q_1  \lt 0.5    \notag \\&amp; [0,1] &amp; if \ \  q_1=0.5   \notag \\&amp; 0  &amp;if \ \  q_1\gt 0.5     \notag \\\end {align}\right.\]</span></p><p>　　借用条件混合策略可确定混合策略的纳什均衡。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511222425-vth28lz.png"title="不存在纯策略均衡时的混合策略均衡" alt="image.png" /></p><h1 id="四完全信息动态博弈">四、完全信息动态博弈</h1><p>　　在完全信息动态博弈中，参与人的决策有先有后，特别是，后行动的参与人可以观察到先行动的参与人已经采取了的策略。</p><h2 id="一博弈树">（一）博弈树</h2><p>　　例子：竞争者—垄断者博弈</p><p>　　描述序贯博弈的工具是“博弈树”，由“点”（包括“起点”“中间点”“终点”）、连接点的“线段”以及标在这些点和线段旁边的文字和数字组成。</p><p>　　以博弈树来描述的完全信息的动态博弈称为扩展型博弈。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511222551-egdruno.png"title="竞争者—垄断者博弈" alt="image.png" /></p><h2 id="二纳什均衡的求解">（二）纳什均衡的求解</h2><p>　　竞争者—垄断者博弈中，纳什均衡为（进入，容忍）。如下图博弈中，两个纳什均衡：（足球，足球）、（芭蕾、芭蕾）。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511222704-opf2y8r.png"title="情侣博弈" alt="image.png" /></p><h2id="三纳什均衡的精炼逆向归纳法">（三）纳什均衡的精炼：逆向归纳法</h2><h3 id="逆向归纳法">1. 逆向归纳法</h3><p>　　对纳什均衡的“精炼”，即从众多的纳什均衡中进一步确定“更好”的纳什均衡。纳什均衡的精炼方法通常是使用“逆向归纳法”。</p><p>　　（1）先从博弈的最后阶段的每一个决策点开始，确定相应参与人此时所选择的策略，并把参与人所放弃的其他策略删除，从而得到原博弈的一个简化博弈。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511222747-prl4umh.png"title="简化的情侣博弈 (1)" alt="image.png" /></p><p>　　（2）再对简化博弈重复步骤一的程序，直到最后，得到原博弈的一个最简博弈。这个最简博弈就是原博弈的解；而在存在多重纳什均衡时，它就是对纳什均衡的精炼。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511222829-qywyiqr.png"title="简化的情侣博弈 (2)" alt="image.png" /></p><h3 id="精炼的纳什均衡与效率">2. 精炼的纳什均衡与效率</h3><p>　　对参与人来说，由逆向归纳法“精炼”出来的完全信息动态博弈的纳什均衡也不一定是有效率的。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220511223010-63gbcjk.png"title="蜈蚣博弈" alt="image.png" /></p><p>　　该博弈在一开始时就会以 A决定卖而结束，相应的支付组合为（1,0），即 A 得到净收益 1，B 得到净收益0。</p><p>　　‍</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 微观经济学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 高鸿业 </tag>
-            
-            <tag> 经济学笔记 </tag>
-            
-            <tag> 微观经济学 </tag>
-            
-            <tag> 微经 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>【微观】第9章：一般均衡论与福利经济学</title>
+      <title>第9章：一般均衡论与福利经济学</title>
       <link href="/2022/05/08/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC9%E7%AB%A0%EF%BC%9A%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1%E8%AE%BA%E4%B8%8E%E7%A6%8F%E5%88%A9%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
       <url>/2022/05/08/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC9%E7%AB%A0%EF%BC%9A%E4%B8%80%E8%88%AC%E5%9D%87%E8%A1%A1%E8%AE%BA%E4%B8%8E%E7%A6%8F%E5%88%A9%E7%BB%8F%E6%B5%8E%E5%AD%A6/</url>
       
@@ -1158,7 +1140,7 @@
     
     
     <entry>
-      <title>【微观】第8章：要素市场理论—生产要素的价格决定</title>
+      <title>第8章：要素市场理论—生产要素的价格决定</title>
       <link href="/2022/05/04/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC8%E7%AB%A0%EF%BC%9A%E8%A6%81%E7%B4%A0%E5%B8%82%E5%9C%BA%E7%90%86%E8%AE%BA%E2%80%94%E7%94%9F%E4%BA%A7%E8%A6%81%E7%B4%A0%E7%9A%84%E4%BB%B7%E6%A0%BC%E5%86%B3%E5%AE%9A/"/>
       <url>/2022/05/04/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC8%E7%AB%A0%EF%BC%9A%E8%A6%81%E7%B4%A0%E5%B8%82%E5%9C%BA%E7%90%86%E8%AE%BA%E2%80%94%E7%94%9F%E4%BA%A7%E8%A6%81%E7%B4%A0%E7%9A%84%E4%BB%B7%E6%A0%BC%E5%86%B3%E5%AE%9A/</url>
       
@@ -1189,7 +1171,7 @@
     
     
     <entry>
-      <title>【微观】第7章：产品市场理论—不完全竞争市场</title>
+      <title>第7章：产品市场理论—不完全竞争市场</title>
       <link href="/2022/05/03/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC7%E7%AB%A0%EF%BC%9A%E4%BA%A7%E5%93%81%E5%B8%82%E5%9C%BA%E7%90%86%E8%AE%BA%E2%80%94%E4%B8%8D%E5%AE%8C%E5%85%A8%E7%AB%9E%E4%BA%89%E5%B8%82%E5%9C%BA/"/>
       <url>/2022/05/03/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC7%E7%AB%A0%EF%BC%9A%E4%BA%A7%E5%93%81%E5%B8%82%E5%9C%BA%E7%90%86%E8%AE%BA%E2%80%94%E4%B8%8D%E5%AE%8C%E5%85%A8%E7%AB%9E%E4%BA%89%E5%B8%82%E5%9C%BA/</url>
       
@@ -1220,7 +1202,7 @@
     
     
     <entry>
-      <title>【微观】第6章：产品市场理论—完全竞争市场</title>
+      <title>第6章：产品市场理论—完全竞争市场</title>
       <link href="/2022/05/02/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC6%E7%AB%A0%EF%BC%9A%E4%BA%A7%E5%93%81%E5%B8%82%E5%9C%BA%E7%90%86%E8%AE%BA%E2%80%94%E5%AE%8C%E5%85%A8%E7%AB%9E%E4%BA%89%E5%B8%82%E5%9C%BA/"/>
       <url>/2022/05/02/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC6%E7%AB%A0%EF%BC%9A%E4%BA%A7%E5%93%81%E5%B8%82%E5%9C%BA%E7%90%86%E8%AE%BA%E2%80%94%E5%AE%8C%E5%85%A8%E7%AB%9E%E4%BA%89%E5%B8%82%E5%9C%BA/</url>
       
@@ -1251,7 +1233,7 @@
     
     
     <entry>
-      <title>【微观】第5章：厂商理论—成本理论</title>
+      <title>第5章：厂商理论—成本理论</title>
       <link href="/2022/05/01/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC5%E7%AB%A0%EF%BC%9A%E5%8E%82%E5%95%86%E7%90%86%E8%AE%BA%E2%80%94%E6%88%90%E6%9C%AC%E7%90%86%E8%AE%BA/"/>
       <url>/2022/05/01/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC5%E7%AB%A0%EF%BC%9A%E5%8E%82%E5%95%86%E7%90%86%E8%AE%BA%E2%80%94%E6%88%90%E6%9C%AC%E7%90%86%E8%AE%BA/</url>
       
@@ -1282,7 +1264,7 @@
     
     
     <entry>
-      <title>【微观】第4章：厂商理论—生产函数</title>
+      <title>第4章：厂商理论—生产函数</title>
       <link href="/2022/04/30/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC4%E7%AB%A0%EF%BC%9A%E5%8E%82%E5%95%86%E7%90%86%E8%AE%BA%E2%80%94%E7%94%9F%E4%BA%A7%E5%87%BD%E6%95%B0/"/>
       <url>/2022/04/30/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC4%E7%AB%A0%EF%BC%9A%E5%8E%82%E5%95%86%E7%90%86%E8%AE%BA%E2%80%94%E7%94%9F%E4%BA%A7%E5%87%BD%E6%95%B0/</url>
       
@@ -1313,7 +1295,7 @@
     
     
     <entry>
-      <title>【微观】第3章：消费者理论</title>
+      <title>第3章：消费者理论</title>
       <link href="/2022/04/29/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC3%E7%AB%A0%EF%BC%9A%E6%B6%88%E8%B4%B9%E8%80%85%E7%90%86%E8%AE%BA/"/>
       <url>/2022/04/29/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC3%E7%AB%A0%EF%BC%9A%E6%B6%88%E8%B4%B9%E8%80%85%E7%90%86%E8%AE%BA/</url>
       
@@ -1344,7 +1326,7 @@
     
     
     <entry>
-      <title>【微观】第2章：均衡价格理论（局部均衡）</title>
+      <title>第2章：均衡价格理论（局部均衡）</title>
       <link href="/2022/04/28/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC2%E7%AB%A0%EF%BC%9A%E5%9D%87%E8%A1%A1%E4%BB%B7%E6%A0%BC%E7%90%86%E8%AE%BA%EF%BC%88%E5%B1%80%E9%83%A8%E5%9D%87%E8%A1%A1%EF%BC%89/"/>
       <url>/2022/04/28/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC2%E7%AB%A0%EF%BC%9A%E5%9D%87%E8%A1%A1%E4%BB%B7%E6%A0%BC%E7%90%86%E8%AE%BA%EF%BC%88%E5%B1%80%E9%83%A8%E5%9D%87%E8%A1%A1%EF%BC%89/</url>
       
@@ -1375,7 +1357,7 @@
     
     
     <entry>
-      <title>【微观】第1章：绪论</title>
+      <title>第1章：绪论</title>
       <link href="/2022/04/27/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E7%BB%AA%E8%AE%BA/"/>
       <url>/2022/04/27/%E3%80%90%E5%BE%AE%E8%A7%82%E3%80%91%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E7%BB%AA%E8%AE%BA/</url>
       
@@ -1406,7 +1388,7 @@
     
     
     <entry>
-      <title>【实证分析】工具变量</title>
+      <title>工具变量</title>
       <link href="/2022/04/25/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F/"/>
       <url>/2022/04/25/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E5%B7%A5%E5%85%B7%E5%8F%98%E9%87%8F/</url>
       
@@ -1433,7 +1415,7 @@
     
     
     <entry>
-      <title>【实证分析】双重差分 (DID) 的四个假设</title>
+      <title>双重差分 (DID) 的四个假设</title>
       <link href="/2022/04/25/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86%EF%BC%88DID%EF%BC%89%E7%9A%84%E5%9B%9B%E4%B8%AA%E5%81%87%E8%AE%BE/"/>
       <url>/2022/04/25/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86%EF%BC%88DID%EF%BC%89%E7%9A%84%E5%9B%9B%E4%B8%AA%E5%81%87%E8%AE%BE/</url>
       
@@ -1460,7 +1442,7 @@
     
     
     <entry>
-      <title>【数据清洗】样本计数</title>
+      <title>样本计数</title>
       <link href="/2022/03/24/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%A0%B7%E6%9C%AC%E8%AE%A1%E6%95%B0/"/>
       <url>/2022/03/24/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%A0%B7%E6%9C%AC%E8%AE%A1%E6%95%B0/</url>
       
@@ -1489,7 +1471,7 @@
     
     
     <entry>
-      <title>【数据清洗】计算同侪效应</title>
+      <title>计算同侪效应</title>
       <link href="/2022/03/23/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E8%AE%A1%E7%AE%97%E5%90%8C%E4%BE%AA%E6%95%88%E5%BA%94/"/>
       <url>/2022/03/23/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E8%AE%A1%E7%AE%97%E5%90%8C%E4%BE%AA%E6%95%88%E5%BA%94/</url>
       
@@ -1518,7 +1500,7 @@
     
     
     <entry>
-      <title>【数据清洗】数据乱码问题</title>
+      <title>数据乱码问题</title>
       <link href="/2022/03/22/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%95%B0%E6%8D%AE%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/"/>
       <url>/2022/03/22/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%95%B0%E6%8D%AE%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</url>
       
@@ -1547,7 +1529,7 @@
     
     
     <entry>
-      <title>【数据清洗】其他样本管理</title>
+      <title>其他样本管理</title>
       <link href="/2022/03/21/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E5%85%B6%E4%BB%96%E6%A0%B7%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
       <url>/2022/03/21/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E5%85%B6%E4%BB%96%E6%A0%B7%E6%9C%AC%E7%AE%A1%E7%90%86/</url>
       
@@ -1576,7 +1558,7 @@
     
     
     <entry>
-      <title>【数据清洗】缩尾与截尾</title>
+      <title>缩尾与截尾</title>
       <link href="/2022/03/20/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E7%BC%A9%E5%B0%BE%E4%B8%8E%E6%88%AA%E5%B0%BE/"/>
       <url>/2022/03/20/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E7%BC%A9%E5%B0%BE%E4%B8%8E%E6%88%AA%E5%B0%BE/</url>
       
@@ -1605,7 +1587,7 @@
     
     
     <entry>
-      <title>【数据清洗】字符型变量运算</title>
+      <title>字符型变量运算</title>
       <link href="/2022/03/19/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E5%AD%97%E7%AC%A6%E5%9E%8B%E5%8F%98%E9%87%8F%E8%BF%90%E7%AE%97/"/>
       <url>/2022/03/19/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E5%AD%97%E7%AC%A6%E5%9E%8B%E5%8F%98%E9%87%8F%E8%BF%90%E7%AE%97/</url>
       
@@ -1634,7 +1616,7 @@
     
     
     <entry>
-      <title>【数据清洗】变量名、标签、排序、删除、保留</title>
+      <title>变量名、标签、排序、删除、保留</title>
       <link href="/2022/03/18/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E5%8F%98%E9%87%8F%E5%90%8D%E3%80%81%E6%A0%87%E7%AD%BE%E3%80%81%E6%8E%92%E5%BA%8F%E3%80%81%E5%88%A0%E9%99%A4%E3%80%81%E4%BF%9D%E7%95%99/"/>
       <url>/2022/03/18/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E5%8F%98%E9%87%8F%E5%90%8D%E3%80%81%E6%A0%87%E7%AD%BE%E3%80%81%E6%8E%92%E5%BA%8F%E3%80%81%E5%88%A0%E9%99%A4%E3%80%81%E4%BF%9D%E7%95%99/</url>
       
@@ -1663,7 +1645,7 @@
     
     
     <entry>
-      <title>【数据清洗】变量滞后与提前</title>
+      <title>变量滞后与提前</title>
       <link href="/2022/03/17/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E5%8F%98%E9%87%8F%E6%BB%9E%E5%90%8E%E4%B8%8E%E6%8F%90%E5%89%8D/"/>
       <url>/2022/03/17/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E5%8F%98%E9%87%8F%E6%BB%9E%E5%90%8E%E4%B8%8E%E6%8F%90%E5%89%8D/</url>
       
@@ -1692,7 +1674,7 @@
     
     
     <entry>
-      <title>【实证分析】为什么使用PSM消除样本选择偏差</title>
+      <title>为什么使用PSM消除样本选择偏差</title>
       <link href="/2022/03/16/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8PSM%E6%B6%88%E9%99%A4%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9%E5%81%8F%E5%B7%AE/"/>
       <url>/2022/03/16/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8PSM%E6%B6%88%E9%99%A4%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9%E5%81%8F%E5%B7%AE/</url>
       
@@ -1719,7 +1701,7 @@
     
     
     <entry>
-      <title>【实证分析】取对数问题</title>
+      <title>取对数问题</title>
       <link href="/2022/03/16/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E5%8F%96%E5%AF%B9%E6%95%B0%E9%97%AE%E9%A2%98/"/>
       <url>/2022/03/16/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E5%8F%96%E5%AF%B9%E6%95%B0%E9%97%AE%E9%A2%98/</url>
       
@@ -1746,7 +1728,7 @@
     
     
     <entry>
-      <title>【数据清洗】变量生成与替换</title>
+      <title>变量生成与替换</title>
       <link href="/2022/03/16/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E5%8F%98%E9%87%8F%E7%94%9F%E6%88%90%E4%B8%8E%E6%9B%BF%E6%8D%A2/"/>
       <url>/2022/03/16/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E5%8F%98%E9%87%8F%E7%94%9F%E6%88%90%E4%B8%8E%E6%9B%BF%E6%8D%A2/</url>
       
@@ -1775,7 +1757,7 @@
     
     
     <entry>
-      <title>【实证分析】相关性、共线性检验</title>
+      <title>相关性、共线性检验</title>
       <link href="/2022/03/16/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E7%9B%B8%E5%85%B3%E6%80%A7%E3%80%81%E5%85%B1%E7%BA%BF%E6%80%A7%E6%A3%80%E9%AA%8C/"/>
       <url>/2022/03/16/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E7%9B%B8%E5%85%B3%E6%80%A7%E3%80%81%E5%85%B1%E7%BA%BF%E6%80%A7%E6%A3%80%E9%AA%8C/</url>
       
@@ -1806,7 +1788,7 @@
     
     
     <entry>
-      <title>【数据清洗】数据格式转换</title>
+      <title>数据格式转换</title>
       <link href="/2022/03/15/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/"/>
       <url>/2022/03/15/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/</url>
       
@@ -1835,7 +1817,7 @@
     
     
     <entry>
-      <title>【数据清洗】长宽数据转换</title>
+      <title>长宽数据转换</title>
       <link href="/2022/03/14/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E9%95%BF%E5%AE%BD%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2/"/>
       <url>/2022/03/14/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E9%95%BF%E5%AE%BD%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2/</url>
       
@@ -1864,7 +1846,7 @@
     
     
     <entry>
-      <title>【数据清洗】数据匹配、接驳</title>
+      <title>数据匹配、接驳</title>
       <link href="/2022/03/13/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%95%B0%E6%8D%AE%E5%8C%B9%E9%85%8D%E3%80%81%E6%8E%A5%E9%A9%B3/"/>
       <url>/2022/03/13/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%95%B0%E6%8D%AE%E5%8C%B9%E9%85%8D%E3%80%81%E6%8E%A5%E9%A9%B3/</url>
       
@@ -1893,7 +1875,7 @@
     
     
     <entry>
-      <title>【数据清洗】数据打开保存、导入导出、删除</title>
+      <title>数据打开保存、导入导出、删除</title>
       <link href="/2022/03/12/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%BF%9D%E5%AD%98%E3%80%81%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA%E3%80%81%E5%88%A0%E9%99%A4/"/>
       <url>/2022/03/12/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%BF%9D%E5%AD%98%E3%80%81%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA%E3%80%81%E5%88%A0%E9%99%A4/</url>
       
@@ -1922,7 +1904,7 @@
     
     
     <entry>
-      <title>【数据清洗】If 条件使用</title>
+      <title>If 条件使用</title>
       <link href="/2022/03/11/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91If%E6%9D%A1%E4%BB%B6%E4%BD%BF%E7%94%A8/"/>
       <url>/2022/03/11/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91If%E6%9D%A1%E4%BB%B6%E4%BD%BF%E7%94%A8/</url>
       
@@ -1951,7 +1933,7 @@
     
     
     <entry>
-      <title>【数据清洗】命令安装、查询</title>
+      <title>命令安装、查询</title>
       <link href="/2022/03/10/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E5%91%BD%E4%BB%A4%E5%AE%89%E8%A3%85%E3%80%81%E6%9F%A5%E8%AF%A2/"/>
       <url>/2022/03/10/%E3%80%90%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E3%80%91%E5%91%BD%E4%BB%A4%E5%AE%89%E8%A3%85%E3%80%81%E6%9F%A5%E8%AF%A2/</url>
       
@@ -1980,7 +1962,7 @@
     
     
     <entry>
-      <title>【实证分析】主成分分析</title>
+      <title>主成分分析</title>
       <link href="/2021/10/19/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90/"/>
       <url>/2021/10/19/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90/</url>
       
@@ -2009,7 +1991,7 @@
     
     
     <entry>
-      <title>【实证分析】熵权法</title>
+      <title>熵权法</title>
       <link href="/2021/10/19/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E7%86%B5%E6%9D%83%E6%B3%95/"/>
       <url>/2021/10/19/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E7%86%B5%E6%9D%83%E6%B3%95/</url>
       
@@ -2038,7 +2020,7 @@
     
     
     <entry>
-      <title>【实证分析】统计分析</title>
+      <title>统计分析</title>
       <link href="/2021/10/18/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90/"/>
       <url>/2021/10/18/%E3%80%90%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90%E3%80%91%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90/</url>
       
