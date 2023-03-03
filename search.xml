@@ -152,9 +152,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -387,9 +387,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -424,9 +424,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -461,9 +461,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -610,9 +610,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -1634,7 +1634,7 @@
       <link href="/2022/04/27/%E5%BE%AE%E8%A7%82-%E3%80%8A%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E3%80%8B%E5%86%85%E5%AE%B9%E9%80%9F%E6%9F%A5%E4%B8%8E%E7%AC%94%E8%AE%B0%E7%9B%AE%E5%BD%95/"/>
       <url>/2022/04/27/%E5%BE%AE%E8%A7%82-%E3%80%8A%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E3%80%8B%E5%86%85%E5%AE%B9%E9%80%9F%E6%9F%A5%E4%B8%8E%E7%AC%94%E8%AE%B0%E7%9B%AE%E5%BD%95/</url>
       
-        <content type="html"><![CDATA[<p>　　<strong>参考高鸿业《西方经济学（微观部分）》</strong></p><p>　　‍</p><p><strong>均衡条件或最优条件（帕累托最优）</strong>：</p><ul><li>要素配置最优条件：<span class="math inline">\(MRTS_{LK}^X =MRTS_{LK}^Y\)</span></li><li>商品交换最优条件：<span class="math inline">\(MRS_{XY}^A =MRS_{XY}^B\)</span>（消费者 A 与 B 之间不再进行交换）</li><li>生产与交换的均衡：<spanclass="math inline">\(MRS_{XY}=MRT_{XY}\)</span>（其中 <spanclass="math inline">\(MRS_{XY}=MRS_{XY}^A = MRS_{XY}^B\)</span>）</li></ul><p>　　‍</p><p>MRS：Marginal Rate of Substitution</p><p>MRS：<ahref="siyuan://blocks/20220428155111-07ec2ez">边际替代率</a>，无差异曲线斜率（消费理论）<spanclass="math inline">\(\to\)</span> 商品消费数量的替代关系</p><p><span class="math inline">\(MRS_{XY} = - \frac {\Delta Y} {\Delta X}= \frac {MU_X} {MU_Y} =\frac {P_X } {P_Y}\)</span></p><p>　　‍</p><p>MRTS：Marginal Rate of Technical Substitution</p><p>MRTS：<ahref="siyuan://blocks/20220428193209-9t1lmgg">边际技术替代率</a>，等产量线斜率（生产理论）<spanclass="math inline">\(\to\)</span> 投入要素的替代关系</p><p><span class="math inline">\(MRTS_{LK} = - \frac {\Delta K} {\Delta L}= \frac {MP_L} {MP_K} =\frac w r\)</span></p><p><span class="math inline">\(MRTS_{LK} = - \frac {\Delta K} {\Delta L}= \frac {MP_L} {MP_K} = \frac w r\)</span></p><p>　　‍</p><p>MRT：Marginal Rate of Transformation</p><p>MRT：<ahref="siyuan://blocks/20220511211937-q6kddms">边际转换率</a>，生产可能性曲线斜率（生产理论）<span class="math inline">\(\to\)</span> 生产产品数量的替代关系</p><p><span class="math inline">\(MRT_{XY} = - \frac {\Delta Y} {\Delta X}= \frac {MC_X} {MC_Y}\)</span></p><p>　　‍</p><hr /><p>## 目 录</p><p>　　<ahref="https://fgzfgz.github.io/2022/04/27/微观-第1章：绪论/">第1章：绪论</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/04/28/微观-第2章：均衡价格理论（局部均衡）/">第2章：均衡价格理论（局部均衡）</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/04/29/微观-第3章：消费者理论/">第3章：消费者理论</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/04/30/微观-第4章：厂商理论—生产函数/">第4章：厂商理论—生产函数</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/05/01/微观-第5章：厂商理论—成本理论/">第5章：厂商理论—成本理论</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/05/02/微观-第6章：产品市场理论—完全竞争市场/">第6章：产品市场理论—完全竞争市场</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/05/03/微观-第7章：产品市场理论—不完全竞争市场/">第7章：产品市场理论—不完全竞争市场</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/05/04/微观-第8章：要素市场理论—生产要素的价格决定/">第8章：要素市场理论—生产要素的价格决定</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/05/08/微观-第9章：一般均衡论与福利经济学/">第9章：一般均衡论与福利经济学</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/05/10/微观-第10章：博弈论/">第10章：博弈论</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/05/11/微观-第11章：市场失灵和微观经济政策/">第11章：市场失灵和微观经济政策</a></p><hr /><p><strong>相关资源：</strong></p><ol type="1"><li><ahref="https://fgzfgz.github.io/2022/04/26/资源下载-经济学笔记下载/">经济学笔记下载</a></li><li><ahref="https://fgzfgz.github.io/2022/04/27/微观-《微观经济学》内容速查与笔记目录/">《微观经济学》内容速查与笔记目录</a></li><li><ahref="https://fgzfgz.github.io/2022/04/27/微观-《微观经济学》内容速查与笔记目录/">《宏观经济学》内容速查与笔记目录</a></li></ol>]]></content>
+        <content type="html"><![CDATA[<p>　　<strong>参考高鸿业《西方经济学（微观部分）》</strong></p><p>　　‍</p><p><strong>均衡条件或最优条件（帕累托最优）</strong>：</p><ul><li>要素配置最优条件：<span class="math inline">\({MRTS}_{LK}^X ={MRTS}_{LK}^Y\)</span></li><li>商品交换最优条件：<span class="math inline">\({MRS}_{XY}^A ={MRS}_{XY}^B\)</span>（消费者 A 与 B 之间不再进行交换）</li><li>生产与交换的均衡：<spanclass="math inline">\({MRS}_{XY}={MRT}_{XY}\)</span>（其中 <spanclass="math inline">\({MRS}_{XY}={MRS}_{XY}^A ={MRS}_{XY}^B\)</span>）</li></ul><p>　　‍</p><p>MRS：Marginal Rate of Substitution</p><p>MRS：<ahref="siyuan://blocks/20220428155111-07ec2ez">边际替代率</a>，无差异曲线斜率（消费理论）<spanclass="math inline">\(\to\)</span> 商品消费数量的替代关系</p><p><span class="math inline">\({MRS}_{XY} = - \frac {\Delta Y} {\DeltaX} = \frac {MU_X} {MU_Y} =\frac {P_X } {P_Y}\)</span></p><p>　　‍</p><p>MRTS：Marginal Rate of Technical Substitution</p><p>MRTS：<ahref="siyuan://blocks/20220428193209-9t1lmgg">边际技术替代率</a>，等产量线斜率（生产理论）<spanclass="math inline">\(\to\)</span> 投入要素的替代关系</p><p><span class="math inline">\({MRTS}_{LK} = - \frac {\Delta K} {\DeltaL} = \frac {MP_L} {MP_K} =\frac w r\)</span></p><p><span class="math inline">\({MRTS}_{LK} = - \frac {\Delta K} {\DeltaL} = \frac {MP_L} {MP_K} = \frac w r\)</span></p><p>　　‍</p><p>MRT：Marginal Rate of Transformation</p><p>MRT：<ahref="siyuan://blocks/20220511211937-q6kddms">边际转换率</a>，生产可能性曲线斜率（生产理论）<span class="math inline">\(\to\)</span> 生产产品数量的替代关系</p><p><span class="math inline">\({MRT}_{XY} = - \frac {\Delta Y} {\DeltaX} = \frac {MC_X} {MC_Y}\)</span></p><p>　　‍</p><hr /><p>## 目 录</p><p>　　<ahref="https://fgzfgz.github.io/2022/04/27/微观-第1章：绪论/">第1章：绪论</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/04/28/微观-第2章：均衡价格理论（局部均衡）/">第2章：均衡价格理论（局部均衡）</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/04/29/微观-第3章：消费者理论/">第3章：消费者理论</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/04/30/微观-第4章：厂商理论—生产函数/">第4章：厂商理论—生产函数</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/05/01/微观-第5章：厂商理论—成本理论/">第5章：厂商理论—成本理论</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/05/02/微观-第6章：产品市场理论—完全竞争市场/">第6章：产品市场理论—完全竞争市场</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/05/03/微观-第7章：产品市场理论—不完全竞争市场/">第7章：产品市场理论—不完全竞争市场</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/05/04/微观-第8章：要素市场理论—生产要素的价格决定/">第8章：要素市场理论—生产要素的价格决定</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/05/08/微观-第9章：一般均衡论与福利经济学/">第9章：一般均衡论与福利经济学</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/05/10/微观-第10章：博弈论/">第10章：博弈论</a></p><p>　　<ahref="https://fgzfgz.github.io/2022/05/11/微观-第11章：市场失灵和微观经济政策/">第11章：市场失灵和微观经济政策</a></p><hr /><p><strong>相关资源：</strong></p><ol type="1"><li><ahref="https://fgzfgz.github.io/2022/04/26/资源下载-经济学笔记下载/">经济学笔记下载</a></li><li><ahref="https://fgzfgz.github.io/2022/04/27/微观-《微观经济学》内容速查与笔记目录/">《微观经济学》内容速查与笔记目录</a></li><li><ahref="https://fgzfgz.github.io/2022/04/27/微观-《微观经济学》内容速查与笔记目录/">《宏观经济学》内容速查与笔记目录</a></li></ol>]]></content>
       
       
       <categories>
@@ -2332,35 +2332,6 @@
     
     
     <entry>
-      <title>熵权法</title>
-      <link href="/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E7%86%B5%E6%9D%83%E6%B3%95/"/>
-      <url>/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E7%86%B5%E6%9D%83%E6%B3%95/</url>
-      
-        <content type="html"><![CDATA[<p>　　熵权法的计算要点：</p><ul><li>区分正向指标与负向指标</li><li>权重的计算方法</li></ul><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 熵权法</span></span><br><span class="line"><span class="keyword">global</span> xlist1 <span class="string">&quot;X1 X2 X3 X4 X5 X6&quot;</span>   <span class="comment">// 正向指标</span></span><br><span class="line"><span class="keyword">global</span> xlist2 <span class="string">&quot;X7 X8&quot;</span>   <span class="comment">// 负向指标</span></span><br><span class="line"><span class="keyword">global</span> xlist <span class="string">&quot;$xlist1 $xlist2&quot;</span></span><br><span class="line"><span class="comment">*** 正向指标</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist1 &#123;</span><br><span class="line"><span class="keyword">egen</span> min_<span class="symbol">`v&#x27;</span>= <span class="built_in">min</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> max_<span class="symbol">`v&#x27;</span>= <span class="built_in">max</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="comment">//正向变量标准化</span></span><br><span class="line"><span class="keyword">gen</span> <span class="symbol">`v&#x27;</span>_n = (<span class="symbol">`v&#x27;</span>-min_<span class="symbol">`v&#x27;</span>)/(max_<span class="symbol">`v&#x27;</span>-min_<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> <span class="symbol">`v&#x27;</span>_sum = <span class="built_in">sum</span>(<span class="symbol">`v&#x27;</span>_n)</span><br><span class="line"><span class="comment">// 第j个指标中第i个样本所占的比重</span></span><br><span class="line"><span class="keyword">gen</span> p_<span class="symbol">`v&#x27;</span>= <span class="symbol">`v&#x27;</span>_n/<span class="symbol">`v&#x27;</span>_sum</span><br><span class="line"><span class="keyword">gen</span> k_<span class="symbol">`v&#x27;</span> = -(1/<span class="built_in">ln</span>(_N))</span><br><span class="line"><span class="keyword">egen</span> x_<span class="symbol">`v&#x27;</span> = <span class="built_in">sum</span>(p_<span class="symbol">`v&#x27;</span>*<span class="built_in">ln</span>(p_<span class="symbol">`v&#x27;</span>))  </span><br><span class="line"><span class="comment">//计算第j个指标的熵值</span></span><br><span class="line"><span class="keyword">gen</span> e_<span class="symbol">`v&#x27;</span>=k_<span class="symbol">`v&#x27;</span>*x_<span class="symbol">`v&#x27;</span></span><br><span class="line"><span class="comment">//计算差异系数，该系数越大指标越重要</span></span><br><span class="line"><span class="keyword">gen</span> g_<span class="symbol">`v&#x27;</span>=1-e_<span class="symbol">`v&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">*** 负向指标</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist2 &#123;</span><br><span class="line"><span class="keyword">egen</span> min_<span class="symbol">`v&#x27;</span>= <span class="built_in">min</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> max_<span class="symbol">`v&#x27;</span>= <span class="built_in">max</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="comment">//负向变量标准化</span></span><br><span class="line"><span class="keyword">gen</span> <span class="symbol">`v&#x27;</span>_n = (max_<span class="symbol">`v&#x27;</span>-<span class="symbol">`v&#x27;</span>)/(max_<span class="symbol">`v&#x27;</span>-min_<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> <span class="symbol">`v&#x27;</span>_sum = <span class="built_in">sum</span>(<span class="symbol">`v&#x27;</span>_n)</span><br><span class="line"><span class="comment">// 第j个指标中第i个样本所占的比重</span></span><br><span class="line"><span class="keyword">gen</span> p_<span class="symbol">`v&#x27;</span>= <span class="symbol">`v&#x27;</span>_n/<span class="symbol">`v&#x27;</span>_sum</span><br><span class="line"><span class="keyword">gen</span> k_<span class="symbol">`v&#x27;</span> = -(1/<span class="built_in">ln</span>(_N))</span><br><span class="line"><span class="keyword">egen</span> x_<span class="symbol">`v&#x27;</span> = <span class="built_in">sum</span>(p_<span class="symbol">`v&#x27;</span>*<span class="built_in">ln</span>(p_<span class="symbol">`v&#x27;</span>))  </span><br><span class="line"><span class="comment">//计算第j个指标的熵值</span></span><br><span class="line"><span class="keyword">gen</span> e_<span class="symbol">`v&#x27;</span>=k_<span class="symbol">`v&#x27;</span>*x_<span class="symbol">`v&#x27;</span></span><br><span class="line"><span class="comment">//计算差异系数，该系数越大指标越重要</span></span><br><span class="line"><span class="keyword">gen</span> g_<span class="symbol">`v&#x27;</span>=1-e_<span class="symbol">`v&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">egen</span> y=rowtotal(g_*),missing</span><br><span class="line"><span class="comment">*** 计算第j个指标的权重</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist &#123;</span><br><span class="line"><span class="keyword">gen</span> w_<span class="symbol">`v&#x27;</span>= g_<span class="symbol">`v&#x27;</span>/y</span><br><span class="line">    <span class="keyword">gen</span> wn_<span class="symbol">`v&#x27;</span>=w_<span class="symbol">`v&#x27;</span>*<span class="symbol">`v&#x27;</span>_n</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">*** 使用熵权法计算综合指标</span></span><br><span class="line"><span class="keyword">egen</span> X=rowtotal(wn_*),missing</span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist &#123;</span><br><span class="line"><span class="keyword">replace</span> X=. <span class="keyword">if</span> wn_<span class="symbol">`v&#x27;</span>==.</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 删除临时变量</span></span><br><span class="line"><span class="keyword">drop</span> min_* max_* *_n *_sum p_* k_* x_* e_* g_* w_* wn_* y</span><br></pre></td></tr></table></figure><p>　　相关链接：</p><p>　　<ahref="https://zhuanlan.zhihu.com/p/409618462">【知乎】面板数据熵权法的Stata程序</a></p><p>　　<ahref="https://bbs.pinggu.org/thread-10976172-1-1.html">【经管之家】stata熵权法命令分享</a></p><p>　　‍</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 实证分析 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Stata </tag>
-            
-            <tag> 实证分析 </tag>
-            
-            <tag> 熵权法 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>主成分分析</title>
       <link href="/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90/"/>
       <url>/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90/</url>
@@ -2382,6 +2353,35 @@
             <tag> 实证分析 </tag>
             
             <tag> 主成分分析 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>熵权法</title>
+      <link href="/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E7%86%B5%E6%9D%83%E6%B3%95/"/>
+      <url>/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E7%86%B5%E6%9D%83%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>　　熵权法的计算要点：</p><ul><li>区分正向指标与负向指标</li><li>权重的计算方法</li></ul><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 熵权法</span></span><br><span class="line"><span class="keyword">global</span> xlist1 <span class="string">&quot;X1 X2 X3 X4 X5 X6&quot;</span>   <span class="comment">// 正向指标</span></span><br><span class="line"><span class="keyword">global</span> xlist2 <span class="string">&quot;X7 X8&quot;</span>   <span class="comment">// 负向指标</span></span><br><span class="line"><span class="keyword">global</span> xlist <span class="string">&quot;$xlist1 $xlist2&quot;</span></span><br><span class="line"><span class="comment">*** 正向指标</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist1 &#123;</span><br><span class="line"><span class="keyword">egen</span> min_<span class="symbol">`v&#x27;</span>= <span class="built_in">min</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> max_<span class="symbol">`v&#x27;</span>= <span class="built_in">max</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="comment">//正向变量标准化</span></span><br><span class="line"><span class="keyword">gen</span> <span class="symbol">`v&#x27;</span>_n = (<span class="symbol">`v&#x27;</span>-min_<span class="symbol">`v&#x27;</span>)/(max_<span class="symbol">`v&#x27;</span>-min_<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> <span class="symbol">`v&#x27;</span>_sum = <span class="built_in">sum</span>(<span class="symbol">`v&#x27;</span>_n)</span><br><span class="line"><span class="comment">// 第j个指标中第i个样本所占的比重</span></span><br><span class="line"><span class="keyword">gen</span> p_<span class="symbol">`v&#x27;</span>= <span class="symbol">`v&#x27;</span>_n/<span class="symbol">`v&#x27;</span>_sum</span><br><span class="line"><span class="keyword">gen</span> k_<span class="symbol">`v&#x27;</span> = -(1/<span class="built_in">ln</span>(_N))</span><br><span class="line"><span class="keyword">egen</span> x_<span class="symbol">`v&#x27;</span> = <span class="built_in">sum</span>(p_<span class="symbol">`v&#x27;</span>*<span class="built_in">ln</span>(p_<span class="symbol">`v&#x27;</span>))  </span><br><span class="line"><span class="comment">//计算第j个指标的熵值</span></span><br><span class="line"><span class="keyword">gen</span> e_<span class="symbol">`v&#x27;</span>=k_<span class="symbol">`v&#x27;</span>*x_<span class="symbol">`v&#x27;</span></span><br><span class="line"><span class="comment">//计算差异系数，该系数越大指标越重要</span></span><br><span class="line"><span class="keyword">gen</span> g_<span class="symbol">`v&#x27;</span>=1-e_<span class="symbol">`v&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">*** 负向指标</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist2 &#123;</span><br><span class="line"><span class="keyword">egen</span> min_<span class="symbol">`v&#x27;</span>= <span class="built_in">min</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> max_<span class="symbol">`v&#x27;</span>= <span class="built_in">max</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="comment">//负向变量标准化</span></span><br><span class="line"><span class="keyword">gen</span> <span class="symbol">`v&#x27;</span>_n = (max_<span class="symbol">`v&#x27;</span>-<span class="symbol">`v&#x27;</span>)/(max_<span class="symbol">`v&#x27;</span>-min_<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> <span class="symbol">`v&#x27;</span>_sum = <span class="built_in">sum</span>(<span class="symbol">`v&#x27;</span>_n)</span><br><span class="line"><span class="comment">// 第j个指标中第i个样本所占的比重</span></span><br><span class="line"><span class="keyword">gen</span> p_<span class="symbol">`v&#x27;</span>= <span class="symbol">`v&#x27;</span>_n/<span class="symbol">`v&#x27;</span>_sum</span><br><span class="line"><span class="keyword">gen</span> k_<span class="symbol">`v&#x27;</span> = -(1/<span class="built_in">ln</span>(_N))</span><br><span class="line"><span class="keyword">egen</span> x_<span class="symbol">`v&#x27;</span> = <span class="built_in">sum</span>(p_<span class="symbol">`v&#x27;</span>*<span class="built_in">ln</span>(p_<span class="symbol">`v&#x27;</span>))  </span><br><span class="line"><span class="comment">//计算第j个指标的熵值</span></span><br><span class="line"><span class="keyword">gen</span> e_<span class="symbol">`v&#x27;</span>=k_<span class="symbol">`v&#x27;</span>*x_<span class="symbol">`v&#x27;</span></span><br><span class="line"><span class="comment">//计算差异系数，该系数越大指标越重要</span></span><br><span class="line"><span class="keyword">gen</span> g_<span class="symbol">`v&#x27;</span>=1-e_<span class="symbol">`v&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">egen</span> y=rowtotal(g_*),missing</span><br><span class="line"><span class="comment">*** 计算第j个指标的权重</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist &#123;</span><br><span class="line"><span class="keyword">gen</span> w_<span class="symbol">`v&#x27;</span>= g_<span class="symbol">`v&#x27;</span>/y</span><br><span class="line">    <span class="keyword">gen</span> wn_<span class="symbol">`v&#x27;</span>=w_<span class="symbol">`v&#x27;</span>*<span class="symbol">`v&#x27;</span>_n</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">*** 使用熵权法计算综合指标</span></span><br><span class="line"><span class="keyword">egen</span> X=rowtotal(wn_*),missing</span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist &#123;</span><br><span class="line"><span class="keyword">replace</span> X=. <span class="keyword">if</span> wn_<span class="symbol">`v&#x27;</span>==.</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 删除临时变量</span></span><br><span class="line"><span class="keyword">drop</span> min_* max_* *_n *_sum p_* k_* x_* e_* g_* w_* wn_* y</span><br></pre></td></tr></table></figure><p>　　相关链接：</p><p>　　<ahref="https://zhuanlan.zhihu.com/p/409618462">【知乎】面板数据熵权法的Stata程序</a></p><p>　　<ahref="https://bbs.pinggu.org/thread-10976172-1-1.html">【经管之家】stata熵权法命令分享</a></p><p>　　‍</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Stata </tag>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 熵权法 </tag>
             
         </tags>
       
