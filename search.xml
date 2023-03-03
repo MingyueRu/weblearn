@@ -152,9 +152,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -387,9 +387,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -424,9 +424,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -461,9 +461,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -610,9 +610,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -2044,33 +2044,6 @@
     
     
     <entry>
-      <title>为什么使用PSM消除样本选择偏差</title>
-      <link href="/2022/03/16/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8PSM%E6%B6%88%E9%99%A4%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9%E5%81%8F%E5%B7%AE/"/>
-      <url>/2022/03/16/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8PSM%E6%B6%88%E9%99%A4%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9%E5%81%8F%E5%B7%AE/</url>
-      
-        <content type="html"><![CDATA[<p>　　<strong>要理解为什么用 psm 消除样本的选择偏误，先要理解 psm的原理。</strong></p><p>　　在研究一种干预措施的效果时，理想状态是进行随机化实验，也就是控制其他所有条件都相同，仅有是否采取干预措施这一点不同，这样就可以通过比较随机化实验中干预组与对照组的差异，了解干预措施的效果，为排除个体差异，通常使用干预组与对照组的效果的平均值差异来衡量，也就是许多实证研究中许多研究计算的平均处理效应。</p><p>　　然而，随机化实验往往在医学、生物学等领域更为常见，在经济学相关研究中，经济发展情况、社会制度、文化差异等各方面的不同之处决定了不能随意指定两类样本进行比较，以衡量干预措施的效果。更多的情况是干预措施的效果会受到两组样本之间其他差异的影响，这种情况下，无法准确判断两组之间的差异是不是由这一干预措施带来的，也就是无法准确判断干预措施与结果差异之间的“因果关系”。</p><p>　　因此，为了可以更准确估计来自干预措施的影响，更准确地识别这种“因果关系”，回归的方式最早被应用，常见的是线性回归。然而，使用回归方法判断的是两个变量之间的统计关系，在需要满足CIA（条件独立性假设）或CMI（条件均值独立性假设）的条件下，该统计关系才可以解释为干预措施的因果关系。</p><h2 id="什么是-cia-假设">什么是 CIA 假设？</h2><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426014748-fjbac81.png"alt="image.png" /></p><p>　　（CIA 假设比 CMI假设更强，具体可以参见赵西亮老师的《基本有用的计量经济学》第 5 章第 2节）</p><p>　　然而，这种回归的方式也有缺陷。一是回归方式不能解决在样本抽样阶段造成的选择性偏误；二是由于数据的可得性，往往实证研究中并不能做到饱和回归，许多变量对结果的影响无法被观测到。因此，在实际上，回归的方式也难以满足CIA条件，难以得到准确的“因果效应”。</p><h2 id="什么是psm为什么psm">什么是PSM？为什么PSM？</h2><p>　　PSM是倾向得分匹配，其本质是构造一个倾向得分，通过比较倾向得分，匹配干预组与对照组，构造出一个“准自然实验”，因此，PSM在理论上比回归的方法更有可能满足CIA条件。</p><p>　　PSM的估计过程大体可以分为以下4个步骤（参考赵西亮老师的《基本有用的计量经济学》）：</p><h4 id="定义相似性">1. 定义相似性</h4><p>　　为了准确估计因果效应，需要找到其他条件都相似的干预组与对照组，因此需要定义相似性。相似性的定义，需要关注哪些变量应当作为定义相似性的依据，以及如何测度相似性。</p><p>　　<strong>对于变量的选择上</strong>，定义相似性的变量应当满足CIA条件，也就是控制了这些变量后，干预组与控制组不能有其他未观测到的差异。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426020940-ao1iy17.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426020956-2vma08o.png"alt="image.png" /></p><p>　　<strong>对于如何测度相似性</strong>：一般采用马氏距离或欧氏距离</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021120-xyruew0.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021143-cjxmi6m.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021220-5jqs4lw.png"alt="image.png" /></p><p>　　那么，就可以通过logit回归等方式估计需要的倾向得分：</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021404-cyfpjtp.png"alt="image.png" /></p><h4 id="实施匹配">2. 实施匹配</h4><p>　　在实施匹配的方法上，主要有<strong>近邻匹配</strong>和<strong>分层匹配</strong>两种形式。</p><p>　　<strong>近邻匹配包括一对一匹配与一对多匹配。</strong></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021551-mjz9fdx.png"alt="image.png" /></p><p>　　<strong>而分层匹配则是根据倾向得分的取值，对样本进行分层，以减小每一层内的倾向得分的差距，获得更好的匹配效果。</strong></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021648-q3f91lq.png"alt="image.png" /></p><h4 id="匹配效果诊断">3. 匹配效果诊断</h4><p>　　匹配效果好不好，主要取决于干预组与对照组的控制变量差异是否得到了有效控制。在实证中，具体体现为控制变量的平衡性检验。</p><p>　　<strong>CIA假设是因果关系识别的关键。虽然CIA假设难以被验证成立，但证明CIA不成立却相对简单。</strong>如果实施匹配后控制变量的平衡性检验无法通过，则说明CIA不成立，使用当前匹配方法估计出的因果效应不是真实的干预措施因果效应的可能性较大。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021916-4uvzl0d.png"alt="image.png" /></p><h4 id="因果效应估计">4. 因果效应估计</h4><p>　　在通过了匹配效果的检验后，因果效应的估计才是可靠的。在最后一步，再估计干预措施的因果效应。</p><h2 id="当然psm也有问题">当然，PSM也有问题：</h2><p>　　基于几个控制变量测度出的倾向得分，难以包含不可测因素的影响，PSM难以避免不可测因素对结果的影响。在经济学相关的研究中，最常见的是讨论某个经济干预行为对另一个经济因素的影响，但由于制度因素相对更难度量，制度因素的缺失可能导致估计出的经济干预行为的效果有偏差。</p><p>　　为解决这一问题，也有使用工具变量法、使用面板数据等方式，更进一步进行估计。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 实证分析 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 实证分析 </tag>
-            
-            <tag> 模型 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>取对数问题</title>
       <link href="/2022/03/16/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E5%8F%96%E5%AF%B9%E6%95%B0%E9%97%AE%E9%A2%98/"/>
       <url>/2022/03/16/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E5%8F%96%E5%AF%B9%E6%95%B0%E9%97%AE%E9%A2%98/</url>
@@ -2090,6 +2063,33 @@
             <tag> Stata </tag>
             
             <tag> 实证分析 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>为什么使用PSM消除样本选择偏差</title>
+      <link href="/2022/03/16/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8PSM%E6%B6%88%E9%99%A4%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9%E5%81%8F%E5%B7%AE/"/>
+      <url>/2022/03/16/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8PSM%E6%B6%88%E9%99%A4%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9%E5%81%8F%E5%B7%AE/</url>
+      
+        <content type="html"><![CDATA[<p>　　<strong>要理解为什么用 psm 消除样本的选择偏误，先要理解 psm的原理。</strong></p><p>　　在研究一种干预措施的效果时，理想状态是进行随机化实验，也就是控制其他所有条件都相同，仅有是否采取干预措施这一点不同，这样就可以通过比较随机化实验中干预组与对照组的差异，了解干预措施的效果，为排除个体差异，通常使用干预组与对照组的效果的平均值差异来衡量，也就是许多实证研究中许多研究计算的平均处理效应。</p><p>　　然而，随机化实验往往在医学、生物学等领域更为常见，在经济学相关研究中，经济发展情况、社会制度、文化差异等各方面的不同之处决定了不能随意指定两类样本进行比较，以衡量干预措施的效果。更多的情况是干预措施的效果会受到两组样本之间其他差异的影响，这种情况下，无法准确判断两组之间的差异是不是由这一干预措施带来的，也就是无法准确判断干预措施与结果差异之间的“因果关系”。</p><p>　　因此，为了可以更准确估计来自干预措施的影响，更准确地识别这种“因果关系”，回归的方式最早被应用，常见的是线性回归。然而，使用回归方法判断的是两个变量之间的统计关系，在需要满足CIA（条件独立性假设）或CMI（条件均值独立性假设）的条件下，该统计关系才可以解释为干预措施的因果关系。</p><h2 id="什么是-cia-假设">什么是 CIA 假设？</h2><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426014748-fjbac81.png"alt="image.png" /></p><p>　　（CIA 假设比 CMI假设更强，具体可以参见赵西亮老师的《基本有用的计量经济学》第 5 章第 2节）</p><p>　　然而，这种回归的方式也有缺陷。一是回归方式不能解决在样本抽样阶段造成的选择性偏误；二是由于数据的可得性，往往实证研究中并不能做到饱和回归，许多变量对结果的影响无法被观测到。因此，在实际上，回归的方式也难以满足CIA条件，难以得到准确的“因果效应”。</p><h2 id="什么是psm为什么psm">什么是PSM？为什么PSM？</h2><p>　　PSM是倾向得分匹配，其本质是构造一个倾向得分，通过比较倾向得分，匹配干预组与对照组，构造出一个“准自然实验”，因此，PSM在理论上比回归的方法更有可能满足CIA条件。</p><p>　　PSM的估计过程大体可以分为以下4个步骤（参考赵西亮老师的《基本有用的计量经济学》）：</p><h4 id="定义相似性">1. 定义相似性</h4><p>　　为了准确估计因果效应，需要找到其他条件都相似的干预组与对照组，因此需要定义相似性。相似性的定义，需要关注哪些变量应当作为定义相似性的依据，以及如何测度相似性。</p><p>　　<strong>对于变量的选择上</strong>，定义相似性的变量应当满足CIA条件，也就是控制了这些变量后，干预组与控制组不能有其他未观测到的差异。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426020940-ao1iy17.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426020956-2vma08o.png"alt="image.png" /></p><p>　　<strong>对于如何测度相似性</strong>：一般采用马氏距离或欧氏距离</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021120-xyruew0.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021143-cjxmi6m.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021220-5jqs4lw.png"alt="image.png" /></p><p>　　那么，就可以通过logit回归等方式估计需要的倾向得分：</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021404-cyfpjtp.png"alt="image.png" /></p><h4 id="实施匹配">2. 实施匹配</h4><p>　　在实施匹配的方法上，主要有<strong>近邻匹配</strong>和<strong>分层匹配</strong>两种形式。</p><p>　　<strong>近邻匹配包括一对一匹配与一对多匹配。</strong></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021551-mjz9fdx.png"alt="image.png" /></p><p>　　<strong>而分层匹配则是根据倾向得分的取值，对样本进行分层，以减小每一层内的倾向得分的差距，获得更好的匹配效果。</strong></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021648-q3f91lq.png"alt="image.png" /></p><h4 id="匹配效果诊断">3. 匹配效果诊断</h4><p>　　匹配效果好不好，主要取决于干预组与对照组的控制变量差异是否得到了有效控制。在实证中，具体体现为控制变量的平衡性检验。</p><p>　　<strong>CIA假设是因果关系识别的关键。虽然CIA假设难以被验证成立，但证明CIA不成立却相对简单。</strong>如果实施匹配后控制变量的平衡性检验无法通过，则说明CIA不成立，使用当前匹配方法估计出的因果效应不是真实的干预措施因果效应的可能性较大。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021916-4uvzl0d.png"alt="image.png" /></p><h4 id="因果效应估计">4. 因果效应估计</h4><p>　　在通过了匹配效果的检验后，因果效应的估计才是可靠的。在最后一步，再估计干预措施的因果效应。</p><h2 id="当然psm也有问题">当然，PSM也有问题：</h2><p>　　基于几个控制变量测度出的倾向得分，难以包含不可测因素的影响，PSM难以避免不可测因素对结果的影响。在经济学相关的研究中，最常见的是讨论某个经济干预行为对另一个经济因素的影响，但由于制度因素相对更难度量，制度因素的缺失可能导致估计出的经济干预行为的效果有偏差。</p><p>　　为解决这一问题，也有使用工具变量法、使用面板数据等方式，更进一步进行估计。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 模型 </tag>
             
         </tags>
       
@@ -2332,35 +2332,6 @@
     
     
     <entry>
-      <title>熵权法</title>
-      <link href="/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E7%86%B5%E6%9D%83%E6%B3%95/"/>
-      <url>/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E7%86%B5%E6%9D%83%E6%B3%95/</url>
-      
-        <content type="html"><![CDATA[<p>　　熵权法的计算要点：</p><ul><li>区分正向指标与负向指标</li><li>权重的计算方法</li></ul><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 熵权法</span></span><br><span class="line"><span class="keyword">global</span> xlist1 <span class="string">&quot;X1 X2 X3 X4 X5 X6&quot;</span>   <span class="comment">// 正向指标</span></span><br><span class="line"><span class="keyword">global</span> xlist2 <span class="string">&quot;X7 X8&quot;</span>   <span class="comment">// 负向指标</span></span><br><span class="line"><span class="keyword">global</span> xlist <span class="string">&quot;$xlist1 $xlist2&quot;</span></span><br><span class="line"><span class="comment">*** 正向指标</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist1 &#123;</span><br><span class="line"><span class="keyword">egen</span> min_<span class="symbol">`v&#x27;</span>= <span class="built_in">min</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> max_<span class="symbol">`v&#x27;</span>= <span class="built_in">max</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="comment">//正向变量标准化</span></span><br><span class="line"><span class="keyword">gen</span> <span class="symbol">`v&#x27;</span>_n = (<span class="symbol">`v&#x27;</span>-min_<span class="symbol">`v&#x27;</span>)/(max_<span class="symbol">`v&#x27;</span>-min_<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> <span class="symbol">`v&#x27;</span>_sum = <span class="built_in">sum</span>(<span class="symbol">`v&#x27;</span>_n)</span><br><span class="line"><span class="comment">// 第j个指标中第i个样本所占的比重</span></span><br><span class="line"><span class="keyword">gen</span> p_<span class="symbol">`v&#x27;</span>= <span class="symbol">`v&#x27;</span>_n/<span class="symbol">`v&#x27;</span>_sum</span><br><span class="line"><span class="keyword">gen</span> k_<span class="symbol">`v&#x27;</span> = -(1/<span class="built_in">ln</span>(_N))</span><br><span class="line"><span class="keyword">egen</span> x_<span class="symbol">`v&#x27;</span> = <span class="built_in">sum</span>(p_<span class="symbol">`v&#x27;</span>*<span class="built_in">ln</span>(p_<span class="symbol">`v&#x27;</span>))  </span><br><span class="line"><span class="comment">//计算第j个指标的熵值</span></span><br><span class="line"><span class="keyword">gen</span> e_<span class="symbol">`v&#x27;</span>=k_<span class="symbol">`v&#x27;</span>*x_<span class="symbol">`v&#x27;</span></span><br><span class="line"><span class="comment">//计算差异系数，该系数越大指标越重要</span></span><br><span class="line"><span class="keyword">gen</span> g_<span class="symbol">`v&#x27;</span>=1-e_<span class="symbol">`v&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">*** 负向指标</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist2 &#123;</span><br><span class="line"><span class="keyword">egen</span> min_<span class="symbol">`v&#x27;</span>= <span class="built_in">min</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> max_<span class="symbol">`v&#x27;</span>= <span class="built_in">max</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="comment">//负向变量标准化</span></span><br><span class="line"><span class="keyword">gen</span> <span class="symbol">`v&#x27;</span>_n = (max_<span class="symbol">`v&#x27;</span>-<span class="symbol">`v&#x27;</span>)/(max_<span class="symbol">`v&#x27;</span>-min_<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> <span class="symbol">`v&#x27;</span>_sum = <span class="built_in">sum</span>(<span class="symbol">`v&#x27;</span>_n)</span><br><span class="line"><span class="comment">// 第j个指标中第i个样本所占的比重</span></span><br><span class="line"><span class="keyword">gen</span> p_<span class="symbol">`v&#x27;</span>= <span class="symbol">`v&#x27;</span>_n/<span class="symbol">`v&#x27;</span>_sum</span><br><span class="line"><span class="keyword">gen</span> k_<span class="symbol">`v&#x27;</span> = -(1/<span class="built_in">ln</span>(_N))</span><br><span class="line"><span class="keyword">egen</span> x_<span class="symbol">`v&#x27;</span> = <span class="built_in">sum</span>(p_<span class="symbol">`v&#x27;</span>*<span class="built_in">ln</span>(p_<span class="symbol">`v&#x27;</span>))  </span><br><span class="line"><span class="comment">//计算第j个指标的熵值</span></span><br><span class="line"><span class="keyword">gen</span> e_<span class="symbol">`v&#x27;</span>=k_<span class="symbol">`v&#x27;</span>*x_<span class="symbol">`v&#x27;</span></span><br><span class="line"><span class="comment">//计算差异系数，该系数越大指标越重要</span></span><br><span class="line"><span class="keyword">gen</span> g_<span class="symbol">`v&#x27;</span>=1-e_<span class="symbol">`v&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">egen</span> y=rowtotal(g_*),missing</span><br><span class="line"><span class="comment">*** 计算第j个指标的权重</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist &#123;</span><br><span class="line"><span class="keyword">gen</span> w_<span class="symbol">`v&#x27;</span>= g_<span class="symbol">`v&#x27;</span>/y</span><br><span class="line">    <span class="keyword">gen</span> wn_<span class="symbol">`v&#x27;</span>=w_<span class="symbol">`v&#x27;</span>*<span class="symbol">`v&#x27;</span>_n</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">*** 使用熵权法计算综合指标</span></span><br><span class="line"><span class="keyword">egen</span> X=rowtotal(wn_*),missing</span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist &#123;</span><br><span class="line"><span class="keyword">replace</span> X=. <span class="keyword">if</span> wn_<span class="symbol">`v&#x27;</span>==.</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 删除临时变量</span></span><br><span class="line"><span class="keyword">drop</span> min_* max_* *_n *_sum p_* k_* x_* e_* g_* w_* wn_* y</span><br></pre></td></tr></table></figure><p>　　相关链接：</p><p>　　<ahref="https://zhuanlan.zhihu.com/p/409618462">【知乎】面板数据熵权法的Stata程序</a></p><p>　　<ahref="https://bbs.pinggu.org/thread-10976172-1-1.html">【经管之家】stata熵权法命令分享</a></p><p>　　‍</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 实证分析 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Stata </tag>
-            
-            <tag> 实证分析 </tag>
-            
-            <tag> 熵权法 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>主成分分析</title>
       <link href="/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90/"/>
       <url>/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90/</url>
@@ -2382,6 +2353,35 @@
             <tag> 实证分析 </tag>
             
             <tag> 主成分分析 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>熵权法</title>
+      <link href="/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E7%86%B5%E6%9D%83%E6%B3%95/"/>
+      <url>/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E7%86%B5%E6%9D%83%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>　　熵权法的计算要点：</p><ul><li>区分正向指标与负向指标</li><li>权重的计算方法</li></ul><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 熵权法</span></span><br><span class="line"><span class="keyword">global</span> xlist1 <span class="string">&quot;X1 X2 X3 X4 X5 X6&quot;</span>   <span class="comment">// 正向指标</span></span><br><span class="line"><span class="keyword">global</span> xlist2 <span class="string">&quot;X7 X8&quot;</span>   <span class="comment">// 负向指标</span></span><br><span class="line"><span class="keyword">global</span> xlist <span class="string">&quot;$xlist1 $xlist2&quot;</span></span><br><span class="line"><span class="comment">*** 正向指标</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist1 &#123;</span><br><span class="line"><span class="keyword">egen</span> min_<span class="symbol">`v&#x27;</span>= <span class="built_in">min</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> max_<span class="symbol">`v&#x27;</span>= <span class="built_in">max</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="comment">//正向变量标准化</span></span><br><span class="line"><span class="keyword">gen</span> <span class="symbol">`v&#x27;</span>_n = (<span class="symbol">`v&#x27;</span>-min_<span class="symbol">`v&#x27;</span>)/(max_<span class="symbol">`v&#x27;</span>-min_<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> <span class="symbol">`v&#x27;</span>_sum = <span class="built_in">sum</span>(<span class="symbol">`v&#x27;</span>_n)</span><br><span class="line"><span class="comment">// 第j个指标中第i个样本所占的比重</span></span><br><span class="line"><span class="keyword">gen</span> p_<span class="symbol">`v&#x27;</span>= <span class="symbol">`v&#x27;</span>_n/<span class="symbol">`v&#x27;</span>_sum</span><br><span class="line"><span class="keyword">gen</span> k_<span class="symbol">`v&#x27;</span> = -(1/<span class="built_in">ln</span>(_N))</span><br><span class="line"><span class="keyword">egen</span> x_<span class="symbol">`v&#x27;</span> = <span class="built_in">sum</span>(p_<span class="symbol">`v&#x27;</span>*<span class="built_in">ln</span>(p_<span class="symbol">`v&#x27;</span>))  </span><br><span class="line"><span class="comment">//计算第j个指标的熵值</span></span><br><span class="line"><span class="keyword">gen</span> e_<span class="symbol">`v&#x27;</span>=k_<span class="symbol">`v&#x27;</span>*x_<span class="symbol">`v&#x27;</span></span><br><span class="line"><span class="comment">//计算差异系数，该系数越大指标越重要</span></span><br><span class="line"><span class="keyword">gen</span> g_<span class="symbol">`v&#x27;</span>=1-e_<span class="symbol">`v&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">*** 负向指标</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist2 &#123;</span><br><span class="line"><span class="keyword">egen</span> min_<span class="symbol">`v&#x27;</span>= <span class="built_in">min</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> max_<span class="symbol">`v&#x27;</span>= <span class="built_in">max</span>(<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="comment">//负向变量标准化</span></span><br><span class="line"><span class="keyword">gen</span> <span class="symbol">`v&#x27;</span>_n = (max_<span class="symbol">`v&#x27;</span>-<span class="symbol">`v&#x27;</span>)/(max_<span class="symbol">`v&#x27;</span>-min_<span class="symbol">`v&#x27;</span>)</span><br><span class="line"><span class="keyword">egen</span> <span class="symbol">`v&#x27;</span>_sum = <span class="built_in">sum</span>(<span class="symbol">`v&#x27;</span>_n)</span><br><span class="line"><span class="comment">// 第j个指标中第i个样本所占的比重</span></span><br><span class="line"><span class="keyword">gen</span> p_<span class="symbol">`v&#x27;</span>= <span class="symbol">`v&#x27;</span>_n/<span class="symbol">`v&#x27;</span>_sum</span><br><span class="line"><span class="keyword">gen</span> k_<span class="symbol">`v&#x27;</span> = -(1/<span class="built_in">ln</span>(_N))</span><br><span class="line"><span class="keyword">egen</span> x_<span class="symbol">`v&#x27;</span> = <span class="built_in">sum</span>(p_<span class="symbol">`v&#x27;</span>*<span class="built_in">ln</span>(p_<span class="symbol">`v&#x27;</span>))  </span><br><span class="line"><span class="comment">//计算第j个指标的熵值</span></span><br><span class="line"><span class="keyword">gen</span> e_<span class="symbol">`v&#x27;</span>=k_<span class="symbol">`v&#x27;</span>*x_<span class="symbol">`v&#x27;</span></span><br><span class="line"><span class="comment">//计算差异系数，该系数越大指标越重要</span></span><br><span class="line"><span class="keyword">gen</span> g_<span class="symbol">`v&#x27;</span>=1-e_<span class="symbol">`v&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">egen</span> y=rowtotal(g_*),missing</span><br><span class="line"><span class="comment">*** 计算第j个指标的权重</span></span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist &#123;</span><br><span class="line"><span class="keyword">gen</span> w_<span class="symbol">`v&#x27;</span>= g_<span class="symbol">`v&#x27;</span>/y</span><br><span class="line">    <span class="keyword">gen</span> wn_<span class="symbol">`v&#x27;</span>=w_<span class="symbol">`v&#x27;</span>*<span class="symbol">`v&#x27;</span>_n</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">*** 使用熵权法计算综合指标</span></span><br><span class="line"><span class="keyword">egen</span> X=rowtotal(wn_*),missing</span><br><span class="line"><span class="keyword">foreach</span> v of <span class="keyword">global</span> xlist &#123;</span><br><span class="line"><span class="keyword">replace</span> X=. <span class="keyword">if</span> wn_<span class="symbol">`v&#x27;</span>==.</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 删除临时变量</span></span><br><span class="line"><span class="keyword">drop</span> min_* max_* *_n *_sum p_* k_* x_* e_* g_* w_* wn_* y</span><br></pre></td></tr></table></figure><p>　　相关链接：</p><p>　　<ahref="https://zhuanlan.zhihu.com/p/409618462">【知乎】面板数据熵权法的Stata程序</a></p><p>　　<ahref="https://bbs.pinggu.org/thread-10976172-1-1.html">【经管之家】stata熵权法命令分享</a></p><p>　　‍</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Stata </tag>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 熵权法 </tag>
             
         </tags>
       
