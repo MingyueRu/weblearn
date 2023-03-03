@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>clean</title>
+      <link href="/2023/03/03/clean/"/>
+      <url>/2023/03/03/clean/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第5课代码：循环语句的使用</title>
       <link href="/2023/02/02/%E4%BB%A3%E7%A0%81%E5%BA%93-%E7%AC%AC5%E8%AF%BE%E4%BB%A3%E7%A0%81%EF%BC%9A%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
       <url>/2023/02/02/%E4%BB%A3%E7%A0%81%E5%BA%93-%E7%AC%AC5%E8%AF%BE%E4%BB%A3%E7%A0%81%EF%BC%9A%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
@@ -2332,35 +2345,6 @@
     
     
     <entry>
-      <title>主成分分析</title>
-      <link href="/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90/"/>
-      <url>/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90/</url>
-      
-        <content type="html"><![CDATA[<p>　　主成分分析的要点：</p><ul><li>区分正向指标与负向指标</li><li>累计贡献率最好大于 80%</li><li>特征根要大于 1</li></ul><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 已将负向指标正向化</span></span><br><span class="line"><span class="keyword">global</span> xlist <span class="string">&quot;X1 X2 X3 X4 X5 X6 X7 X8&quot;</span></span><br><span class="line"><span class="comment">** 权重确定与载核计算</span></span><br><span class="line"><span class="keyword">pca</span> <span class="variable">$xlist</span></span><br><span class="line"><span class="keyword">factor</span> <span class="variable">$xlist</span> , pcf</span><br><span class="line"><span class="comment">** 绘制随碎石图</span></span><br><span class="line"><span class="keyword">screeplot</span>, yline(1)   <span class="comment">//yline(1)表示绘制特征根为1的临界线</span></span><br><span class="line"><span class="comment">** 根据碎石图或载核表, 选取特征根大于1的主成分</span></span><br><span class="line"><span class="keyword">predict</span> f1 f2 f3   <span class="comment">// 假如有三个主成分的特征根大于1</span></span><br><span class="line"><span class="comment">** 生成综合指标: 前面的系数为「pca $xlist」命令运行后的「Proportion」列, 为各主成分的贡献率</span></span><br><span class="line"><span class="keyword">gen</span> X = a1*f1 + a2*f2 + a3*f3</span><br><span class="line"><span class="keyword">drop</span> f1-f3</span><br></pre></td></tr></table></figure><p>　　相关链接：<ahref="https://zhuanlan.zhihu.com/p/281278580">【Stata 写论文】PCA主成分分析和因子分析命令演示（附代码） - 知乎 (zhihu.com)</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 实证分析 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Stata </tag>
-            
-            <tag> 实证分析 </tag>
-            
-            <tag> 主成分分析 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>熵权法</title>
       <link href="/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E7%86%B5%E6%9D%83%E6%B3%95/"/>
       <url>/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E7%86%B5%E6%9D%83%E6%B3%95/</url>
@@ -2382,6 +2366,35 @@
             <tag> 实证分析 </tag>
             
             <tag> 熵权法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>主成分分析</title>
+      <link href="/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90/"/>
+      <url>/2021/10/19/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90/</url>
+      
+        <content type="html"><![CDATA[<p>　　主成分分析的要点：</p><ul><li>区分正向指标与负向指标</li><li>累计贡献率最好大于 80%</li><li>特征根要大于 1</li></ul><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 已将负向指标正向化</span></span><br><span class="line"><span class="keyword">global</span> xlist <span class="string">&quot;X1 X2 X3 X4 X5 X6 X7 X8&quot;</span></span><br><span class="line"><span class="comment">** 权重确定与载核计算</span></span><br><span class="line"><span class="keyword">pca</span> <span class="variable">$xlist</span></span><br><span class="line"><span class="keyword">factor</span> <span class="variable">$xlist</span> , pcf</span><br><span class="line"><span class="comment">** 绘制随碎石图</span></span><br><span class="line"><span class="keyword">screeplot</span>, yline(1)   <span class="comment">//yline(1)表示绘制特征根为1的临界线</span></span><br><span class="line"><span class="comment">** 根据碎石图或载核表, 选取特征根大于1的主成分</span></span><br><span class="line"><span class="keyword">predict</span> f1 f2 f3   <span class="comment">// 假如有三个主成分的特征根大于1</span></span><br><span class="line"><span class="comment">** 生成综合指标: 前面的系数为「pca $xlist」命令运行后的「Proportion」列, 为各主成分的贡献率</span></span><br><span class="line"><span class="keyword">gen</span> X = a1*f1 + a2*f2 + a3*f3</span><br><span class="line"><span class="keyword">drop</span> f1-f3</span><br></pre></td></tr></table></figure><p>　　相关链接：<ahref="https://zhuanlan.zhihu.com/p/281278580">【Stata 写论文】PCA主成分分析和因子分析命令演示（附代码） - 知乎 (zhihu.com)</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Stata </tag>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 主成分分析 </tag>
             
         </tags>
       
