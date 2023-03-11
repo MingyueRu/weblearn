@@ -584,66 +584,6 @@
     
     
     <entry>
-      <title>合成控制法 (Synthetic Control Method, SCM)</title>
-      <link href="/2022/12/11/%E6%94%B6%E8%97%8F%E9%9B%86%E9%94%A6-%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6%E6%B3%95SC/"/>
-      <url>/2022/12/11/%E6%94%B6%E8%97%8F%E9%9B%86%E9%94%A6-%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6%E6%B3%95SC/</url>
-      
-        <content type="html"><![CDATA[<h1 id="合成控制法">合成控制法</h1><h4 id="相关链接">相关链接：</h4><p>　　<a href="https://yiqingxu.org/software/">[Xu Yiqing] gsynth:Generalized Synthetic Control Method</a></p><p>　　<a href="https://lianxh.cn/news/9e1bb97a57041.html">[连享会]合成控制法 (Synthetic Control Method) 及 Stata实现</a></p><p>　　<a href="https://lianxh.cn/news/d7c94c7777226.html">[连享会]Stata：合成控制法-synth-命令无法加载-plugin-的解决办法</a></p><p>　　<a href="https://lianxh.cn/news/db3d2785cd5c0.html">[连享会]Synth_Runner命令：合成控制法高效实现</a></p><p>　　<a href="https://lianxh.cn/news/f0c24b225eb69.html">[连享会]合成控制法简介</a></p><p>　　<a href="https://lianxh.cn/news/e66e82b083bc6.html">[连享会]Stata：基于Lasso的合成控制法-scul</a></p><p>　　<a href="https://lianxh.cn/news/fe320d20a9420.html">[连享会]Stata：合成控制法介绍-synth2</a></p><p>　　<a href="https://lianxh.cn/news/bcf8d62073675.html">[连享会]Stata：合成控制法的预测区间-scpi</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/dvm6ePOj5Sjvru875TQYEQ">[计量经济圈]广义合成控制法gsynth, 基于交互固定效应的因果推断</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/j7JvvKXwYGQQW2J0A1225w">[计量经济圈]合成控制法创始人如何用SCM做实证呢？这些规定动作一个都不能少！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/Y_Yv2-Yoq6S5ygMncGSY6Q">[计量经济圈]合成控制法SCM新进展, 直接通过代码演示, 附数据和code！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/R3cUFWoQewyFjBcvQeHenA">[计量经济圈]分享一篇使用合成控制法SCM进行实证研究的文章的代码</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/AmjTI36cJeClgm-CO9dh0w">[计量经济圈]用合成控制法, 机器学习和面板数据模型开展政策评估的论文！</a></p><p>　　<ahref="https://pwya.github.io/post/计量前沿did方法实用手册/">[潘王雨昂]前沿DID方法实用手册：Fuzzy DID,合成控制DID,DML</a> —— SDID：合成控制与DID 的结合</p><p>　　<ahref="https://mp.weixin.qq.com/s/eREDvoGi8xGQia4cmI1COw">[计量经济圈]前沿, 合成双重差分法SDID方法介绍和示例, 附code和数据！</a></p><p>　　‍</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 收藏集锦 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 实证分析 </tag>
-            
-            <tag> 收藏集锦 </tag>
-            
-            <tag> 合成控制法 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>双重差分法DID</title>
-      <link href="/2022/12/07/%E6%94%B6%E8%97%8F%E9%9B%86%E9%94%A6-%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86%E6%B3%95DID/"/>
-      <url>/2022/12/07/%E6%94%B6%E8%97%8F%E9%9B%86%E9%94%A6-%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86%E6%B3%95DID/</url>
-      
-        <content type="html"><![CDATA[<h1 id="差分法合集">差分法合集</h1><h4 id="相关链接">相关链接：</h4><p>　　<ahref="https://pwya.github.io/post/计量前沿did方法实用手册/">[潘王雨昂]前沿DID方法实用手册：Fuzzy DID,合成控制DID,DML</a></p><p>　　<ahref="https://pwya.github.io/post/计量交叠did实用教程/">[潘王雨昂]交叠DID实用教程</a></p><p>　　<ahref="https://mp.weixin.qq.com/s?__biz=MjM5OTMwODM1Mw==&amp;mid=2448099684&amp;idx=1&amp;sn=033c7ab771f5c8bae732b2e733e326f1&amp;chksm=b322d44a84555d5c4bacc48f8ef5e650d604e680cd1607e7698110a9fa63bfbbfab7e198bc7c&amp;mpshare=1&amp;scene=1&amp;srcid=0816sfGTti7QjaYwRjwu8eap&amp;sharer_sharetime=1664258767641&amp;sharer_shareid=1920095865185874332f084950b49990&amp;key=3251a4dfea909edfef02f58bb06c9e0f89348c80598d25eb7377f555c3a1e4b264c81068337cf0053b3060cb25d9c862cdcd448e315320865ae7b87f966c6e758b80617516f1948666f8f5c1303ca565adce7e3079d56753f9aa72b5d1373b86595c18af43448267128613a8b8c0b6dc79e6ce6977f9859bf67366b06d3a9bd9&amp;ascene=1&amp;uin=NTA0OTkyNzA4&amp;devicetype=Windows+10+x64&amp;version=63080113&amp;lang=zh_CN&amp;exportkey=n_ChQIAhIQ4%2BEXZyLJGzAJtGTMA0rQPRLyAQIE97dBBAEAAAAAABKxK4SGkfcAAAAOpnltbLcz9gKNyK89dVj07JHlGq8s1ky080DuRBDPiTtGYMQEBepT2CWSPiCDVMqnIV3WE4Qtc9wyKlNY3FKBAMg5znjjIn5OluVvjZqnHny2VI%2FqtRp6NfNSXSrlZMmtTwtKKBh%2F8bAkrBlDGIRIgCfBsp01rTuLMEkLBlJzNeLzzcFcOwVsXIz0w7PkAhBdTzdk%2BxZdEEf0BletgGmoPCyA1D%2BGwUMV42MEyo%2BKNBKm2v9J%2BG2cfCXJOgWwQoDChXKm66QiTOjz%2Flf6PALf3iWv1AoMUNtJ1ARx&amp;acctmode=0&amp;pass_ticket=uedBH2oJelSDnlFVo8blU%2FK25kq%2BQQ%2FxNtcANGqpNgNLAT94yfEK57k6eH0DokZ3GCKAk3lm9tYebUcShqDGAg%3D%3D&amp;wx_header=1&amp;fontgear=2">[计量经济圈]交叠DID简明使用教程, 降低学者DID的学习成本！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s?__biz=MjM5OTMwODM1Mw==&amp;mid=2448093061&amp;idx=1&amp;sn=18c60f08ae6fa36941f9a8d7933a5df6&amp;chksm=b32332ab8454bbbd33b93bf042a9fc7f1bc308130ab90b87a917a81d00c3e2464c54118d977f&amp;scene=21#wechat_redirect">[计量经济圈]120篇DID双重差分方法的文章合集, 包括代码,程序及解读, 建议收藏！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s?__biz=MjM5OTMwODM1Mw==&amp;mid=2448095580&amp;idx=1&amp;sn=485fa37aa5aca3c92efcb292a44b0b72&amp;chksm=b32324728454ad64b8a6468179177ce0e5a45d85957191b59df72aa7d39fc9484e2ec7ba18f8&amp;scene=21#wechat_redirect">[计量经济圈]诚实双重差分法DID, 面板事件研究法和Bacon分解的经典应用文！</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 收藏集锦 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 实证分析 </tag>
-            
-            <tag> 收藏集锦 </tag>
-            
-            <tag> DID </tag>
-            
-            <tag> SDID </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>比较两个变量取值是否相同</title>
       <link href="/2022/12/06/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97-%E6%AF%94%E8%BE%83%E4%B8%A4%E4%B8%AA%E5%8F%98%E9%87%8F%E5%8F%96%E5%80%BC%E6%98%AF%E5%90%A6%E7%9B%B8%E5%90%8C/"/>
       <url>/2022/12/06/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97-%E6%AF%94%E8%BE%83%E4%B8%A4%E4%B8%AA%E5%8F%98%E9%87%8F%E5%8F%96%E5%80%BC%E6%98%AF%E5%90%A6%E7%9B%B8%E5%90%8C/</url>
@@ -722,9 +662,9 @@
             
             <tag> CFPS </tag>
             
-            <tag> CHFS </tag>
-            
             <tag> CLDS </tag>
+            
+            <tag> CHFS </tag>
             
             <tag> 心得 </tag>
             
@@ -836,11 +776,11 @@
     
     
     <entry>
-      <title>控制变量怎么选？</title>
-      <link href="/2022/11/11/%E6%94%B6%E8%97%8F%E9%9B%86%E9%94%A6-%E6%8E%A7%E5%88%B6%E5%8F%98%E9%87%8F%E6%80%8E%E4%B9%88%E9%80%89/"/>
-      <url>/2022/11/11/%E6%94%B6%E8%97%8F%E9%9B%86%E9%94%A6-%E6%8E%A7%E5%88%B6%E5%8F%98%E9%87%8F%E6%80%8E%E4%B9%88%E9%80%89/</url>
+      <title>合成控制法 (Synthetic Control Method, SCM)</title>
+      <link href="/2022/11/11/%E6%94%B6%E8%97%8F%E9%9B%86%E9%94%A6-%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6%E6%B3%95SC/"/>
+      <url>/2022/11/11/%E6%94%B6%E8%97%8F%E9%9B%86%E9%94%A6-%E5%90%88%E6%88%90%E6%8E%A7%E5%88%B6%E6%B3%95SC/</url>
       
-        <content type="html"><![CDATA[<h4 id="相关链接"><strong>相关链接：</strong></h4><p>　　<ahref="%5Bhttps://lianxh.cn/news/5156229fb5147.html%5D(https://lianxh.cn/news/5156229fb5147.html)">[连享会]控制变量！控制变量！</a></p><p>　　<a href="https://www.lianxh.cn/news/7baa597b33b8d.html">[连享会]控制变量越多越好吗？</a></p><p>　　<a href="https://lianxh.cn/news/c548e33fbb649.html">[连享会]A-理论部分：控制变量！控制变量！Good-Controls-Bad-Controls</a></p><p>　　<a href="https://lianxh.cn/news/a54246bf82745.html">[连享会]B-Stata模拟：控制变量！控制变量！Good-Controls-Bad-Controls</a></p><p>　　<a href="https://lianxh.cn/news/4eb3cb3d50dcd.html">[连享会]Stata：控制变量与核心解释变量地位对等吗？</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/ViTEBkLgp4Y8evbYGW6m3w">[计量经济圈]图灵奖得主JudeaPearl关于控制变量选择问题的文章被社会科学方法顶刊接收！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/n13z1T8JFMuArUwUzy3USg">[计量经济圈]控制变量! 控制变量! 控制变量!</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/qeFzUQcnOQsZdr4fELhgRA">[计量经济圈]开班了! 好控制变量or差控制变量: 速成班</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/HW0UETNi5qSYKqOJhasN1g">[计量经济圈]什么是不好的控制变量, 什么又是好的控制变量?</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/YN-yiGBi24pj9e8I9mi1hA">[计量经济圈]合理使用控制变量的策略与建议, 从研究设计,数据收集与分析和结果报告三方面下手！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/RjWz4qiTjZqR1Tu5AngQ_g">[计量经济圈]控制变量的内生性需要处理吗？如何处理呢？</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/jlNTRbLqdNH08QNamI6P4A">[计量经济圈]控制变量选择问题: 如何鉴别好或不好的控制变量？附上14篇相关文章！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/0Q5JhlPOcroqg8tZ6SL20w">[计量经济圈]主回归与机制分析中的控制变量可以不同吗？</a></p><p>　　‍</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="合成控制法">合成控制法</h1><h4 id="相关链接">相关链接：</h4><p>　　<a href="https://yiqingxu.org/software/">[Xu Yiqing] gsynth:Generalized Synthetic Control Method</a></p><p>　　<a href="https://lianxh.cn/news/9e1bb97a57041.html">[连享会]合成控制法 (Synthetic Control Method) 及 Stata实现</a></p><p>　　<a href="https://lianxh.cn/news/d7c94c7777226.html">[连享会]Stata：合成控制法-synth-命令无法加载-plugin-的解决办法</a></p><p>　　<a href="https://lianxh.cn/news/db3d2785cd5c0.html">[连享会]Synth_Runner命令：合成控制法高效实现</a></p><p>　　<a href="https://lianxh.cn/news/f0c24b225eb69.html">[连享会]合成控制法简介</a></p><p>　　<a href="https://lianxh.cn/news/e66e82b083bc6.html">[连享会]Stata：基于Lasso的合成控制法-scul</a></p><p>　　<a href="https://lianxh.cn/news/fe320d20a9420.html">[连享会]Stata：合成控制法介绍-synth2</a></p><p>　　<a href="https://lianxh.cn/news/bcf8d62073675.html">[连享会]Stata：合成控制法的预测区间-scpi</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/dvm6ePOj5Sjvru875TQYEQ">[计量经济圈]广义合成控制法gsynth, 基于交互固定效应的因果推断</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/j7JvvKXwYGQQW2J0A1225w">[计量经济圈]合成控制法创始人如何用SCM做实证呢？这些规定动作一个都不能少！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/Y_Yv2-Yoq6S5ygMncGSY6Q">[计量经济圈]合成控制法SCM新进展, 直接通过代码演示, 附数据和code！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/R3cUFWoQewyFjBcvQeHenA">[计量经济圈]分享一篇使用合成控制法SCM进行实证研究的文章的代码</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/AmjTI36cJeClgm-CO9dh0w">[计量经济圈]用合成控制法, 机器学习和面板数据模型开展政策评估的论文！</a></p><p>　　<ahref="https://pwya.github.io/post/计量前沿did方法实用手册/">[潘王雨昂]前沿DID方法实用手册：Fuzzy DID,合成控制DID,DML</a> —— SDID：合成控制与DID 的结合</p><p>　　<ahref="https://mp.weixin.qq.com/s/eREDvoGi8xGQia4cmI1COw">[计量经济圈]前沿, 合成双重差分法SDID方法介绍和示例, 附code和数据！</a></p><p>　　‍</p>]]></content>
       
       
       <categories>
@@ -856,7 +796,7 @@
             
             <tag> 收藏集锦 </tag>
             
-            <tag> 控制变量 </tag>
+            <tag> 合成控制法 </tag>
             
         </tags>
       
@@ -884,6 +824,37 @@
             <tag> 资源下载 </tag>
             
             <tag> 农业经济 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>双重差分法DID</title>
+      <link href="/2022/11/07/%E6%94%B6%E8%97%8F%E9%9B%86%E9%94%A6-%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86%E6%B3%95DID/"/>
+      <url>/2022/11/07/%E6%94%B6%E8%97%8F%E9%9B%86%E9%94%A6-%E5%8F%8C%E9%87%8D%E5%B7%AE%E5%88%86%E6%B3%95DID/</url>
+      
+        <content type="html"><![CDATA[<h1 id="差分法合集">差分法合集</h1><h4 id="相关链接">相关链接：</h4><p>　　<ahref="https://pwya.github.io/post/计量前沿did方法实用手册/">[潘王雨昂]前沿DID方法实用手册：Fuzzy DID,合成控制DID,DML</a></p><p>　　<ahref="https://pwya.github.io/post/计量交叠did实用教程/">[潘王雨昂]交叠DID实用教程</a></p><p>　　<ahref="https://mp.weixin.qq.com/s?__biz=MjM5OTMwODM1Mw==&amp;mid=2448099684&amp;idx=1&amp;sn=033c7ab771f5c8bae732b2e733e326f1&amp;chksm=b322d44a84555d5c4bacc48f8ef5e650d604e680cd1607e7698110a9fa63bfbbfab7e198bc7c&amp;mpshare=1&amp;scene=1&amp;srcid=0816sfGTti7QjaYwRjwu8eap&amp;sharer_sharetime=1664258767641&amp;sharer_shareid=1920095865185874332f084950b49990&amp;key=3251a4dfea909edfef02f58bb06c9e0f89348c80598d25eb7377f555c3a1e4b264c81068337cf0053b3060cb25d9c862cdcd448e315320865ae7b87f966c6e758b80617516f1948666f8f5c1303ca565adce7e3079d56753f9aa72b5d1373b86595c18af43448267128613a8b8c0b6dc79e6ce6977f9859bf67366b06d3a9bd9&amp;ascene=1&amp;uin=NTA0OTkyNzA4&amp;devicetype=Windows+10+x64&amp;version=63080113&amp;lang=zh_CN&amp;exportkey=n_ChQIAhIQ4%2BEXZyLJGzAJtGTMA0rQPRLyAQIE97dBBAEAAAAAABKxK4SGkfcAAAAOpnltbLcz9gKNyK89dVj07JHlGq8s1ky080DuRBDPiTtGYMQEBepT2CWSPiCDVMqnIV3WE4Qtc9wyKlNY3FKBAMg5znjjIn5OluVvjZqnHny2VI%2FqtRp6NfNSXSrlZMmtTwtKKBh%2F8bAkrBlDGIRIgCfBsp01rTuLMEkLBlJzNeLzzcFcOwVsXIz0w7PkAhBdTzdk%2BxZdEEf0BletgGmoPCyA1D%2BGwUMV42MEyo%2BKNBKm2v9J%2BG2cfCXJOgWwQoDChXKm66QiTOjz%2Flf6PALf3iWv1AoMUNtJ1ARx&amp;acctmode=0&amp;pass_ticket=uedBH2oJelSDnlFVo8blU%2FK25kq%2BQQ%2FxNtcANGqpNgNLAT94yfEK57k6eH0DokZ3GCKAk3lm9tYebUcShqDGAg%3D%3D&amp;wx_header=1&amp;fontgear=2">[计量经济圈]交叠DID简明使用教程, 降低学者DID的学习成本！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s?__biz=MjM5OTMwODM1Mw==&amp;mid=2448093061&amp;idx=1&amp;sn=18c60f08ae6fa36941f9a8d7933a5df6&amp;chksm=b32332ab8454bbbd33b93bf042a9fc7f1bc308130ab90b87a917a81d00c3e2464c54118d977f&amp;scene=21#wechat_redirect">[计量经济圈]120篇DID双重差分方法的文章合集, 包括代码,程序及解读, 建议收藏！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s?__biz=MjM5OTMwODM1Mw==&amp;mid=2448095580&amp;idx=1&amp;sn=485fa37aa5aca3c92efcb292a44b0b72&amp;chksm=b32324728454ad64b8a6468179177ce0e5a45d85957191b59df72aa7d39fc9484e2ec7ba18f8&amp;scene=21#wechat_redirect">[计量经济圈]诚实双重差分法DID, 面板事件研究法和Bacon分解的经典应用文！</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 收藏集锦 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 收藏集锦 </tag>
+            
+            <tag> DID </tag>
+            
+            <tag> SDID </tag>
             
         </tags>
       
@@ -938,6 +909,35 @@
             <tag> 资源下载 </tag>
             
             <tag> 发展经济学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>控制变量怎么选？</title>
+      <link href="/2022/11/03/%E6%94%B6%E8%97%8F%E9%9B%86%E9%94%A6-%E6%8E%A7%E5%88%B6%E5%8F%98%E9%87%8F%E6%80%8E%E4%B9%88%E9%80%89/"/>
+      <url>/2022/11/03/%E6%94%B6%E8%97%8F%E9%9B%86%E9%94%A6-%E6%8E%A7%E5%88%B6%E5%8F%98%E9%87%8F%E6%80%8E%E4%B9%88%E9%80%89/</url>
+      
+        <content type="html"><![CDATA[<h4 id="相关链接"><strong>相关链接：</strong></h4><p>　　<ahref="%5Bhttps://lianxh.cn/news/5156229fb5147.html%5D(https://lianxh.cn/news/5156229fb5147.html)">[连享会]控制变量！控制变量！</a></p><p>　　<a href="https://www.lianxh.cn/news/7baa597b33b8d.html">[连享会]控制变量越多越好吗？</a></p><p>　　<a href="https://lianxh.cn/news/c548e33fbb649.html">[连享会]A-理论部分：控制变量！控制变量！Good-Controls-Bad-Controls</a></p><p>　　<a href="https://lianxh.cn/news/a54246bf82745.html">[连享会]B-Stata模拟：控制变量！控制变量！Good-Controls-Bad-Controls</a></p><p>　　<a href="https://lianxh.cn/news/4eb3cb3d50dcd.html">[连享会]Stata：控制变量与核心解释变量地位对等吗？</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/ViTEBkLgp4Y8evbYGW6m3w">[计量经济圈]图灵奖得主JudeaPearl关于控制变量选择问题的文章被社会科学方法顶刊接收！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/n13z1T8JFMuArUwUzy3USg">[计量经济圈]控制变量! 控制变量! 控制变量!</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/qeFzUQcnOQsZdr4fELhgRA">[计量经济圈]开班了! 好控制变量or差控制变量: 速成班</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/HW0UETNi5qSYKqOJhasN1g">[计量经济圈]什么是不好的控制变量, 什么又是好的控制变量?</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/YN-yiGBi24pj9e8I9mi1hA">[计量经济圈]合理使用控制变量的策略与建议, 从研究设计,数据收集与分析和结果报告三方面下手！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/RjWz4qiTjZqR1Tu5AngQ_g">[计量经济圈]控制变量的内生性需要处理吗？如何处理呢？</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/jlNTRbLqdNH08QNamI6P4A">[计量经济圈]控制变量选择问题: 如何鉴别好或不好的控制变量？附上14篇相关文章！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/0Q5JhlPOcroqg8tZ6SL20w">[计量经济圈]主回归与机制分析中的控制变量可以不同吗？</a></p><p>　　‍</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 收藏集锦 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 收藏集锦 </tag>
+            
+            <tag> 控制变量 </tag>
             
         </tags>
       
@@ -2048,7 +2048,7 @@
       <link href="/2022/04/26/%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD-%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%AC%94%E8%AE%B0%E4%B8%8B%E8%BD%BD/"/>
       <url>/2022/04/26/%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD-%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%AC%94%E8%AE%B0%E4%B8%8B%E8%BD%BD/</url>
       
-        <content type="html"><![CDATA[<h2 id="markdown-格式-建议下载">Markdown 格式 ( <em>建议下载</em> )</h2><h3 id="简介">简介</h3><p>Markdown 格式的笔记是个人主页的发布版本，在思源笔记的桌面版 app中整理，导出为 markdown格式，并对部分表格和图片做了调整。其中部分内容涉及到思源笔记内的双向链接，在markdown 中无法跳转。</p><p><strong>更新日期</strong>：<u>2023 年 3 月 5 日</u></p><p><strong>更新内容</strong>：（与 PDF 格式相比）</p><ul><li><u><strong>纠正一些错别字与错误（如三部门征收比例税的乘数）；</strong></u></li><li><strong><u>添加大量图形的几何意义解释；</u></strong></li><li><u><strong>添加大量模型推导与数学补充；</strong></u></li><li>设置网络图床；</li><li>优化 Markdown 的图片显示比例，将 markdown 语法的图片插入方式调整为html 方式</li></ul><h3 id="下载链接">下载链接</h3><p><strong>微观经济学（md version）</strong></p><ul><li>下载链接：https://pan.baidu.com/s/1Gjx_-gA2mrHr73W7-mzVqg?pwd=y41h</li><li>提取码：y41h</li></ul><p><strong>宏观经济学（md version）</strong></p><ul><li>下载链接：https://pan.baidu.com/s/1BDvuMQv4rqjcKX2qyzqtrw?pwd=8q7i</li><li>提取码：8q7i</li></ul><h3 id="打开方式">打开方式</h3><p><strong><u>推荐使用 Typora、Mwebpro等专业的Markdown编辑器打开。</u>笔记内含有大量 LaTex公式、表格、部署在图床上的图片与网页代码，使用其他编辑器或阅读器打开可能无法正确显示笔记内容。</strong></p><h2 id="pdf-格式-待更新-不建议下载">PDF 格式 (<em>待更新-<u>不建议下载</u></em> )</h2><h3 id="简介-1">简介</h3><p>本笔记使用「思源笔记」桌面端整理。为方便大家使用，下面提供 PDF格式的笔记，导出基准字号14磅，字体STZhogsong。</p><p><strong>更新日期</strong>：<u>2022 年 9 月 20 日</u></p><p><strong>更新内容</strong>：</p><ul><li>调整图片显示，避免图片过大占据整个页面</li><li>调整由 Markdown 导出为 PDF 后，部分表格不能正常显示的问题</li><li>修正部分内容错误</li></ul><p><imgsrc="https://pica.zhimg.com/80/v2-653fbd09453e37245a577b064490865b_1440w.png?source=d16d100b"title="微观经济学" /></p><p><imgsrc="https://pic1.zhimg.com/80/v2-2473c77b4e3e8b02aacd555ad5d4f381_1440w.png?source=d16d100b"title="宏观经济学" /></p><h3 id="下载链接-1">下载链接</h3><p><strong>微观经济学</strong></p><ul><li>下载链接：https://pan.baidu.com/s/1tquUUAlX0nZFrN0MboLWRw?pwd=4hvj</li><li>提取码：4hvj</li></ul><p><strong>宏观经济学</strong></p><ul><li>下载链接：https://pan.baidu.com/s/1yhhTeLHOHbO9zgMro1TrLQ?pwd=kaeb</li><li>提取码：kaeb</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="markdown-格式">Markdown 格式</h2><h3 id="简介">简介</h3><p>Markdown 格式的笔记是个人主页的发布版本，在思源笔记的桌面版 app中整理，导出为 markdown格式，并对部分表格和图片做了调整。其中部分内容涉及到思源笔记内的双向链接，在markdown 中无法跳转。</p><p><strong>更新日期</strong>：<strong><u>2023 年 3 月 5日</u></strong></p><p><strong>更新内容</strong>：（与 PDF 格式相比）</p><ul><li><u><strong>纠正一些错别字与错误（如三部门征收比例税的乘数）；</strong></u></li><li><strong><u>添加大量图形的几何意义解释；</u></strong></li><li><u><strong>添加大量模型推导与数学补充；</strong></u></li><li>设置网络图床；</li><li>优化 Markdown 的图片显示比例，将 markdown 语法的图片插入方式调整为html 方式</li></ul><h3 id="下载链接">下载链接</h3><p><strong>微观经济学（Markdown Version）</strong></p><ul><li>下载链接：<ahref="https://pan.baidu.com/s/1Gjx_-gA2mrHr73W7-mzVqg?pwd=y41h">百度网盘</a></li><li>提取码：y41h</li></ul><p><strong>宏观经济学（Markdown Version）</strong></p><ul><li>下载链接：<ahref="https://pan.baidu.com/s/1BDvuMQv4rqjcKX2qyzqtrw?pwd=8q7i">百度网盘</a></li><li>提取码：8q7i</li></ul><h3 id="打开方式">打开方式</h3><p><strong><u>推荐使用 Typora、Mwebpro等专业的Markdown编辑器打开。</u>笔记内含有大量 LaTex公式、表格、部署在图床上的图片与网页代码，使用其他编辑器或阅读器打开可能无法正确显示笔记内容。</strong></p><hr /><h2 id="pdf-格式-待更新">PDF 格式 ( <em>待更新</em> )</h2><h3 id="简介-1">简介</h3><p>本笔记使用「思源笔记」桌面端整理。为方便大家使用，下面提供 PDF格式的笔记，导出基准字号14磅，字体STZhogsong。</p><p><strong>更新日期</strong>：<strong><u>2022 年 9 月 20日</u></strong></p><p><strong>更新内容</strong>：</p><ul><li>调整图片显示，避免图片过大占据整个页面</li><li>调整由 Markdown 导出为 PDF 后，部分表格不能正常显示的问题</li><li>修正部分内容错误</li></ul><p><imgsrc="https://pica.zhimg.com/80/v2-653fbd09453e37245a577b064490865b_1440w.png?source=d16d100b"title="微观经济学" /></p><p><imgsrc="https://pic1.zhimg.com/80/v2-2473c77b4e3e8b02aacd555ad5d4f381_1440w.png?source=d16d100b"title="宏观经济学" /></p><h3 id="下载链接-1">下载链接</h3><p><strong>微观经济学</strong></p><ul><li>下载链接：<ahref="https://pan.baidu.com/s/1tquUUAlX0nZFrN0MboLWRw?pwd=4hvj">百度网盘</a></li><li>提取码：4hvj</li></ul><p><strong>宏观经济学</strong></p><ul><li>下载链接：<ahref="https://pan.baidu.com/s/1yhhTeLHOHbO9zgMro1TrLQ?pwd=kaeb">百度网盘</a></li><li>提取码：kaeb</li></ul>]]></content>
       
       
       <categories>
