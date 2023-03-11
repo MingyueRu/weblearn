@@ -24,15 +24,15 @@
             
             <tag> bilibili </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
             
-            <tag> CFPS </tag>
+            <tag> 气象数据 </tag>
             
             <tag> 教对象Stata系列 </tag>
-            
-            <tag> 气象数据 </tag>
             
         </tags>
       
@@ -63,13 +63,13 @@
             
             <tag> 视频 </tag>
             
-            <tag> 命令 </tag>
-            
             <tag> CFPS </tag>
             
-            <tag> 教对象Stata系列 </tag>
+            <tag> 命令 </tag>
             
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
         </tags>
       
@@ -102,9 +102,9 @@
             
             <tag> 命令 </tag>
             
-            <tag> CLDS </tag>
-            
             <tag> 教对象Stata系列 </tag>
+            
+            <tag> CLDS </tag>
             
             <tag> CGSS </tag>
             
@@ -139,9 +139,9 @@
             
             <tag> 命令 </tag>
             
-            <tag> CLDS </tag>
-            
             <tag> 教对象Stata系列 </tag>
+            
+            <tag> CLDS </tag>
             
             <tag> CGSS </tag>
             
@@ -168,9 +168,9 @@
       
         <tags>
             
-            <tag> 公开数据库 </tag>
-            
             <tag> 数据清洗 </tag>
+            
+            <tag> 公开数据库 </tag>
             
             <tag> Stata </tag>
             
@@ -211,11 +211,11 @@
             
             <tag> bilibili </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
-            
-            <tag> CFPS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -248,9 +248,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> 命令 </tag>
-            
             <tag> CFPS </tag>
+            
+            <tag> 命令 </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -351,9 +351,9 @@
             
             <tag> 命令 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
             <tag> CLHLS </tag>
             
@@ -388,9 +388,9 @@
             
             <tag> 命令 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
             <tag> CLHLS </tag>
             
@@ -417,9 +417,9 @@
       
         <tags>
             
-            <tag> 公开数据库 </tag>
-            
             <tag> 数据清洗 </tag>
+            
+            <tag> 公开数据库 </tag>
             
             <tag> Stata </tag>
             
@@ -427,11 +427,11 @@
             
             <tag> 视频 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
-            
-            <tag> CFPS </tag>
             
         </tags>
       
@@ -456,9 +456,9 @@
       
         <tags>
             
-            <tag> 公开数据库 </tag>
-            
             <tag> 数据清洗 </tag>
+            
+            <tag> 公开数据库 </tag>
             
             <tag> Stata </tag>
             
@@ -491,9 +491,9 @@
       
         <tags>
             
-            <tag> 公开数据库 </tag>
-            
             <tag> 数据清洗 </tag>
+            
+            <tag> 公开数据库 </tag>
             
             <tag> Stata </tag>
             
@@ -501,11 +501,11 @@
             
             <tag> 视频 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
-            
-            <tag> CFPS </tag>
             
             <tag> CSS </tag>
             
@@ -633,9 +633,9 @@
             
             <tag> CFPS </tag>
             
-            <tag> CLDS </tag>
-            
             <tag> CHFS </tag>
+            
+            <tag> CLDS </tag>
             
             <tag> 心得 </tag>
             
@@ -722,9 +722,9 @@
       
         <tags>
             
-            <tag> 公开数据库 </tag>
-            
             <tag> 数据清洗 </tag>
+            
+            <tag> 公开数据库 </tag>
             
             <tag> Stata </tag>
             
@@ -732,15 +732,15 @@
             
             <tag> 视频 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
             
-            <tag> CFPS </tag>
+            <tag> CMDS </tag>
             
             <tag> CLDS </tag>
-            
-            <tag> CMDS </tag>
             
         </tags>
       
@@ -2050,7 +2050,7 @@
       <link href="/2022/03/27/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97-%E6%A0%B7%E6%9C%AC%E7%AD%89%E5%88%86%E7%BB%84/"/>
       <url>/2022/03/27/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97-%E6%A0%B7%E6%9C%AC%E7%AD%89%E5%88%86%E7%BB%84/</url>
       
-        <content type="html"><![CDATA[<h2 id="1-xtile-命令"><a href="#1-xtile-命令" class="headerlink" title="1. xtile 命令"></a>1. <code>xtile</code> 命令</h2><p>使用 <code>xtile</code> 命令，可以对某一个变量数进行等分组。</p><p><code>dis_inc</code> 表示可支配收入，<code>inc_group</code> 表示按照可支配收入分组，生成的收入组变量，取值是 <code>1-5</code>，<code>1</code> 为低收入组 (20%)，<code>2</code> 为中低收入组 (20%)，<code>3</code> 为中等收入组 (20%)，<code>4</code> 为中高收入组 (20%)，<code>5</code> 为高收入组 (20%)。</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 样本等分组（按样本数量分组）, n(5) 表示将样本等分为 5 份</span></span><br><span class="line"><span class="keyword">xtile</span> inc_group = dis_inc, <span class="keyword">n</span>(5)</span><br></pre></td></tr></table></figure><h2 id="2-组内样本等分组"><a href="#2-组内样本等分组" class="headerlink" title="2. 组内样本等分组"></a>2. 组内样本等分组</h2><p>先按照城乡、省份分组，然后每一组样本根据可支配收入，分为低收入组、中等偏下收入组、中等收入组、中等偏上收入组、高收入组等五组。</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 生成收入组别变量type</span></span><br><span class="line"><span class="keyword">gen</span> inc_group=.</span><br><span class="line"><span class="comment">//分城乡、分省份划分五个收入组: CX表示城乡识别码(1=城市,2=乡村)，dis_inc表示人均可支配收入</span></span><br><span class="line"><span class="keyword">forvalues</span> j=1/2 &#123;</span><br><span class="line"><span class="keyword">egen</span> p0_<span class="symbol">`j&#x27;</span>=<span class="built_in">min</span>(dis_inc) <span class="keyword">if</span> CX==<span class="symbol">`j&#x27;</span>,<span class="keyword">by</span>(pcode)       <span class="comment">//0%分位数</span></span><br><span class="line"><span class="keyword">forvalues</span> i=20(20)80 &#123;</span><br><span class="line"><span class="keyword">egen</span> p<span class="symbol">`i&#x27;</span>_<span class="symbol">`j&#x27;</span>=<span class="keyword">pctile</span>(dis_inc) <span class="keyword">if</span> CX==<span class="symbol">`j&#x27;</span>,p(<span class="symbol">`i&#x27;</span>) <span class="keyword">by</span>(pcode)   <span class="comment">//20%、40%、60%、80%分位数</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">egen</span> p100_<span class="symbol">`j&#x27;</span>=<span class="built_in">max</span>(dis_inc) <span class="keyword">if</span> CX==<span class="symbol">`j&#x27;</span>,<span class="keyword">by</span>(pcode)     <span class="comment">//100%分位数</span></span><br><span class="line"><span class="comment">//分城乡确定收入组</span></span><br><span class="line"><span class="keyword">replace</span> inc_group=1 <span class="keyword">if</span> dis_inc&gt;=p0_<span class="symbol">`j&#x27;</span>  &amp; dis_inc&lt;p20_<span class="symbol">`j&#x27;</span>   <span class="comment">// 低收入组</span></span><br><span class="line"><span class="keyword">replace</span> inc_group=2 <span class="keyword">if</span> dis_inc&gt;=p20_<span class="symbol">`j&#x27;</span> &amp; dis_inc&lt;p40_<span class="symbol">`j&#x27;</span>   <span class="comment">// 中低收入组</span></span><br><span class="line"><span class="keyword">replace</span> inc_group=3 <span class="keyword">if</span> dis_inc&gt;=p40_<span class="symbol">`j&#x27;</span> &amp; dis_inc&lt;p60_<span class="symbol">`j&#x27;</span>   <span class="comment">// 中等收入组</span></span><br><span class="line"><span class="keyword">replace</span> inc_group=4 <span class="keyword">if</span> dis_inc&gt;=p60_<span class="symbol">`j&#x27;</span> &amp; dis_inc&lt;p80_<span class="symbol">`j&#x27;</span>   <span class="comment">// 中高收入组</span></span><br><span class="line"><span class="keyword">replace</span> inc_group=5 <span class="keyword">if</span> dis_inc&gt;=p80_<span class="symbol">`j&#x27;</span> &amp; dis_inc&lt;=p100_<span class="symbol">`j&#x27;</span> <span class="comment">// 高收入组</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>上面是一种很符合直觉的做法，即先计算分段点百分位数处的取值，然后根据大小关系来确定分组。</p><p>但是，<strong>上面的做法太麻烦！</strong></p><p><code>egenmore</code> 提供的 <code>xtile</code> 函数来计算，一行代码就就可以解决组内等分组的问题！</p><p><strong>首次使用前需要安装 <code>egenmore</code> 提供的函数包</strong>。<u><code>egenmore</code> 提供的函数包很多，安装等待较长时间是正常现象。</u></p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 安装函数包 egenmore: 仅首次使用前需要安装</span></span><br><span class="line"><span class="keyword">ssc</span> install egenmore, repalce</span><br></pre></td></tr></table></figure><p>上面代码的等效命令如下：</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 等效命令</span></span><br><span class="line">xtile2 inc_group = dis_inc, <span class="keyword">n</span>(5) <span class="keyword">by</span>(CX pcode)</span><br></pre></td></tr></table></figure><p>使用 <code>by()</code> 来指定分组的依据，使用 <code>n()</code> 来指定组内等分组的数量。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="1-xtile-命令"><a href="#1-xtile-命令" class="headerlink" title="1. xtile 命令"></a>1. <code>xtile</code> 命令</h2><p>使用 <code>xtile</code> 命令，可以对某一个变量数进行等分组。</p><p><code>dis_inc</code> 表示可支配收入，<code>inc_group</code> 表示按照可支配收入分组，生成的收入组变量，取值是 <code>1-5</code>，<code>1</code> 为低收入组 (20%)，<code>2</code> 为中低收入组 (20%)，<code>3</code> 为中等收入组 (20%)，<code>4</code> 为中高收入组 (20%)，<code>5</code> 为高收入组 (20%)。</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 样本等分组（按样本数量分组）, n(5) 表示将样本等分为 5 份</span></span><br><span class="line"><span class="keyword">xtile</span> inc_group = dis_inc, <span class="keyword">n</span>(5)</span><br></pre></td></tr></table></figure><h2 id="2-组内样本等分组"><a href="#2-组内样本等分组" class="headerlink" title="2. 组内样本等分组"></a>2. 组内样本等分组</h2><p>先按照城乡、省份分组，然后每一组样本根据可支配收入，分为低收入组、中等偏下收入组、中等收入组、中等偏上收入组、高收入组等五组。</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 生成收入组别变量type</span></span><br><span class="line"><span class="keyword">gen</span> inc_group=.</span><br><span class="line"><span class="comment">//分城乡、分省份划分五个收入组: CX表示城乡识别码(1=城市,2=乡村)，dis_inc表示人均可支配收入</span></span><br><span class="line"><span class="keyword">forvalues</span> j=1/2 &#123;</span><br><span class="line"><span class="keyword">egen</span> p0_<span class="symbol">`j&#x27;</span>=<span class="built_in">min</span>(dis_inc) <span class="keyword">if</span> CX==<span class="symbol">`j&#x27;</span>,<span class="keyword">by</span>(pcode)       <span class="comment">//0%分位数</span></span><br><span class="line"><span class="keyword">forvalues</span> i=20(20)80 &#123;</span><br><span class="line"><span class="keyword">egen</span> p<span class="symbol">`i&#x27;</span>_<span class="symbol">`j&#x27;</span>=<span class="keyword">pctile</span>(dis_inc) <span class="keyword">if</span> CX==<span class="symbol">`j&#x27;</span>,p(<span class="symbol">`i&#x27;</span>) <span class="keyword">by</span>(pcode)   <span class="comment">//20%、40%、60%、80%分位数</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">egen</span> p100_<span class="symbol">`j&#x27;</span>=<span class="built_in">max</span>(dis_inc) <span class="keyword">if</span> CX==<span class="symbol">`j&#x27;</span>,<span class="keyword">by</span>(pcode)     <span class="comment">//100%分位数</span></span><br><span class="line"><span class="comment">//分城乡确定收入组</span></span><br><span class="line"><span class="keyword">replace</span> inc_group=1 <span class="keyword">if</span> dis_inc&gt;=p0_<span class="symbol">`j&#x27;</span>  &amp; dis_inc&lt;p20_<span class="symbol">`j&#x27;</span>   <span class="comment">// 低收入组</span></span><br><span class="line"><span class="keyword">replace</span> inc_group=2 <span class="keyword">if</span> dis_inc&gt;=p20_<span class="symbol">`j&#x27;</span> &amp; dis_inc&lt;p40_<span class="symbol">`j&#x27;</span>   <span class="comment">// 中低收入组</span></span><br><span class="line"><span class="keyword">replace</span> inc_group=3 <span class="keyword">if</span> dis_inc&gt;=p40_<span class="symbol">`j&#x27;</span> &amp; dis_inc&lt;p60_<span class="symbol">`j&#x27;</span>   <span class="comment">// 中等收入组</span></span><br><span class="line"><span class="keyword">replace</span> inc_group=4 <span class="keyword">if</span> dis_inc&gt;=p60_<span class="symbol">`j&#x27;</span> &amp; dis_inc&lt;p80_<span class="symbol">`j&#x27;</span>   <span class="comment">// 中高收入组</span></span><br><span class="line"><span class="keyword">replace</span> inc_group=5 <span class="keyword">if</span> dis_inc&gt;=p80_<span class="symbol">`j&#x27;</span> &amp; dis_inc&lt;=p100_<span class="symbol">`j&#x27;</span> <span class="comment">// 高收入组</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>上面是一种很符合直觉的做法，即先计算分段点百分位数处的取值，然后根据大小关系来确定分组。</p><p>但是，<strong>上面的做法太麻烦！</strong></p><p><code>egenmore</code> 提供的 <code>xtile</code> 函数来计算，一行代码就就可以解决组内等分组的问题！</p><p><strong>首次使用前需要安装 <code>egenmore</code> 提供的函数包</strong>。<u><code>egenmore</code> 提供的函数包很多，安装等待较长时间是正常现象。</u></p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 安装函数包 egenmore: 仅首次使用前需要安装</span></span><br><span class="line"><span class="keyword">ssc</span> install egenmore, repalce</span><br></pre></td></tr></table></figure><p>上面代码的等效命令如下：</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 等效命令</span></span><br><span class="line"><span class="keyword">egen</span> inc_group = dis_inc, <span class="keyword">n</span>(5) <span class="keyword">by</span>(CX pcode)</span><br></pre></td></tr></table></figure><p>使用 <code>by()</code> 来指定分组的依据，使用 <code>n()</code> 来指定组内等分组的数量。</p>]]></content>
       
       
       <categories>
@@ -2309,33 +2309,6 @@
     
     
     <entry>
-      <title>为什么使用PSM消除样本选择偏差</title>
-      <link href="/2022/03/16/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8PSM%E6%B6%88%E9%99%A4%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9%E5%81%8F%E5%B7%AE/"/>
-      <url>/2022/03/16/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8PSM%E6%B6%88%E9%99%A4%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9%E5%81%8F%E5%B7%AE/</url>
-      
-        <content type="html"><![CDATA[<p>　　<strong>要理解为什么用 psm 消除样本的选择偏误，先要理解 psm 的原理。</strong></p><p>　　在研究一种干预措施的效果时，理想状态是进行随机化实验，也就是控制其他所有条件都相同，仅有是否采取干预措施这一点不同，这样就可以通过比较随机化实验中干预组与对照组的差异，了解干预措施的效果，为排除个体差异，通常使用干预组与对照组的效果的平均值差异来衡量，也就是许多实证研究中许多研究计算的平均处理效应。</p><p>　　然而，随机化实验往往在医学、生物学等领域更为常见，在经济学相关研究中，经济发展情况、社会制度、文化差异等各方面的不同之处决定了不能随意指定两类样本进行比较，以衡量干预措施的效果。更多的情况是干预措施的效果会受到两组样本之间其他差异的影响，这种情况下，无法准确判断两组之间的差异是不是由这一干预措施带来的，也就是无法准确判断干预措施与结果差异之间的“因果关系”。</p><p>　　因此，为了可以更准确估计来自干预措施的影响，更准确地识别这种“因果关系”，回归的方式最早被应用，常见的是线性回归。然而，使用回归方法判断的是两个变量之间的统计关系，在需要满足 CIA（条件独立性假设）或 CMI（条件均值独立性假设）的条件下，该统计关系才可以解释为干预措施的因果关系。</p><h2 id="什么是-CIA-假设？"><a href="#什么是-CIA-假设？" class="headerlink" title="什么是 CIA 假设？"></a>什么是 CIA 假设？</h2><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426014748-fjbac81.png" alt="image.png"></p><p>　　（CIA 假设比 CMI 假设更强，具体可以参见赵西亮老师的《基本有用的计量经济学》第 5 章第 2 节）</p><p>　　然而，这种回归的方式也有缺陷。一是回归方式不能解决在样本抽样阶段造成的选择性偏误；二是由于数据的可得性，往往实证研究中并不能做到饱和回归，许多变量对结果的影响无法被观测到。因此，在实际上，回归的方式也难以满足CIA条件，难以得到准确的“因果效应”。</p><h2 id="什么是PSM？为什么PSM？"><a href="#什么是PSM？为什么PSM？" class="headerlink" title="什么是PSM？为什么PSM？"></a>什么是PSM？为什么PSM？</h2><p>　　PSM是倾向得分匹配，其本质是构造一个倾向得分，通过比较倾向得分，匹配干预组与对照组，构造出一个“准自然实验”，因此，PSM在理论上比回归的方法更有可能满足CIA条件。</p><p>　　PSM的估计过程大体可以分为以下4个步骤（参考赵西亮老师的《基本有用的计量经济学》）：</p><h4 id="1-定义相似性"><a href="#1-定义相似性" class="headerlink" title="1. 定义相似性"></a>1. 定义相似性</h4><p>　　为了准确估计因果效应，需要找到其他条件都相似的干预组与对照组，因此需要定义相似性。相似性的定义，需要关注哪些变量应当作为定义相似性的依据，以及如何测度相似性。</p><p>　　<strong>对于变量的选择上</strong>，定义相似性的变量应当满足CIA条件，也就是控制了这些变量后，干预组与控制组不能有其他未观测到的差异。</p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426020940-ao1iy17.png" alt="image.png"></p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426020956-2vma08o.png" alt="image.png"></p><p>　　<strong>对于如何测度相似性</strong>：一般采用马氏距离或欧氏距离</p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021120-xyruew0.png" alt="image.png"></p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021143-cjxmi6m.png" alt="image.png"></p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021220-5jqs4lw.png" alt="image.png"></p><p>　　那么，就可以通过logit回归等方式估计需要的倾向得分：</p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021404-cyfpjtp.png" alt="image.png"></p><h4 id="2-实施匹配"><a href="#2-实施匹配" class="headerlink" title="2. 实施匹配"></a>2. 实施匹配</h4><p>　　在实施匹配的方法上，主要有<strong>近邻匹配</strong>和<strong>分层匹配</strong>两种形式。</p><p>　　<strong>近邻匹配包括一对一匹配与一对多匹配。</strong></p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021551-mjz9fdx.png" alt="image.png"></p><p>　　<strong>而分层匹配则是根据倾向得分的取值，对样本进行分层，以减小每一层内的倾向得分的差距，获得更好的匹配效果。</strong></p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021648-q3f91lq.png" alt="image.png"></p><h4 id="3-匹配效果诊断"><a href="#3-匹配效果诊断" class="headerlink" title="3. 匹配效果诊断"></a>3. 匹配效果诊断</h4><p>　　匹配效果好不好，主要取决于干预组与对照组的控制变量差异是否得到了有效控制。在实证中，具体体现为控制变量的平衡性检验。</p><p>　　<strong>CIA假设是因果关系识别的关键。虽然CIA假设难以被验证成立，但证明CIA不成立却相对简单。</strong>如果实施匹配后控制变量的平衡性检验无法通过，则说明CIA不成立，使用当前匹配方法估计出的因果效应不是真实的干预措施因果效应的可能性较大。</p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021916-4uvzl0d.png" alt="image.png"></p><h4 id="4-因果效应估计"><a href="#4-因果效应估计" class="headerlink" title="4. 因果效应估计"></a>4. 因果效应估计</h4><p>　　在通过了匹配效果的检验后，因果效应的估计才是可靠的。在最后一步，再估计干预措施的因果效应。</p><h2 id="当然，PSM也有问题："><a href="#当然，PSM也有问题：" class="headerlink" title="当然，PSM也有问题："></a>当然，PSM也有问题：</h2><p>　　基于几个控制变量测度出的倾向得分，难以包含不可测因素的影响，PSM难以避免不可测因素对结果的影响。在经济学相关的研究中，最常见的是讨论某个经济干预行为对另一个经济因素的影响，但由于制度因素相对更难度量，制度因素的缺失可能导致估计出的经济干预行为的效果有偏差。</p><p>　　为解决这一问题，也有使用工具变量法、使用面板数据等方式，更进一步进行估计。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 实证分析 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 实证分析 </tag>
-            
-            <tag> 模型 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>取对数问题</title>
       <link href="/2022/03/16/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E5%8F%96%E5%AF%B9%E6%95%B0%E9%97%AE%E9%A2%98/"/>
       <url>/2022/03/16/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E5%8F%96%E5%AF%B9%E6%95%B0%E9%97%AE%E9%A2%98/</url>
@@ -2355,6 +2328,33 @@
             <tag> Stata </tag>
             
             <tag> 实证分析 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>为什么使用PSM消除样本选择偏差</title>
+      <link href="/2022/03/16/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8PSM%E6%B6%88%E9%99%A4%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9%E5%81%8F%E5%B7%AE/"/>
+      <url>/2022/03/16/%E5%AE%9E%E8%AF%81%E5%88%86%E6%9E%90-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8PSM%E6%B6%88%E9%99%A4%E6%A0%B7%E6%9C%AC%E9%80%89%E6%8B%A9%E5%81%8F%E5%B7%AE/</url>
+      
+        <content type="html"><![CDATA[<p>　　<strong>要理解为什么用 psm 消除样本的选择偏误，先要理解 psm 的原理。</strong></p><p>　　在研究一种干预措施的效果时，理想状态是进行随机化实验，也就是控制其他所有条件都相同，仅有是否采取干预措施这一点不同，这样就可以通过比较随机化实验中干预组与对照组的差异，了解干预措施的效果，为排除个体差异，通常使用干预组与对照组的效果的平均值差异来衡量，也就是许多实证研究中许多研究计算的平均处理效应。</p><p>　　然而，随机化实验往往在医学、生物学等领域更为常见，在经济学相关研究中，经济发展情况、社会制度、文化差异等各方面的不同之处决定了不能随意指定两类样本进行比较，以衡量干预措施的效果。更多的情况是干预措施的效果会受到两组样本之间其他差异的影响，这种情况下，无法准确判断两组之间的差异是不是由这一干预措施带来的，也就是无法准确判断干预措施与结果差异之间的“因果关系”。</p><p>　　因此，为了可以更准确估计来自干预措施的影响，更准确地识别这种“因果关系”，回归的方式最早被应用，常见的是线性回归。然而，使用回归方法判断的是两个变量之间的统计关系，在需要满足 CIA（条件独立性假设）或 CMI（条件均值独立性假设）的条件下，该统计关系才可以解释为干预措施的因果关系。</p><h2 id="什么是-CIA-假设？"><a href="#什么是-CIA-假设？" class="headerlink" title="什么是 CIA 假设？"></a>什么是 CIA 假设？</h2><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426014748-fjbac81.png" alt="image.png"></p><p>　　（CIA 假设比 CMI 假设更强，具体可以参见赵西亮老师的《基本有用的计量经济学》第 5 章第 2 节）</p><p>　　然而，这种回归的方式也有缺陷。一是回归方式不能解决在样本抽样阶段造成的选择性偏误；二是由于数据的可得性，往往实证研究中并不能做到饱和回归，许多变量对结果的影响无法被观测到。因此，在实际上，回归的方式也难以满足CIA条件，难以得到准确的“因果效应”。</p><h2 id="什么是PSM？为什么PSM？"><a href="#什么是PSM？为什么PSM？" class="headerlink" title="什么是PSM？为什么PSM？"></a>什么是PSM？为什么PSM？</h2><p>　　PSM是倾向得分匹配，其本质是构造一个倾向得分，通过比较倾向得分，匹配干预组与对照组，构造出一个“准自然实验”，因此，PSM在理论上比回归的方法更有可能满足CIA条件。</p><p>　　PSM的估计过程大体可以分为以下4个步骤（参考赵西亮老师的《基本有用的计量经济学》）：</p><h4 id="1-定义相似性"><a href="#1-定义相似性" class="headerlink" title="1. 定义相似性"></a>1. 定义相似性</h4><p>　　为了准确估计因果效应，需要找到其他条件都相似的干预组与对照组，因此需要定义相似性。相似性的定义，需要关注哪些变量应当作为定义相似性的依据，以及如何测度相似性。</p><p>　　<strong>对于变量的选择上</strong>，定义相似性的变量应当满足CIA条件，也就是控制了这些变量后，干预组与控制组不能有其他未观测到的差异。</p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426020940-ao1iy17.png" alt="image.png"></p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426020956-2vma08o.png" alt="image.png"></p><p>　　<strong>对于如何测度相似性</strong>：一般采用马氏距离或欧氏距离</p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021120-xyruew0.png" alt="image.png"></p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021143-cjxmi6m.png" alt="image.png"></p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021220-5jqs4lw.png" alt="image.png"></p><p>　　那么，就可以通过logit回归等方式估计需要的倾向得分：</p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021404-cyfpjtp.png" alt="image.png"></p><h4 id="2-实施匹配"><a href="#2-实施匹配" class="headerlink" title="2. 实施匹配"></a>2. 实施匹配</h4><p>　　在实施匹配的方法上，主要有<strong>近邻匹配</strong>和<strong>分层匹配</strong>两种形式。</p><p>　　<strong>近邻匹配包括一对一匹配与一对多匹配。</strong></p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021551-mjz9fdx.png" alt="image.png"></p><p>　　<strong>而分层匹配则是根据倾向得分的取值，对样本进行分层，以减小每一层内的倾向得分的差距，获得更好的匹配效果。</strong></p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021648-q3f91lq.png" alt="image.png"></p><h4 id="3-匹配效果诊断"><a href="#3-匹配效果诊断" class="headerlink" title="3. 匹配效果诊断"></a>3. 匹配效果诊断</h4><p>　　匹配效果好不好，主要取决于干预组与对照组的控制变量差异是否得到了有效控制。在实证中，具体体现为控制变量的平衡性检验。</p><p>　　<strong>CIA假设是因果关系识别的关键。虽然CIA假设难以被验证成立，但证明CIA不成立却相对简单。</strong>如果实施匹配后控制变量的平衡性检验无法通过，则说明CIA不成立，使用当前匹配方法估计出的因果效应不是真实的干预措施因果效应的可能性较大。</p><p>　　<img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021916-4uvzl0d.png" alt="image.png"></p><h4 id="4-因果效应估计"><a href="#4-因果效应估计" class="headerlink" title="4. 因果效应估计"></a>4. 因果效应估计</h4><p>　　在通过了匹配效果的检验后，因果效应的估计才是可靠的。在最后一步，再估计干预措施的因果效应。</p><h2 id="当然，PSM也有问题："><a href="#当然，PSM也有问题：" class="headerlink" title="当然，PSM也有问题："></a>当然，PSM也有问题：</h2><p>　　基于几个控制变量测度出的倾向得分，难以包含不可测因素的影响，PSM难以避免不可测因素对结果的影响。在经济学相关的研究中，最常见的是讨论某个经济干预行为对另一个经济因素的影响，但由于制度因素相对更难度量，制度因素的缺失可能导致估计出的经济干预行为的效果有偏差。</p><p>　　为解决这一问题，也有使用工具变量法、使用面板数据等方式，更进一步进行估计。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 模型 </tag>
             
         </tags>
       
