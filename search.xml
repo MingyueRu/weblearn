@@ -53,15 +53,15 @@
             
             <tag> bilibili </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
             
-            <tag> CFPS </tag>
+            <tag> 气象数据 </tag>
             
             <tag> 教对象Stata系列 </tag>
-            
-            <tag> 气象数据 </tag>
             
         </tags>
       
@@ -92,13 +92,13 @@
             
             <tag> 视频 </tag>
             
-            <tag> 命令 </tag>
-            
             <tag> CFPS </tag>
             
-            <tag> 教对象Stata系列 </tag>
+            <tag> 命令 </tag>
             
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
         </tags>
       
@@ -197,9 +197,9 @@
       
         <tags>
             
-            <tag> 公开数据库 </tag>
-            
             <tag> 数据清洗 </tag>
+            
+            <tag> 公开数据库 </tag>
             
             <tag> Stata </tag>
             
@@ -240,11 +240,11 @@
             
             <tag> bilibili </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
-            
-            <tag> CFPS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -277,9 +277,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> 命令 </tag>
-            
             <tag> CFPS </tag>
+            
+            <tag> 命令 </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -380,9 +380,9 @@
             
             <tag> 命令 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
             <tag> CLHLS </tag>
             
@@ -417,9 +417,9 @@
             
             <tag> 命令 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
             <tag> CLHLS </tag>
             
@@ -446,9 +446,9 @@
       
         <tags>
             
-            <tag> 公开数据库 </tag>
-            
             <tag> 数据清洗 </tag>
+            
+            <tag> 公开数据库 </tag>
             
             <tag> Stata </tag>
             
@@ -456,11 +456,11 @@
             
             <tag> 视频 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
-            
-            <tag> CFPS </tag>
             
         </tags>
       
@@ -485,9 +485,9 @@
       
         <tags>
             
-            <tag> 公开数据库 </tag>
-            
             <tag> 数据清洗 </tag>
+            
+            <tag> 公开数据库 </tag>
             
             <tag> Stata </tag>
             
@@ -520,9 +520,9 @@
       
         <tags>
             
-            <tag> 公开数据库 </tag>
-            
             <tag> 数据清洗 </tag>
+            
+            <tag> 公开数据库 </tag>
             
             <tag> Stata </tag>
             
@@ -530,11 +530,11 @@
             
             <tag> 视频 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
-            
-            <tag> CFPS </tag>
             
             <tag> CSS </tag>
             
@@ -809,9 +809,9 @@
       
         <tags>
             
-            <tag> 公开数据库 </tag>
-            
             <tag> 数据清洗 </tag>
+            
+            <tag> 公开数据库 </tag>
             
             <tag> Stata </tag>
             
@@ -819,15 +819,15 @@
             
             <tag> 视频 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
             
-            <tag> CFPS </tag>
+            <tag> CMDS </tag>
             
             <tag> CLDS </tag>
-            
-            <tag> CMDS </tag>
             
         </tags>
       
@@ -1115,9 +1115,9 @@
             
             <tag> 软件 </tag>
             
-            <tag> Hexo </tag>
-            
             <tag> macOS </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
