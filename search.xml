@@ -53,11 +53,11 @@
             
             <tag> bilibili </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
-            
-            <tag> CFPS </tag>
             
             <tag> 气象数据 </tag>
             
@@ -119,9 +119,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> 命令 </tag>
-            
             <tag> CFPS </tag>
+            
+            <tag> 命令 </tag>
             
             <tag> 气象数据 </tag>
             
@@ -224,9 +224,9 @@
       
         <tags>
             
-            <tag> 公开数据库 </tag>
-            
             <tag> 数据清洗 </tag>
+            
+            <tag> 公开数据库 </tag>
             
             <tag> Stata </tag>
             
@@ -267,11 +267,11 @@
             
             <tag> bilibili </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
-            
-            <tag> CFPS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -304,9 +304,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> 命令 </tag>
-            
             <tag> CFPS </tag>
+            
+            <tag> 命令 </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -473,9 +473,9 @@
       
         <tags>
             
-            <tag> 公开数据库 </tag>
-            
             <tag> 数据清洗 </tag>
+            
+            <tag> 公开数据库 </tag>
             
             <tag> Stata </tag>
             
@@ -483,11 +483,11 @@
             
             <tag> 视频 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
-            
-            <tag> CFPS </tag>
             
         </tags>
       
@@ -512,9 +512,9 @@
       
         <tags>
             
-            <tag> 公开数据库 </tag>
-            
             <tag> 数据清洗 </tag>
+            
+            <tag> 公开数据库 </tag>
             
             <tag> Stata </tag>
             
@@ -547,9 +547,9 @@
       
         <tags>
             
-            <tag> 公开数据库 </tag>
-            
             <tag> 数据清洗 </tag>
+            
+            <tag> 公开数据库 </tag>
             
             <tag> Stata </tag>
             
@@ -557,11 +557,11 @@
             
             <tag> 视频 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
-            
-            <tag> CFPS </tag>
             
             <tag> CSS </tag>
             
@@ -776,9 +776,9 @@
       
         <tags>
             
-            <tag> 公开数据库 </tag>
-            
             <tag> 数据清洗 </tag>
+            
+            <tag> 公开数据库 </tag>
             
             <tag> Stata </tag>
             
@@ -786,11 +786,11 @@
             
             <tag> 视频 </tag>
             
+            <tag> CFPS </tag>
+            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
-            
-            <tag> CFPS </tag>
             
             <tag> CLDS </tag>
             
@@ -1055,9 +1055,9 @@
             
             <tag> 软件 </tag>
             
-            <tag> macOS </tag>
-            
             <tag> zotero </tag>
+            
+            <tag> macOS </tag>
             
         </tags>
       
@@ -1128,7 +1128,7 @@
       <link href="/posts/53567/"/>
       <url>/posts/53567/</url>
       
-        <content type="html"><![CDATA[<p>　　在使用 npm 安装 hexo 后，安装 hexo 成功，但 macOS 下无法识别 hexo命令，使用「hexo -v」检查安装状态，或者初始化「hexo init」时出现「zsh:command not found: hexo」的错误。这是因为 hexo虽然已经安装，但未正确配置环境变量导致的。</p><p>　　在 <a href="http://terminal.app/">terminal.app</a> (终端app)中，输入「which node」和「which npm」，可以查看到 node 和 npm的安装路径。如下图所示，可以看出 npm的安装位置在「/Users/username/local/bin/npm」路径下，其中username就是MacBook开机的登录用户名。(为保护隐私，用户名使用蓝色、设备名称使用红色进行了遮挡)</p><p>　　<imgsrc="https://pica.zhimg.com/80/v2-9da85435ceebc834f0fb79394e033f00_1440w.png?source=d16d100b" /></p><p>　　在 hexo 安装完成后，进行初始化步骤时，使用「hexoinit」命令，发现汇报「zsh: command not found:hexo」，这是由于环境变量配置错误导致的（上文已述），需要修改环境变量配置文件。</p><p>　　首先，使用「shi ft+command+。」，打开 Mac的隐藏文件显示，然后找到打开「/Users/username/.npm-global/bin」路径，发现hexo的替身文件被放置在该文件夹下，使用「command+i」，打开简介界面，复制替身路径。</p><p>　　<imgsrc="https://picx.zhimg.com/80/v2-30f50785e52b7f41c0af0eb95aaa7c79_1440w.png?source=d16d100b" /></p><p>　　然后，前往「/Users/username/」路径的用户文件夹下，找到「.zshrc」文件，复制后在桌面粘贴。</p><p>　　<imgsrc="https://picx.zhimg.com/80/v2-d9c367d4423cd6c320fca20ee5e70f3c_1440w.png?source=d16d100b" /></p><p>　　右键桌面的「.zshrc」文件，使用「文本编辑.app」打开，在其中加入一段命令(红框所示,蓝色抹掉的是用户名)，如下所示：</p><p>　　<imgsrc="https://picx.zhimg.com/80/v2-d2c9fef88628ea5559c1b0e6b6afb405_1440w.png?source=d16d100b" /></p><p>　　上述红框内的路径即为上面「hexo」替身文件的保存路径。保存后，将修改过的「.zshrc」文件放回原处，并替换原始文件。</p><p>　　此时，打开「terminal.app」，用「source~/.zshrc」命令更新环境变量，然后输入「hexo -v」即可查看已经安装的 hexo版本号，表明命令已经识别成功，可以进行初始化「hexo init」操作了。</p><p>　　<imgsrc="https://pica.zhimg.com/80/v2-0dbfbff1c6bdc8df46e0cc59137b39d0_1440w.png?source=d16d100b" /></p><p>　　此文操作方法，参考了@biubiuliu的博文，十分感谢。下面附上链接：</p><p>　　[MAC zsh: command not found:hexo(https://biubiuliu.gitee.io/blog/2020/07/01/notFoundHexo/)</p>]]></content>
+        <content type="html"><![CDATA[<p>　　在使用 npm 安装 hexo 后，安装 hexo 成功，但 macOS 下无法识别 hexo命令，使用「hexo -v」检查安装状态，或者初始化「hexo init」时出现「zsh:command not found: hexo」的错误。这是因为 hexo虽然已经安装，但未正确配置环境变量导致的。</p><p>　　在 terminal.app (终端app)中， 输入「which node」和「whichnpm」，可以查看到 node 和 npm 的安装路径。如下图所示，可以看出 npm的安装位置在「/Users/username/local/bin/npm」路径下，其中username就是MacBook开机的登录用户名。(为保护隐私，用户名使用蓝色、设备名称使用红色进行了遮挡)</p><p>　　<imgsrc="https://pica.zhimg.com/80/v2-9da85435ceebc834f0fb79394e033f00_1440w.png?source=d16d100b" /></p><p>　　在 hexo 安装完成后，进行初始化步骤时，使用「hexoinit」命令，发现汇报「zsh: command not found:hexo」，这是由于环境变量配置错误导致的（上文已述），需要修改环境变量配置文件。</p><p>　　首先，使用「shi ft+command+。」，打开 Mac的隐藏文件显示，然后找到打开「/Users/username/.npm-global/bin」路径，发现hexo的替身文件被放置在该文件夹下，使用「command+i」，打开简介界面，复制替身路径。</p><p>　　<imgsrc="https://picx.zhimg.com/80/v2-30f50785e52b7f41c0af0eb95aaa7c79_1440w.png?source=d16d100b" /></p><p>　　然后，前往「/Users/username/」路径的用户文件夹下，找到「.zshrc」文件，复制后在桌面粘贴。</p><p>　　<imgsrc="https://picx.zhimg.com/80/v2-d9c367d4423cd6c320fca20ee5e70f3c_1440w.png?source=d16d100b" /></p><p>　　右键桌面的「.zshrc」文件，使用「文本编辑.app」打开，在其中加入一段命令(红框所示,蓝色抹掉的是用户名)，如下所示：</p><p>　　<imgsrc="https://picx.zhimg.com/80/v2-d2c9fef88628ea5559c1b0e6b6afb405_1440w.png?source=d16d100b" /></p><p>　　上述红框内的路径即为上面「hexo」替身文件的保存路径。保存后，将修改过的「.zshrc」文件放回原处，并替换原始文件。</p><p>　　此时，打开「terminal.app」，用「source~/.zshrc」命令更新环境变量，然后输入「hexo -v」即可查看已经安装的 hexo版本号，表明命令已经识别成功，可以进行初始化「hexo init」操作了。</p><p>　　<imgsrc="https://pica.zhimg.com/80/v2-0dbfbff1c6bdc8df46e0cc59137b39d0_1440w.png?source=d16d100b" /></p><p>　　此文操作方法，参考了@biubiuliu的博文，十分感谢。下面附上链接：</p><p>　　<ahref="https://biubiuliu.gitee.io/blog/2020/07/01/notFoundHexo/">MAC zsh:command not found: hexo</a></p>]]></content>
       
       
       <categories>
@@ -1142,9 +1142,9 @@
             
             <tag> 软件 </tag>
             
-            <tag> Hexo </tag>
-            
             <tag> macOS </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -1225,9 +1225,9 @@
             
             <tag> 软件 </tag>
             
-            <tag> macOS </tag>
-            
             <tag> zotero </tag>
+            
+            <tag> macOS </tag>
             
         </tags>
       
