@@ -24,44 +24,15 @@
             
             <tag> bilibili </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
             
-            <tag> 教对象Stata系列 </tag>
+            <tag> CFPS </tag>
             
             <tag> 气象数据 </tag>
             
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>目录｜视频合集</title>
-      <link href="/posts/35326/"/>
-      <url>/posts/35326/</url>
-      
-        <content type="html"><![CDATA[<h2 id="视频目录">视频目录</h2><h3 id="教对象-stata-系列">教对象 Stata 系列</h3><ol type="1"><li><strong>第 1 课：软件介绍与数据管理</strong><ul><li><strong>内容</strong>：软件介绍与数据管理</li><li><strong>相关命令</strong>：<code>cd</code>、<code>help</code>、<code>log</code>、<code>use</code>、<code>save</code>、<code>rm</code>、<code>import</code>、<code>export</code>、<code>ssc install</code></li><li><a href="https://www.bilibili.com/video/BV1Dv4y1y7FC">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/38617/">附件下载链接与配套笔记</a></li><li><a href="https://fgzfgz.github.io/posts/38591/">配套代码</a></li></ul></li><li><strong>第 2 课：变量管理与 IF 条件使</strong><ul><li><strong>内容</strong>：变量管理、IF条件使用 -变量生成、取值替换、重命名、标签、排序、删除与保留</li><li><strong>相关命令</strong>：<code>gen</code>、<code>replace</code>、<code>egen</code>、<code>ereplace</code>、<code>if</code>、<code>rename</code>、<code>label</code>、<code>order</code>、<code>sort</code>、<code>gsort</code>、<code>keep</code>、<code>drop</code></li><li><a href="https://www.bilibili.com/video/BV1e14y1M7Ju">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/47947/">附件下载链接与配套笔记</a></li><li><a href="https://fgzfgz.github.io/posts/14887/">配套代码</a></li></ul></li><li><strong>第 3 课：变量管理、统计分析与数据管理</strong><ul><li><strong>内容</strong>：变量管理、统计分析与数据管理-变量类型转换、统计分析与数据匹配、数据接驳</li><li><strong>相关命令</strong>：<code>tostring</code>、<code>destring</code>、<code>list</code>、<code>summ</code>、<code>tab</code>、<code>tabstat</code>、<code>append</code>、<code>merge</code></li><li><a href="https://www.bilibili.com/video/BV1vY4y1R7tH/">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/39149/">附件下载链接与配套笔记</a></li><li><a href="https://fgzfgz.github.io/posts/7941/">配套代码</a></li></ul></li><li><strong>第 4 课：数据管理 - 长宽数据转换</strong><ul><li><strong>内容</strong>：数据管理-长宽数据转换</li><li><strong>相关命令</strong>：<code>reshape</code>、<code>gather</code>、<code>spread</code></li><li><a href="https://www.bilibili.com/video/BV13Y4y1d7ui">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/35419/">附件下载链接与配套笔记</a></li><li><a href="https://fgzfgz.github.io/posts/31571/">配套代码</a></li></ul></li><li><strong>第 5 课：循环语句的使用</strong><ul><li><strong>内容</strong>：循环语句的使用</li><li><strong>相关命令</strong>：<code>foreach</code>、<code>forvalues</code>、<code>global</code>、<code>local</code></li><li><a href="https://www.bilibili.com/video/BV1RT411R7sK/">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/36223/">附件下载链接与配套笔记</a></li><li><a href="https://fgzfgz.github.io/posts/31732/">配套代码</a></li></ul></li></ol><hr /><h3 id="stata数据清洗专题">Stata数据清洗专题</h3><ol type="1"><li>CFPS/CLDS/CMDS等公开数据库的数据清洗<ul><li><strong>内容</strong>：使用stata清洗CFPS/CLDS/CMDS等公开数据库，变量生成、极端值处理、数据匹配等问题。</li><li><a href="https://www.bilibili.com/video/BV1fK411o7qV/">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/25255/">附件下载链接</a></li></ul></li><li>使用逐年气象数据生成面板数据<ul><li><strong>内容</strong>：使用逐年气象数据，生成面板数据。</li><li><a href="https://www.bilibili.com/video/BV1wM411176Y">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/37511/">附件下载链接</a></li></ul></li><li>使用公开数据库测算家庭规模<ul><li><strong>内容</strong>：基于 Stata 使用公开数据库测算家庭规模。</li><li><a href="https://www.bilibili.com/video/BV1jG4y177cS">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/11382/">附件下载链接</a></li></ul></li><li>CFPS 隔代照料问题的讨论<ul><li><strong>内容</strong>：关于CFPS中子女工作与隔代照料的问题。</li><li><a href="https://www.bilibili.com/video/BV1V44y1R7b2">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/15842/">附件下载链接</a></li></ul></li><li>使用 CFPS 计算分性别家庭子女数<ul><li><strong>内容</strong>：使用CFPS数据计算分性别家庭子女数</li><li><a href="https://www.bilibili.com/video/BV1KR4y1e7F9/">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/51274/">附件下载链接</a></li></ul></li><li>使用 CMDS 计算地级市宏观指标<ul><li><strong>内容</strong>：与朋友讨论 “使用CMDS计算地级市宏观指标”，并说明CMDS使用中的问题。</li><li><a href="https://www.bilibili.com/video/BV1Z8411376X/">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/14589/">附件下载链接</a></li></ul></li></ol>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Stata </tag>
-            
-            <tag> bilibili </tag>
-            
-            <tag> 代码库 </tag>
-            
-            <tag> 命令 </tag>
-            
             <tag> 教对象Stata系列 </tag>
-            
-            <tag> 目录 </tag>
             
         </tags>
       
@@ -92,13 +63,13 @@
             
             <tag> 视频 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 命令 </tag>
             
-            <tag> 教对象Stata系列 </tag>
+            <tag> CFPS </tag>
             
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
         </tags>
       
@@ -197,9 +168,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -240,11 +211,11 @@
             
             <tag> bilibili </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
+            
+            <tag> CFPS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -277,9 +248,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 命令 </tag>
+            
+            <tag> CFPS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -380,9 +351,9 @@
             
             <tag> 命令 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
             <tag> CLHLS </tag>
             
@@ -417,9 +388,9 @@
             
             <tag> 命令 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
             <tag> CLHLS </tag>
             
@@ -446,9 +417,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -456,11 +427,11 @@
             
             <tag> 视频 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
+            
+            <tag> CFPS </tag>
             
         </tags>
       
@@ -485,9 +456,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -520,9 +491,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -530,11 +501,11 @@
             
             <tag> 视频 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
+            
+            <tag> CFPS </tag>
             
             <tag> CSS </tag>
             
@@ -807,9 +778,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -817,11 +788,11 @@
             
             <tag> 视频 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
+            
+            <tag> CFPS </tag>
             
             <tag> CLDS </tag>
             
@@ -2717,6 +2688,35 @@
             <tag> Stata </tag>
             
             <tag> 命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>目录｜视频合集</title>
+      <link href="/posts/35326/"/>
+      <url>/posts/35326/</url>
+      
+        <content type="html"><![CDATA[<h2 id="视频目录">视频目录</h2><h3 id="教对象-stata-系列">教对象 Stata 系列</h3><ol type="1"><li><strong>第 1 课：软件介绍与数据管理</strong><ul><li><strong>内容</strong>：软件介绍与数据管理</li><li><strong>相关命令</strong>：<code>cd</code>、<code>help</code>、<code>log</code>、<code>use</code>、<code>save</code>、<code>rm</code>、<code>import</code>、<code>export</code>、<code>ssc install</code></li><li><a href="https://www.bilibili.com/video/BV1Dv4y1y7FC">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/38617/">附件下载链接与配套笔记</a></li><li><a href="https://fgzfgz.github.io/posts/38591/">配套代码</a></li></ul></li><li><strong>第 2 课：变量管理与 IF 条件使</strong><ul><li><strong>内容</strong>：变量管理、IF条件使用 -变量生成、取值替换、重命名、标签、排序、删除与保留</li><li><strong>相关命令</strong>：<code>gen</code>、<code>replace</code>、<code>egen</code>、<code>ereplace</code>、<code>if</code>、<code>rename</code>、<code>label</code>、<code>order</code>、<code>sort</code>、<code>gsort</code>、<code>keep</code>、<code>drop</code></li><li><a href="https://www.bilibili.com/video/BV1e14y1M7Ju">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/47947/">附件下载链接与配套笔记</a></li><li><a href="https://fgzfgz.github.io/posts/14887/">配套代码</a></li></ul></li><li><strong>第 3 课：变量管理、统计分析与数据管理</strong><ul><li><strong>内容</strong>：变量管理、统计分析与数据管理-变量类型转换、统计分析与数据匹配、数据接驳</li><li><strong>相关命令</strong>：<code>tostring</code>、<code>destring</code>、<code>list</code>、<code>summ</code>、<code>tab</code>、<code>tabstat</code>、<code>append</code>、<code>merge</code></li><li><a href="https://www.bilibili.com/video/BV1vY4y1R7tH/">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/39149/">附件下载链接与配套笔记</a></li><li><a href="https://fgzfgz.github.io/posts/7941/">配套代码</a></li></ul></li><li><strong>第 4 课：数据管理 - 长宽数据转换</strong><ul><li><strong>内容</strong>：数据管理-长宽数据转换</li><li><strong>相关命令</strong>：<code>reshape</code>、<code>gather</code>、<code>spread</code></li><li><a href="https://www.bilibili.com/video/BV13Y4y1d7ui">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/35419/">附件下载链接与配套笔记</a></li><li><a href="https://fgzfgz.github.io/posts/31571/">配套代码</a></li></ul></li><li><strong>第 5 课：循环语句的使用</strong><ul><li><strong>内容</strong>：循环语句的使用</li><li><strong>相关命令</strong>：<code>foreach</code>、<code>forvalues</code>、<code>global</code>、<code>local</code></li><li><a href="https://www.bilibili.com/video/BV1RT411R7sK/">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/36223/">附件下载链接与配套笔记</a></li><li><a href="https://fgzfgz.github.io/posts/31732/">配套代码</a></li></ul></li></ol><hr /><h3 id="stata数据清洗专题">Stata数据清洗专题</h3><ol type="1"><li>CFPS/CLDS/CMDS等公开数据库的数据清洗<ul><li><strong>内容</strong>：使用stata清洗CFPS/CLDS/CMDS等公开数据库，变量生成、极端值处理、数据匹配等问题。</li><li><a href="https://www.bilibili.com/video/BV1fK411o7qV/">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/25255/">附件下载链接</a></li></ul></li><li>使用逐年气象数据生成面板数据<ul><li><strong>内容</strong>：使用逐年气象数据，生成面板数据。</li><li><a href="https://www.bilibili.com/video/BV1wM411176Y">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/37511/">附件下载链接</a></li></ul></li><li>使用公开数据库测算家庭规模<ul><li><strong>内容</strong>：基于 Stata 使用公开数据库测算家庭规模。</li><li><a href="https://www.bilibili.com/video/BV1jG4y177cS">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/11382/">附件下载链接</a></li></ul></li><li>CFPS 隔代照料问题的讨论<ul><li><strong>内容</strong>：关于CFPS中子女工作与隔代照料的问题。</li><li><a href="https://www.bilibili.com/video/BV1V44y1R7b2">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/15842/">附件下载链接</a></li></ul></li><li>使用 CFPS 计算分性别家庭子女数<ul><li><strong>内容</strong>：使用CFPS数据计算分性别家庭子女数</li><li><a href="https://www.bilibili.com/video/BV1KR4y1e7F9/">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/51274/">附件下载链接</a></li></ul></li><li>使用 CMDS 计算地级市宏观指标<ul><li><strong>内容</strong>：与朋友讨论 “使用CMDS计算地级市宏观指标”，并说明CMDS使用中的问题。</li><li><a href="https://www.bilibili.com/video/BV1Z8411376X/">BiliBili视频</a></li><li><ahref="https://fgzfgz.github.io/posts/14589/">附件下载链接</a></li></ul></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Stata </tag>
+            
+            <tag> bilibili </tag>
+            
+            <tag> 代码库 </tag>
+            
+            <tag> 命令 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
+            
+            <tag> 目录 </tag>
             
         </tags>
       
