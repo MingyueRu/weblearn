@@ -4,6 +4,68 @@
   
     
     <entry>
+      <title>收藏｜推荐内容</title>
+      <link href="/posts/41378/"/>
+      <url>/posts/41378/</url>
+      
+        <content type="html"><![CDATA[<p>推荐一些整理经济学文章、实证模型、Stata 数据清洗的公众号、UP主、网站等。</p><ol><li>[公众号] 计量经济圈：实证模型、因果推断、代码分享、文章分享</li><li>[网站] <a href="https://lianxh.cn">连享会</a>：实证模型、数据清洗、命令开发、代码分享、文章分享</li><li>[公众号] 君泉计量：实证模型、数据清洗、命令开发、代码分享、文章分享</li><li>[公众号] 经济理论与实证建模：因果推断、实证模型、文章分享、代码分享</li><li>[公众号] 计量经济学：因果推断、实证模型、统计学、计量经济学、代码分享</li><li>[公众号] RandomWalk Theory：研究心得、对话学者Podcast、实证模型</li><li>[网站] <a href="https://yiqingxu.org">Xu Yiqing</a>：政治经济学、实证模型开发、因果推断</li><li>[BiliBili] <a href="https://space.bilibili.com/1873681734">老徐快别打星际了</a>：因果推断、实证模型介绍</li><li>[公众号] 随机漫步的西瓜：因果推断、实证模型、论文写作</li><li>[公众号] songbl：Stata学习、命令开发</li><li>[公众号] 567Seminar：经济学文章分享</li><li>[公众号] 梦想不大：Stata 学习、代码分享、实证模型</li><li>[公众号] 土豆的经管Workshop：文章分享、顶刊搬运</li><li>[公众号] 全不会怎么办：文章分享、顶刊搬运</li><li>[公众号] OneStata：实证模型、Stata 学习、命令开发、Python 学习、实证问题分享 </li><li>[网站] <a href="https://shutterzor.cn">ShutterZor</a>：实证模型、Stata学习、命令开发</li><li><a href="https://space.bilibili.com/40545247">BiliBili] 拿铁一定要加冰</a>：实证模型、Stata 学习、命令开发、Python 学习、实证问题分享 </li><li>[网站] <a href="https://pwya.github.io">潘王雨昂</a>：实证模型、因果推断、数据分享</li><li>[网站] <a href="https://cosx.org">统计之都</a>：统计数据、数据分析、R学习</li><li>[公众号] DCM笔记：统计学、计量经济学</li></ol><hr><p>也可以关注我的账号：</p><ol><li>[个人网站] <a href="https://fgzfgz.github.io/">FGZ</a></li><li>[知乎] <a href="https://www.zhihu.com/people/xueshulsh">fgzfgz</a></li><li>[BiliBili] <a href="https://space.bilibili.com/455889108">破而后立fgz</a></li><li>[公众号] <a href="https://pic1.zhimg.com/80/v2-2256ba41deacfdd686a06b18416f8f17_1440w.jpeg?source=d16d100b">学术的路上</a></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 收藏集锦 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 收藏集锦 </tag>
+            
+            <tag> 公众号 </tag>
+            
+            <tag> 个人网站 </tag>
+            
+            <tag> BiliBili </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>实证｜计量结果不显著怎么办？</title>
+      <link href="/posts/39253/"/>
+      <url>/posts/39253/</url>
+      
+        <content type="html"><![CDATA[<p>别人做的结果是显著的，而我的结果为什么是不显著的？即便是同样的数据，不同的人做的结果都有很大概率不同，尤其在微观数据中更为常见。</p><p><strong>不显著可能原因：</strong></p><ol><li>数据清洗不到位，存在异常值、数值设置不合理等问题</li><li>变量可能需要做取对数、中心化、标准化等处理</li><li>选取的控制变量不合理</li><li>该做的检验没有做</li><li>计量方法没用对，或者用对了计量方法，但操作有问题</li><li>实际上应该不显著，对现实问题/理论的理解有误</li></ol><p>获取数据—清洗数据—使用数据中间是一个黑箱，你看到了别人的数据来源，看到了结果，但看不清中间的操作。</p><p><strong>补救的办法：</strong></p><ol><li>重新清洗数据：检查数据的异常值情况、变量取值和样本问题</li><li>部分变量可能需要做取对数一类的处理</li><li>控制变量的选取要尽可能全面，但要尽可能排除相关性高、共线性强的变量做控制变量</li><li>在不改变计量方法的前提下，看看是不是命令使用错误，或者如何调整目前的计量</li><li>更改计量方法（可以考虑是否存在非线性关系）</li></ol><p><strong>推荐试试 ShutterZor 大佬调整显著性与控制变量的利器！【<a href="https://mp.weixin.qq.com/s/k3GzVXqc6nx5iq4GzDJ2Xw">OneClick</a>】</strong></p><hr><p><strong>相关链接：</strong><br><a href="https://mp.weixin.qq.com/s/k3GzVXqc6nx5iq4GzDJ2Xw">[OneStata] “oneclick5.0” 较大的更新与显著的进步 by <em>ShutterZor</em></a></p><p><a href="https://www.zhihu.com/question/526265116/answer/2431807546">[知乎] 自变量因变量的线性关系不显著怎么办？</a></p><p><a href="https://mp.weixin.qq.com/s/XBRe454I70NJjzvxkPOA6Q">[OneStata] ChatGPT-对回归结果不显著的几点建议 by <em>ShutterZor</em></a></p><p><a href="https://www.zhihu.com/question/357861691/answer/911278828">[知乎] stata面板数据结果不显著该怎么办？</a></p><p><a href="https://lianxh.cn/news/279171ecf8309.html">[连享会] 0.0005：估计系数太小怎么办？</a></p><p><a href="https://www.lianxh.cn/news/046d284fd51b2.html">[连享会] 加入控制变量后结果悲催了！</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Stata </tag>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 显著性 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>教对象Stata系列｜第5课代码：循环语句的使用</title>
       <link href="/posts/31732/"/>
       <url>/posts/31732/</url>
@@ -102,9 +164,9 @@
             
             <tag> 命令 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> CLDS </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
             <tag> CGSS </tag>
             
@@ -139,9 +201,9 @@
             
             <tag> 命令 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> CLDS </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
             <tag> CGSS </tag>
             
@@ -691,9 +753,9 @@
             
             <tag> CFPS </tag>
             
-            <tag> CHFS </tag>
-            
             <tag> CLDS </tag>
+            
+            <tag> CHFS </tag>
             
             <tag> 心得记录 </tag>
             
@@ -794,9 +856,9 @@
             
             <tag> 命令 </tag>
             
-            <tag> CMDS </tag>
-            
             <tag> CLDS </tag>
+            
+            <tag> CMDS </tag>
             
         </tags>
       
