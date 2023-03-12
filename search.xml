@@ -4,35 +4,6 @@
   
     
     <entry>
-      <title>分位数回归 (Quantile Regression, QR)</title>
-      <link href="/posts/12023/"/>
-      <url>/posts/12023/</url>
-      
-        <content type="html"><![CDATA[<h4 id="相关链接">相关链接：</h4><p><a href="http://www.econ.uiuc.edu/~roger/research/rq/rq.html">Prof.Koenker - Quantile Regression</a></p><p><a href="https://mp.weixin.qq.com/s/RxoidXpaEYM3ttO9xOo07g">连享会 -分位数回归及Stata实现</a></p><p><a href="https://zhuanlan.zhihu.com/p/75401490">连享会(知乎) -分位数回归及Stata实现</a></p><p><a href="https://mp.weixin.qq.com/s/6d5rLFobmtdqxFPRY0bhXg">连享会 -qregplot：分位数回归图示</a></p><p><a href="https://mp.weixin.qq.com/s/a9Ew9jLdJzowwBD8LuuR4A">连享会 -Stata：无条件分位数回归及应用</a></p><p><ahref="https://www.researchgate.net/publication/251351301_Quantile_regression_in_R_a_vignette">ResearchGate- <em>Quantile regression in R: a vignette</em> by <strong>RogerKoenker</strong></a></p><p><ahref="https://mp.weixin.qq.com/s/ooHT7UBXIGtaKpjL8Z9lHg">计量经济圈 -广义分位数回归和分位数处理效应, 用数据, 代码和code进行操作</a></p><p><ahref="https://mp.weixin.qq.com/s/rd_JRYeP8SBW7YucBXZbZQ">计量经济圈 -无条件分位数回归: 文献综述与应用实例</a></p><p><ahref="https://mp.weixin.qq.com/s/eh2gF6z3cHgRUC5vqkJGUA">计量经济圈 -广义分位数回归是什么, 新的前沿因果推断方法介绍！</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 收藏集锦 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 实证分析 </tag>
-            
-            <tag> 收藏集锦 </tag>
-            
-            <tag> 分位数回归 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>第5课代码：循环语句的使用</title>
       <link href="/posts/31732/"/>
       <url>/posts/31732/</url>
@@ -611,6 +582,64 @@
     
     
     <entry>
+      <title>收藏集锦-广义倾向得分匹配</title>
+      <link href="/posts/17189/"/>
+      <url>/posts/17189/</url>
+      
+        <content type="html"><![CDATA[<h3 id="相关链接">相关链接：</h3><p><ahref="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7i0-kJR0HYBJ80QN9L51zrP00IKfnBCnn8DXIoS5FxUhLeX5PeTmMLg9orDRbPV3O8&amp;uniplatform=NZKPT">[中国工业经济]“减碳”政策制约了中国企业出口吗</a></p><p><ahref="https://mp.weixin.qq.com/s/FNbko32tDzHBohmCcNPF8w">[计量经济圈]广义PSM,连续政策变量因果识别的不二利器</a></p><p><ahref="https://mp.weixin.qq.com/s/txdAQd7kR1U38EJVxeFncw">[计量经济圈]广义倾向得分匹配GPSM实证数据, 代码和相关解读结果公开！</a></p><p><a href="https://zhuanlan.zhihu.com/p/60234077">[知乎]GPSM拓展｜严重偏态处理变量在广义倾向得分中的处理</a></p><p><a href="https://zhuanlan.zhihu.com/p/59537280">[知乎]政策评估方法引荐｜广义倾向得分匹配（GPSM）</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 收藏集锦 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 收藏集锦 </tag>
+            
+            <tag> 控制变量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分位数回归 (Quantile Regression, QR)</title>
+      <link href="/posts/12023/"/>
+      <url>/posts/12023/</url>
+      
+        <content type="html"><![CDATA[<h4 id="相关链接">相关链接：</h4><p><a href="http://www.econ.uiuc.edu/~roger/research/rq/rq.html">Prof.Koenker - Quantile Regression</a></p><p><a href="https://mp.weixin.qq.com/s/RxoidXpaEYM3ttO9xOo07g">连享会 -分位数回归及Stata实现</a></p><p><a href="https://zhuanlan.zhihu.com/p/75401490">连享会(知乎) -分位数回归及Stata实现</a></p><p><a href="https://mp.weixin.qq.com/s/6d5rLFobmtdqxFPRY0bhXg">连享会 -qregplot：分位数回归图示</a></p><p><a href="https://mp.weixin.qq.com/s/a9Ew9jLdJzowwBD8LuuR4A">连享会 -Stata：无条件分位数回归及应用</a></p><p><ahref="https://www.researchgate.net/publication/251351301_Quantile_regression_in_R_a_vignette">ResearchGate- <em>Quantile regression in R: a vignette</em> by <strong>RogerKoenker</strong></a></p><p><ahref="https://mp.weixin.qq.com/s/ooHT7UBXIGtaKpjL8Z9lHg">计量经济圈 -广义分位数回归和分位数处理效应, 用数据, 代码和code进行操作</a></p><p><ahref="https://mp.weixin.qq.com/s/rd_JRYeP8SBW7YucBXZbZQ">计量经济圈 -无条件分位数回归: 文献综述与应用实例</a></p><p><ahref="https://mp.weixin.qq.com/s/eh2gF6z3cHgRUC5vqkJGUA">计量经济圈 -广义分位数回归是什么, 新的前沿因果推断方法介绍！</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 收藏集锦 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 收藏集锦 </tag>
+            
+            <tag> 分位数回归 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>比较两个变量取值是否相同</title>
       <link href="/posts/29621/"/>
       <url>/posts/29621/</url>
@@ -687,9 +716,9 @@
             
             <tag> CFPS </tag>
             
-            <tag> CLDS </tag>
-            
             <tag> CHFS </tag>
+            
+            <tag> CLDS </tag>
             
             <tag> 公开数据 </tag>
             
@@ -792,9 +821,9 @@
             
             <tag> 命令 </tag>
             
-            <tag> CLDS </tag>
-            
             <tag> CMDS </tag>
+            
+            <tag> CLDS </tag>
             
         </tags>
       
@@ -807,7 +836,7 @@
       <link href="/posts/48726/"/>
       <url>/posts/48726/</url>
       
-        <content type="html"><![CDATA[<h1 id="合成控制法">合成控制法</h1><h4 id="相关链接">相关链接：</h4><p>　　<a href="https://yiqingxu.org/software/">[Xu Yiqing] gsynth:Generalized Synthetic Control Method</a></p><p>　　<a href="https://lianxh.cn/news/9e1bb97a57041.html">[连享会]合成控制法 (Synthetic Control Method) 及 Stata实现</a></p><p>　　<a href="https://lianxh.cn/news/d7c94c7777226.html">[连享会]Stata：合成控制法-synth-命令无法加载-plugin-的解决办法</a></p><p>　　<a href="https://lianxh.cn/news/db3d2785cd5c0.html">[连享会]Synth_Runner命令：合成控制法高效实现</a></p><p>　　<a href="https://lianxh.cn/news/f0c24b225eb69.html">[连享会]合成控制法简介</a></p><p>　　<a href="https://lianxh.cn/news/e66e82b083bc6.html">[连享会]Stata：基于Lasso的合成控制法-scul</a></p><p>　　<a href="https://lianxh.cn/news/fe320d20a9420.html">[连享会]Stata：合成控制法介绍-synth2</a></p><p>　　<a href="https://lianxh.cn/news/bcf8d62073675.html">[连享会]Stata：合成控制法的预测区间-scpi</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/dvm6ePOj5Sjvru875TQYEQ">[计量经济圈]广义合成控制法gsynth, 基于交互固定效应的因果推断</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/j7JvvKXwYGQQW2J0A1225w">[计量经济圈]合成控制法创始人如何用SCM做实证呢？这些规定动作一个都不能少！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/Y_Yv2-Yoq6S5ygMncGSY6Q">[计量经济圈]合成控制法SCM新进展, 直接通过代码演示, 附数据和code！</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/R3cUFWoQewyFjBcvQeHenA">[计量经济圈]分享一篇使用合成控制法SCM进行实证研究的文章的代码</a></p><p>　　<ahref="https://mp.weixin.qq.com/s/AmjTI36cJeClgm-CO9dh0w">[计量经济圈]用合成控制法, 机器学习和面板数据模型开展政策评估的论文！</a></p><p>　　<ahref="https://pwya.github.io/post/计量前沿did方法实用手册/">[潘王雨昂]前沿DID方法实用手册：Fuzzy DID,合成控制DID,DML</a> —— SDID：合成控制与DID 的结合</p><p>　　<ahref="https://mp.weixin.qq.com/s/eREDvoGi8xGQia4cmI1COw">[计量经济圈]前沿, 合成双重差分法SDID方法介绍和示例, 附code和数据！</a></p><p>　　‍</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="合成控制法">合成控制法</h1><h4 id="相关链接">相关链接：</h4><p><a href="https://yiqingxu.org/software/">[Xu Yiqing] gsynth:Generalized Synthetic Control Method</a></p><p><a href="https://lianxh.cn/news/9e1bb97a57041.html">[连享会]合成控制法 (Synthetic Control Method) 及 Stata实现</a></p><p><a href="https://lianxh.cn/news/d7c94c7777226.html">[连享会]Stata：合成控制法-synth-命令无法加载-plugin-的解决办法</a></p><p><a href="https://lianxh.cn/news/db3d2785cd5c0.html">[连享会]Synth_Runner命令：合成控制法高效实现</a></p><p><a href="https://lianxh.cn/news/f0c24b225eb69.html">[连享会]合成控制法简介</a></p><p><a href="https://lianxh.cn/news/e66e82b083bc6.html">[连享会]Stata：基于Lasso的合成控制法-scul</a></p><p><a href="https://lianxh.cn/news/fe320d20a9420.html">[连享会]Stata：合成控制法介绍-synth2</a></p><p><a href="https://lianxh.cn/news/bcf8d62073675.html">[连享会]Stata：合成控制法的预测区间-scpi</a></p><p><ahref="https://mp.weixin.qq.com/s/dvm6ePOj5Sjvru875TQYEQ">[计量经济圈]广义合成控制法gsynth, 基于交互固定效应的因果推断</a></p><p><ahref="https://mp.weixin.qq.com/s/j7JvvKXwYGQQW2J0A1225w">[计量经济圈]合成控制法创始人如何用SCM做实证呢？这些规定动作一个都不能少！</a></p><p><ahref="https://mp.weixin.qq.com/s/Y_Yv2-Yoq6S5ygMncGSY6Q">[计量经济圈]合成控制法SCM新进展, 直接通过代码演示, 附数据和code！</a></p><p><ahref="https://mp.weixin.qq.com/s/R3cUFWoQewyFjBcvQeHenA">[计量经济圈]分享一篇使用合成控制法SCM进行实证研究的文章的代码</a></p><p><ahref="https://mp.weixin.qq.com/s/AmjTI36cJeClgm-CO9dh0w">[计量经济圈]用合成控制法, 机器学习和面板数据模型开展政策评估的论文！</a></p><p><ahref="https://pwya.github.io/post/计量前沿did方法实用手册/">[潘王雨昂]前沿DID方法实用手册：Fuzzy DID,合成控制DID,DML</a> —— SDID：合成控制与DID 的结合</p><p><ahref="https://mp.weixin.qq.com/s/eREDvoGi8xGQia4cmI1COw">[计量经济圈]前沿, 合成双重差分法SDID方法介绍和示例, 附code和数据！</a></p><p><ahref="https://mp.weixin.qq.com/s/rSidfMUkizUjaoP5RClHXA">[公共视野与定量方法]合成控制法：一种架空历史的思维方式</a></p><p>‍</p>]]></content>
       
       
       <categories>
@@ -1142,9 +1171,9 @@
             
             <tag> 软件 </tag>
             
-            <tag> macOS </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> macOS </tag>
             
         </tags>
       
