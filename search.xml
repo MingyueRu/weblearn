@@ -86,11 +86,11 @@
             
             <tag> bilibili </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
+            
+            <tag> CFPS </tag>
             
             <tag> 气象数据 </tag>
             
@@ -125,9 +125,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 命令 </tag>
+            
+            <tag> CFPS </tag>
             
             <tag> 气象数据 </tag>
             
@@ -230,9 +230,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -273,11 +273,11 @@
             
             <tag> bilibili </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
+            
+            <tag> CFPS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -310,9 +310,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 命令 </tag>
+            
+            <tag> CFPS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -479,9 +479,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -489,11 +489,11 @@
             
             <tag> 视频 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
+            
+            <tag> CFPS </tag>
             
         </tags>
       
@@ -518,9 +518,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -553,9 +553,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -563,15 +563,15 @@
             
             <tag> 视频 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
             
-            <tag> CHFS </tag>
+            <tag> CFPS </tag>
             
             <tag> CSS </tag>
+            
+            <tag> CHFS </tag>
             
         </tags>
       
@@ -850,11 +850,11 @@
             
             <tag> CLDS </tag>
             
+            <tag> CHFS </tag>
+            
             <tag> 心得记录 </tag>
             
             <tag> 地理位置信息 </tag>
-            
-            <tag> CHFS </tag>
             
             <tag> CHARLS </tag>
             
@@ -935,9 +935,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -945,15 +945,15 @@
             
             <tag> 视频 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
             
-            <tag> CMDS </tag>
+            <tag> CFPS </tag>
             
             <tag> CLDS </tag>
+            
+            <tag> CMDS </tag>
             
         </tags>
       
@@ -1152,9 +1152,9 @@
             
             <tag> 微观经济学 </tag>
             
-            <tag> 资源下载 </tag>
-            
             <tag> 经济学 </tag>
+            
+            <tag> 资源下载 </tag>
             
         </tags>
       
@@ -1297,9 +1297,9 @@
             
             <tag> 软件 </tag>
             
-            <tag> Hexo </tag>
-            
             <tag> macOS </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -1412,6 +1412,33 @@
             <tag> Stata </tag>
             
             <tag> 命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>经济学思考｜市场经济与计划经济</title>
+      <link href="/posts/46532/"/>
+      <url>/posts/46532/</url>
+      
+        <content type="html"><![CDATA[<p>（<ahref="https://www.zhihu.com/question/491089511/answer/2536101604">原文链接</a>）</p><p>需要明确的是：计划经济是发展经济的手段。我国的经济是以市场经济为主的，西方发达国家多数也是以市场经济为主，但市场经济和政府对经济发展有计划并不冲突。</p><p>并且需要明确：有经济发展的计划不等于计划经济。计划经济是官僚机构（中性词，一般指政府）通过行政命令的方式分配生产资源与商品，是生产要素与产品的分类方式。而有经济发展的计划（例如“十四五规划”）是主要依靠市场的力量，官僚机构引导经济发展的方向。</p><p>在经济起步阶段，经济部门较少，生产的复杂程度不高，可利用的生产要素与资源也不多，这被多数人视为贫穷，在这个阶段实施计划经济有助于将有限的资源投入到更有利于国家经济发展的领域中，更有利于摆脱贫穷。例如，在新中国成立后，我国刚经历过战争，工业基础十分薄弱，甚至可以说许多工业生产甚至没有基础，且因为意识形态问题难以向欧美发达国家进口技术。在这种情况下，集中国内优势资源，用于经济的发展，特别是工业制造业的发展，的确帮中国建立起来了一点工业基础，为后来的发展打下了一些底子。（当然有人可能会说工业剥削农业的问题，这是不平等问题，但不可否认国家整体的贫困与经济情况的确得到了好转）</p><p>然而，随着经济的发展，特别是工业的发展，计划经济越来越难以满足日益复杂的生产要素配置与产品分配问题。（是的，计划经济不仅仅体现在产品的分配，还体现在生产要素的供给上）本质还是因为计划经济要依托于大量的信息才能做出足够合理的决策，然而生产的复杂性提升意味着官僚机构获取、处理生产要素需求信息的能力限制了经济发展，可以体现在“价格双轨制”导致的黑市。因此在改革开放后，逐步发展市场经济，发挥市场的作用，更加有助于进一步发展经济，在分配制度合理的情况下，做大蛋糕是有利于降低贫困发生率的。</p><p>做个总结，用计划经济还是市场经济，只是手段问题（在有充分的决策信息的情况下，计划经济甚至可能比市场经济更优，可以避免市场经济中的盲从与不理性，但现实是计划经济往往与现实经济发展需要脱节）。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 经济学思考 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 经济学思考 </tag>
+            
+            <tag> 经济学 </tag>
             
         </tags>
       
@@ -1641,9 +1668,9 @@
       
         <tags>
             
-            <tag> 微观经济学 </tag>
-            
             <tag> 经济学思考 </tag>
+            
+            <tag> 微观经济学 </tag>
             
             <tag> 心得 </tag>
             
@@ -1728,9 +1755,9 @@
       
         <tags>
             
-            <tag> 微观经济学 </tag>
-            
             <tag> 经济学思考 </tag>
+            
+            <tag> 微观经济学 </tag>
             
             <tag> 心得 </tag>
             
@@ -2196,9 +2223,9 @@
             
             <tag> 微观经济学 </tag>
             
-            <tag> 资源下载 </tag>
-            
             <tag> 经济学 </tag>
+            
+            <tag> 资源下载 </tag>
             
         </tags>
       
@@ -2555,33 +2582,6 @@
     
     
     <entry>
-      <title>实证｜取对数问题</title>
-      <link href="/posts/16760/"/>
-      <url>/posts/16760/</url>
-      
-        <content type="html"><![CDATA[<h2 id="一什么时候应该取对数">一、什么时候应该取对数？</h2><p>　　满足以下两个条件之一，可以考虑取对数：</p><ol type="1"><li>被解释变量 Y 与核心解释变量 X 数据的数量级差距很大，例如 Y取值普遍小于 10，X 的取值一般在 100～1000 之间分布，就可以考虑对 X取对数，也可以更改 X 的单位；</li><li>某个变量取值差异极大，例如家庭的工资收入，最低的为 0，普遍为 2～4万，最高有上百万，这种情况下为避免极端值的影响，可以考虑取对数，同时为了避免工资收入为0 的家庭取对数后为缺失值（因为对 0 取对数没有意义），可以 +1元后再取对对数，可以在避免对收入数据造成较大影响的情况下，保留工资收入为0 的样本。</li></ol><p>　　<strong>但是，取对数的变量不应该有负数。</strong>如果一个变量取负数是合理的，取对数会造成样本的选择性偏差。例如可能由于经营企业等亏损，家庭总收入可能小于0，这是合理的，如果取对数，会造成使用家庭总收入的对数值进行计量时，家庭总收入小于0 的样本被忽略。</p><p>　　‍</p><h2id="二如何解释取对数后的偏回归系数">二、如何解释取对数后的偏回归系数？</h2><p>　　伍德里奇的《计量经济学导论》第二章，“对于线性模型中取对数后，如何解释片回归系数”这一问题做了很详细的说明。</p><p>　　在线性回归中，对数常应用于“常弹性模型”，因此被解释变量 Y取对数可以被解释为弹性（Y、X 都取对数）或半弹性（仅 Y 取对数）。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-2ab8117dc07abb105f5b109d5cdf5e1c_1440w-20221217234402-guxz284.jpg" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-56f40dcefae5411fbc126e6b905e8cdc_1440w-20221217234402-boyyb92.jpg" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-9d912f2e02acdea412c354f01662eb60_1440w-20221217234402-yj1m8dn.jpg" /></p><p>　　【水平值-水平值】如果 X、Y 都是水平值，此时 <strong>Y 随 X发生数值变化</strong>，系数可以解释为 X 的数值变化 1 个单位，Y 平均变化<span class="math inline">\(\beta_1\)</span>。</p><p>　　【水平值-对数】如果只有 X 取对数，Y 是水平值，此时 <strong>Y 随 X发生数值变化</strong>，系数可以解释为 X 每变化 1%，Y 平均变化 <spanclass="math inline">\(\frac {\beta_1} {100}\)</span>。</p><p>　　【对数-水平值】如果只有 Y 取对数，X 是水平值，那就是半弹性，此时<strong>Y 随 X 发生比例变化</strong>，也就是说 X 地取值每变化 1个单位，Y 的取值平均变化 <spanclass="math inline">\(100\beta_1\)</span>%；</p><p>　　【对数-对数】如果 X 和 Y 都取对数，就可以解释为弹性，此时<strong>Y 随 X 发生比例变化</strong>，也就是 X 每变化 1%，Y 平均变化<span class="math inline">\(\beta_1\)</span>%；</p><p>　　<strong>注意：上述所有结论是对【线性回归】结果的解释。</strong></p><p>　　‍</p><hr /><p>　　‍</p><p>　　上面的分析里，伍德里奇的表述比较难理解。可以从以下逻辑理解该问题：</p><ul><li>在 X 与 Y 都不取对数时，X 与 Y 的关系是数值的变化关系，即 X的取值变化 1 单位（如取值增大 1），Y 的取值变化 <spanclass="math inline">\(β_1\)</span> 个单位（如均值增大 <spanclass="math inline">\(β_1\)</span> ）。</li><li><strong>当取对数时，这种数值变化会转变为比例变化。</strong><ul><li><strong>如果 X 取对数，那么就是 X 发生比例变化；</strong></li><li><strong>如果 Y 取对数，那么就是 Y 发生比例变化。</strong></li></ul></li><li>例如：表 2.3 中的情况 2，X 取对数，Y 不取对数，因此解释该系数是，X发生比例变化（变化 1%），Y 发生数值变化（变化 <spanclass="math inline">\(\frac {\beta_1} {100}\)</span>）。</li></ul><p>　　‍</p><p>　　<strong>相关链接：</strong></p><p>　　<ahref="https://www.zhihu.com/question/330264127/answer/2118259043">线性回归模型，哪些变量取对数形式？-知乎</a></p><p>　　<ahref="https://www.zhihu.com/question/580307807/answer/2881510215">如何解读stata 对于取对数的数据处理？- 知乎</a></p><p>　　‍</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 实证分析 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Stata </tag>
-            
-            <tag> 实证分析 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>实证｜为什么使用PSM消除样本选择偏差</title>
       <link href="/posts/19130/"/>
       <url>/posts/19130/</url>
@@ -2601,6 +2601,33 @@
             <tag> 实证分析 </tag>
             
             <tag> 模型 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>实证｜取对数问题</title>
+      <link href="/posts/16760/"/>
+      <url>/posts/16760/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一什么时候应该取对数">一、什么时候应该取对数？</h2><p>　　满足以下两个条件之一，可以考虑取对数：</p><ol type="1"><li>被解释变量 Y 与核心解释变量 X 数据的数量级差距很大，例如 Y取值普遍小于 10，X 的取值一般在 100～1000 之间分布，就可以考虑对 X取对数，也可以更改 X 的单位；</li><li>某个变量取值差异极大，例如家庭的工资收入，最低的为 0，普遍为 2～4万，最高有上百万，这种情况下为避免极端值的影响，可以考虑取对数，同时为了避免工资收入为0 的家庭取对数后为缺失值（因为对 0 取对数没有意义），可以 +1元后再取对对数，可以在避免对收入数据造成较大影响的情况下，保留工资收入为0 的样本。</li></ol><p>　　<strong>但是，取对数的变量不应该有负数。</strong>如果一个变量取负数是合理的，取对数会造成样本的选择性偏差。例如可能由于经营企业等亏损，家庭总收入可能小于0，这是合理的，如果取对数，会造成使用家庭总收入的对数值进行计量时，家庭总收入小于0 的样本被忽略。</p><p>　　‍</p><h2id="二如何解释取对数后的偏回归系数">二、如何解释取对数后的偏回归系数？</h2><p>　　伍德里奇的《计量经济学导论》第二章，“对于线性模型中取对数后，如何解释片回归系数”这一问题做了很详细的说明。</p><p>　　在线性回归中，对数常应用于“常弹性模型”，因此被解释变量 Y取对数可以被解释为弹性（Y、X 都取对数）或半弹性（仅 Y 取对数）。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-2ab8117dc07abb105f5b109d5cdf5e1c_1440w-20221217234402-guxz284.jpg" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-56f40dcefae5411fbc126e6b905e8cdc_1440w-20221217234402-boyyb92.jpg" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-9d912f2e02acdea412c354f01662eb60_1440w-20221217234402-yj1m8dn.jpg" /></p><p>　　【水平值-水平值】如果 X、Y 都是水平值，此时 <strong>Y 随 X发生数值变化</strong>，系数可以解释为 X 的数值变化 1 个单位，Y 平均变化<span class="math inline">\(\beta_1\)</span>。</p><p>　　【水平值-对数】如果只有 X 取对数，Y 是水平值，此时 <strong>Y 随 X发生数值变化</strong>，系数可以解释为 X 每变化 1%，Y 平均变化 <spanclass="math inline">\(\frac {\beta_1} {100}\)</span>。</p><p>　　【对数-水平值】如果只有 Y 取对数，X 是水平值，那就是半弹性，此时<strong>Y 随 X 发生比例变化</strong>，也就是说 X 地取值每变化 1个单位，Y 的取值平均变化 <spanclass="math inline">\(100\beta_1\)</span>%；</p><p>　　【对数-对数】如果 X 和 Y 都取对数，就可以解释为弹性，此时<strong>Y 随 X 发生比例变化</strong>，也就是 X 每变化 1%，Y 平均变化<span class="math inline">\(\beta_1\)</span>%；</p><p>　　<strong>注意：上述所有结论是对【线性回归】结果的解释。</strong></p><p>　　‍</p><hr /><p>　　‍</p><p>　　上面的分析里，伍德里奇的表述比较难理解。可以从以下逻辑理解该问题：</p><ul><li>在 X 与 Y 都不取对数时，X 与 Y 的关系是数值的变化关系，即 X的取值变化 1 单位（如取值增大 1），Y 的取值变化 <spanclass="math inline">\(β_1\)</span> 个单位（如均值增大 <spanclass="math inline">\(β_1\)</span> ）。</li><li><strong>当取对数时，这种数值变化会转变为比例变化。</strong><ul><li><strong>如果 X 取对数，那么就是 X 发生比例变化；</strong></li><li><strong>如果 Y 取对数，那么就是 Y 发生比例变化。</strong></li></ul></li><li>例如：表 2.3 中的情况 2，X 取对数，Y 不取对数，因此解释该系数是，X发生比例变化（变化 1%），Y 发生数值变化（变化 <spanclass="math inline">\(\frac {\beta_1} {100}\)</span>）。</li></ul><p>　　‍</p><p>　　<strong>相关链接：</strong></p><p>　　<ahref="https://www.zhihu.com/question/330264127/answer/2118259043">线性回归模型，哪些变量取对数形式？-知乎</a></p><p>　　<ahref="https://www.zhihu.com/question/580307807/answer/2881510215">如何解读stata 对于取对数的数据处理？- 知乎</a></p><p>　　‍</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Stata </tag>
+            
+            <tag> 实证分析 </tag>
             
         </tags>
       
