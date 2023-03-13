@@ -86,15 +86,15 @@
             
             <tag> bilibili </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
             
-            <tag> 气象数据 </tag>
+            <tag> CFPS </tag>
             
             <tag> 教对象Stata系列 </tag>
+            
+            <tag> 气象数据 </tag>
             
         </tags>
       
@@ -125,13 +125,13 @@
             
             <tag> 视频 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 命令 </tag>
             
-            <tag> 气象数据 </tag>
+            <tag> CFPS </tag>
             
             <tag> 教对象Stata系列 </tag>
+            
+            <tag> 气象数据 </tag>
             
         </tags>
       
@@ -230,9 +230,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -273,11 +273,11 @@
             
             <tag> bilibili </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
+            
+            <tag> CFPS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -310,9 +310,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 命令 </tag>
+            
+            <tag> CFPS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -413,9 +413,9 @@
             
             <tag> 命令 </tag>
             
-            <tag> 气象数据 </tag>
-            
             <tag> 教对象Stata系列 </tag>
+            
+            <tag> 气象数据 </tag>
             
             <tag> CLHLS </tag>
             
@@ -450,9 +450,9 @@
             
             <tag> 命令 </tag>
             
-            <tag> 气象数据 </tag>
-            
             <tag> 教对象Stata系列 </tag>
+            
+            <tag> 气象数据 </tag>
             
             <tag> CLHLS </tag>
             
@@ -479,9 +479,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -489,11 +489,11 @@
             
             <tag> 视频 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
+            
+            <tag> CFPS </tag>
             
         </tags>
       
@@ -518,9 +518,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -553,9 +553,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -563,11 +563,11 @@
             
             <tag> 视频 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
+            
+            <tag> CFPS </tag>
             
             <tag> CSS </tag>
             
@@ -745,7 +745,7 @@
       <link href="/posts/31209/"/>
       <url>/posts/31209/</url>
       
-        <content type="html"><![CDATA[<p>（<ahref="https://www.zhihu.com/question/533129115/answer/2488567900">原文链接</a>— <strong><em>待更新</em></strong>）</p><p>实证分析的结果，是基于数据本身的分析，可以把这个过程理解成一个计算器，它本身并没有实际意义，是需要结合专业背景与现实才有意义，而很多因素都会影响到计量结果，例如样本的数量、数据的分布、变量的选择、变量的取值、变量的定义、有没有用对实证模型、实证模型用对了但设置有没有问题…..</p><p>因此，要通过一些手段，排除可能造成计算器算出的结果扭曲实际因果关系的可能性。</p><p>简而言之，稳健性检验有三种方法：</p><ol type="1"><li>更换数据：通常通过更换样本容量实现，部分论文通过更换数据集实现。</li><li>更换变量：(1)变更核心解释变量或被解释变量的定义，(2)有的论文也会也会做加入和不加入其他解释变量来进行验证</li><li>更换模型：更换回归的方法。在截面数据中，一些论文主回归用考虑内生性的方法，稳健性检验用不考虑内生性的方法，或者更换其他可以考虑内生性的方法。</li></ol><hr /><h3 id="相关链接">相关链接：</h3><p><a href="https://www.zhihu.com/question/394735840">知乎 - 连玉君:稳健性检验的方式有哪些？</a></p><p><a href="https://www.lianxh.cn/news/32ae13ec789a1.html">连享会 -稳健性检验！稳健性检验！</a></p><p><a href="https://www.lianxh.cn/news/4832e3735dc81.html">连享会 -Stata新命令：konfound - 因果推断的稳健性检验</a></p><p><ahref="https://mp.weixin.qq.com/s/g_6fo0NqfXS2QUxcIzu6dw">计量经济圈 -稳健性检验如何做? 有哪些稳健性检验常用思路？</a></p><p><ahref="https://mp.weixin.qq.com/s/nRzrcgSIOPFjF_L20YV2Uw">计量经济圈 -实证应用经济学中的稳健性检验是什么? 怎么做？哪些策略呢？</a></p><p><ahref="https://www.zhihu.com/question/533129115/answer/2488567900">知乎 -没有合适的替代变量，要怎么做稳健性检验?</a></p>]]></content>
+        <content type="html"><![CDATA[<p>实证分析的结果，是基于数据本身的分析，可以把这个过程理解成一个计算器，它本身并没有实际意义，是需要结合专业背景与现实才有意义，而很多因素都会影响到计量结果，例如样本的数量、数据的分布、变量的选择、变量的取值、变量的定义、有没有用对实证模型、实证模型用对了但设置有没有问题…..</p><p>因此，要通过一些手段，排除可能造成计算器算出的结果扭曲实际因果关系的可能性。</p><p>简而言之，稳健性检验有三种方法：</p><ol type="1"><li>更换/调整数据：<ul><li>通常通过变更样本实现，例如添加样本、删减样本、分样本回归</li><li>部分论文通过更换数据集实现</li></ul></li><li>更换/调整变量：<ul><li>变更核心解释变量或被解释变量的定义</li><li>调整其他解释变量：即更换、添加、删除部分控制变量实现</li><li>有的论文会通过加入和不加入其他解释变量来进行验证</li></ul></li><li>更换/调整模型：对回归的方法或参数进行调整。例如，更换工具变量法估计的命令，通过不同的模型来验证结果的可靠性。在截面数据中，一些论文也会采取主回归考虑内生性、稳健性检验不考虑内生性的做法。</li></ol><p>（原文链接：<ahref="https://www.zhihu.com/question/533129115/answer/2488567900">Link1</a>、<ahref="https://www.zhihu.com/question/528700800/answer/2445892671">Link2</a>）</p><hr /><h3 id="相关链接">相关链接：</h3><p><a href="https://www.zhihu.com/question/394735840">知乎 - 连玉君:稳健性检验的方式有哪些？</a></p><p><a href="https://www.lianxh.cn/news/32ae13ec789a1.html">连享会 -稳健性检验！稳健性检验！</a></p><p><a href="https://www.lianxh.cn/news/4832e3735dc81.html">连享会 -Stata新命令：konfound - 因果推断的稳健性检验</a></p><p><ahref="https://mp.weixin.qq.com/s/g_6fo0NqfXS2QUxcIzu6dw">计量经济圈 -稳健性检验如何做? 有哪些稳健性检验常用思路？</a></p><p><ahref="https://mp.weixin.qq.com/s/nRzrcgSIOPFjF_L20YV2Uw">计量经济圈 -实证应用经济学中的稳健性检验是什么? 怎么做？哪些策略呢？</a></p>]]></content>
       
       
       <categories>
@@ -935,9 +935,9 @@
       
         <tags>
             
-            <tag> 数据清洗 </tag>
-            
             <tag> 公开数据库 </tag>
+            
+            <tag> 数据清洗 </tag>
             
             <tag> Stata </tag>
             
@@ -945,15 +945,15 @@
             
             <tag> 视频 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> 代码库 </tag>
             
             <tag> 命令 </tag>
             
-            <tag> CLDS </tag>
+            <tag> CFPS </tag>
             
             <tag> CMDS </tag>
+            
+            <tag> CLDS </tag>
             
         </tags>
       
@@ -1751,9 +1751,9 @@
       
         <tags>
             
-            <tag> 思考 </tag>
-            
             <tag> 微观经济学 </tag>
+            
+            <tag> 思考 </tag>
             
             <tag> 心得 </tag>
             
@@ -1838,9 +1838,9 @@
       
         <tags>
             
-            <tag> 思考 </tag>
-            
             <tag> 微观经济学 </tag>
+            
+            <tag> 思考 </tag>
             
             <tag> 心得 </tag>
             
