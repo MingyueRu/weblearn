@@ -75,7 +75,7 @@
       
       <categories>
           
-          <category> 代码库 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -112,7 +112,7 @@
       
       <categories>
           
-          <category> 教对象Stata系列 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -149,7 +149,7 @@
       
       <categories>
           
-          <category> 代码库 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -186,7 +186,7 @@
       
       <categories>
           
-          <category> 教对象Stata系列 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -223,7 +223,7 @@
       
       <categories>
           
-          <category> Stata数据清洗专题 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -262,7 +262,7 @@
       
       <categories>
           
-          <category> 代码库 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -297,7 +297,7 @@
       
       <categories>
           
-          <category> 教对象Stata系列 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -332,7 +332,7 @@
       
       <categories>
           
-          <category> 代码库 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -365,7 +365,7 @@
       
       <categories>
           
-          <category> 教对象Stata系列 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -398,7 +398,7 @@
       
       <categories>
           
-          <category> 代码库 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -435,7 +435,7 @@
       
       <categories>
           
-          <category> 教对象Stata系列 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -472,7 +472,7 @@
       
       <categories>
           
-          <category> Stata数据清洗专题 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -511,7 +511,7 @@
       
       <categories>
           
-          <category> Stata数据清洗专题 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -546,7 +546,7 @@
       
       <categories>
           
-          <category> Stata数据清洗专题 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -589,7 +589,7 @@
       
       <categories>
           
-          <category> Stata数据清洗专题 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -953,7 +953,7 @@
       
       <categories>
           
-          <category> Stata数据清洗专题 </category>
+          <category> 视频合集 </category>
           
       </categories>
       
@@ -1349,9 +1349,9 @@
             
             <tag> 软件 </tag>
             
-            <tag> macOS </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> macOS </tag>
             
         </tags>
       
