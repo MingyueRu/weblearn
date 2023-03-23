@@ -92,9 +92,9 @@
             
             <tag> 代码库 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
         </tags>
       
@@ -129,9 +129,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
         </tags>
       
@@ -413,9 +413,9 @@
             
             <tag> 代码库 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
             <tag> CLHLS </tag>
             
@@ -450,9 +450,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
             <tag> CLHLS </tag>
             
@@ -974,11 +974,11 @@
             
             <tag> 公开数据库 </tag>
             
+            <tag> CMDS </tag>
+            
             <tag> CFPS </tag>
             
             <tag> CLDS </tag>
-            
-            <tag> CMDS </tag>
             
             <tag> bilibili </tag>
             
@@ -2690,33 +2690,6 @@
     
     
     <entry>
-      <title>实证｜取对数问题</title>
-      <link href="/posts/16760/"/>
-      <url>/posts/16760/</url>
-      
-        <content type="html"><![CDATA[<h2 id="一什么时候应该取对数">一、什么时候应该取对数？</h2><p>　　满足以下两个条件之一，可以考虑取对数：</p><ol type="1"><li>被解释变量 Y 与核心解释变量 X 数据的数量级差距很大，例如 Y取值普遍小于 10，X 的取值一般在 100～1000 之间分布，就可以考虑对 X取对数，也可以更改 X 的单位；</li><li>某个变量取值差异极大，例如家庭的工资收入，最低的为 0，普遍为 2～4万，最高有上百万，这种情况下为避免极端值的影响，可以考虑取对数，同时为了避免工资收入为0 的家庭取对数后为缺失值（因为对 0 取对数没有意义），可以 +1元后再取对对数，可以在避免对收入数据造成较大影响的情况下，保留工资收入为0 的样本。</li></ol><p>　　<strong>但是，取对数的变量不应该有负数。</strong>如果一个变量取负数是合理的，取对数会造成样本的选择性偏差。例如可能由于经营企业等亏损，家庭总收入可能小于0，这是合理的，如果取对数，会造成使用家庭总收入的对数值进行计量时，家庭总收入小于0 的样本被忽略。</p><p>　　‍</p><h2id="二如何解释取对数后的偏回归系数">二、如何解释取对数后的偏回归系数？</h2><p>　　伍德里奇的《计量经济学导论》第二章，“对于线性模型中取对数后，如何解释片回归系数”这一问题做了很详细的说明。</p><p>　　在线性回归中，对数常应用于“常弹性模型”，因此被解释变量 Y取对数可以被解释为弹性（Y、X 都取对数）或半弹性（仅 Y 取对数）。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-2ab8117dc07abb105f5b109d5cdf5e1c_1440w-20221217234402-guxz284.jpg" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-56f40dcefae5411fbc126e6b905e8cdc_1440w-20221217234402-boyyb92.jpg" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-9d912f2e02acdea412c354f01662eb60_1440w-20221217234402-yj1m8dn.jpg" /></p><p>　　【水平值-水平值】如果 X、Y 都是水平值，此时 <strong>Y 随 X发生数值变化</strong>，系数可以解释为 X 的数值变化 1 个单位，Y 平均变化<span class="math inline">\(\beta_1\)</span>。</p><p>　　【水平值-对数】如果只有 X 取对数，Y 是水平值，此时 <strong>Y 随 X发生数值变化</strong>，系数可以解释为 X 每变化 1%，Y 平均变化 <spanclass="math inline">\(\frac {\beta_1} {100}\)</span>。</p><p>　　【对数-水平值】如果只有 Y 取对数，X 是水平值，那就是半弹性，此时<strong>Y 随 X 发生比例变化</strong>，也就是说 X 地取值每变化 1个单位，Y 的取值平均变化 <spanclass="math inline">\(100\beta_1\)</span>%；</p><p>　　【对数-对数】如果 X 和 Y 都取对数，就可以解释为弹性，此时<strong>Y 随 X 发生比例变化</strong>，也就是 X 每变化 1%，Y 平均变化<span class="math inline">\(\beta_1\)</span>%；</p><p>　　<strong>注意：上述所有结论是对【线性回归】结果的解释。</strong></p><p>　　‍</p><hr /><p>　　‍</p><p>　　上面的分析里，伍德里奇的表述比较难理解。可以从以下逻辑理解该问题：</p><ul><li>在 X 与 Y 都不取对数时，X 与 Y 的关系是数值的变化关系，即 X的取值变化 1 单位（如取值增大 1），Y 的取值变化 <spanclass="math inline">\(β_1\)</span> 个单位（如均值增大 <spanclass="math inline">\(β_1\)</span> ）。</li><li><strong>当取对数时，这种数值变化会转变为比例变化。</strong><ul><li><strong>如果 X 取对数，那么就是 X 发生比例变化；</strong></li><li><strong>如果 Y 取对数，那么就是 Y 发生比例变化。</strong></li></ul></li><li>例如：表 2.3 中的情况 2，X 取对数，Y 不取对数，因此解释该系数是，X发生比例变化（变化 1%），Y 发生数值变化（变化 <spanclass="math inline">\(\frac {\beta_1} {100}\)</span>）。</li></ul><p>　　‍</p><p>　　<strong>相关链接：</strong></p><p>　　<ahref="https://www.zhihu.com/question/330264127/answer/2118259043">线性回归模型，哪些变量取对数形式？-知乎</a></p><p>　　<ahref="https://www.zhihu.com/question/580307807/answer/2881510215">如何解读stata 对于取对数的数据处理？- 知乎</a></p><p>　　‍</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 实证分析 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 实证分析 </tag>
-            
-            <tag> Stata </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>实证｜为什么使用PSM消除样本选择偏差？</title>
       <link href="/posts/19130/"/>
       <url>/posts/19130/</url>
@@ -2736,6 +2709,33 @@
             <tag> 实证分析 </tag>
             
             <tag> 模型 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>实证｜取对数问题</title>
+      <link href="/posts/16760/"/>
+      <url>/posts/16760/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一什么时候应该取对数">一、什么时候应该取对数？</h2><p>　　满足以下两个条件之一，可以考虑取对数：</p><ol type="1"><li>被解释变量 Y 与核心解释变量 X 数据的数量级差距很大，例如 Y取值普遍小于 10，X 的取值一般在 100～1000 之间分布，就可以考虑对 X取对数，也可以更改 X 的单位；</li><li>某个变量取值差异极大，例如家庭的工资收入，最低的为 0，普遍为 2～4万，最高有上百万，这种情况下为避免极端值的影响，可以考虑取对数，同时为了避免工资收入为0 的家庭取对数后为缺失值（因为对 0 取对数没有意义），可以 +1元后再取对对数，可以在避免对收入数据造成较大影响的情况下，保留工资收入为0 的样本。</li></ol><p>　　<strong>但是，取对数的变量不应该有负数。</strong>如果一个变量取负数是合理的，取对数会造成样本的选择性偏差。例如可能由于经营企业等亏损，家庭总收入可能小于0，这是合理的，如果取对数，会造成使用家庭总收入的对数值进行计量时，家庭总收入小于0 的样本被忽略。</p><p>　　‍</p><h2id="二如何解释取对数后的偏回归系数">二、如何解释取对数后的偏回归系数？</h2><p>　　伍德里奇的《计量经济学导论》第二章，“对于线性模型中取对数后，如何解释片回归系数”这一问题做了很详细的说明。</p><p>　　在线性回归中，对数常应用于“常弹性模型”，因此被解释变量 Y取对数可以被解释为弹性（Y、X 都取对数）或半弹性（仅 Y 取对数）。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-2ab8117dc07abb105f5b109d5cdf5e1c_1440w-20221217234402-guxz284.jpg" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-56f40dcefae5411fbc126e6b905e8cdc_1440w-20221217234402-boyyb92.jpg" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/net-img-v2-9d912f2e02acdea412c354f01662eb60_1440w-20221217234402-yj1m8dn.jpg" /></p><p>　　【水平值-水平值】如果 X、Y 都是水平值，此时 <strong>Y 随 X发生数值变化</strong>，系数可以解释为 X 的数值变化 1 个单位，Y 平均变化<span class="math inline">\(\beta_1\)</span>。</p><p>　　【水平值-对数】如果只有 X 取对数，Y 是水平值，此时 <strong>Y 随 X发生数值变化</strong>，系数可以解释为 X 每变化 1%，Y 平均变化 <spanclass="math inline">\(\frac {\beta_1} {100}\)</span>。</p><p>　　【对数-水平值】如果只有 Y 取对数，X 是水平值，那就是半弹性，此时<strong>Y 随 X 发生比例变化</strong>，也就是说 X 地取值每变化 1个单位，Y 的取值平均变化 <spanclass="math inline">\(100\beta_1\)</span>%；</p><p>　　【对数-对数】如果 X 和 Y 都取对数，就可以解释为弹性，此时<strong>Y 随 X 发生比例变化</strong>，也就是 X 每变化 1%，Y 平均变化<span class="math inline">\(\beta_1\)</span>%；</p><p>　　<strong>注意：上述所有结论是对【线性回归】结果的解释。</strong></p><p>　　‍</p><hr /><p>　　‍</p><p>　　上面的分析里，伍德里奇的表述比较难理解。可以从以下逻辑理解该问题：</p><ul><li>在 X 与 Y 都不取对数时，X 与 Y 的关系是数值的变化关系，即 X的取值变化 1 单位（如取值增大 1），Y 的取值变化 <spanclass="math inline">\(β_1\)</span> 个单位（如均值增大 <spanclass="math inline">\(β_1\)</span> ）。</li><li><strong>当取对数时，这种数值变化会转变为比例变化。</strong><ul><li><strong>如果 X 取对数，那么就是 X 发生比例变化；</strong></li><li><strong>如果 Y 取对数，那么就是 Y 发生比例变化。</strong></li></ul></li><li>例如：表 2.3 中的情况 2，X 取对数，Y 不取对数，因此解释该系数是，X发生比例变化（变化 1%），Y 发生数值变化（变化 <spanclass="math inline">\(\frac {\beta_1} {100}\)</span>）。</li></ul><p>　　‍</p><p>　　<strong>相关链接：</strong></p><p>　　<ahref="https://www.zhihu.com/question/330264127/answer/2118259043">线性回归模型，哪些变量取对数形式？-知乎</a></p><p>　　<ahref="https://www.zhihu.com/question/580307807/answer/2881510215">如何解读stata 对于取对数的数据处理？- 知乎</a></p><p>　　‍</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> Stata </tag>
             
         </tags>
       
