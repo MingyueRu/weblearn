@@ -335,9 +335,9 @@
             
             <tag> 代码库 </tag>
             
-            <tag> 气象数据 </tag>
-            
             <tag> 教对象Stata系列 </tag>
+            
+            <tag> 气象数据 </tag>
             
         </tags>
       
@@ -372,9 +372,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> 气象数据 </tag>
-            
             <tag> 教对象Stata系列 </tag>
+            
+            <tag> 气象数据 </tag>
             
         </tags>
       
@@ -656,9 +656,9 @@
             
             <tag> 代码库 </tag>
             
-            <tag> 气象数据 </tag>
-            
             <tag> 教对象Stata系列 </tag>
+            
+            <tag> 气象数据 </tag>
             
             <tag> CLHLS </tag>
             
@@ -693,9 +693,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> 气象数据 </tag>
-            
             <tag> 教对象Stata系列 </tag>
+            
+            <tag> 气象数据 </tag>
             
             <tag> CLHLS </tag>
             
@@ -1158,6 +1158,35 @@
             <tag> 数据采集 </tag>
             
             <tag> 宏观数据 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>模型｜断点回归RD</title>
+      <link href="/posts/22729/"/>
+      <url>/posts/22729/</url>
+      
+        <content type="html"><![CDATA[<p><ahref="https://mp.weixin.qq.com/s/ZDk6ML5Uo0UnpD-pCSBnRA">数量经济学 -2023最新必读的断点RD教程及复现网站（附代码+案例应用）</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 收藏集锦 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 收藏集锦 </tag>
+            
+            <tag> RD </tag>
             
         </tags>
       
