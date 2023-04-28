@@ -166,6 +166,64 @@
     
     
     <entry>
+      <title>实证｜Stata数据可视化</title>
+      <link href="/posts/16330/"/>
+      <url>/posts/16330/</url>
+      
+        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a>相关链接：</h3><p><strong><em>- 待更新 -</em></strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 收藏集锦 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 收藏集锦 </tag>
+            
+            <tag> 可视化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>模型｜门槛回归(Threshold Regression)</title>
+      <link href="/posts/17387/"/>
+      <url>/posts/17387/</url>
+      
+        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a>相关链接：</h3><p><a href="https://mp.weixin.qq.com/s/1dskY2xhpim8JL5xxltA8g">数量经济学 - Stata: 门槛回归、面板模型、动态面板模型结果输出</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 收藏集锦 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 收藏集锦 </tag>
+            
+            <tag> 门槛回归 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>收藏集锦｜回归猴子：从回归到因果推断</title>
       <link href="/posts/19698/"/>
       <url>/posts/19698/</url>
@@ -414,11 +472,11 @@
             
             <tag> 命令 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> bilibili </tag>
             
             <tag> 代码库 </tag>
+            
+            <tag> CFPS </tag>
             
             <tag> 气象数据 </tag>
             
@@ -451,11 +509,11 @@
             
             <tag> 命令 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
+            
+            <tag> CFPS </tag>
             
             <tag> 气象数据 </tag>
             
@@ -488,11 +546,11 @@
             
             <tag> 命令 </tag>
             
-            <tag> CLDS </tag>
-            
             <tag> bilibili </tag>
             
             <tag> 代码库 </tag>
+            
+            <tag> CLDS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -525,11 +583,11 @@
             
             <tag> 命令 </tag>
             
-            <tag> CLDS </tag>
-            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
+            
+            <tag> CLDS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -601,11 +659,11 @@
             
             <tag> 命令 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> bilibili </tag>
             
             <tag> 代码库 </tag>
+            
+            <tag> CFPS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -636,11 +694,11 @@
             
             <tag> 命令 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
+            
+            <tag> CFPS </tag>
             
             <tag> 教对象Stata系列 </tag>
             
@@ -815,13 +873,13 @@
             
             <tag> 公开数据库 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
             
             <tag> 代码库 </tag>
+            
+            <tag> CFPS </tag>
             
         </tags>
       
@@ -852,11 +910,11 @@
             
             <tag> 公开数据库 </tag>
             
-            <tag> CFPS </tag>
-            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
+            
+            <tag> CFPS </tag>
             
         </tags>
       
@@ -889,15 +947,15 @@
             
             <tag> 公开数据库 </tag>
             
-            <tag> CFPS </tag>
-            
-            <tag> CHFS </tag>
-            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
             
             <tag> 代码库 </tag>
+            
+            <tag> CFPS </tag>
+            
+            <tag> CHFS </tag>
             
             <tag> CSS </tag>
             
@@ -974,7 +1032,7 @@
       <link href="/posts/29986/"/>
       <url>/posts/29986/</url>
       
-        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a>相关链接：</h3><p><a href="https://mp.weixin.qq.com/s/M1gHVNOjeTpIRrJKFqEM0g">君泉计量 - 抛弃p值？经济显著性与统计显著性</a></p><p><a href="https://www.zhihu.com/question/526265116/answer/2431807546">知乎 - 自变量因变量的线性关系不显著怎么办？</a></p><p><a href="https://mp.weixin.qq.com/s/k3GzVXqc6nx5iq4GzDJ2Xw">OneStata - OneClick 5.0 较大的更新与显著的进步（<em>显著性调整神器</em>）</a></p><p><a href="https://mp.weixin.qq.com/s/XBRe454I70NJjzvxkPOA6Q">OneStata - ChatGPT-对回归结果不显著的几点建议</a></p><p><a href="https://www.zhihu.com/question/357861691/answer/911278828">知乎 - Stata面板数据结果不显著该怎么办？</a></p><p><a href="https://lianxh.cn/news/279171ecf8309.html">连享会 - 0.0005：估计系数太小怎么办？</a></p><p><a href="https://www.lianxh.cn/news/046d284fd51b2.html">连享会 - 加入控制变量后结果悲催了！</a></p><p><a href="https://mp.weixin.qq.com/s/VEQMANQlBkCe-7pTqf5sKA">刘西川阅读写作课 - 不显著，怎么办？</a></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a>相关链接：</h3><h4 id="1-显著性的含义"><a href="#1-显著性的含义" class="headerlink" title="1. 显著性的含义"></a>1. 显著性的含义</h4><p><a href="https://mp.weixin.qq.com/s/M1gHVNOjeTpIRrJKFqEM0g">君泉计量 - 抛弃p值？经济显著性与统计显著性</a></p><h4 id="2-不显著怎么办？"><a href="#2-不显著怎么办？" class="headerlink" title="2. 不显著怎么办？"></a>2. 不显著怎么办？</h4><p><a href="https://mp.weixin.qq.com/s/VEQMANQlBkCe-7pTqf5sKA">刘西川阅读写作课 - 不显著，怎么办？</a></p><p><a href="https://www.zhihu.com/question/526265116/answer/2431807546">知乎 - 自变量因变量的线性关系不显著怎么办？</a></p><p><a href="https://www.lianxh.cn/news/046d284fd51b2.html">连享会 - 加入控制变量后结果悲催了！</a></p><p><a href="https://www.zhihu.com/question/357861691/answer/911278828">知乎 - Stata面板数据结果不显著该怎么办？</a></p><p><a href="https://lianxh.cn/news/279171ecf8309.html">连享会 - 0.0005：估计系数太小怎么办？</a></p><h4 id="3-调整显著性"><a href="#3-调整显著性" class="headerlink" title="3. 调整显著性"></a>3. 调整显著性</h4><p><a href="https://mp.weixin.qq.com/s/k3GzVXqc6nx5iq4GzDJ2Xw">OneStata - OneClick 5.0 较大的更新与显著的进步（<em>显著性调整神器</em>）</a></p><p><a href="https://mp.weixin.qq.com/s/XBRe454I70NJjzvxkPOA6Q">OneStata - ChatGPT-对回归结果不显著的几点建议</a></p>]]></content>
       
       
       <categories>
@@ -1032,7 +1090,7 @@
       <link href="/posts/54110/"/>
       <url>/posts/54110/</url>
       
-        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a>相关链接：</h3><p><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XWyxrFJDFLKNDtjsyYKtP0BxO2SA5qO7pV59oOW5-y5-&amp;uniplatform=NZKPT">CNKI - 中国工业经济: 因果推断经验研究中的中介效应与调节效应 by <em>江艇</em></a></p><p><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKgchrJ08w1e7M8Tu7YZds88HvMJUA_sIa_Vm8XKqMAAxjP2_SGApEsefGapZuJfVkr4SiRJ3yUJj&amp;uniplatform=NZKPT">CNKI - 心理科学进展: 中介效应分析:方法和模型发展 by <em>温忠麟</em>、<em>叶宝娟</em></a></p><p><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XVNrOrh_M-U0wpqdgeVeks8fdVUg-dXaXJ8zXYTeJ2m9&amp;uniplatform=NZKPT">CNKI - 南开管理评论: 管理学领域的曲线效应及统计检验方法 by <em>林伟鹏</em>、<em>冯保艺</em></a></p><p><a href="https://mp.weixin.qq.com/s/S9PqKTYuXo0YcW3NZSOmVw">计量经济圈 - 争议, 因果推断经验研究中的中介效应与调节效应</a></p><p><a href="https://mp.weixin.qq.com/s/j5FxwvBGQhBH2g30bURX_w">计量经济圈 - TOP5刊上五种常用机制分析方法及对应文献</a></p><p><a href="https://mp.weixin.qq.com/s/BaK7WWnwu4m9_ALoczbliA">计量经济圈 - 异质性分析用来检验中间传导机制, 分组回归或交互项就可以完成机制分析</a></p><p><a href="https://mp.weixin.qq.com/s/2GhzemesKCG_95Z2O2xpeA">计量经济圈 - 操作讲解中介效应机制分析：原理, 程序, Bootstrap方法及其应用</a></p><p><a href="https://mp.weixin.qq.com/s/rtFcciNNdsT6omdrluYm_A">计量经济圈 - 这种机制分析方法受到经济学认可, 曾出现在经济学TOP5期刊上！</a></p><p><a href="https://mp.weixin.qq.com/s/64NV7XJd5-bxAjLlM-jR9g">计量经济圈 - 又被拒稿了！机制检验除了中介效应还有其他方法吗？</a></p><p><a href="https://mp.weixin.qq.com/s/DwQWFcOmMGUGp1tFGr9vWw">计量经济圈 - 实证机制分析那些事，机制分析什么鬼？</a></p><p><a href="https://mp.weixin.qq.com/s/0Q5JhlPOcroqg8tZ6SL20w">计量经济圈 - 主回归与机制分析中的控制变量可以不同吗？</a></p><p><a href="https://mp.weixin.qq.com/s/fwbAVW8tWzpfPe66xiNUZA">计量经济圈 - 机制分析做到极致的JPE趣文, 身高与收入</a></p><p><a href="https://mp.weixin.qq.com/s/2-PzmooHDzFWcpqojElmWQ">计量经济圈 - 关于影响机制的分析思路和实操策略, 我们能够做的就只有这么多了！</a></p><p><a href="https://mp.weixin.qq.com/s/WOQVRwPMj3jRHP7EwkApew">计量经济圈 - 我最近看到AER, JPE文章, 人家用的就是类似中介效应三步走方法</a></p><p><a href="https://mp.weixin.qq.com/s/WjwHfzjTmrzbAhlpYEr65A">计量经济圈 - 在机制分析中必须是正向的中间影响路径吗?负向的影响路径可以吗？</a></p><p><a href="https://mp.weixin.qq.com/s/kdXQOpL8T7-gMI75vs6IkQ">计量经济圈 - 整理了34篇关于中介, 调节和机制分析的文章! 揭开事务间的机理就靠它了!</a></p><p><a href="https://mp.weixin.qq.com/s/pklAKseq5UWK2MAJohS7ZQ">计量经济圈 - 机制分析, 中介渠道, 调节效应必读系列合集</a></p><p><a href="https://mp.weixin.qq.com/s/iqYF_QtfSALhdE1w2dGO4Q">计量经济圈 - 实证中如何做竞争性假说的检验？AER范本的方法还能当机制分析用</a></p><p><a href="https://mp.weixin.qq.com/s/9v7NJjcEhjhb6Zqqoj2JhQ">计量经济圈 - Top5最新: 为什么富有的父母有富有的孩子? 一篇学好机制分析的佳作！</a></p><p><a href="https://mp.weixin.qq.com/s/yrQGnp9ntDlnIPiS4saPtQ">计量经济圈 - 调节效应的陷阱</a></p><p><a href="https://mp.weixin.qq.com/s/6O8xWB1Bs0RSXTpkixUSkw">计量经济圈 - 中介效应检验流程, 示意图公布, 不再畏惧中介分析</a></p><p><a href="https://mp.weixin.qq.com/s/pZk5pNBivUjh-kC_b3igdw">计量经济圈 - 调节变量, 中介变量和控制变量啥区别与联系?</a></p><p><a href="https://mp.weixin.qq.com/s/bWJ3F-Z-c8u8ouI6aDbkJA">计量经济圈 - PSM-DID,机制分析和DID稳健性检验的实证策略指南一则</a></p><p><a href="https://mp.weixin.qq.com/s/Z6nEUKrKwYRQ4oBpti8bcg">计量经济圈 - 一文彻底弄懂调节(交互)效应, 中介(机制)效应, 控制(混淆)变量等内容</a></p><p><a href="https://mp.weixin.qq.com/s/06eeAldj2XZNNHe9Xn7f0A">计量经济圈 - 实锤! TOP刊上30%文章使用控制变量实现统计和经济显著性！</a></p><p><a href="https://mp.weixin.qq.com/s/FUKG2sLsuHVfit6EPHq6mQ">计量经济圈 - 加入其他控制变量后, 估计系数的符号相反了？</a></p><p><a href="https://mp.weixin.qq.com/s/2XykqjT8VEPAGAtHhpib4w">计量经济圈 - 添加一个新变量能使以前不显著的变量变得显著了？</a></p><p><a href="https://www.lianxh.cn/news/fc7fde1bd0dba.html">连享会 - Stata：中介效应分析新命令-sgmediation2</a></p><p><a href="https://blog.csdn.net/Hellolijunshy/article/details/123630283">CSDN - Stata：机制检验，如何判断是不是遮掩效应？</a></p><p><a href="https://www.lianxh.cn/news/73d3dcc88376e.html">连享会 - Stata：一般化的因果中介分析</a></p><p><a href="https://www.zhihu.com/question/483289482/answer/2091567079">知乎 - 连玉君: 三段式中介效应模型真的适用于经济学研究吗？还可以用什么方法来检验影响机制？</a></p><p><a href="https://www.zhihu.com/question/479745469/answer/2097335044">知乎 - 连玉君: 机制检验要做内生性检验吗?</a></p><p><a href="https://www.lianxh.cn/news/fc35ac55f5085.html">连享会 - Stata+R：一文读懂中介效应</a></p><p><a href="https://lianxh.cn/news/96f42c47f4ea6.html">连享会 - Stata：调节中介效应检验</a></p><p><a href="https://www.lianxh.cn/news/29ab818725ff0.html">连享会 - Stata：图示交互效应-调节效应</a></p><p><a href="https://mp.weixin.qq.com/s/0MoQ4KCcOvlafTxkVhjsNw">连享会 - 中介效应：有序因果中介分析的半参数估计A-理论</a></p><p><a href="https://mp.weixin.qq.com/s/ZZK6y9dvP-7F-8f_DEcqLQ">连享会 - 中介效应：有序因果中介分析的半参数估计B-实操</a></p><p><a href="https://mp.weixin.qq.com/s/npqJhMADEBad6Roap5in0g">连享会 - 三段式中介效应模型真的适用于经济学研究吗？</a></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a>相关链接：</h3><h4 id="1-机制分析概述"><a href="#1-机制分析概述" class="headerlink" title="1. 机制分析概述"></a>1. 机制分析概述</h4><p><a href="https://mp.weixin.qq.com/s/64NV7XJd5-bxAjLlM-jR9g">计量经济圈 - 又被拒稿了！机制检验除了中介效应还有其他方法吗？</a></p><p><a href="https://mp.weixin.qq.com/s/DwQWFcOmMGUGp1tFGr9vWw">计量经济圈 - 实证机制分析那些事，机制分析什么鬼？</a></p><p><a href="https://mp.weixin.qq.com/s/2-PzmooHDzFWcpqojElmWQ">计量经济圈 - 关于影响机制的分析思路和实操策略, 我们能够做的就只有这么多了！</a></p><p><a href="https://mp.weixin.qq.com/s/Z6nEUKrKwYRQ4oBpti8bcg">计量经济圈 - 一文彻底弄懂调节(交互)效应, 中介(机制)效应, 控制(混淆)变量等内容</a></p><h4 id="2-中介效应"><a href="#2-中介效应" class="headerlink" title="2. 中介效应"></a>2. 中介效应</h4><p><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKgchrJ08w1e7M8Tu7YZds88HvMJUA_sIa_Vm8XKqMAAxjP2_SGApEsefGapZuJfVkr4SiRJ3yUJj&amp;uniplatform=NZKPT">CNKI - 心理科学进展: 中介效应分析:方法和模型发展 by <em>温忠麟</em>、<em>叶宝娟</em></a></p><p><a href="https://mp.weixin.qq.com/s/2GhzemesKCG_95Z2O2xpeA">计量经济圈 - 操作讲解中介效应机制分析：原理, 程序, Bootstrap方法及其应用</a></p><p><a href="https://mp.weixin.qq.com/s/WOQVRwPMj3jRHP7EwkApew">计量经济圈 - 我最近看到AER, JPE文章, 人家用的就是类似中介效应三步走方法</a></p><p><a href="https://mp.weixin.qq.com/s/WjwHfzjTmrzbAhlpYEr65A">计量经济圈 - 在机制分析中必须是正向的中间影响路径吗?负向的影响路径可以吗？</a></p><p><a href="https://www.lianxh.cn/news/fc35ac55f5085.html">连享会 - Stata+R：一文读懂中介效应</a></p><p><a href="https://www.lianxh.cn/news/fc7fde1bd0dba.html">连享会 - Stata：中介效应分析新命令-sgmediation2</a></p><p><a href="https://mp.weixin.qq.com/s/6O8xWB1Bs0RSXTpkixUSkw">计量经济圈 - 中介效应检验流程, 示意图公布, 不再畏惧中介分析</a></p><h4 id="3-因果中介分析"><a href="#3-因果中介分析" class="headerlink" title="3. 因果中介分析"></a>3. 因果中介分析</h4><p><a href="https://mp.weixin.qq.com/s/0MoQ4KCcOvlafTxkVhjsNw">连享会 - 中介效应：有序因果中介分析的半参数估计A-理论</a></p><p><a href="https://mp.weixin.qq.com/s/ZZK6y9dvP-7F-8f_DEcqLQ">连享会 - 中介效应：有序因果中介分析的半参数估计B-实操</a></p><p><a href="https://www.lianxh.cn/news/73d3dcc88376e.html">连享会 - Stata：一般化的因果中介分析</a></p><h4 id="4-调节效应"><a href="#4-调节效应" class="headerlink" title="4. 调节效应"></a>4. 调节效应</h4><p><a href="https://mp.weixin.qq.com/s/yrQGnp9ntDlnIPiS4saPtQ">计量经济圈 - 调节效应的陷阱</a></p><p><a href="https://www.lianxh.cn/news/29ab818725ff0.html">连享会 - Stata：图示交互效应-调节效应</a></p><h4 id="5-非线性关系"><a href="#5-非线性关系" class="headerlink" title="5. 非线性关系"></a>5. 非线性关系</h4><p><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XVNrOrh_M-U0wpqdgeVeks8fdVUg-dXaXJ8zXYTeJ2m9&amp;uniplatform=NZKPT">CNKI - 南开管理评论: 管理学领域的曲线效应及统计检验方法 by <em>林伟鹏</em>、<em>冯保艺</em></a></p><h4 id="6-有中介的调节与有调节的中介"><a href="#6-有中介的调节与有调节的中介" class="headerlink" title="6. 有中介的调节与有调节的中介"></a>6. 有中介的调节与有调节的中介</h4><p><a href="https://lianxh.cn/news/96f42c47f4ea6.html">连享会 - Stata：调节中介效应检验</a></p><h4 id="7-中介与调节之争"><a href="#7-中介与调节之争" class="headerlink" title="7. 中介与调节之争"></a>7. 中介与调节之争</h4><p><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XWyxrFJDFLKNDtjsyYKtP0BxO2SA5qO7pV59oOW5-y5-&amp;uniplatform=NZKPT">CNKI - 中国工业经济: 因果推断经验研究中的中介效应与调节效应 by <em>江艇</em></a></p><p><a href="https://mp.weixin.qq.com/s/S9PqKTYuXo0YcW3NZSOmVw">计量经济圈 - 争议, 因果推断经验研究中的中介效应与调节效应</a></p><p><a href="https://mp.weixin.qq.com/s/npqJhMADEBad6Roap5in0g">连享会 - 三段式中介效应模型真的适用于经济学研究吗？</a></p><p><a href="https://www.zhihu.com/question/483289482/answer/2091567079">知乎 - 连玉君: 三段式中介效应模型真的适用于经济学研究吗？还可以用什么方法来检验影响机制？</a></p><h4 id="8-遮掩效应-抑制效应"><a href="#8-遮掩效应-抑制效应" class="headerlink" title="8. 遮掩效应 / 抑制效应"></a>8. 遮掩效应 / 抑制效应</h4><p><a href="https://blog.csdn.net/Hellolijunshy/article/details/123630283">CSDN - Stata：机制检验，如何判断是不是遮掩效应？</a></p><h4 id="9-混杂效应"><a href="#9-混杂效应" class="headerlink" title="9. 混杂效应"></a>9. 混杂效应</h4><p><a href="https://mp.weixin.qq.com/s/2XykqjT8VEPAGAtHhpib4w">计量经济圈 - 添加一个新变量能使以前不显著的变量变得显著了？</a></p><h4 id="10-分组回归-异质性的检验机制"><a href="#10-分组回归-异质性的检验机制" class="headerlink" title="10. 分组回归 / 异质性的检验机制"></a>10. 分组回归 / 异质性的检验机制</h4><p><a href="https://mp.weixin.qq.com/s/BaK7WWnwu4m9_ALoczbliA">计量经济圈 - 异质性分析用来检验中间传导机制, 分组回归或交互项就可以完成机制分析</a></p><h4 id="11-顶刊-经典案例"><a href="#11-顶刊-经典案例" class="headerlink" title="11. 顶刊 / 经典案例"></a>11. 顶刊 / 经典案例</h4><p><a href="https://mp.weixin.qq.com/s/j5FxwvBGQhBH2g30bURX_w">计量经济圈 - TOP5刊上五种常用机制分析方法及对应文献</a></p><p><a href="https://mp.weixin.qq.com/s/rtFcciNNdsT6omdrluYm_A">计量经济圈 - 这种机制分析方法受到经济学认可, 曾出现在经济学TOP5期刊上！</a></p><p><a href="https://mp.weixin.qq.com/s/fwbAVW8tWzpfPe66xiNUZA">计量经济圈 - 机制分析做到极致的JPE趣文, 身高与收入</a></p><p><a href="https://mp.weixin.qq.com/s/iqYF_QtfSALhdE1w2dGO4Q">计量经济圈 - 实证中如何做竞争性假说的检验？AER范本的方法还能当机制分析用</a></p><p><a href="https://mp.weixin.qq.com/s/9v7NJjcEhjhb6Zqqoj2JhQ">计量经济圈 - Top5最新: 为什么富有的父母有富有的孩子? 一篇学好机制分析的佳作！</a></p><p><a href="https://mp.weixin.qq.com/s/bWJ3F-Z-c8u8ouI6aDbkJA">计量经济圈 - PSM-DID,机制分析和DID稳健性检验的实证策略指南一则</a></p><p><a href="https://mp.weixin.qq.com/s/06eeAldj2XZNNHe9Xn7f0A">计量经济圈 - 实锤! TOP刊上30%文章使用控制变量实现统计和经济显著性！</a></p><h4 id="12-相关合集"><a href="#12-相关合集" class="headerlink" title="12. 相关合集"></a>12. 相关合集</h4><p><a href="https://mp.weixin.qq.com/s/kdXQOpL8T7-gMI75vs6IkQ">计量经济圈 - 整理了34篇关于中介, 调节和机制分析的文章! 揭开事务间的机理就靠它了!</a></p><p><a href="https://mp.weixin.qq.com/s/pklAKseq5UWK2MAJohS7ZQ">计量经济圈 - 机制分析, 中介渠道, 调节效应必读系列合集</a></p><h4 id="13-机制分析中的变量问题"><a href="#13-机制分析中的变量问题" class="headerlink" title="13. 机制分析中的变量问题"></a>13. 机制分析中的变量问题</h4><p><a href="https://mp.weixin.qq.com/s/0Q5JhlPOcroqg8tZ6SL20w">计量经济圈 - 主回归与机制分析中的控制变量可以不同吗？</a></p><p><a href="https://mp.weixin.qq.com/s/pZk5pNBivUjh-kC_b3igdw">计量经济圈 - 调节变量, 中介变量和控制变量啥区别与联系?</a></p><p><a href="https://mp.weixin.qq.com/s/FUKG2sLsuHVfit6EPHq6mQ">计量经济圈 - 加入其他控制变量后, 估计系数的符号相反了？</a></p><h4 id="14-机制分析中的内生性问题"><a href="#14-机制分析中的内生性问题" class="headerlink" title="14. 机制分析中的内生性问题"></a>14. 机制分析中的内生性问题</h4><p><a href="https://www.zhihu.com/question/479745469/answer/2097335044">知乎 - 连玉君: 机制检验要做内生性检验吗?</a></p>]]></content>
       
       
       <categories>
@@ -1098,7 +1156,7 @@
       <link href="/posts/18747/"/>
       <url>/posts/18747/</url>
       
-        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a>相关链接：</h3><p><a href="https://lianxh.cn/news/bffb1cca7c960.html">连享会 - 异质性分析：系数平滑可变模型</a></p><p><a href="https://lianxh.cn/news/eb362aedd59e7.html">连享会 - Stata因果推断：hettreatreg-用OLS估计异质性处理效应</a></p><p><a href="https://lianxh.cn/news/424b22920a877.html">连享会 - Stata：异质性稳健DID估计量方法汇总</a></p><p><a href="https://lianxh.cn/news/bafafbd2aa5ca.html">连享会 - DID最新进展：异质性处理条件下的双向固定效应DID估计量 (TWFEDD)</a></p><p><a href="https://zhuanlan.zhihu.com/p/152234353">知乎 - 学术苑：异质性效应问题</a></p><p><a href="https://mp.weixin.qq.com/s/NNFtE1G-f7DFwv8r57T-gQ">计量经济圈 - 交互项有什么用？为啥要做异质性分析？</a></p><p><a href="https://mp.weixin.qq.com/s/BaK7WWnwu4m9_ALoczbliA">计量经济圈 - 异质性分析用来检验中间传导机制, 分组回归或交互项就可以完成机制分析</a></p><p><a href="https://mp.weixin.qq.com/s/W5PtvoevZePTF0ST6X48kg">计量经济圈 - 交互项与分组回归的区别是什么? 异质性分析</a></p><p><a href="https://mp.weixin.qq.com/s/WvaEW-_CbP0ijrB1JcbRMg">计量经济圈 - 中文顶刊上关于零工经济的研究, 思路和方法借鉴的是这篇金融TOP刊文章？</a></p><p><a href="https://mp.weixin.qq.com/s/gzM0vstZp6P1Kft3c4aGIg">计量经济圈 - AER文的数据和代码可下载供复制结果! 双重差分法和异质性处理效应分析范文</a></p><p><a href="https://mp.weixin.qq.com/s/s8f_TvG7McG8q6G5zCINRw">连享会 - 异质性分析！异质性分析！</a></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a>相关链接：</h3><h4 id="1-异质性分析的含义与原理"><a href="#1-异质性分析的含义与原理" class="headerlink" title="1. 异质性分析的含义与原理"></a>1. 异质性分析的含义与原理</h4><p><a href="https://lianxh.cn/news/bafafbd2aa5ca.html">连享会 - DID最新进展：异质性处理条件下的双向固定效应DID估计量 (TWFEDD)</a></p><p><a href="https://zhuanlan.zhihu.com/p/152234353">知乎 - 学术苑：异质性效应问题</a></p><p><a href="https://mp.weixin.qq.com/s/s8f_TvG7McG8q6G5zCINRw">连享会 - 异质性分析！异质性分析！</a></p><h4 id="2-异质性分析方法"><a href="#2-异质性分析方法" class="headerlink" title="2. 异质性分析方法"></a>2. 异质性分析方法</h4><h5 id="2-1-汇总文章"><a href="#2-1-汇总文章" class="headerlink" title="2.1 汇总文章"></a>2.1 汇总文章</h5><p><a href="https://lianxh.cn/news/424b22920a877.html">连享会 - Stata：异质性稳健DID估计量方法汇总</a></p><h5 id="2-2-异质性分析模型"><a href="#2-2-异质性分析模型" class="headerlink" title="2.2 异质性分析模型"></a>2.2 异质性分析模型</h5><p><a href="https://lianxh.cn/news/bffb1cca7c960.html">连享会 - 异质性分析：系数平滑可变模型</a></p><p><a href="https://lianxh.cn/news/eb362aedd59e7.html">连享会 - Stata因果推断：hettreatreg-用OLS估计异质性处理效应</a></p><h5 id="2-3-交互项与分组回归"><a href="#2-3-交互项与分组回归" class="headerlink" title="2.3 交互项与分组回归"></a>2.3 交互项与分组回归</h5><p><a href="https://mp.weixin.qq.com/s/NNFtE1G-f7DFwv8r57T-gQ">计量经济圈 - 交互项有什么用？为啥要做异质性分析？</a></p><p><a href="https://mp.weixin.qq.com/s/BaK7WWnwu4m9_ALoczbliA">计量经济圈 - 异质性分析用来检验中间传导机制, 分组回归或交互项就可以完成机制分析</a></p><p><a href="https://mp.weixin.qq.com/s/W5PtvoevZePTF0ST6X48kg">计量经济圈 - 交互项与分组回归的区别是什么? 异质性分析</a></p><h5 id="2-4-分位数回归"><a href="#2-4-分位数回归" class="headerlink" title="2.4 分位数回归"></a>2.4 分位数回归</h5><p><em>- 待更新 -</em></p><h5 id="2-5-异质性处理效应"><a href="#2-5-异质性处理效应" class="headerlink" title="2.5 异质性处理效应"></a>2.5 异质性处理效应</h5><p><a href="https://mp.weixin.qq.com/s/gzM0vstZp6P1Kft3c4aGIg">计量经济圈 - AER文的数据和代码可下载供复制结果! 双重差分法和异质性处理效应分析范文</a></p><h4 id="3-论文与代码"><a href="#3-论文与代码" class="headerlink" title="3. 论文与代码"></a>3. 论文与代码</h4><p><a href="https://mp.weixin.qq.com/s/WvaEW-_CbP0ijrB1JcbRMg">计量经济圈 - 中文顶刊上关于零工经济的研究, 思路和方法借鉴的是这篇金融TOP刊文章？</a></p>]]></content>
       
       
       <categories>
@@ -1127,7 +1185,7 @@
       <link href="/posts/31997/"/>
       <url>/posts/31997/</url>
       
-        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a>相关链接：</h3><p><a href="https://mp.weixin.qq.com/s/tSeQRdbyYZJnAt4OGlHIPw">君泉计量 - IV 估计：工具变量不外生时也可以用！</a></p><p><a href="https://mp.weixin.qq.com/s/SmBVZJRidQslE5TkP28ojg?spm_id_from=444.41.rich-text.link.click">连享会 - Stata：testex-控制函数法中排他性约束的检验和应对</a></p><p><a href="https://sangmino.notion.site/1a897b8106ca44eeaf31dcd5ae5a61b1?v=ff7dc75862c6427eb4243e91836e077e"><strong>Sangmin S. Oh - Plausibly Exogenous Galore</strong> (外文期刊上的工具变量列表)</a></p><p><a href="https://pan.baidu.com/s/1RWQt-tBJXysgrvG81znwGg?pwd=ttud"><strong>近似外生工具变量文献.xlsx</strong></a></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a>相关链接：</h3><p><a href="https://mp.weixin.qq.com/s/tSeQRdbyYZJnAt4OGlHIPw">君泉计量 - IV 估计：工具变量不外生时也可以用！</a></p><p><a href="https://mp.weixin.qq.com/s/SmBVZJRidQslE5TkP28ojg?spm_id_from=444.41.rich-text.link.click">连享会 - Stata：testex-控制函数法中排他性约束的检验和应对</a></p><p><a href="https://mp.weixin.qq.com/s/JXkxZMBi8ku6K82qhJsQEQ">君泉计量 - 论文复现：装模做样的IV</a></p><p><a href="https://mp.weixin.qq.com/s/zUHNXBZuF5tEgEpLSvIYXg">社科学术汇 - 工具变量估计:假设、陷阱和指南</a></p><p><a href="https://sangmino.notion.site/1a897b8106ca44eeaf31dcd5ae5a61b1?v=ff7dc75862c6427eb4243e91836e077e"><strong>Sangmin S. Oh - Plausibly Exogenous Galore</strong> (外文期刊上的工具变量列表)</a></p><p><a href="https://pan.baidu.com/s/1RWQt-tBJXysgrvG81znwGg?pwd=ttud"><strong>近似外生工具变量文献.xlsx</strong></a></p>]]></content>
       
       
       <categories>
@@ -1263,13 +1321,13 @@
             
             <tag> 心得记录 </tag>
             
-            <tag> 地理位置信息 </tag>
-            
             <tag> CFPS </tag>
             
-            <tag> CHFS </tag>
-            
             <tag> CLDS </tag>
+            
+            <tag> 地理位置信息 </tag>
+            
+            <tag> CHFS </tag>
             
             <tag> CHARLS </tag>
             
@@ -1391,15 +1449,15 @@
             
             <tag> CMDS </tag>
             
-            <tag> CFPS </tag>
-            
-            <tag> CLDS </tag>
-            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
             
             <tag> 代码库 </tag>
+            
+            <tag> CFPS </tag>
+            
+            <tag> CLDS </tag>
             
         </tags>
       
@@ -1412,7 +1470,7 @@
       <link href="/posts/48726/"/>
       <url>/posts/48726/</url>
       
-        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a>相关链接：</h3><p><a href="https://yiqingxu.org/software/">[Xu Yiqing] gsynth: Generalized Synthetic Control Method</a></p><p><a href="https://lianxh.cn/news/9e1bb97a57041.html">[连享会] 合成控制法 (Synthetic Control Method) 及 Stata实现</a></p><p><a href="https://lianxh.cn/news/d7c94c7777226.html">[连享会] Stata：合成控制法-synth-命令无法加载-plugin-的解决办法</a></p><p><a href="https://lianxh.cn/news/db3d2785cd5c0.html">[连享会] Synth_Runner命令：合成控制法高效实现</a></p><p><a href="https://lianxh.cn/news/f0c24b225eb69.html">[连享会] 合成控制法简介</a></p><p><a href="https://lianxh.cn/news/e66e82b083bc6.html">[连享会] Stata：基于Lasso的合成控制法-scul</a></p><p><a href="https://lianxh.cn/news/fe320d20a9420.html">[连享会] Stata：合成控制法介绍-synth2</a></p><p><a href="https://lianxh.cn/news/bcf8d62073675.html">[连享会] Stata：合成控制法的预测区间-scpi</a></p><p><a href="https://mp.weixin.qq.com/s/dvm6ePOj5Sjvru875TQYEQ">[计量经济圈] 广义合成控制法gsynth, 基于交互固定效应的因果推断</a></p><p><a href="https://mp.weixin.qq.com/s/j7JvvKXwYGQQW2J0A1225w">[计量经济圈] 合成控制法创始人如何用SCM做实证呢？这些规定动作一个都不能少！</a></p><p><a href="https://mp.weixin.qq.com/s/Y_Yv2-Yoq6S5ygMncGSY6Q">[计量经济圈] 合成控制法SCM新进展, 直接通过代码演示, 附数据和code！</a></p><p><a href="https://mp.weixin.qq.com/s/R3cUFWoQewyFjBcvQeHenA">[计量经济圈] 分享一篇使用合成控制法SCM进行实证研究的文章的代码</a></p><p><a href="https://mp.weixin.qq.com/s/AmjTI36cJeClgm-CO9dh0w">[计量经济圈] 用合成控制法, 机器学习和面板数据模型开展政策评估的论文！</a></p><p><a href="https://pwya.github.io/post/计量前沿did方法实用手册/">[潘王雨昂] 前沿DID方法实用手册：Fuzzy DID,合成控制DID,DML</a> —— SDID：合成控制与 DID 的结合</p><p><a href="https://mp.weixin.qq.com/s/eREDvoGi8xGQia4cmI1COw">[计量经济圈] 前沿, 合成双重差分法SDID方法介绍和示例, 附code和数据！</a></p><p><a href="https://mp.weixin.qq.com/s/rSidfMUkizUjaoP5RClHXA">[公共视野与定量方法] 合成控制法：一种架空历史的思维方式</a></p><p><a href="https://mp.weixin.qq.com/s/fue2zQ6KhVW8Bf0EfgrGig">[数量经济学] 综合控制、合成DID最新书单、命令包汇总</a></p><p><a href="https://mp.weixin.qq.com/s/tpKkDCjUk3lcD2qQyAMMfA">[数量经济学] 一文读懂合成控制法 (Synthetic Control Method)操作及Stata应用</a></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a>相关链接：</h3><h4 id="1-合成控制法概述"><a href="#1-合成控制法概述" class="headerlink" title="1. 合成控制法概述"></a>1. 合成控制法概述</h4><p><a href="https://lianxh.cn/news/f0c24b225eb69.html">[连享会] 合成控制法简介</a></p><p><a href="https://lianxh.cn/news/fe320d20a9420.html">[连享会] Stata：合成控制法介绍-synth2</a></p><p><a href="https://mp.weixin.qq.com/s/dvm6ePOj5Sjvru875TQYEQ">[计量经济圈] 广义合成控制法gsynth, 基于交互固定效应的因果推断</a></p><p><a href="https://mp.weixin.qq.com/s/rSidfMUkizUjaoP5RClHXA">[公共视野与定量方法] 合成控制法：一种架空历史的思维方式</a></p><p><a href="https://mp.weixin.qq.com/s/j7JvvKXwYGQQW2J0A1225w">[计量经济圈] 合成控制法创始人如何用SCM做实证呢？这些规定动作一个都不能少！</a></p><h4 id="2-代码与软件实现"><a href="#2-代码与软件实现" class="headerlink" title="2. 代码与软件实现"></a>2. 代码与软件实现</h4><p><a href="https://yiqingxu.org/software/">[Xu Yiqing] gsynth: Generalized Synthetic Control Method</a></p><p><a href="https://lianxh.cn/news/9e1bb97a57041.html">[连享会] 合成控制法 (Synthetic Control Method) 及 Stata实现</a></p><p><a href="https://lianxh.cn/news/d7c94c7777226.html">[连享会] Stata：合成控制法-synth-命令无法加载-plugin-的解决办法</a></p><p><a href="https://lianxh.cn/news/db3d2785cd5c0.html">[连享会] Synth_Runner命令：合成控制法高效实现</a></p><p><a href="https://lianxh.cn/news/bcf8d62073675.html">[连享会] Stata：合成控制法的预测区间-scpi</a></p><p><a href="https://mp.weixin.qq.com/s/R3cUFWoQewyFjBcvQeHenA">[计量经济圈] 分享一篇使用合成控制法SCM进行实证研究的文章的代码</a></p><p><a href="https://mp.weixin.qq.com/s/tpKkDCjUk3lcD2qQyAMMfA">[数量经济学] 一文读懂合成控制法 (Synthetic Control Method)操作及Stata应用</a></p><p><a href="https://mp.weixin.qq.com/s/mc293hSIgaLxOZoqWtPwpA">[数量经济学] 合成控制法操作及Stata应用（附香烟控制法案及房产税经典论文实现）</a></p><h4 id="3-合成控制与机器学习"><a href="#3-合成控制与机器学习" class="headerlink" title="3. 合成控制与机器学习"></a>3. 合成控制与机器学习</h4><p><a href="https://lianxh.cn/news/e66e82b083bc6.html">[连享会] Stata：基于Lasso的合成控制法-scul</a></p><p><a href="https://mp.weixin.qq.com/s/AmjTI36cJeClgm-CO9dh0w">[计量经济圈] 用合成控制法, 机器学习和面板数据模型开展政策评估的论文！</a></p><p><a href="https://mp.weixin.qq.com/s/Y_Yv2-Yoq6S5ygMncGSY6Q">[计量经济圈] 合成控制法SCM新进展, 直接通过代码演示, 附数据和code！</a></p><h4 id="4-合成双重差分：合成控制法与-DID-的杂交"><a href="#4-合成双重差分：合成控制法与-DID-的杂交" class="headerlink" title="4. 合成双重差分：合成控制法与 DID 的杂交"></a>4. 合成双重差分：合成控制法与 DID 的杂交</h4><p><a href="https://pwya.github.io/post/计量前沿did方法实用手册/">[潘王雨昂] 前沿DID方法实用手册：Fuzzy DID,合成控制DID,DML</a> —— SDID：合成控制与 DID 的结合</p><p><a href="https://mp.weixin.qq.com/s/eREDvoGi8xGQia4cmI1COw">[计量经济圈] 前沿, 合成双重差分法SDID方法介绍和示例, 附code和数据！</a></p><h4 id="5-合集与论文推介"><a href="#5-合集与论文推介" class="headerlink" title="5. 合集与论文推介"></a>5. 合集与论文推介</h4><p><a href="https://mp.weixin.qq.com/s/fue2zQ6KhVW8Bf0EfgrGig">[数量经济学] 综合控制、合成DID最新书单、命令包汇总</a></p>]]></content>
       
       
       <categories>
@@ -1468,7 +1526,7 @@
       <link href="/posts/53153/"/>
       <url>/posts/53153/</url>
       
-        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a>相关链接：</h3><p><a href="https://pwya.github.io/post/计量前沿did方法实用手册/">[潘王雨昂] 前沿DID方法实用手册：Fuzzy DID,合成控制DID,DML</a></p><p><a href="https://pwya.github.io/post/计量交叠did实用教程/">[潘王雨昂] 交叠DID实用教程</a></p><p><a href="https://mp.weixin.qq.com/s?__biz=MjM5OTMwODM1Mw==&amp;mid=2448099684&amp;idx=1&amp;sn=033c7ab771f5c8bae732b2e733e326f1&amp;chksm=b322d44a84555d5c4bacc48f8ef5e650d604e680cd1607e7698110a9fa63bfbbfab7e198bc7c&amp;mpshare=1&amp;scene=1&amp;srcid=0816sfGTti7QjaYwRjwu8eap&amp;sharer_sharetime=1664258767641&amp;sharer_shareid=1920095865185874332f084950b49990&amp;key=3251a4dfea909edfef02f58bb06c9e0f89348c80598d25eb7377f555c3a1e4b264c81068337cf0053b3060cb25d9c862cdcd448e315320865ae7b87f966c6e758b80617516f1948666f8f5c1303ca565adce7e3079d56753f9aa72b5d1373b86595c18af43448267128613a8b8c0b6dc79e6ce6977f9859bf67366b06d3a9bd9&amp;ascene=1&amp;uin=NTA0OTkyNzA4&amp;devicetype=Windows+10+x64&amp;version=63080113&amp;lang=zh_CN&amp;exportkey=n_ChQIAhIQ4%2BEXZyLJGzAJtGTMA0rQPRLyAQIE97dBBAEAAAAAABKxK4SGkfcAAAAOpnltbLcz9gKNyK89dVj07JHlGq8s1ky080DuRBDPiTtGYMQEBepT2CWSPiCDVMqnIV3WE4Qtc9wyKlNY3FKBAMg5znjjIn5OluVvjZqnHny2VI%2FqtRp6NfNSXSrlZMmtTwtKKBh%2F8bAkrBlDGIRIgCfBsp01rTuLMEkLBlJzNeLzzcFcOwVsXIz0w7PkAhBdTzdk%2BxZdEEf0BletgGmoPCyA1D%2BGwUMV42MEyo%2BKNBKm2v9J%2BG2cfCXJOgWwQoDChXKm66QiTOjz%2Flf6PALf3iWv1AoMUNtJ1ARx&amp;acctmode=0&amp;pass_ticket=uedBH2oJelSDnlFVo8blU%2FK25kq%2BQQ%2FxNtcANGqpNgNLAT94yfEK57k6eH0DokZ3GCKAk3lm9tYebUcShqDGAg%3D%3D&amp;wx_header=1&amp;fontgear=2">[计量经济圈] 交叠DID简明使用教程, 降低学者DID的学习成本！</a></p><p><a href="https://mp.weixin.qq.com/s/9bhv9_gU0F9VaA0hEbxgKg">[计量经济圈] 传统PSM-DID模型的改进与应用, 如何在面板数据中使用PSM方法</a></p><p><a href="https://mp.weixin.qq.com/s?__biz=MjM5OTMwODM1Mw==&amp;mid=2448093061&amp;idx=1&amp;sn=18c60f08ae6fa36941f9a8d7933a5df6&amp;chksm=b32332ab8454bbbd33b93bf042a9fc7f1bc308130ab90b87a917a81d00c3e2464c54118d977f&amp;scene=21#wechat_redirect">[计量经济圈] 120篇DID双重差分方法的文章合集, 包括代码,程序及解读, 建议收藏！</a></p><p><a href="https://mp.weixin.qq.com/s?__biz=MjM5OTMwODM1Mw==&amp;mid=2448095580&amp;idx=1&amp;sn=485fa37aa5aca3c92efcb292a44b0b72&amp;chksm=b32324728454ad64b8a6468179177ce0e5a45d85957191b59df72aa7d39fc9484e2ec7ba18f8&amp;scene=21#wechat_redirect">[计量经济圈] 诚实双重差分法DID, 面板事件研究法和Bacon分解的经典应用文！</a></p><p><a href="https://mp.weixin.qq.com/s/001rbC3NvWb7EuqmKh0pbA">[数量经济学] 2023新版DID进展汇总：命令、书单、论文、文章资源汇总</a></p><p><a href="https://mp.weixin.qq.com/s/WiKCCpUd1wpLlbMLmd9OkA">[数量经济学] csdid:多时期DID的异质性稳健估计量</a></p><p><a href="https://mp.weixin.qq.com/s/3yRx6ZBgy05eXhOC5WoOHg">[数量经济学] 理解DID出了什么问题?双向固定效应模型TWFE与异质性处理效应drdid和csdid</a></p><p><a href="https://mp.weixin.qq.com/s/fue2zQ6KhVW8Bf0EfgrGig">[数量经济学] 综合控制、合成DID最新书单、命令包汇总</a></p><p><a href="https://mp.weixin.qq.com/s/wqkUfU0PMkFQhjbazGHYqA">[数量经济学] 双重差分法（DID）平行趋势及安慰剂检验方法案例合集</a></p><p><a href="https://mp.weixin.qq.com/s/te_fJpPhilzMTIs5R091BQ">[连享会] Stata：各种DID估计量的比较分析</a></p><p><a href="https://mp.weixin.qq.com/s/kGjHCZ7Mk_uFvHHzxVHyGQ">[数量经济学] 免费公开课：交叠DID偏误及Bacon分解+案例应用</a></p><p><a href="https://mp.weixin.qq.com/s/Lq0mBplWLPwRN5k3MsszOA">[数量经济学] Bacon分解bacondecomp新+旧版本操作及ddtiming命令（三合一）操作应用</a></p><p><a href="https://mp.weixin.qq.com/s/CT2Qz8hxN7A58xfHEQ96yQ">[数量经济学] DRDID—双重稳健估计量</a></p><p><a href="https://mp.weixin.qq.com/s/GC3OFipiWAmp2b_2bctKkg">[数量经济学] 推荐一篇《统计研究》上PSM-DID必读文章及应用论文</a></p><p><a href="https://mp.weixin.qq.com/s/jAfuF7p0HIeZCMbX-85t-A">[数量经济学] 2023年国内必读的TOP3-DID论文：《数量经济技术经济研究》+《产业经济评论》+《东北财经大学学报》上DID论文推荐</a></p><p><a href="https://mp.weixin.qq.com/s/dF4JM5Z3toQxjCa9eyo_hw">[计量经济圈] 典范! 这篇AER在一图表里用了所有DID最新进展方法, 审稿人直接服了！</a></p><p><a href="https://mp.weixin.qq.com/s/k0JUy--pLMRfAzQHwr5hEQ">[数量经济学] 23年第4期《数量经济技术经济研究》最新PSM-DID+Callaway和SantAnna估计量等</a></p><p><a href="https://mp.weixin.qq.com/s/sKaLgD21Qcdy3Kkobp3-oQ">[香樟经济学术圈] 香樟推文2791：新的DiD理论文献让你眼花缭乱？系统性梳理DiD方法前沿进展</a></p><p><a href="https://mp.weixin.qq.com/s/uTIdWOxYgIOZzSJMqGlUKA">[数量经济学] 2023新版_DID进展汇总：命令、书单、论文、文章资源汇总</a></p><p><a href="https://mp.weixin.qq.com/s/gtPrFWVPZK67Hg8KH5DZ1Q">[数量经济学] 一文读懂DID中TWFE估计时存在的偏误问题</a></p><p><a href="https://mp.weixin.qq.com/s/DmQSkABS1RYfJ6_49CB6UQ">[数量经济学] 双重差分及三重差分（倍差法）操作及应用手册</a></p><p><a href="https://mp.weixin.qq.com/s/BUlsaSlsBTHzbzvk-ibjPQ">[数量经济学] 31个必知必会的DID命令（7个常规DID命令+20个DID进展最新命令+平行趋势和安慰剂命令）</a></p><p><a href="https://mp.weixin.qq.com/s/o4vEOnhAtETdq_R5FVPp5A">[数量经济学] 2种双重差分法（DID）安慰剂检验方法：随机抽取500/1000次（附完整代码免费下载 ）</a></p><p><a href="https://mp.weixin.qq.com/s/j5k1KghQ5xNh7YiV1liEBw">[随机漫步的西瓜] A Checklist for DID Practitioners</a></p><p><a href="https://mp.weixin.qq.com/s/YBJkVclky3aJKSIw0q0gBQ">[学术宅] 异质性稳健DID估计量：Stata &amp; R</a></p><p><a href="https://mp.weixin.qq.com/s/_5OE5Ak36FpkG-Wj0TmB3w">[连享会] 如何在R语言中实现多期DID</a></p><p><a href="https://lianxh.cn/news/f79402a26b30c.html">[连享会] 多时点DID保姆级教程(上)-平行趋势检验</a></p><p><a href="https://lianxh.cn/news/f79402a26b30c.html">[连享会] 多时点DID保姆级教程(下)-安慰剂检验</a></p><p><a href="https://mp.weixin.qq.com/s/lb5ooOJSXFI2py3OHcOsCQ">[数量经济学] 多期 DID 经典论文-视频+操作应用：银行管制与收入差距</a></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a>相关链接：</h3><h4 id="1-关于差分法"><a href="#1-关于差分法" class="headerlink" title="1. 关于差分法"></a>1. 关于差分法</h4><p><a href="https://pwya.github.io/post/计量前沿did方法实用手册/">[潘王雨昂] 前沿DID方法实用手册：Fuzzy DID,合成控制DID,DML</a></p><p><a href="https://mp.weixin.qq.com/s/te_fJpPhilzMTIs5R091BQ">[连享会] Stata：各种DID估计量的比较分析</a></p><p><a href="https://mp.weixin.qq.com/s/sKaLgD21Qcdy3Kkobp3-oQ">[香樟经济学术圈] 香樟推文2791：新的DiD理论文献让你眼花缭乱？系统性梳理DiD方法前沿进展</a></p><h4 id="2-双重差分法"><a href="#2-双重差分法" class="headerlink" title="2. 双重差分法"></a>2. 双重差分法</h4><p><a href="https://mp.weixin.qq.com/s/_mZ0QiRcKk62un6uby9Eiw">[数量经济学] 不可不知的双重差分法（DID）经典案例合集</a></p><p><a href="https://mp.weixin.qq.com/s/jAfuF7p0HIeZCMbX-85t-A">[数量经济学] 2023年国内必读的TOP3-DID论文：《数量经济技术经济研究》+《产业经济评论》+《东北财经大学学报》上DID论文推荐</a></p><p><a href="https://mp.weixin.qq.com/s/_5OE5Ak36FpkG-Wj0TmB3w">[连享会] 如何在R语言中实现多期DID</a></p><p><a href="https://mp.weixin.qq.com/s/j5k1KghQ5xNh7YiV1liEBw">[随机漫步的西瓜] A Checklist for DID Practitioners</a></p><p><a href="https://mp.weixin.qq.com/s/YBJkVclky3aJKSIw0q0gBQ">[学术宅] 异质性稳健DID估计量：Stata &amp; R</a></p><p><a href="https://mp.weixin.qq.com/s/stwOsJjS72VyTLtqsFjvKA">[土豆的经管Workshop] 科研随笔：双重差分要放入虚拟变量单项吗？</a></p><p><a href="https://mp.weixin.qq.com/s/CT2Qz8hxN7A58xfHEQ96yQ">[数量经济学] DRDID—双重稳健估计量</a></p><p><a href="https://mp.weixin.qq.com/s/DmQSkABS1RYfJ6_49CB6UQ">[数量经济学] 双重差分及三重差分（倍差法）操作及应用手册</a></p><p><a href="https://mp.weixin.qq.com/s/gtPrFWVPZK67Hg8KH5DZ1Q">[数量经济学] 一文读懂DID中TWFE估计时存在的偏误问题</a></p><h4 id="3-三重差分法"><a href="#3-三重差分法" class="headerlink" title="3. 三重差分法"></a>3. 三重差分法</h4><p><a href="https://mp.weixin.qq.com/s/TqL0Bv9kPwx9Tt_01YE9iw">[君泉计量] 三重差分—碳减排政策的真实效应：财务约束与溢出效应</a></p><p><a href="https://mp.weixin.qq.com/s/DmQSkABS1RYfJ6_49CB6UQ">[数量经济学] 双重差分及三重差分（倍差法）操作及应用手册</a></p><h4 id="4-模糊双重差分"><a href="#4-模糊双重差分" class="headerlink" title="4. 模糊双重差分"></a>4. 模糊双重差分</h4><p> <em>- 待更新 -</em></p><h4 id="5-交叠双重差分"><a href="#5-交叠双重差分" class="headerlink" title="5. 交叠双重差分"></a>5. 交叠双重差分</h4><p><a href="https://mp.weixin.qq.com/s/yLaDp8Yy6xSjCfqjo80AIQ">[计量经济圈] 交叠DID简明使用教程, 降低学者DID的学习成本！</a></p><p><a href="https://pwya.github.io/post/计量交叠did实用教程/">[潘王雨昂] 交叠DID实用教程</a></p><p><a href="https://mp.weixin.qq.com/s/kGjHCZ7Mk_uFvHHzxVHyGQ">[数量经济学] 免费公开课：交叠DID偏误及Bacon分解+案例应用</a></p><p><a href="https://mp.weixin.qq.com/s/Lq0mBplWLPwRN5k3MsszOA">[数量经济学] Bacon分解bacondecomp新+旧版本操作及ddtiming命令（三合一）操作应用</a></p><h4 id="6-多时期DID"><a href="#6-多时期DID" class="headerlink" title="6. 多时期DID"></a>6. 多时期DID</h4><p><a href="https://mp.weixin.qq.com/s/WiKCCpUd1wpLlbMLmd9OkA">[数量经济学] csdid:多时期DID的异质性稳健估计量</a></p><p><a href="https://mp.weixin.qq.com/s/lb5ooOJSXFI2py3OHcOsCQ">[数量经济学] 多期 DID 经典论文-视频+操作应用：银行管制与收入差距</a></p><h4 id="7-合成双重差分"><a href="#7-合成双重差分" class="headerlink" title="7. 合成双重差分"></a>7. 合成双重差分</h4><p> <em>- 待更新 -</em></p><h4 id="8-PSM-DID"><a href="#8-PSM-DID" class="headerlink" title="8. PSM-DID"></a>8. PSM-DID</h4><p><a href="https://mp.weixin.qq.com/s/9bhv9_gU0F9VaA0hEbxgKg">[计量经济圈] 传统PSM-DID模型的改进与应用, 如何在面板数据中使用PSM方法</a></p><p><a href="https://mp.weixin.qq.com/s/GC3OFipiWAmp2b_2bctKkg">[数量经济学] 推荐一篇《统计研究》上PSM-DID必读文章及应用论文</a></p><p><a href="https://mp.weixin.qq.com/s/k0JUy--pLMRfAzQHwr5hEQ">[数量经济学] 23年第4期《数量经济技术经济研究》最新PSM-DID+Callaway和SantAnna估计量等</a></p><h4 id="9-平行趋势检验、安慰剂检验"><a href="#9-平行趋势检验、安慰剂检验" class="headerlink" title="9. 平行趋势检验、安慰剂检验"></a>9. 平行趋势检验、安慰剂检验</h4><p><a href="https://mp.weixin.qq.com/s/wqkUfU0PMkFQhjbazGHYqA">[数量经济学] 双重差分法（DID）平行趋势及安慰剂检验方法案例合集</a></p><p><a href="https://lianxh.cn/news/f79402a26b30c.html">[连享会] 多时点DID保姆级教程(上)-平行趋势检验</a></p><p><a href="https://www.lianxh.cn/news/04e10a17a4f5f.html">[连享会] 多时点DID保姆级教程(下)-安慰剂检验</a></p><p><a href="https://mp.weixin.qq.com/s/o4vEOnhAtETdq_R5FVPp5A">[数量经济学] 2种双重差分法（DID）安慰剂检验方法：随机抽取500/1000次（附完整代码免费下载 ）</a></p><h4 id="10-因果效应"><a href="#10-因果效应" class="headerlink" title="10. 因果效应"></a>10. 因果效应</h4><p><a href="https://mp.weixin.qq.com/s/3yRx6ZBgy05eXhOC5WoOHg">[数量经济学] 理解DID出了什么问题?双向固定效应模型TWFE与异质性处理效应drdid和csdid</a></p><h4 id="11-差分法合集"><a href="#11-差分法合集" class="headerlink" title="11. 差分法合集"></a>11. 差分法合集</h4><p><a href="https://mp.weixin.qq.com/s?__biz=MjM5OTMwODM1Mw==&amp;mid=2448093061&amp;idx=1&amp;sn=18c60f08ae6fa36941f9a8d7933a5df6&amp;chksm=b32332ab8454bbbd33b93bf042a9fc7f1bc308130ab90b87a917a81d00c3e2464c54118d977f&amp;scene=21#wechat_redirect">[计量经济圈] 120篇DID双重差分方法的文章合集, 包括代码,程序及解读, 建议收藏！</a></p><p><a href="https://mp.weixin.qq.com/s/001rbC3NvWb7EuqmKh0pbA">[数量经济学] 2023新版DID进展汇总：命令、书单、论文、文章资源汇总</a></p><p><a href="https://mp.weixin.qq.com/s/fue2zQ6KhVW8Bf0EfgrGig">[数量经济学] 综合控制、合成DID最新书单、命令包汇总</a></p><p><a href="https://mp.weixin.qq.com/s/BUlsaSlsBTHzbzvk-ibjPQ">[数量经济学] 31个必知必会的DID命令（7个常规DID命令+20个DID进展最新命令+平行趋势和安慰剂命令）</a></p><h4 id="12-经典案例与论文"><a href="#12-经典案例与论文" class="headerlink" title="12. 经典案例与论文"></a>12. 经典案例与论文</h4><p><a href="https://mp.weixin.qq.com/s?__biz=MjM5OTMwODM1Mw==&amp;mid=2448095580&amp;idx=1&amp;sn=485fa37aa5aca3c92efcb292a44b0b72&amp;chksm=b32324728454ad64b8a6468179177ce0e5a45d85957191b59df72aa7d39fc9484e2ec7ba18f8&amp;scene=21#wechat_redirect">[计量经济圈] 诚实双重差分法DID, 面板事件研究法和Bacon分解的经典应用文！</a></p><p><a href="https://mp.weixin.qq.com/s/kD5au4gmL6fMH3lvMO9zkQ">[计量经济圈] 曾国藩QJE: 权力之网, 运用DID, DDD, 事件研究方法！</a></p><p><a href="https://mp.weixin.qq.com/s/dF4JM5Z3toQxjCa9eyo_hw">[计量经济圈] 典范! 这篇AER在一图表里用了所有DID最新进展方法, 审稿人直接服了！</a></p><p><a href="https://mp.weixin.qq.com/s/UZxsHSDnglquPZaXSzCGNA">[计量经济圈] 一篇满足我所有DID幻想的最新AER, 交叠, 连续DID, 调节, 机制分析等范文！</a></p>]]></content>
       
       
       <categories>
@@ -1555,7 +1613,7 @@
       <link href="/posts/23952/"/>
       <url>/posts/23952/</url>
       
-        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a><strong>相关链接：</strong></h3><p><a href="https://lianxh.cn/news/5156229fb5147.htm">[连享会] 控制变量！控制变量！</a></p><p><a href="https://www.lianxh.cn/news/7baa597b33b8d.html">[连享会] 控制变量越多越好吗？</a></p><p><a href="https://lianxh.cn/news/c548e33fbb649.html">[连享会] A-理论部分：控制变量！控制变量！Good-Controls-Bad-Controls</a></p><p><a href="https://lianxh.cn/news/a54246bf82745.html">[连享会] B-Stata模拟：控制变量！控制变量！Good-Controls-Bad-Controls</a></p><p><a href="https://lianxh.cn/news/4eb3cb3d50dcd.html">[连享会] Stata：控制变量与核心解释变量地位对等吗？</a></p><p><a href="https://mp.weixin.qq.com/s/0Q5JhlPOcroqg8tZ6SL20w">计量经济圈 - 主回归与机制分析中的控制变量可以不同吗？</a></p><p><a href="https://mp.weixin.qq.com/s/ViTEBkLgp4Y8evbYGW6m3w">[计量经济圈] 图灵奖得主Judea Pearl关于控制变量选择问题的文章被社会科学方法顶刊接收！</a></p><p><a href="https://mp.weixin.qq.com/s/n13z1T8JFMuArUwUzy3USg">[计量经济圈] 控制变量! 控制变量! 控制变量!</a></p><p><a href="https://mp.weixin.qq.com/s/qeFzUQcnOQsZdr4fELhgRA">[计量经济圈] 开班了! 好控制变量or差控制变量: 速成班</a></p><p><a href="https://mp.weixin.qq.com/s/HW0UETNi5qSYKqOJhasN1g">[计量经济圈] 什么是不好的控制变量, 什么又是好的控制变量?</a></p><p><a href="https://mp.weixin.qq.com/s/YN-yiGBi24pj9e8I9mi1hA">[计量经济圈] 合理使用控制变量的策略与建议, 从研究设计, 数据收集与分析和结果报告三方面下手！</a></p><p><a href="https://mp.weixin.qq.com/s/RjWz4qiTjZqR1Tu5AngQ_g">[计量经济圈] 控制变量的内生性需要处理吗？如何处理呢？</a></p><p><a href="https://mp.weixin.qq.com/s/jlNTRbLqdNH08QNamI6P4A">[计量经济圈] 控制变量选择问题: 如何鉴别好或不好的控制变量？附上14篇相关文章！</a></p><p><a href="https://mp.weixin.qq.com/s/0Q5JhlPOcroqg8tZ6SL20w">[计量经济圈] 主回归与机制分析中的控制变量可以不同吗？</a></p><p><a href="https://mp.weixin.qq.com/s/pZk5pNBivUjh-kC_b3igdw">[计量经济圈] 调节变量, 中介变量和控制变量啥区别与联系?</a></p><p><a href="https://mp.weixin.qq.com/s/1qc0SgAHZS63RIfRGDBTFA">[君泉计量] Stata：控制变量与核心解释变量地位对等吗？</a></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="相关链接："><a href="#相关链接：" class="headerlink" title="相关链接："></a><strong>相关链接：</strong></h3><h4 id="1-控制变量的选择：好坏与数量"><a href="#1-控制变量的选择：好坏与数量" class="headerlink" title="1. 控制变量的选择：好坏与数量"></a>1. 控制变量的选择：好坏与数量</h4><p><a href="https://lianxh.cn/news/5156229fb5147.html">[连享会] 控制变量！控制变量！</a></p><p><a href="https://lianxh.cn/news/c548e33fbb649.html">[连享会] A-理论部分：控制变量！控制变量！Good-Controls-Bad-Controls</a></p><p><a href="https://lianxh.cn/news/a54246bf82745.html">[连享会] B-Stata模拟：控制变量！控制变量！Good-Controls-Bad-Controls</a></p><p><a href="https://mp.weixin.qq.com/s/n13z1T8JFMuArUwUzy3USg">[计量经济圈] 控制变量! 控制变量! 控制变量!</a></p><p><a href="https://mp.weixin.qq.com/s/qeFzUQcnOQsZdr4fELhgRA">[计量经济圈] 开班了! 好控制变量or差控制变量: 速成班</a></p><p><a href="https://mp.weixin.qq.com/s/HW0UETNi5qSYKqOJhasN1g">[计量经济圈] 什么是不好的控制变量, 什么又是好的控制变量?</a></p><p><a href="https://mp.weixin.qq.com/s/ViTEBkLgp4Y8evbYGW6m3w">[计量经济圈] 图灵奖得主Judea Pearl关于控制变量选择问题的文章被社会科学方法顶刊接收！</a></p><p><a href="https://www.zhihu.com/question/326199739/answer/2998737188">[知乎] 控制变量是如何被“控制”的？<em>by: 心理统计联盟</em></a></p><p><a href="https://www.lianxh.cn/news/7baa597b33b8d.html">[连享会] 控制变量越多越好吗？</a></p><p><a href="https://mp.weixin.qq.com/s/jlNTRbLqdNH08QNamI6P4A">[计量经济圈] 控制变量选择问题: 如何鉴别好或不好的控制变量？附上14篇相关文章！</a></p><h4 id="2-控制变量、核心解释变量与机制变量的关系"><a href="#2-控制变量、核心解释变量与机制变量的关系" class="headerlink" title="2. 控制变量、核心解释变量与机制变量的关系"></a>2. 控制变量、核心解释变量与机制变量的关系</h4><p><a href="https://lianxh.cn/news/4eb3cb3d50dcd.html">[连享会] Stata：控制变量与核心解释变量地位对等吗？</a></p><p><a href="https://mp.weixin.qq.com/s/pZk5pNBivUjh-kC_b3igdw">[计量经济圈] 调节变量, 中介变量和控制变量啥区别与联系?</a></p><p><a href="https://mp.weixin.qq.com/s/1qc0SgAHZS63RIfRGDBTFA">[君泉计量] Stata：控制变量与核心解释变量地位对等吗？</a></p><p><a href="https://mp.weixin.qq.com/s/RjWz4qiTjZqR1Tu5AngQ_g">[计量经济圈] 控制变量的内生性需要处理吗？如何处理呢？</a></p><p><a href="https://mp.weixin.qq.com/s/YN-yiGBi24pj9e8I9mi1hA">[计量经济圈] 合理使用控制变量的策略与建议, 从研究设计, 数据收集与分析和结果报告三方面下手！</a></p><h4 id="3-控制变量可以不同吗？"><a href="#3-控制变量可以不同吗？" class="headerlink" title="3. 控制变量可以不同吗？"></a>3. 控制变量可以不同吗？</h4><p><a href="https://mp.weixin.qq.com/s/0Q5JhlPOcroqg8tZ6SL20w">[计量经济圈] 主回归与机制分析中的控制变量可以不同吗？</a></p>]]></content>
       
       
       <categories>
