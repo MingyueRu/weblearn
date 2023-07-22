@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>数据清洗｜定义宏时复合引号问题</title>
+      <link href="/posts/29263/"/>
+      <url>/posts/29263/</url>
+      
+        <content type="html"><![CDATA[<p>在 Stata 中，涉及到文本时，需要使用英文直引号框选文本内容，如<code>"测试文本"引号内文本"引号外文本"</code>。在 do文件中，该文本会被显示为：</p><p><img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20230723012904-0rw83kp.png" style="width:450px"/></p><p>如果运行该代码，只有第一个引号内橘黄色文本会被识别，因此运行会出错：</p><p><img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20230723012942-ed2ha08.png" style="width:650px"/></p><p>解决该问题的办法很简单，使用复合双引号即可解决问题：`<code>"测试文本"引号内文本"引号外文本"'</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">display `&quot;测试文本&quot;引号内文本&quot;引号外文本&quot;&#x27;</span><br></pre></td></tr></table></figure><p><img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20230723013015-7b1e4lt.png" style="width:450px"/></p><p>也就是说，将左引号改为`<code>"</code>，右引号改为<code>"'</code>，即可解决问题。运行上述命令的结果如下：</p><p><img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20230723013047-22smwj8.png" style="width:650px"/></p><p>运行不再报错，带引号的文本内容被完整显示。</p><p><strong>参考内容：</strong><ahref="https://www.lianxh.cn/news/fa725add207b6.html">连享会-复合双引号在编程中的应用</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据清洗 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Stata </tag>
+            
+            <tag> 命令 </tag>
+            
+            <tag> 数据清洗 </tag>
+            
+            <tag> 暂元 </tag>
+            
+            <tag> 宏 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>数据清洗专题视频｜分组计算非参数方法的基尼系数</title>
       <link href="/posts/24146/"/>
       <url>/posts/24146/</url>
@@ -1542,11 +1575,11 @@
             
             <tag> 公开数据库 </tag>
             
-            <tag> CMDS </tag>
-            
             <tag> CFPS </tag>
             
             <tag> CLDS </tag>
+            
+            <tag> CMDS </tag>
             
             <tag> bilibili </tag>
             
@@ -1929,9 +1962,9 @@
             
             <tag> 软件相关 </tag>
             
-            <tag> macOS </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> macOS </tag>
             
         </tags>
       
@@ -3548,35 +3581,6 @@
     
     
     <entry>
-      <title>实证｜主成分分析</title>
-      <link href="/posts/25529/"/>
-      <url>/posts/25529/</url>
-      
-        <content type="html"><![CDATA[<p>　　主成分分析的要点：</p><ul><li>区分正向指标与负向指标</li><li>累计贡献率最好大于 80%</li><li>特征根要大于 1</li></ul><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 已将负向指标正向化</span></span><br><span class="line"><span class="keyword">global</span> xlist <span class="string">&quot;X1 X2 X3 X4 X5 X6 X7 X8&quot;</span></span><br><span class="line"><span class="comment">** 权重确定与载核计算</span></span><br><span class="line"><span class="keyword">pca</span> <span class="variable">$xlist</span></span><br><span class="line"><span class="keyword">factor</span> <span class="variable">$xlist</span> , pcf</span><br><span class="line"><span class="comment">** 绘制随碎石图</span></span><br><span class="line"><span class="keyword">screeplot</span>, yline(1)   <span class="comment">//yline(1)表示绘制特征根为1的临界线</span></span><br><span class="line"><span class="comment">** 根据碎石图或载核表, 选取特征根大于1的主成分</span></span><br><span class="line"><span class="keyword">predict</span> f1 f2 f3   <span class="comment">// 假如有三个主成分的特征根大于1</span></span><br><span class="line"><span class="comment">** 生成综合指标: 前面的系数为「pca $xlist」命令运行后的「Proportion」列, 为各主成分的贡献率</span></span><br><span class="line"><span class="keyword">gen</span> X = a1*f1 + a2*f2 + a3*f3</span><br><span class="line"><span class="keyword">drop</span> f1-f3</span><br></pre></td></tr></table></figure><p>　　相关链接：<ahref="https://zhuanlan.zhihu.com/p/281278580">【Stata 写论文】PCA主成分分析和因子分析命令演示（附代码） - 知乎 (zhihu.com)</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 实证分析 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 实证分析 </tag>
-            
-            <tag> Stata </tag>
-            
-            <tag> 主成分分析 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>实证｜熵权法</title>
       <link href="/posts/33541/"/>
       <url>/posts/33541/</url>
@@ -3598,6 +3602,35 @@
             <tag> Stata </tag>
             
             <tag> 熵权法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>实证｜主成分分析</title>
+      <link href="/posts/25529/"/>
+      <url>/posts/25529/</url>
+      
+        <content type="html"><![CDATA[<p>　　主成分分析的要点：</p><ul><li>区分正向指标与负向指标</li><li>累计贡献率最好大于 80%</li><li>特征根要大于 1</li></ul><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 已将负向指标正向化</span></span><br><span class="line"><span class="keyword">global</span> xlist <span class="string">&quot;X1 X2 X3 X4 X5 X6 X7 X8&quot;</span></span><br><span class="line"><span class="comment">** 权重确定与载核计算</span></span><br><span class="line"><span class="keyword">pca</span> <span class="variable">$xlist</span></span><br><span class="line"><span class="keyword">factor</span> <span class="variable">$xlist</span> , pcf</span><br><span class="line"><span class="comment">** 绘制随碎石图</span></span><br><span class="line"><span class="keyword">screeplot</span>, yline(1)   <span class="comment">//yline(1)表示绘制特征根为1的临界线</span></span><br><span class="line"><span class="comment">** 根据碎石图或载核表, 选取特征根大于1的主成分</span></span><br><span class="line"><span class="keyword">predict</span> f1 f2 f3   <span class="comment">// 假如有三个主成分的特征根大于1</span></span><br><span class="line"><span class="comment">** 生成综合指标: 前面的系数为「pca $xlist」命令运行后的「Proportion」列, 为各主成分的贡献率</span></span><br><span class="line"><span class="keyword">gen</span> X = a1*f1 + a2*f2 + a3*f3</span><br><span class="line"><span class="keyword">drop</span> f1-f3</span><br></pre></td></tr></table></figure><p>　　相关链接：<ahref="https://zhuanlan.zhihu.com/p/281278580">【Stata 写论文】PCA主成分分析和因子分析命令演示（附代码） - 知乎 (zhihu.com)</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> Stata </tag>
+            
+            <tag> 主成分分析 </tag>
             
         </tags>
       
