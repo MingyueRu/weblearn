@@ -8,7 +8,7 @@
       <link href="/posts/29263/"/>
       <url>/posts/29263/</url>
       
-        <content type="html"><![CDATA[<p>在 Stata 中，涉及到文本时，需要使用英文直引号框选文本内容，如<code>"测试文本"引号内文本"引号外文本"</code>。在 do文件中，该文本会被显示为：</p><p><img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20230723012904-0rw83kp.png" style="width:450px"/></p><p>如果运行该代码，只有第一个引号内橘黄色文本会被识别，因此运行会出错：</p><p><img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20230723012942-ed2ha08.png" style="width:650px"/></p><p>解决该问题的办法很简单，使用复合双引号即可解决问题：`<code>"测试文本"引号内文本"引号外文本"'</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">display `&quot;测试文本&quot;引号内文本&quot;引号外文本&quot;&#x27;</span><br></pre></td></tr></table></figure><p><img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20230723013015-7b1e4lt.png" style="width:450px"/></p><p>也就是说，将左引号改为`<code>"</code>，右引号改为<code>"'</code>，即可解决问题。运行上述命令的结果如下：</p><p><img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20230723013047-22smwj8.png" style="width:650px"/></p><p>运行不再报错，带引号的文本内容被完整显示。</p><p><strong>参考内容：</strong><ahref="https://www.lianxh.cn/news/fa725add207b6.html">连享会-复合双引号在编程中的应用</a></p>]]></content>
+        <content type="html"><![CDATA[<p>在 Stata 中，涉及到文本时，需要使用英文直引号框选文本内容，如<code>"测试文本"引号内文本"引号外文本"</code>。在 do文件中，该文本会被显示为：</p><p><img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20230723012904-0rw83kp.png" style="width:450px"/></p><p>如果运行该代码，只有第一个引号内橘黄色文本会被识别，因此运行会出错：</p><p><img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20230723012942-ed2ha08.png" style="width:650px"/></p><p>解决该问题的办法很简单，使用复合双引号即可解决问题：【`"测试文本"引号内文本"引号外文本"'】</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">display `&quot;测试文本&quot;引号内文本&quot;引号外文本&quot;&#x27;</span><br></pre></td></tr></table></figure><p><img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20230723013015-7b1e4lt.png" style="width:450px"/></p><p>也就是说，将左引号改为【`"】，右引号改为【"'】，即可解决问题。运行上述命令的结果如下：</p><p><img src="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20230723013047-22smwj8.png" style="width:650px"/></p><p>运行不再报错，带引号的文本内容被完整显示。</p><p><strong>参考内容：</strong><ahref="https://www.lianxh.cn/news/fa725add207b6.html">连享会-复合双引号在编程中的应用</a></p>]]></content>
       
       
       <categories>
@@ -606,9 +606,9 @@
             
             <tag> 代码库 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
         </tags>
       
@@ -643,9 +643,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
         </tags>
       
@@ -927,9 +927,9 @@
             
             <tag> 代码库 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
             <tag> CLHLS </tag>
             
@@ -964,9 +964,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> 教对象Stata系列 </tag>
-            
             <tag> 气象数据 </tag>
+            
+            <tag> 教对象Stata系列 </tag>
             
             <tag> CLHLS </tag>
             
@@ -1962,9 +1962,9 @@
             
             <tag> 软件相关 </tag>
             
-            <tag> Hexo </tag>
-            
             <tag> macOS </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
