@@ -791,13 +791,13 @@
             
             <tag> 公开数据库 </tag>
             
-            <tag> CMDS </tag>
-            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
             
             <tag> 代码库 </tag>
+            
+            <tag> CMDS </tag>
             
         </tags>
       
@@ -1614,8 +1614,6 @@
             
             <tag> 公开数据库 </tag>
             
-            <tag> CMDS </tag>
-            
             <tag> CFPS </tag>
             
             <tag> CLDS </tag>
@@ -1625,6 +1623,8 @@
             <tag> 视频 </tag>
             
             <tag> 代码库 </tag>
+            
+            <tag> CMDS </tag>
             
         </tags>
       
