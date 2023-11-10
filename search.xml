@@ -791,13 +791,13 @@
             
             <tag> 公开数据库 </tag>
             
+            <tag> CMDS </tag>
+            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
             
             <tag> 代码库 </tag>
-            
-            <tag> CMDS </tag>
             
         </tags>
       
@@ -1618,13 +1618,13 @@
             
             <tag> CLDS </tag>
             
+            <tag> CMDS </tag>
+            
             <tag> bilibili </tag>
             
             <tag> 视频 </tag>
             
             <tag> 代码库 </tag>
-            
-            <tag> CMDS </tag>
             
         </tags>
       
@@ -1753,7 +1753,7 @@
       <link href="/posts/15726/"/>
       <url>/posts/15726/</url>
       
-        <content type="html"><![CDATA[<h3 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接"></a>下载链接</h3><p>链接:  <a href="https://pan.baidu.com/s/145KOlFPtetm0tl1i2b6NJg?pwd=239u">百度网盘下载链接</a></p><p>提取码: 239u</p><h3 id="书籍清单"><a href="#书籍清单" class="headerlink" title="书籍清单"></a>书籍清单</h3><ol><li>Xiaokai Yang, Jeffrey D. Sachs 《 <em>Economic Development and the Division of Labor</em> 》, <strong>英文版</strong></li><li>杨小凯，张永生《 新兴古典经济学与超边际分析 》</li><li>[日]速水佑次郎 (Yujiro Hayami)《发展经济学：从贫困到富裕 ( <em>Development Economics</em>: <em>From the Poverty to the Wealth of Nations</em> )》，<strong>中文版(2003&amp;2009)与英文版(2005, Third Version)</strong> </li><li>迈克尔 P. 托达罗，斯蒂芬 C. 史密斯《发展经济学(原书第11版)》，<strong>中文版</strong>，2014</li><li>Debraj Ray 《 <em>Development economics</em> 》, <strong>英文版</strong></li><li>德布拉吉 · 瑞《发展经济学》，<strong>中文版</strong></li><li>林珏《发展经济学案例集(第二版)》，2018</li><li>郭熙保(主编)，《发展经济学》，高等教育出版社</li><li><em>Handbook of Development Economics</em>, Vol 1 - Vol 5</li></ol>]]></content>
+        <content type="html"><![CDATA[<h3 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接"></a>下载链接</h3><p>链接:  <a href="https://pan.baidu.com/s/145KOlFPtetm0tl1i2b6NJg?pwd=239u">百度网盘下载链接</a></p><p>提取码: 239u</p><h3 id="书籍清单"><a href="#书籍清单" class="headerlink" title="书籍清单"></a>书籍清单</h3><ol><li>Xiaokai Yang, Jeffrey D. Sachs 《 <em>Economic Development and the Division of Labor</em> 》, <strong>英文版</strong></li><li>杨小凯，张永生《 新兴古典经济学与超边际分析 》</li><li>[日]速水佑次郎 (Yujiro Hayami)《发展经济学：从贫困到富裕 ( <em>Development Economics</em>: <em>From the Poverty to the Wealth of Nations</em> )》，<strong>中文版(2003 &amp; 2009)与英文版(2005, Third Version)</strong> </li><li>迈克尔 P. 托达罗，斯蒂芬 C. 史密斯《发展经济学(原书第11版)》，<strong>中文版</strong>，2014</li><li>Debraj Ray 《 <em>Development economics</em> 》, <strong>英文版</strong></li><li>德布拉吉 · 瑞《发展经济学》，<strong>中文版</strong></li><li>林珏《发展经济学案例集(第二版)》，2018</li><li>郭熙保(主编)，《发展经济学》，高等教育出版社</li><li><em>Handbook of Development Economics</em>, Vol 1 - Vol 5</li></ol>]]></content>
       
       
       <categories>
@@ -2001,9 +2001,9 @@
             
             <tag> 软件相关 </tag>
             
-            <tag> Hexo </tag>
-            
             <tag> macOS </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
