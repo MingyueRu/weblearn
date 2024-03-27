@@ -4,6 +4,66 @@
   
     
     <entry>
+      <title>数据清洗｜生成面板数据</title>
+      <link href="/posts/15451/"/>
+      <url>/posts/15451/</url>
+      
+        <content type="html"><![CDATA[<p>在 Stata 中，可以使用 <code>tsfill</code> 命令或者<code>xtbalance</code> 命令生成平衡面板数据。两个命令的原理并不相同。<code>tsfill</code> 通过【<strong>补样本</strong>】获得平衡面板，更多用于宏观数据中；<code>xtbalance</code>通过【<strong>删样本</strong>】获得平衡面板，更多用于微观数据中。</p><h3 id="命令展示">1. 命令展示</h3><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 设置面板数据</span></span><br><span class="line"><span class="keyword">xtset</span> PID year</span><br><span class="line"><span class="comment">** tsfill 补样本</span></span><br><span class="line"><span class="keyword">tsfill</span>, full</span><br><span class="line"><span class="comment">** xtbalance 删样本</span></span><br><span class="line">xtbalance, <span class="keyword">range</span>(2012 2022) miss(x1 x2 x3)</span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="结果展示">2. 结果展示</h3><h4 id="tsfill-补样本">（1）<code>tsfill</code> 补样本</h4><p>以涵盖江苏和上海两个省份的三年面板数据为例，其中江苏缺少2020年的样本。可以看到，<code>tsfill</code>对缺失的样本进行了填补，但是不会填补<code>province</code>、<code>x</code> 等变量的取值。使用 <code>fillmissing</code>命令，可以在<code>tsfill</code>的基础上，进一步填补缺失的宏观地理信息，其原理是根据变量<code>ID</code>分组，组内的每一个省份名称<code>province</code>都是相同的，使用组内其中一个<code>province</code> 的取值替代缺失值。</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** tsfill 补样本</span></span><br><span class="line"><span class="keyword">xtset</span> ID year</span><br><span class="line"><span class="keyword">tsfill</span>, full</span><br><span class="line"><span class="comment">/* 计算结果图示：</span></span><br><span class="line"><span class="comment">  +-----------------------+               +-----------------------+</span></span><br><span class="line"><span class="comment">  | ID   provine  year  x |               | ID   provine  year  x | </span></span><br><span class="line"><span class="comment">  |-----------------------|               |-----------------------| </span></span><br><span class="line"><span class="comment">  | 31     上海   2019   1 |   实现效果    | 31     上海   2019   1 | </span></span><br><span class="line"><span class="comment">  | 31     上海   2020   3 |  ---------&gt;  | 31     上海   2020   3 |</span></span><br><span class="line"><span class="comment">  | 31     上海   2021   2 |              | 31     上海   2021   2 |</span></span><br><span class="line"><span class="comment">  | 32     江苏   2019   2 |              | 32     江苏   2019   2 |</span></span><br><span class="line"><span class="comment">  | 32     江苏   2021   . |              | 32            2020   . |   </span></span><br><span class="line"><span class="comment">  +-----------------------+               | 32     江苏   2021   . |   </span></span><br><span class="line"><span class="comment">                                          +-----------------------+  */</span></span><br><span class="line"></span><br><span class="line"><span class="comment">** 填补省份名称</span></span><br><span class="line"><span class="keyword">bysort</span> ID: fillmissing province</span><br><span class="line">  +-----------------------+               +-----------------------+</span><br><span class="line">  | ID   provine  year  x |               | ID   provine  year  x | </span><br><span class="line">  |-----------------------|               |-----------------------| </span><br><span class="line">  | 31     上海   2019   1 |   实现效果    | 31     上海   2019   1 | </span><br><span class="line">  | 31     上海   2020   3 |  ---------&gt;  | 31     上海   2020   3 |</span><br><span class="line">  | 31     上海   2021   2 |              | 31     上海   2021   2 |</span><br><span class="line">  | 32     江苏   2019   2 |              | 32     江苏   2019   2 |</span><br><span class="line">  | 32            2020   . |              | 32     江苏   2020   . |   </span><br><span class="line">  | 32     江苏   2021   . |              | 32     江苏   2021   . |   </span><br><span class="line">  +-----------------------+               +-----------------------+  */</span><br></pre></td></tr></table></figure><h4 id="xtbalance-删样本">（2）<code>xtbalance</code> 删样本</h4><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">** xtbalance 删样本</span></span><br><span class="line">xtbalance, <span class="keyword">range</span>(2012 2022) miss(x1 x2)</span><br><span class="line"></span><br><span class="line">-*待更新*-</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据清洗 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Stata </tag>
+            
+            <tag> 命令 </tag>
+            
+            <tag> 数据清洗 </tag>
+            
+            <tag> 面板数据 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数据清洗｜数据填充(均值法)</title>
+      <link href="/posts/59504/"/>
+      <url>/posts/59504/</url>
+      
+        <content type="html"><![CDATA[<p>在 Stata 中，使用 <code>egen</code>等命令分组计算后，可以得到一个组内取值相同、组间取值不同的变量。如果在使用<code>egen</code> 命令分组计算时，使用了 <code>if</code>条件对特定样本进行计算，那么组内取值<strong>有且仅有</strong>两种情况：</p><ul><li><strong>情况一：</strong>两种取值，<strong>一是组内样本符合条件的取值相同，不符合条件的都是缺失值<code>.</code></strong>。</li><li><strong>情况二：</strong>一种取值，组内因不符合条件，都是缺失值。</li></ul><p>在此种情况下，可以使用 <code>ereplace</code> 命令配合<code>mean</code> 函数补充。</p><h3 id="命令展示">1. 命令展示</h3><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 外部命令，首次使用需要安装 ereplace</span></span><br><span class="line"><span class="keyword">ssc</span> install ereplace, <span class="keyword">replace</span></span><br><span class="line"><span class="comment">** 计算条件分组取值</span></span><br><span class="line"><span class="keyword">egen</span> X_total = <span class="keyword">total</span>(X) <span class="keyword">if</span> X==1, <span class="keyword">by</span>(ID)</span><br><span class="line">ereplace X_total = <span class="keyword">mean</span>(X_total), <span class="keyword">by</span>(ID)</span><br></pre></td></tr></table></figure><h3 id="结果展示">2. 结果展示</h3><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 计算条件分组取值</span></span><br><span class="line"><span class="keyword">egen</span> X_total = <span class="keyword">total</span>(X) <span class="keyword">if</span> X==1, <span class="keyword">by</span>(ID)</span><br><span class="line"><span class="comment">/* 计算结果图示：</span></span><br><span class="line"><span class="comment">  +-----------------+              +---------------------------+</span></span><br><span class="line"><span class="comment">  | ID   provine  X |              | ID   provine  X   X_total | </span></span><br><span class="line"><span class="comment">  |-----------------|              |---------------------------| </span></span><br><span class="line"><span class="comment">  | 31     上海   0 |   实现效果    | 31     上海   0         . | </span></span><br><span class="line"><span class="comment">  | 31     上海   . |  ---------&gt;  | 31     上海   .         . |</span></span><br><span class="line"><span class="comment">  | 31     上海   0 |              | 31     上海   0         . |</span></span><br><span class="line"><span class="comment">  | 32     江苏   1 |              | 32     江苏   1         2 |</span></span><br><span class="line"><span class="comment">  | 32     江苏   1 |              | 32     江苏   1         2 |   </span></span><br><span class="line"><span class="comment">  | 32     江苏   . |              | 32     江苏   .         . |   </span></span><br><span class="line"><span class="comment">  +----------------+               +--------------------------+  */</span></span><br><span class="line"></span><br><span class="line"><span class="comment">** 情况一：均值填充</span></span><br><span class="line">ereplace X_total = <span class="keyword">mean</span>(X_total), <span class="keyword">by</span>(ID)</span><br><span class="line"><span class="comment">/* 计算结果图示：</span></span><br><span class="line"><span class="comment">  +---------------------------+              +---------------------------+</span></span><br><span class="line"><span class="comment">  | ID   provine  X   X_total |              | ID   provine  X   X_total | </span></span><br><span class="line"><span class="comment">  |---------------------------|              |---------------------------| </span></span><br><span class="line"><span class="comment">  | 31     上海   0         . |   实现效果    | 31     上海   0         . | </span></span><br><span class="line"><span class="comment">  | 31     上海   .         . |  ---------&gt;  | 31     上海   .         . |</span></span><br><span class="line"><span class="comment">  | 31     上海   0         . |              | 31     上海   0         . |</span></span><br><span class="line"><span class="comment">  | 32     江苏   1         2 |              | 32     江苏   1         2 |</span></span><br><span class="line"><span class="comment">  | 32     江苏   1         2 |              | 32     江苏   1         2 |   </span></span><br><span class="line"><span class="comment">  | 32     江苏   .         . |              | 32     江苏   .         2 |   </span></span><br><span class="line"><span class="comment">  +--------------------------+               +--------------------------+  */</span></span><br><span class="line"></span><br><span class="line"><span class="comment">** 情况二：均值填充</span></span><br><span class="line"><span class="keyword">replace</span> X_total = 0 <span class="keyword">if</span> X_total==.</span><br><span class="line"><span class="comment">/* 计算结果图示：</span></span><br><span class="line"><span class="comment">  +---------------------------+              +---------------------------+</span></span><br><span class="line"><span class="comment">  | ID   provine  X   X_total |              | ID   provine  X   X_total | </span></span><br><span class="line"><span class="comment">  |---------------------------|              |---------------------------| </span></span><br><span class="line"><span class="comment">  | 31     上海   0         . |   实现效果    | 31     上海   0         0 | </span></span><br><span class="line"><span class="comment">  | 31     上海   .         . |  ---------&gt;  | 31     上海   .         0 |</span></span><br><span class="line"><span class="comment">  | 31     上海   0         . |              | 31     上海   0         0 |</span></span><br><span class="line"><span class="comment">  | 32     江苏   1         2 |              | 32     江苏   1         2 |</span></span><br><span class="line"><span class="comment">  | 32     江苏   1         2 |              | 32     江苏   1         2 |   </span></span><br><span class="line"><span class="comment">  | 32     江苏   .         2 |              | 32     江苏   .         2 |   </span></span><br><span class="line"><span class="comment">  +--------------------------+               +--------------------------+  */</span></span><br></pre></td></tr></table></figure><p>上面的三行命令中：</p><ul><li><code>egen</code> 和<code>ereplace</code>命令可以使用的函数、用法都相同，具体使用方法参见文章<ahref="https://fgzfgz.github.io/posts/9680/">《数据清洗｜变量生成与替换》</a>；</li><li><code>ereplace</code>发挥的作用是，在情况一（取值只有两种情况，缺失值和非缺失值，且非缺失值取值相等）下，非缺失值的均值就是其取值本身，如果我们希望将组内的缺失值填充为这个相同的非缺失值，就可以使用第二行命令；</li><li>在情况二下，即部分组内没有满足条件的值，或者都是缺失值，此时可以根据研究需要进行数据填补（此处补为0）。</li></ul><h3 id="使用案例">3. 使用案例</h3><ul><li><a href="https://fgzfgz.github.io/posts/43931/">Stata计算收入不平等指标</a></li><li><a href="https://fgzfgz.github.io/posts/51274/">使用 CFPS计算分性别家庭子女数</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据清洗 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Stata </tag>
+            
+            <tag> 命令 </tag>
+            
+            <tag> 数据清洗 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>数据采集｜使用海关总署数据分析各省农产品进出口的问题</title>
       <link href="/posts/20617/"/>
       <url>/posts/20617/</url>
@@ -1672,11 +1732,11 @@
             
             <tag> 公开数据库 </tag>
             
-            <tag> CMDS </tag>
-            
             <tag> CFPS </tag>
             
             <tag> CLDS </tag>
+            
+            <tag> CMDS </tag>
             
             <tag> bilibili </tag>
             
