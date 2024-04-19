@@ -138,9 +138,9 @@
       
         <tags>
             
-            <tag> 因果推断 </tag>
-            
             <tag> 合成控制法 </tag>
+            
+            <tag> 因果推断 </tag>
             
             <tag> 视频 </tag>
             
@@ -679,7 +679,7 @@
       <link href="/posts/41378/"/>
       <url>/posts/41378/</url>
       
-        <content type="html"><![CDATA[<p>推荐一些获取实证方法、软件使用和文献分享的渠道，主要包括公众号、UP主与网站等。网站与BiliBiliUP主附有网址链接。</p><ol type="1"><li><strong>[期刊官网] <ahref="http://ciejournal.ajcass.org">中国工业经济</a>、<ahref="http://www.jqte.net/sljjjsjjyj/ch/index.aspx">数量经济技术经济研究</a></strong>：<u>公开论文、数据和代码</u>，可以用于论文复刻和代码学习</li><li><strong>[网站] <a href="https://bbs.pinggu.org">经管之家 /人大经济论坛</a></strong>：经管类学习综合平台，代码学习、实证模型、资源下载等</li><li><strong>[公众号]计量经济圈</strong>：实证模型、因果推断、代码分享、文章分享</li><li><strong>[网站] <ahref="https://lianxh.cn">连享会</a></strong>：实证模型、数据清洗、命令开发、代码分享、文章分享</li><li><strong>[公众号]连享会</strong>：实证模型、数据清洗、命令开发、代码分享、文章分享</li><li><strong>[公众号]君泉计量</strong>：实证模型、数据清洗、命令开发、代码分享、文章分享</li><li><strong>[公众号]香樟经济学术圈</strong>：文章分享、因果推断、顶刊搬运</li><li><strong>[公众号] RandomWalkTheory</strong>：研究心得、对话学者Podcast、实证模型</li><li><strong>[网站] <a href="https://yiqingxu.org">XuYiqing</a></strong>：政治经济学、实证模型开发、因果推断</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/480682506">学术苑</a></strong>：因果推断、实证模型</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/483144353">计量经济圈</a></strong>：因果推断、实证模型</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/1873681734">老徐快别打星际了</a></strong>：因果推断、实证模型介绍</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/1086486458/">江西财经大学习明明</a></strong>：计量经济学、因果推断、实证模型、论文分享</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/550661456/">Michaelscholar</a></strong>：计量经济学、文献分享、实证模型、因果推断</li><li><strong>[公众号]经济理论与实证建模</strong>：因果推断、实证模型、文章分享、代码分享</li><li><strong>[公众号]计量经济学</strong>：因果推断、实证模型、统计学、计量经济学、代码分享</li><li><strong>[公众号]随机漫步的西瓜</strong>：因果推断、实证模型、论文写作</li><li><strong>[公众号]土豆的经管Workshop</strong>：文章分享、顶刊搬运</li><li><strong>[公众号] 567Seminar</strong>：经济学文章分享</li><li><strong>[公众号] 梦想不大</strong>：Stata学习、代码分享、实证模型</li><li><strong>[网站] <ahref="https://pwya.github.io">潘王雨昂</a></strong>：实证模型、因果推断、数据分享</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/9840842">Silencedream</a></strong>：Stata学习、Python 学习、数据清洗、实证模型</li><li><strong>[网站] <a href="https://silencedream.gitee.io">Silencedream的小站</a></strong>：Stata 学习、Python 学习、数据清洗、实证模型</li><li><strong>[公众号] OneStata</strong>：实证模型、Stata学习、命令开发、Python 学习、实证问题分享</li><li><strong>[网站] <ahref="https://shutterzor.cn">ShutterZor</a></strong>：实证模型、Stata学习、命令开发</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/40545247">拿铁一定要加冰</a></strong>：实证模型、Stata学习、命令开发、Python 学习、实证问题分享</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/694044865/">斯特利姆cosin</a></strong>：文献分享、单口相声</li><li><strong>[公众号] songbl</strong>：Stata学习、命令开发</li><li><strong>[网站] <a href="https://stata-club.github.io/">StataClub</a></strong>：Stata学习、数据清洗、命令开发</li><li><strong>[网站] <ahref="https://cosx.org">统计之都</a></strong>：统计数据、数据分析、R学习</li><li><strong>[公众号] 全不会怎么办</strong>：文章分享、顶刊搬运</li><li><strong>[公众号] DCM笔记</strong>：统计学、计量经济学</li></ol><hr /><p>也可以关注我的账号：</p><ol type="1"><li>[个人网站] <a href="https://fgzfgz.github.io/">FGZ</a></li><li>[知乎] <ahref="https://www.zhihu.com/people/xueshulsh">fgzfgz</a></li><li>[BiliBili] <ahref="https://space.bilibili.com/455889108">破而后立fgz</a></li></ol>]]></content>
+        <content type="html"><![CDATA[<p>推荐一些获取实证方法、软件使用和文献分享的渠道，主要包括公众号、UP主与网站等。网站与BiliBiliUP主附有网址链接。</p><p>几个主要来源</p><ol type="1"><li><strong>[期刊官网] <ahref="http://ciejournal.ajcass.org">中国工业经济</a>、<ahref="http://www.jqte.net/sljjjsjjyj/ch/index.aspx">数量经济技术经济研究</a></strong>：<u>公开论文、数据和代码</u>，可以用于论文复刻和代码学习</li><li><strong>[网站] <ahref="http://www.econometrics-stata.com">陈强老师的个人网站</a></strong>：Stata实证分析、Python 机器学习，教材对应PPT、数据集和勘误</li><li><strong>[网站] <a href="https://bbs.pinggu.org">经管之家 /人大经济论坛</a></strong>：经管类学习综合平台，代码学习、实证模型、资源下载等</li><li><strong>[公众号]计量经济圈</strong>：实证模型、因果推断、代码分享、文章分享</li><li><strong>[网站] <ahref="https://lianxh.cn">连享会</a></strong>：实证模型、数据清洗、命令开发、代码分享、文章分享</li><li><strong>[公众号]连享会</strong>：实证模型、数据清洗、命令开发、代码分享、文章分享</li><li><strong>[公众号]君泉计量</strong>：实证模型、数据清洗、命令开发、代码分享、文章分享</li><li><strong>[公众号]香樟经济学术圈</strong>：文章分享、因果推断、顶刊搬运</li><li><strong>[公众号] RandomWalkTheory</strong>：研究心得、对话学者Podcast、实证模型</li><li><strong>[网站] <a href="https://yiqingxu.org">XuYiqing</a></strong>：政治经济学、实证模型开发、因果推断</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/480682506">学术苑</a></strong>：因果推断、实证模型</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/483144353">计量经济圈</a></strong>：因果推断、实证模型</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/1873681734">老徐快别打星际了</a></strong>：因果推断、实证模型介绍</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/1086486458/">江西财经大学习明明</a></strong>：计量经济学、因果推断、实证模型、论文分享</li><li><strong>[公众号]狗熊会</strong>：统计学知识、数据分析、机器学习</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/479849093">狗熊会</a></strong>：统计学知识、数据分析、机器学习</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/550661456/">Michaelscholar</a></strong>：计量经济学、文献分享、实证模型、因果推断</li><li><strong>[公众号]经济理论与实证建模</strong>：因果推断、实证模型、文章分享、代码分享</li><li><strong>[公众号]计量经济学</strong>：因果推断、实证模型、统计学、计量经济学、代码分享</li><li><strong>[公众号]随机漫步的西瓜</strong>：因果推断、实证模型、论文写作</li><li><strong>[公众号]土豆的经管Workshop</strong>：文章分享、顶刊搬运</li><li><strong>[公众号] 567Seminar</strong>：经济学文章分享</li><li><strong>[公众号] 梦想不大</strong>：Stata学习、代码分享、实证模型</li><li><strong>[网站] <ahref="https://pwya.github.io">潘王雨昂</a></strong>：实证模型、因果推断、数据分享</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/9840842">Silencedream</a></strong>：Stata学习、Python 学习、数据清洗、实证模型</li><li><strong>[网站] <a href="https://silencedream.gitee.io">Silencedream的小站</a></strong>：Stata 学习、Python 学习、数据清洗、实证模型</li><li><strong>[公众号] OneStata</strong>：实证模型、Stata学习、命令开发、Python 学习、实证问题分享</li><li><strong>[网站] <ahref="https://shutterzor.cn">ShutterZor</a></strong>：实证模型、Stata学习、命令开发</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/40545247">拿铁一定要加冰</a></strong>：实证模型、Stata学习、命令开发、Python 学习、实证问题分享</li><li><strong>[BiliBili] <ahref="https://space.bilibili.com/694044865/">斯特利姆cosin</a></strong>：文献分享、单口相声</li><li><strong>[公众号] songbl</strong>：Stata学习、命令开发</li><li><strong>[网站] <a href="https://stata-club.github.io/">StataClub</a></strong>：Stata学习、数据清洗、命令开发</li><li><strong>[网站] <ahref="https://cosx.org">统计之都</a></strong>：统计数据、数据分析、R学习</li><li><strong>[公众号] DCM笔记</strong>：统计学、计量经济学</li></ol><hr /><p>也可以关注我的账号：</p><ol type="1"><li>[个人网站] <a href="https://fgzfgz.github.io/">FGZ</a></li><li>[知乎] <ahref="https://www.zhihu.com/people/xueshulsh">fgzfgz</a></li><li>[BiliBili] <ahref="https://space.bilibili.com/455889108">破而后立fgz</a></li></ol>]]></content>
       
       
       <categories>
@@ -763,9 +763,9 @@
             
             <tag> 代码库 </tag>
             
-            <tag> 气象数据 </tag>
-            
             <tag> 教对象Stata系列 </tag>
+            
+            <tag> 气象数据 </tag>
             
         </tags>
       
@@ -800,9 +800,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> 气象数据 </tag>
-            
             <tag> 教对象Stata系列 </tag>
+            
+            <tag> 气象数据 </tag>
             
         </tags>
       
@@ -1084,9 +1084,9 @@
             
             <tag> 代码库 </tag>
             
-            <tag> 气象数据 </tag>
-            
             <tag> 教对象Stata系列 </tag>
+            
+            <tag> 气象数据 </tag>
             
             <tag> CLHLS </tag>
             
@@ -1121,9 +1121,9 @@
             
             <tag> 视频 </tag>
             
-            <tag> 气象数据 </tag>
-            
             <tag> 教对象Stata系列 </tag>
+            
+            <tag> 气象数据 </tag>
             
             <tag> CLHLS </tag>
             
@@ -1732,11 +1732,11 @@
             
             <tag> 公开数据库 </tag>
             
-            <tag> CMDS </tag>
-            
             <tag> CFPS </tag>
             
             <tag> CLDS </tag>
+            
+            <tag> CMDS </tag>
             
             <tag> bilibili </tag>
             
@@ -2030,9 +2030,9 @@
             
             <tag> 软件相关 </tag>
             
-            <tag> zotero </tag>
-            
             <tag> macOS </tag>
+            
+            <tag> zotero </tag>
             
         </tags>
       
@@ -2119,9 +2119,9 @@
             
             <tag> 软件相关 </tag>
             
-            <tag> macOS </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> macOS </tag>
             
         </tags>
       
@@ -2202,9 +2202,9 @@
             
             <tag> 软件相关 </tag>
             
-            <tag> zotero </tag>
-            
             <tag> macOS </tag>
+            
+            <tag> zotero </tag>
             
         </tags>
       
@@ -3450,33 +3450,6 @@
     
     
     <entry>
-      <title>实证｜为什么使用PSM消除样本选择偏差？</title>
-      <link href="/posts/19130/"/>
-      <url>/posts/19130/</url>
-      
-        <content type="html"><![CDATA[<p>　　<strong>要理解为什么用 psm 消除样本的选择偏误，先要理解 psm的原理。</strong></p><p>　　在研究一种干预措施的效果时，理想状态是进行随机化实验，也就是控制其他所有条件都相同，仅有是否采取干预措施这一点不同，这样就可以通过比较随机化实验中干预组与对照组的差异，了解干预措施的效果，为排除个体差异，通常使用干预组与对照组的效果的平均值差异来衡量，也就是许多实证研究中许多研究计算的平均处理效应。</p><p>　　然而，随机化实验往往在医学、生物学等领域更为常见，在经济学相关研究中，经济发展情况、社会制度、文化差异等各方面的不同之处决定了不能随意指定两类样本进行比较，以衡量干预措施的效果。更多的情况是干预措施的效果会受到两组样本之间其他差异的影响，这种情况下，无法准确判断两组之间的差异是不是由这一干预措施带来的，也就是无法准确判断干预措施与结果差异之间的“因果关系”。</p><p>　　因此，为了可以更准确估计来自干预措施的影响，更准确地识别这种“因果关系”，回归的方式最早被应用，常见的是线性回归。然而，使用回归方法判断的是两个变量之间的统计关系，在需要满足CIA（条件独立性假设）或CMI（条件均值独立性假设）的条件下，该统计关系才可以解释为干预措施的因果关系。</p><h2 id="什么是-cia-假设">什么是 CIA 假设？</h2><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426014748-fjbac81.png"alt="image.png" /></p><p>　　（CIA 假设比 CMI假设更强，具体可以参见赵西亮老师的《基本有用的计量经济学》第 5 章第 2节）</p><p>　　然而，这种回归的方式也有缺陷。一是回归方式不能解决在样本抽样阶段造成的选择性偏误；二是由于数据的可得性，往往实证研究中并不能做到饱和回归，许多变量对结果的影响无法被观测到。因此，在实际上，回归的方式也难以满足CIA条件，难以得到准确的“因果效应”。</p><h2 id="什么是psm为什么psm">什么是PSM？为什么PSM？</h2><p>　　PSM是倾向得分匹配，其本质是构造一个倾向得分，通过比较倾向得分，匹配干预组与对照组，构造出一个“准自然实验”，因此，PSM在理论上比回归的方法更有可能满足CIA条件。</p><p>　　PSM的估计过程大体可以分为以下4个步骤（参考赵西亮老师的《基本有用的计量经济学》）：</p><h4 id="定义相似性">1. 定义相似性</h4><p>　　为了准确估计因果效应，需要找到其他条件都相似的干预组与对照组，因此需要定义相似性。相似性的定义，需要关注哪些变量应当作为定义相似性的依据，以及如何测度相似性。</p><p>　　<strong>对于变量的选择上</strong>，定义相似性的变量应当满足CIA条件，也就是控制了这些变量后，干预组与控制组不能有其他未观测到的差异。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426020940-ao1iy17.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426020956-2vma08o.png"alt="image.png" /></p><p>　　<strong>对于如何测度相似性</strong>：一般采用马氏距离或欧氏距离</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021120-xyruew0.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021143-cjxmi6m.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021220-5jqs4lw.png"alt="image.png" /></p><p>　　那么，就可以通过logit回归等方式估计需要的倾向得分：</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021404-cyfpjtp.png"alt="image.png" /></p><h4 id="实施匹配">2. 实施匹配</h4><p>　　在实施匹配的方法上，主要有<strong>近邻匹配</strong>和<strong>分层匹配</strong>两种形式。</p><p>　　<strong>近邻匹配包括一对一匹配与一对多匹配。</strong></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021551-mjz9fdx.png"alt="image.png" /></p><p>　　<strong>而分层匹配则是根据倾向得分的取值，对样本进行分层，以减小每一层内的倾向得分的差距，获得更好的匹配效果。</strong></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021648-q3f91lq.png"alt="image.png" /></p><h4 id="匹配效果诊断">3. 匹配效果诊断</h4><p>　　匹配效果好不好，主要取决于干预组与对照组的控制变量差异是否得到了有效控制。在实证中，具体体现为控制变量的平衡性检验。</p><p>　　<strong>CIA假设是因果关系识别的关键。虽然CIA假设难以被验证成立，但证明CIA不成立却相对简单。</strong>如果实施匹配后控制变量的平衡性检验无法通过，则说明CIA不成立，使用当前匹配方法估计出的因果效应不是真实的干预措施因果效应的可能性较大。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021916-4uvzl0d.png"alt="image.png" /></p><h4 id="因果效应估计">4. 因果效应估计</h4><p>　　在通过了匹配效果的检验后，因果效应的估计才是可靠的。在最后一步，再估计干预措施的因果效应。</p><h2 id="当然psm也有问题">当然，PSM也有问题：</h2><p>　　基于几个控制变量测度出的倾向得分，难以包含不可测因素的影响，PSM难以避免不可测因素对结果的影响。在经济学相关的研究中，最常见的是讨论某个经济干预行为对另一个经济因素的影响，但由于制度因素相对更难度量，制度因素的缺失可能导致估计出的经济干预行为的效果有偏差。</p><p>　　为解决这一问题，也有使用工具变量法、使用面板数据等方式，更进一步进行估计。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 实证分析 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 实证分析 </tag>
-            
-            <tag> 模型 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>实证｜取对数问题</title>
       <link href="/posts/16760/"/>
       <url>/posts/16760/</url>
@@ -3496,6 +3469,33 @@
             <tag> 实证分析 </tag>
             
             <tag> Stata </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>实证｜为什么使用PSM消除样本选择偏差？</title>
+      <link href="/posts/19130/"/>
+      <url>/posts/19130/</url>
+      
+        <content type="html"><![CDATA[<p>　　<strong>要理解为什么用 psm 消除样本的选择偏误，先要理解 psm的原理。</strong></p><p>　　在研究一种干预措施的效果时，理想状态是进行随机化实验，也就是控制其他所有条件都相同，仅有是否采取干预措施这一点不同，这样就可以通过比较随机化实验中干预组与对照组的差异，了解干预措施的效果，为排除个体差异，通常使用干预组与对照组的效果的平均值差异来衡量，也就是许多实证研究中许多研究计算的平均处理效应。</p><p>　　然而，随机化实验往往在医学、生物学等领域更为常见，在经济学相关研究中，经济发展情况、社会制度、文化差异等各方面的不同之处决定了不能随意指定两类样本进行比较，以衡量干预措施的效果。更多的情况是干预措施的效果会受到两组样本之间其他差异的影响，这种情况下，无法准确判断两组之间的差异是不是由这一干预措施带来的，也就是无法准确判断干预措施与结果差异之间的“因果关系”。</p><p>　　因此，为了可以更准确估计来自干预措施的影响，更准确地识别这种“因果关系”，回归的方式最早被应用，常见的是线性回归。然而，使用回归方法判断的是两个变量之间的统计关系，在需要满足CIA（条件独立性假设）或CMI（条件均值独立性假设）的条件下，该统计关系才可以解释为干预措施的因果关系。</p><h2 id="什么是-cia-假设">什么是 CIA 假设？</h2><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426014748-fjbac81.png"alt="image.png" /></p><p>　　（CIA 假设比 CMI假设更强，具体可以参见赵西亮老师的《基本有用的计量经济学》第 5 章第 2节）</p><p>　　然而，这种回归的方式也有缺陷。一是回归方式不能解决在样本抽样阶段造成的选择性偏误；二是由于数据的可得性，往往实证研究中并不能做到饱和回归，许多变量对结果的影响无法被观测到。因此，在实际上，回归的方式也难以满足CIA条件，难以得到准确的“因果效应”。</p><h2 id="什么是psm为什么psm">什么是PSM？为什么PSM？</h2><p>　　PSM是倾向得分匹配，其本质是构造一个倾向得分，通过比较倾向得分，匹配干预组与对照组，构造出一个“准自然实验”，因此，PSM在理论上比回归的方法更有可能满足CIA条件。</p><p>　　PSM的估计过程大体可以分为以下4个步骤（参考赵西亮老师的《基本有用的计量经济学》）：</p><h4 id="定义相似性">1. 定义相似性</h4><p>　　为了准确估计因果效应，需要找到其他条件都相似的干预组与对照组，因此需要定义相似性。相似性的定义，需要关注哪些变量应当作为定义相似性的依据，以及如何测度相似性。</p><p>　　<strong>对于变量的选择上</strong>，定义相似性的变量应当满足CIA条件，也就是控制了这些变量后，干预组与控制组不能有其他未观测到的差异。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426020940-ao1iy17.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426020956-2vma08o.png"alt="image.png" /></p><p>　　<strong>对于如何测度相似性</strong>：一般采用马氏距离或欧氏距离</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021120-xyruew0.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021143-cjxmi6m.png"alt="image.png" /></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021220-5jqs4lw.png"alt="image.png" /></p><p>　　那么，就可以通过logit回归等方式估计需要的倾向得分：</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021404-cyfpjtp.png"alt="image.png" /></p><h4 id="实施匹配">2. 实施匹配</h4><p>　　在实施匹配的方法上，主要有<strong>近邻匹配</strong>和<strong>分层匹配</strong>两种形式。</p><p>　　<strong>近邻匹配包括一对一匹配与一对多匹配。</strong></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021551-mjz9fdx.png"alt="image.png" /></p><p>　　<strong>而分层匹配则是根据倾向得分的取值，对样本进行分层，以减小每一层内的倾向得分的差距，获得更好的匹配效果。</strong></p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021648-q3f91lq.png"alt="image.png" /></p><h4 id="匹配效果诊断">3. 匹配效果诊断</h4><p>　　匹配效果好不好，主要取决于干预组与对照组的控制变量差异是否得到了有效控制。在实证中，具体体现为控制变量的平衡性检验。</p><p>　　<strong>CIA假设是因果关系识别的关键。虽然CIA假设难以被验证成立，但证明CIA不成立却相对简单。</strong>如果实施匹配后控制变量的平衡性检验无法通过，则说明CIA不成立，使用当前匹配方法估计出的因果效应不是真实的干预措施因果效应的可能性较大。</p><p>　　<imgsrc="https://assets.b3logfile.com/siyuan/1634272634187/assets/image-20220426021916-4uvzl0d.png"alt="image.png" /></p><h4 id="因果效应估计">4. 因果效应估计</h4><p>　　在通过了匹配效果的检验后，因果效应的估计才是可靠的。在最后一步，再估计干预措施的因果效应。</p><h2 id="当然psm也有问题">当然，PSM也有问题：</h2><p>　　基于几个控制变量测度出的倾向得分，难以包含不可测因素的影响，PSM难以避免不可测因素对结果的影响。在经济学相关的研究中，最常见的是讨论某个经济干预行为对另一个经济因素的影响，但由于制度因素相对更难度量，制度因素的缺失可能导致估计出的经济干预行为的效果有偏差。</p><p>　　为解决这一问题，也有使用工具变量法、使用面板数据等方式，更进一步进行估计。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> 模型 </tag>
             
         </tags>
       
@@ -3738,35 +3738,6 @@
     
     
     <entry>
-      <title>实证｜主成分分析</title>
-      <link href="/posts/25529/"/>
-      <url>/posts/25529/</url>
-      
-        <content type="html"><![CDATA[<p>　　主成分分析的要点：</p><ul><li>区分正向指标与负向指标</li><li>累计贡献率最好大于 80%</li><li>特征根要大于 1</li></ul><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 已将负向指标正向化</span></span><br><span class="line"><span class="keyword">global</span> xlist <span class="string">&quot;X1 X2 X3 X4 X5 X6 X7 X8&quot;</span></span><br><span class="line"><span class="comment">** 权重确定与载核计算</span></span><br><span class="line"><span class="keyword">pca</span> <span class="variable">$xlist</span></span><br><span class="line"><span class="keyword">factor</span> <span class="variable">$xlist</span> , pcf</span><br><span class="line"><span class="comment">** 绘制随碎石图</span></span><br><span class="line"><span class="keyword">screeplot</span>, yline(1)   <span class="comment">//yline(1)表示绘制特征根为1的临界线</span></span><br><span class="line"><span class="comment">** 根据碎石图或载核表, 选取特征根大于1的主成分</span></span><br><span class="line"><span class="keyword">predict</span> f1 f2 f3   <span class="comment">// 假如有三个主成分的特征根大于1</span></span><br><span class="line"><span class="comment">** 生成综合指标: 前面的系数为「pca $xlist」命令运行后的「Proportion」列, 为各主成分的贡献率</span></span><br><span class="line"><span class="keyword">gen</span> X = a1*f1 + a2*f2 + a3*f3</span><br><span class="line"><span class="keyword">drop</span> f1-f3</span><br></pre></td></tr></table></figure><p>　　相关链接：<ahref="https://zhuanlan.zhihu.com/p/281278580">【Stata 写论文】PCA主成分分析和因子分析命令演示（附代码） - 知乎 (zhihu.com)</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 实证分析 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 实证分析 </tag>
-            
-            <tag> Stata </tag>
-            
-            <tag> 主成分分析 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>实证｜熵权法</title>
       <link href="/posts/33541/"/>
       <url>/posts/33541/</url>
@@ -3788,6 +3759,35 @@
             <tag> Stata </tag>
             
             <tag> 熵权法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>实证｜主成分分析</title>
+      <link href="/posts/25529/"/>
+      <url>/posts/25529/</url>
+      
+        <content type="html"><![CDATA[<p>　　主成分分析的要点：</p><ul><li>区分正向指标与负向指标</li><li>累计贡献率最好大于 80%</li><li>特征根要大于 1</li></ul><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 已将负向指标正向化</span></span><br><span class="line"><span class="keyword">global</span> xlist <span class="string">&quot;X1 X2 X3 X4 X5 X6 X7 X8&quot;</span></span><br><span class="line"><span class="comment">** 权重确定与载核计算</span></span><br><span class="line"><span class="keyword">pca</span> <span class="variable">$xlist</span></span><br><span class="line"><span class="keyword">factor</span> <span class="variable">$xlist</span> , pcf</span><br><span class="line"><span class="comment">** 绘制随碎石图</span></span><br><span class="line"><span class="keyword">screeplot</span>, yline(1)   <span class="comment">//yline(1)表示绘制特征根为1的临界线</span></span><br><span class="line"><span class="comment">** 根据碎石图或载核表, 选取特征根大于1的主成分</span></span><br><span class="line"><span class="keyword">predict</span> f1 f2 f3   <span class="comment">// 假如有三个主成分的特征根大于1</span></span><br><span class="line"><span class="comment">** 生成综合指标: 前面的系数为「pca $xlist」命令运行后的「Proportion」列, 为各主成分的贡献率</span></span><br><span class="line"><span class="keyword">gen</span> X = a1*f1 + a2*f2 + a3*f3</span><br><span class="line"><span class="keyword">drop</span> f1-f3</span><br></pre></td></tr></table></figure><p>　　相关链接：<ahref="https://zhuanlan.zhihu.com/p/281278580">【Stata 写论文】PCA主成分分析和因子分析命令演示（附代码） - 知乎 (zhihu.com)</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实证分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实证分析 </tag>
+            
+            <tag> Stata </tag>
+            
+            <tag> 主成分分析 </tag>
             
         </tags>
       
