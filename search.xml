@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>软件相关｜R更新</title>
+      <title>软件相关｜R 快速更新方法</title>
       <link href="/posts/7660/"/>
       <url>/posts/7660/</url>
       
-        <content type="html"><![CDATA[<p>这是一份 <code>R</code> 自动更新的简明教程。在 <code>Windows</code> 系统中，使用下面的做法即可快速更新 <code>R</code> 。</p><ol><li>打开 <code>R</code> ，而非 <code>RStudio</code>；</li><li>运行以下三行代码：</li></ol><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">install.packages<span class="punctuation">(</span><span class="string">&quot;installr&quot;</span><span class="punctuation">)</span></span><br><span class="line">library<span class="punctuation">(</span>installr<span class="punctuation">)</span></span><br><span class="line">updateR<span class="punctuation">(</span><span class="punctuation">)</span></span><br></pre></td></tr></table></figure><ol><li>卸载旧版 <code>R</code>。在 Windows 端，<code>R</code> 不是覆盖安装，因此旧版本仍然会保留。可以在开始栏中找到 <code>R</code> 文件夹，然后找到旧版，右键卸载即可。</li></ol>]]></content>
+        <content type="html"><![CDATA[<p>这是一份 <code>R</code> 自动更新的简明教程。在 <code>Windows</code> 系统中，使用下面的做法即可快速更新 <code>R</code> 。</p><ol><li><p>打开 <code>R</code> ，而非 <code>RStudio</code>；</p></li><li><p>运行以下三行代码</p><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">install.packages<span class="punctuation">(</span><span class="string">&quot;installr&quot;</span><span class="punctuation">)</span></span><br><span class="line">library<span class="punctuation">(</span>installr<span class="punctuation">)</span></span><br><span class="line">updateR<span class="punctuation">(</span><span class="punctuation">)</span></span><br></pre></td></tr></table></figure></li><li><p>卸载旧版 <code>R</code>。在 Windows 端，<code>R</code> 不是覆盖安装，因此旧版本仍然会保留。可以在开始栏中找到 <code>R</code> 文件夹，然后找到旧版，右键卸载即可。</p></li></ol>]]></content>
       
       
       <categories>
@@ -1790,11 +1790,11 @@
             
             <tag> 公开数据库 </tag>
             
+            <tag> CMDS </tag>
+            
             <tag> CFPS </tag>
             
             <tag> CLDS </tag>
-            
-            <tag> CMDS </tag>
             
             <tag> bilibili </tag>
             
