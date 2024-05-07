@@ -4,6 +4,64 @@
   
     
     <entry>
+      <title>软件相关｜R更新</title>
+      <link href="/posts/7660/"/>
+      <url>/posts/7660/</url>
+      
+        <content type="html"><![CDATA[<p>这是一份 <code>R</code> 自动更新的简明教程。在 <code>Windows</code> 系统中，使用下面的做法即可快速更新 <code>R</code> 。</p><ol><li>打开 <code>R</code> ，而非 <code>RStudio</code>；</li><li>运行以下三行代码：</li></ol><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">install.packages<span class="punctuation">(</span><span class="string">&quot;installr&quot;</span><span class="punctuation">)</span></span><br><span class="line">library<span class="punctuation">(</span>installr<span class="punctuation">)</span></span><br><span class="line">updateR<span class="punctuation">(</span><span class="punctuation">)</span></span><br></pre></td></tr></table></figure><ol><li>卸载旧版 <code>R</code>。在 Windows 端，<code>R</code> 不是覆盖安装，因此旧版本仍然会保留。可以在开始栏中找到 <code>R</code> 文件夹，然后找到旧版，右键卸载即可。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件相关 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件相关 </tag>
+            
+            <tag> R </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数据清洗｜家庭分户问题解决思路与代码</title>
+      <link href="/posts/42980/"/>
+      <url>/posts/42980/</url>
+      
+        <content type="html"><![CDATA[<p>在以家庭为单位的微观调查中，常使用家庭 <code>fid</code> 作为家庭识别码，并使用 <code>pid</code> 作为家庭成员的识别码。在通常情况下，一个家庭对应多个家庭成员的关系是稳定的。但是在微观调查中，由于对「家庭」和「家庭成员」的定义并不相同（例：<u><a href="https://www.bilibili.com/video/BV1jG4y177cS/">视频</a></u>、<u><a href="https://fgzfgz.github.io/posts/11382/">代码</a></u>），在某些定义下，一些成员可能会脱离家庭，组建新的家庭，这种情况一般称作「家庭分户」问题。截面数据不存在分户问题，但<strong>在追踪家庭微观调查中，常存在这类分户问题</strong>。</p><p>这里不再讨论如何定义「家庭」和「家庭成员」，仅讨论如何解决分户问题。</p><h2 id="1-连续变量的分户问题"><a href="#1-连续变量的分户问题" class="headerlink" title="1. 连续变量的分户问题"></a>1. 连续变量的分户问题</h2><p>根据问卷中相关变量设置，CFPS 官方提供了一些综合收入综合指标。我们以 CFPS 的收入数据为例，解决从 2010 年来的连续变量的分户问题。</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">* 收入相关综合变量及其含义</span></span><br><span class="line"><span class="comment">* 家庭工资性收入 fwage_1</span></span><br><span class="line"><span class="comment">* 家庭经营性收入 foperate_1</span></span><br><span class="line"><span class="comment">* 家庭财产性收入 fproperty_1 </span></span><br><span class="line"><span class="comment">* 家庭转移性收入 ftransfer_1 </span></span><br><span class="line"><span class="comment">* 家庭其他收入 felse_1 </span></span><br><span class="line"><span class="comment">* 家庭纯收入 fincome1 </span></span><br><span class="line"><span class="comment">* 家庭人均收入 fincome1_per  </span></span><br></pre></td></tr></table></figure><p>根据变量的含义不同，家庭分户问题的处理方式也不同。工资性收入、经营行收入、财产性收入、转移性收入、其他收入、家庭纯收入等六个指标应当进行加总，家庭人均收入可以考虑取均值。</p><p>因此，可以做如下操作：</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 均值: 家庭人均收入</span></span><br><span class="line">ereplace fincome1_per = <span class="keyword">mean</span>(fincome1_per), <span class="keyword">by</span>(fid10)</span><br><span class="line"></span><br><span class="line"><span class="comment">** 加总</span></span><br><span class="line"><span class="keyword">foreach</span> v <span class="keyword">in</span> fwage_1 foperate_1 fproperty_1 ftransfer_1 felse_1 fincome1 &#123;</span><br><span class="line">ereplace <span class="symbol">`v&#x27;</span> = <span class="keyword">total</span>(<span class="symbol">`v&#x27;</span>), <span class="keyword">by</span>(fid10)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>需要注意的是，上述命令中的分组依据变量是 <code>fid10</code>，与研究基期2010年对应。如果研究基期为2014年，可以改为 <code>fid14</code>。</p><p>上面命令中，针对需要加总的六个变量，使用循环语句以精简代码。</p><h2 id="2-离散变量的分户问题"><a href="#2-离散变量的分户问题" class="headerlink" title="2. 离散变量的分户问题"></a>2. 离散变量的分户问题</h2><p><strong>对于二值变量，</strong>以变量 <code>fm1</code> 「是否有人从事个体私营」为例，其取值包括三种情况：1=是，5=否，-8=不适用。现将该变量处理成0-1二值变量。</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">g</span> nfm1 = fm1 <span class="keyword">if</span> <span class="built_in">inlist</span>(fm1,1,5)  <span class="comment">// 删除不适用情况</span></span><br><span class="line"><span class="keyword">replace</span> nfm1 = 0 <span class="keyword">if</span> fm1==5       <span class="comment">// 1=是,0=否</span></span><br></pre></td></tr></table></figure><p>然后，以2010年为基期，处理 <code>nfm1</code> 这个二值变量的针对家庭分户问题。处理方式仍然是使用均值法，由于上面计算得到的 <code>nfm1</code> 变量是一个 0-1 变量，按照 <code>fid10</code> 求均值后，取值应该在区间 [0,1] 上。只要分户后的家庭中至少有一个从事个体私营（取值为1），使用均值法计算后的取值应该落在区间 (0,1] 上。因此可以将区间 (0,1] 上的取值改为1。</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">** 取均值</span></span><br><span class="line">ereplace nfm1 = <span class="keyword">mean</span>(nfm1), <span class="keyword">by</span>(fid10)</span><br><span class="line"><span class="keyword">replace</span> nfm1 = 1 <span class="keyword">if</span> nfm1&gt;0 &amp; nfm1&lt;=1</span><br></pre></td></tr></table></figure><p><strong>对于多分类变量，</strong>大多可以使用二值变量和连续变量的方法处理，这里不再赘述。</p><h2 id="3-组合命令的使用"><a href="#3-组合命令的使用" class="headerlink" title="3. 组合命令的使用"></a>3. 组合命令的使用</h2><p>对于分户问题而言，均值和加总是最常用的方法。但是也有一些研究可能也会用到其他函数，例如最大值 <code>max</code>，最小值 <code>min</code> 等。它们与上面使用均值和加总的函数基本上没有差别，只是需要根据研究需要调整函数类型。</p><p><strong>需要注意的是，按照分户前的家庭编码计算出数值，只是解决分户问题的第一步。</strong>该步骤通常在逐年清洗数据时使用，在完成这一步后，需要删除掉因分户出现的重复样本。待完成所有变量的计算和样本的处理后，再来拼接成面板数据。</p><p>假设某项研究需要使用到 2010-2020 年 CFPS 家庭经济库中的收入数据，以下是组合命令的一个示范。</p><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">******************* 2012年 *******************</span></span><br><span class="line"><span class="keyword">use</span> cfps2012famecon.dta, <span class="keyword">clear</span></span><br><span class="line"><span class="comment">** 均值: 家庭人均收入</span></span><br><span class="line">ereplace fincome1_per = <span class="keyword">mean</span>(fincome1_per), <span class="keyword">by</span>(fid10)</span><br><span class="line"><span class="comment">** 加总</span></span><br><span class="line"><span class="keyword">foreach</span> v <span class="keyword">in</span> fwage_1 foperate_1 fproperty_1 ftransfer_1 felse_1 fincome1 &#123;</span><br><span class="line">ereplace <span class="symbol">`v&#x27;</span> = <span class="keyword">total</span>(<span class="symbol">`v&#x27;</span>), <span class="keyword">by</span>(fid10)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">** 删除重复样本</span></span><br><span class="line"><span class="keyword">duplicates</span> <span class="keyword">drop</span> fid10, force</span><br><span class="line"><span class="comment">** 保存数据</span></span><br><span class="line"><span class="keyword">save</span> cfps2012famecon.dta, <span class="keyword">replace</span></span><br><span class="line"></span><br><span class="line"><span class="comment">******************* 2014年 *******************</span></span><br><span class="line"><span class="keyword">use</span> cfps2014famecon.dta, <span class="keyword">clear</span></span><br><span class="line"><span class="comment">** 均值: 家庭人均收入</span></span><br><span class="line">ereplace fincome1_per = <span class="keyword">mean</span>(fincome1_per), <span class="keyword">by</span>(fid10)</span><br><span class="line"><span class="comment">** 加总</span></span><br><span class="line"><span class="keyword">foreach</span> v <span class="keyword">in</span> fwage_1 foperate_1 fproperty_1 ftransfer_1 felse_1 fincome1 &#123;</span><br><span class="line">ereplace <span class="symbol">`v&#x27;</span> = <span class="keyword">total</span>(<span class="symbol">`v&#x27;</span>), <span class="keyword">by</span>(fid10)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">** 删除重复样本</span></span><br><span class="line"><span class="keyword">duplicates</span> <span class="keyword">drop</span> fid10, force</span><br><span class="line"><span class="comment">** 保存数据</span></span><br><span class="line"><span class="keyword">save</span> cfps2014famecon.dta, <span class="keyword">replace</span></span><br><span class="line"></span><br><span class="line"><span class="comment">******************* 2016年 *******************</span></span><br><span class="line"><span class="keyword">use</span> cfps2016famecon.dta, <span class="keyword">clear</span></span><br><span class="line"><span class="comment">** 均值: 家庭人均收入</span></span><br><span class="line">ereplace fincome1_per = <span class="keyword">mean</span>(fincome1_per), <span class="keyword">by</span>(fid10)</span><br><span class="line"><span class="comment">** 加总</span></span><br><span class="line"><span class="keyword">foreach</span> v <span class="keyword">in</span> fwage_1 foperate_1 fproperty_1 ftransfer_1 felse_1 fincome1 &#123;</span><br><span class="line">ereplace <span class="symbol">`v&#x27;</span> = <span class="keyword">total</span>(<span class="symbol">`v&#x27;</span>), <span class="keyword">by</span>(fid10)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">** 删除重复样本</span></span><br><span class="line"><span class="keyword">duplicates</span> <span class="keyword">drop</span> fid10, force</span><br><span class="line"><span class="comment">** 保存数据</span></span><br><span class="line"><span class="keyword">save</span> cfps2016famecon.dta, <span class="keyword">replace</span></span><br><span class="line"></span><br><span class="line"><span class="comment">******************* 2018年 *******************</span></span><br><span class="line"><span class="keyword">use</span> cfps2018famecon.dta, <span class="keyword">clear</span></span><br><span class="line"><span class="comment">** 均值: 家庭人均收入</span></span><br><span class="line">ereplace fincome1_per = <span class="keyword">mean</span>(fincome1_per), <span class="keyword">by</span>(fid10)</span><br><span class="line"><span class="comment">** 加总</span></span><br><span class="line"><span class="keyword">foreach</span> v <span class="keyword">in</span> fwage_1 foperate_1 fproperty_1 ftransfer_1 felse_1 fincome1 &#123;</span><br><span class="line">ereplace <span class="symbol">`v&#x27;</span> = <span class="keyword">total</span>(<span class="symbol">`v&#x27;</span>), <span class="keyword">by</span>(fid10)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">** 删除重复样本</span></span><br><span class="line"><span class="keyword">duplicates</span> <span class="keyword">drop</span> fid10, force</span><br><span class="line"><span class="comment">** 保存数据</span></span><br><span class="line"><span class="keyword">save</span> cfps2018famecon.dta, <span class="keyword">replace</span></span><br><span class="line"></span><br><span class="line"><span class="comment">******************* 2020年 *******************</span></span><br><span class="line"><span class="keyword">use</span> cfps2020famecon.dta, <span class="keyword">clear</span></span><br><span class="line"><span class="comment">** 均值: 家庭人均收入</span></span><br><span class="line">ereplace fincome1_per = <span class="keyword">mean</span>(fincome1_per), <span class="keyword">by</span>(fid10)</span><br><span class="line"><span class="comment">** 加总</span></span><br><span class="line"><span class="keyword">foreach</span> v <span class="keyword">in</span> fwage_1 foperate_1 fproperty_1 ftransfer_1 felse_1 fincome1 &#123;</span><br><span class="line">ereplace <span class="symbol">`v&#x27;</span> = <span class="keyword">total</span>(<span class="symbol">`v&#x27;</span>), <span class="keyword">by</span>(fid10)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">** 删除重复样本</span></span><br><span class="line"><span class="keyword">duplicates</span> <span class="keyword">drop</span> fid10, force</span><br><span class="line"><span class="comment">** 保存数据</span></span><br><span class="line"><span class="keyword">save</span> cfps2020famecon.dta, <span class="keyword">replace</span></span><br><span class="line"></span><br><span class="line"><span class="comment">******************* 构建面板数据 *******************</span></span><br><span class="line"><span class="keyword">use</span> cfps2010famecon.dta, <span class="keyword">clear</span></span><br><span class="line"><span class="keyword">foreach</span> y <span class="keyword">in</span> 2012 2014 2016 2018 2020 &#123;</span><br><span class="line"><span class="keyword">append</span> using cfps<span class="symbol">`y&#x27;</span>famecon</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">save</span> cfps_famecon.dta, <span class="keyword">replace</span></span><br></pre></td></tr></table></figure><p>上面代码有几个需要注意的地方：</p><ul><li>2010 年为基期，所以 2010 年不存在分户问题。2012-2020 年可能存在分户问题。</li><li>2012-2020 年分户问题可以使用循环语句简化代码，但是考虑到文件名称不一致、各年变量名称可能有所差异，实际数据清洗中不会使用循环语句完成，<strong>需要对数据进行逐年清理</strong>。</li><li>研究基期是 2010 年，所以 2012-2020 年用均值和加总解决分户问题时都是使用 <code>fid10</code> 作为分组依据，这个分组依据一般与删除重复样本的依据相对应，即 <code>duplicates drop</code>。</li></ul><hr><p><strong>相关链接：</strong></p><ul><li><code>ereplace</code> 和相关函数用法，参见：<a href="https://fgzfgz.github.io/posts/9680/">变量生成与替换</a></li><li><code>duplicates drop</code> 用法，参见：<a href="https://fgzfgz.github.io/posts/14887/">教对象 Stata 系列｜第 2 课代码：变量管理与 IF 条件使用</a></li><li>数据清洗相关视频、代码合集，参见：<a href="https://fgzfgz.github.io/BiliBili/">视频合集</a>、<a href="https://fgzfgz.github.io/DataCleaning/">Stata 数据清洗</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据清洗 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Stata </tag>
+            
+            <tag> 命令 </tag>
+            
+            <tag> 数据清洗 </tag>
+            
+            <tag> 面板数据 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>数据清洗｜生成平衡面板数据</title>
       <link href="/posts/15451/"/>
       <url>/posts/15451/</url>
@@ -138,9 +196,9 @@
       
         <tags>
             
-            <tag> 合成控制法 </tag>
-            
             <tag> 因果推断 </tag>
+            
+            <tag> 合成控制法 </tag>
             
             <tag> 视频 </tag>
             
@@ -1732,11 +1790,11 @@
             
             <tag> 公开数据库 </tag>
             
-            <tag> CMDS </tag>
-            
             <tag> CFPS </tag>
             
             <tag> CLDS </tag>
+            
+            <tag> CMDS </tag>
             
             <tag> bilibili </tag>
             
@@ -2030,9 +2088,9 @@
             
             <tag> 软件相关 </tag>
             
-            <tag> macOS </tag>
-            
             <tag> zotero </tag>
+            
+            <tag> macOS </tag>
             
         </tags>
       
@@ -2119,9 +2177,9 @@
             
             <tag> 软件相关 </tag>
             
-            <tag> Hexo </tag>
-            
             <tag> macOS </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -2202,9 +2260,9 @@
             
             <tag> 软件相关 </tag>
             
-            <tag> macOS </tag>
-            
             <tag> zotero </tag>
+            
+            <tag> macOS </tag>
             
         </tags>
       
